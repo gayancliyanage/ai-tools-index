@@ -2735,7 +2735,7 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": true
     },
     {
       "id": 101,

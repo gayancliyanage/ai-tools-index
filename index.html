@@ -19,6 +19,13 @@
         .chip:hover { transform: scale(1.05); }
         .chip.active { ring: 2px; box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.5); }
         .feature-badge { font-size: 10px; padding: 2px 6px; }
+        .view-btn { transition: all 0.2s; }
+        .view-btn.active { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .compare-table th { position: sticky; top: 0; background: white; z-index: 10; }
+        .compare-table tr:hover { background-color: #f3f4f6; }
+        .check-yes { color: #10b981; }
+        .check-no { color: #ef4444; }
+        .highlight-row { background-color: #fef3c7 !important; }
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
@@ -64,6 +71,16 @@
 
     <!-- Filters -->
     <div class="max-w-7xl mx-auto px-4 py-6">
+        <!-- View Toggle -->
+        <div class="flex justify-end mb-4 gap-2">
+            <button onclick="setView('grid')" id="viewGrid" class="view-btn active px-4 py-2 rounded-lg border border-gray-200 bg-white font-medium">
+                <i class="fas fa-th-large mr-2"></i>Grid View
+            </button>
+            <button onclick="setView('table')" id="viewTable" class="view-btn px-4 py-2 rounded-lg border border-gray-200 bg-white font-medium">
+                <i class="fas fa-table mr-2"></i>Compare Table
+            </button>
+        </div>
+
         <!-- Feature Chips -->
         <div class="bg-white rounded-xl shadow-sm p-4 mb-4">
             <div class="text-sm text-gray-500 mb-3 font-medium">Filter by Capabilities:</div>
@@ -136,6 +153,7 @@
                     <option value="24">24 per page</option>
                     <option value="50" selected>50 per page</option>
                     <option value="100">100 per page</option>
+                    <option value="all">All (table only)</option>
                 </select>
             </div>
         </div>
@@ -150,9 +168,39 @@
             </div>
         </div>
 
-        <!-- Tools Grid -->
-        <div id="toolsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Tools will be loaded here -->
+        <!-- Grid View -->
+        <div id="gridView">
+            <div id="toolsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Tools will be loaded here -->
+            </div>
+        </div>
+
+        <!-- Table View -->
+        <div id="tableView" class="hidden">
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden">
+                <div class="overflow-x-auto max-h-[70vh] overflow-y-auto">
+                    <table class="compare-table w-full text-sm">
+                        <thead class="bg-gray-50 border-b">
+                            <tr>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">#</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">Tool</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">Category</th>
+                                <th class="px-4 py-3 text-center font-semibold text-gray-700">🖼️<br>Image Gen</th>
+                                <th class="px-4 py-3 text-center font-semibold text-gray-700">🎬<br>Video Gen</th>
+                                <th class="px-4 py-3 text-center font-semibold text-gray-700">✏️<br>Editor</th>
+                                <th class="px-4 py-3 text-center font-semibold text-gray-700">🎨<br>Canvas</th>
+                                <th class="px-4 py-3 text-center font-semibold text-gray-700">🎞️<br>Timeline</th>
+                                <th class="px-4 py-3 text-right font-semibold text-gray-700">Traffic</th>
+                                <th class="px-4 py-3 text-right font-semibold text-gray-700">Users</th>
+                                <th class="px-4 py-3 text-left font-semibold text-gray-700">Founded</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            <!-- Table rows will be inserted here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
         
         <!-- Loading State -->
@@ -181,6 +229,7 @@
         let currentPage = 1;
         let perPage = 50;
         let activeFeatures = new Set();
+        let currentView = 'grid';
         
         // Format numbers
         function formatNumber(num) {
@@ -203,6 +252,16 @@
                 'Multi-Modal': 'bg-indigo-100 text-indigo-700'
             };
             return colors[category] || 'bg-gray-100 text-gray-700';
+        }
+
+        // Set view mode
+        function setView(view) {
+            currentView = view;
+            document.getElementById('viewGrid').classList.toggle('active', view === 'grid');
+            document.getElementById('viewTable').classList.toggle('active', view === 'table');
+            document.getElementById('gridView').classList.toggle('hidden', view !== 'grid');
+            document.getElementById('tableView').classList.toggle('hidden', view !== 'table');
+            renderCurrentPage();
         }
 
         // Toggle feature filter
@@ -229,6 +288,40 @@
             });
             filterAndSortTools();
         }
+
+        // Render checkbox
+        function renderCheck(value) {
+            if (value) {
+                return '<span class="check-yes text-lg">✓</span>';
+            }
+            return '<span class="check-no text-lg">✗</span>';
+        }
+
+        // Render table row
+        function renderTableRow(tool) {
+            const isCraftit = tool.name.toLowerCase().includes('craftit');
+            return `
+                <tr class="${isCraftit ? 'highlight-row font-semibold' : ''} border-b hover:bg-gray-50">
+                    <td class="px-4 py-3 text-gray-500">${tool.ranking || tool.id}</td>
+                    <td class="px-4 py-3">
+                        <a href="${tool.url}" target="_blank" class="text-purple-600 hover:underline font-medium">
+                            ${tool.name} ${isCraftit ? '⭐' : ''}
+                        </a>
+                    </td>
+                    <td class="px-4 py-3">
+                        <span class="px-2 py-1 rounded-full text-xs ${getCategoryColor(tool.category)}">${tool.category || 'N/A'}</span>
+                    </td>
+                    <td class="px-4 py-3 text-center">${renderCheck(tool.imageGen)}</td>
+                    <td class="px-4 py-3 text-center">${renderCheck(tool.videoGen)}</td>
+                    <td class="px-4 py-3 text-center">${renderCheck(tool.imageEditor)}</td>
+                    <td class="px-4 py-3 text-center">${renderCheck(tool.imageCanvas)}</td>
+                    <td class="px-4 py-3 text-center">${renderCheck(tool.videoTimeline)}</td>
+                    <td class="px-4 py-3 text-right text-gray-600">${formatNumber(tool.estimatedMonthlyVisits)}</td>
+                    <td class="px-4 py-3 text-right text-gray-600">${formatNumber(tool.estimatedUsers)}</td>
+                    <td class="px-4 py-3 text-gray-500">${tool.founded || 'N/A'}</td>
+                </tr>
+            `;
+        }
         
         // Render tool card
         function renderToolCard(tool) {
@@ -248,16 +341,18 @@
             if (tool.imageEditor) featureBadges.push('<span class="feature-badge bg-purple-100 text-purple-600 rounded-full">✏️ Editor</span>');
             if (tool.imageCanvas) featureBadges.push('<span class="feature-badge bg-green-100 text-green-600 rounded-full">🎨 Canvas</span>');
             if (tool.videoTimeline) featureBadges.push('<span class="feature-badge bg-orange-100 text-orange-600 rounded-full">🎞️ Timeline</span>');
+
+            const isCraftit = tool.name.toLowerCase().includes('craftit');
             
             return `
-                <div class="bg-white rounded-xl shadow-sm p-6 card-hover transition-all duration-200">
+                <div class="bg-white rounded-xl shadow-sm p-6 card-hover transition-all duration-200 ${isCraftit ? 'ring-2 ring-yellow-400' : ''}">
                     <div class="flex items-start justify-between mb-3">
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center text-white font-bold text-sm">
                                 ${tool.ranking || tool.id}
                             </div>
                             <div>
-                                <h3 class="font-bold text-gray-800">${tool.name}</h3>
+                                <h3 class="font-bold text-gray-800">${tool.name} ${isCraftit ? '⭐' : ''}</h3>
                                 <a href="${tool.url}" target="_blank" class="text-sm text-purple-600 hover:underline truncate block max-w-[180px]">
                                     ${tool.url.replace('https://', '').replace('http://', '')} <i class="fas fa-external-link-alt text-xs"></i>
                                 </a>
@@ -304,6 +399,14 @@
         
         // Render pagination
         function renderPagination() {
+            const perPageValue = document.getElementById('perPage').value;
+            if (perPageValue === 'all') {
+                document.getElementById('resultsInfo').textContent = `Showing all ${filteredData.length} tools`;
+                document.getElementById('paginationTop').innerHTML = '';
+                document.getElementById('paginationBottom').innerHTML = '';
+                return;
+            }
+
             const totalPages = Math.ceil(filteredData.length / perPage);
             const start = filteredData.length > 0 ? (currentPage - 1) * perPage + 1 : 0;
             const end = Math.min(currentPage * perPage, filteredData.length);
@@ -380,15 +483,31 @@
         
         // Render current page
         function renderCurrentPage() {
-            const start = (currentPage - 1) * perPage;
-            const end = start + perPage;
-            const pageTools = filteredData.slice(start, end);
+            const perPageValue = document.getElementById('perPage').value;
+            let pageTools;
             
-            const grid = document.getElementById('toolsGrid');
-            if (pageTools.length === 0) {
-                grid.innerHTML = '<div class="col-span-3 text-center py-12 text-gray-500">No tools match your filters</div>';
+            if (perPageValue === 'all') {
+                pageTools = filteredData;
             } else {
-                grid.innerHTML = pageTools.map(renderToolCard).join('');
+                const start = (currentPage - 1) * perPage;
+                const end = start + perPage;
+                pageTools = filteredData.slice(start, end);
+            }
+            
+            if (currentView === 'grid') {
+                const grid = document.getElementById('toolsGrid');
+                if (pageTools.length === 0) {
+                    grid.innerHTML = '<div class="col-span-3 text-center py-12 text-gray-500">No tools match your filters</div>';
+                } else {
+                    grid.innerHTML = pageTools.map(renderToolCard).join('');
+                }
+            } else {
+                const tbody = document.getElementById('tableBody');
+                if (pageTools.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="11" class="text-center py-12 text-gray-500">No tools match your filters</td></tr>';
+                } else {
+                    tbody.innerHTML = pageTools.map(renderTableRow).join('');
+                }
             }
             
             renderPagination();
@@ -400,7 +519,8 @@
             const category = document.getElementById('categoryFilter').value;
             const sortBy = document.getElementById('sortBy').value;
             const founded = document.getElementById('foundedFilter').value;
-            perPage = parseInt(document.getElementById('perPage').value);
+            const perPageValue = document.getElementById('perPage').value;
+            perPage = perPageValue === 'all' ? filteredData.length : parseInt(perPageValue);
             
             filteredData = toolsData.filter(tool => {
                 const matchesSearch = !search || 
