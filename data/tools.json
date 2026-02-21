@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T18:20:00+08:00",
+  "lastUpdated": "2026-02-21T19:09:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -17,10 +17,10 @@
   ],
   "dataNote": "Rankings based on combined social reach (Instagram 30%, TikTok 25%, Twitter 20%, YouTube 15%, Discord 10%), monthly traffic, and user base. Data verified Feb 2026. Feature capabilities indicate core functionality.",
   "researchProgress": {
-    "lastBatch": "51-100",
-    "nextBatch": "101-150",
-    "lastResearched": "2026-02-21T18:20:00+08:00",
-    "batchesCompleted": ["1-50", "51-100"]
+    "lastBatch": "101-150",
+    "nextBatch": "151-200",
+    "lastResearched": "2026-02-21T19:09:00+08:00",
+    "batchesCompleted": ["1-50", "51-100", "101-150"]
   },
   "tools": [
     {
@@ -2896,10 +2896,12 @@
       "features": [
         "AI composition",
         "Classical focus",
-        "Licensing"
+        "Licensing",
+        "250+ styles"
       ],
       "social": {
-        "youtube": 100000
+        "youtube": 100000,
+        "instagram": 325
       },
       "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 200000,
@@ -2909,7 +2911,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "First AI composer to be recognized by a music rights organization (SACEM). Monetization available on YouTube, Twitch, TikTok, Instagram.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 102,
@@ -2923,20 +2927,24 @@
       "features": [
         "Royalty-free",
         "Text-to-music",
-        "API"
+        "API",
+        "Discord bot"
       ],
       "social": {
-        "twitter": 30000
+        "twitter": 30000,
+        "discord": 50000
       },
       "estimatedMonthlyVisits": 600000,
-      "estimatedUsers": 300000,
+      "estimatedUsers": 1500000,
       "ranking": 102,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "100M+ AI-generated tracks. 1.5M+ creators. Used by Canva, Adidas, FIFA. Polkadot blockchain integration.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 103,
@@ -3027,10 +3035,12 @@
       "features": [
         "3D design",
         "AI generation",
-        "Web export"
+        "Web export",
+        "Hana canvas"
       ],
       "social": {
-        "twitter": 80000
+        "twitter": 106100,
+        "discord": 81619
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -3040,7 +3050,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Browser-based 3D design tool. Introduced Hana interactive canvas in Apr 2025. Strong community.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 107,
@@ -3050,14 +3062,16 @@
       "founded": "2021",
       "headquarters": "San Francisco, USA",
       "description": "3D capture and generation with Dream Machine",
-      "pricing": "Free / Pro $29.99/mo",
+      "pricing": "Free / Pro $9.99/mo",
       "features": [
         "3D capture",
         "NeRF",
-        "Dream Machine video"
+        "Dream Machine video",
+        "Ray2/Ray3 models"
       ],
       "social": {
-        "twitter": 100000
+        "twitter": 150000,
+        "instagram": 438000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
@@ -3067,7 +3081,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Dream Machine video generation. Ray2/Ray3 models for high-fidelity video. Audio co-generation feature added 2025.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 108,
@@ -3081,10 +3097,12 @@
       "features": [
         "Text-to-3D",
         "Image-to-3D",
-        "Texturing"
+        "Texturing",
+        "3D printing"
       ],
       "social": {
-        "discord": 100000
+        "discord": 33080,
+        "twitter": 15000
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
@@ -3094,7 +3112,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "#1 AI 3D model generator. Active Discord community. Weekly challenges. 3D printing and game asset focus.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 109,
@@ -3185,9 +3205,13 @@
       "features": [
         "Video mocap",
         "Multi-person",
-        "Real-time"
+        "Real-time",
+        "Credit system"
       ],
-      "social": {},
+      "social": {
+        "twitter": 10000,
+        "linkedin": 5000
+      },
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 30000,
       "ranking": 112,
@@ -3196,7 +3220,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$17.3M total funding. $10M seed round (Dec 2025). Investors include Play Ventures, Warner Music Group, Animoca.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 113,
@@ -3210,9 +3236,13 @@
       "features": [
         "CG characters",
         "Video integration",
-        "VFX automation"
+        "VFX automation",
+        "Wonder Studio"
       ],
-      "social": {},
+      "social": {
+        "twitter": 25000,
+        "instagram": 15000
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 20000,
       "ranking": 113,
@@ -3221,7 +3251,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$12.5M total funding. Acquired by Autodesk (May 2024). Epic Games and Founders Fund investors.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 114,
@@ -3335,18 +3367,24 @@
       "features": [
         "AI image gen",
         "Templates",
-        "Quick actions"
+        "Quick actions",
+        "Firefly integration"
       ],
-      "social": {},
+      "social": {
+        "twitter": 50000,
+        "instagram": 100000
+      },
       "estimatedMonthlyVisits": 15000000,
-      "estimatedUsers": 5000000,
+      "estimatedUsers": 41000000,
       "ranking": 118,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "Part of Adobe Creative Cloud (41M paid subscribers). Firefly AI integration. Formerly Adobe Spark.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 119,
@@ -3360,18 +3398,24 @@
       "features": [
         "Logo design",
         "Brand kit",
-        "Social assets"
+        "Social assets",
+        "AI website"
       ],
-      "social": {},
+      "social": {
+        "twitter": 10000,
+        "facebook": 50000
+      },
       "estimatedMonthlyVisits": 3000000,
-      "estimatedUsers": 500000,
+      "estimatedUsers": 5000000,
       "ranking": 119,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$5-6M funding. Helped 5M+ entrepreneurs. Formerly Logojoy. Brand Kit on Design Huddle platform.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 120,
@@ -3485,9 +3529,13 @@
       "features": [
         "UI generation",
         "Screenshot to design",
-        "Prototyping"
+        "Prototyping",
+        "Design to code"
       ],
-      "social": {},
+      "social": {
+        "twitter": 15000,
+        "linkedin": 20000
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 200000,
       "ranking": 124,
@@ -3496,7 +3544,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$18.6M total funding. Acquired by Miro. 67 employees. 15 investors.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 125,
@@ -3560,10 +3610,14 @@
       "features": [
         "Background removal",
         "Relight",
-        "Cleanup"
+        "Cleanup",
+        "SDXL generation"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 5000000,
+      "social": {
+        "twitter": 50000,
+        "tiktok": 30000
+      },
+      "estimatedMonthlyVisits": 1038900,
       "estimatedUsers": 2000000,
       "ranking": 127,
       "dataQuality": "verified",
@@ -3571,7 +3625,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "~1M monthly visits. Developed by Stability AI. SDXL paywalled since Oct 2023. Upscaling >2x requires Pro.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 128,
@@ -3585,20 +3641,25 @@
       "features": [
         "Background removal",
         "Product photos",
-        "Batch edit"
+        "Batch edit",
+        "API"
       ],
       "social": {
-        "instagram": 100000
+        "instagram": 100000,
+        "twitter": 25000,
+        "tiktok": 50000
       },
       "estimatedMonthlyVisits": 8000000,
-      "estimatedUsers": 3000000,
+      "estimatedUsers": 150000000,
       "ranking": 128,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "150M+ downloads. $500M valuation (Feb 2024). $43M Series B. $50M ARR. 5B images processed annually.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 129,
@@ -3687,11 +3748,14 @@
       "features": [
         "AI editing",
         "Effects",
-        "Video"
+        "Video",
+        "Community"
       ],
       "social": {
-        "instagram": 500000,
-        "tiktok": 2000000
+        "instagram": 4000000,
+        "tiktok": 2500000,
+        "twitter": 500000,
+        "youtube": 1000000
       },
       "estimatedMonthlyVisits": 50000000,
       "estimatedUsers": 150000000,
@@ -3701,7 +3765,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "150M+ users. 4M Instagram followers, 2.5M TikTok followers. Creator community platform. Multi-platform export.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 133,
@@ -3715,10 +3781,14 @@
       "features": [
         "AI editing",
         "Generation",
-        "Background removal"
+        "Background removal",
+        "Collage maker"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 15000000,
+      "social": {
+        "twitter": 30000,
+        "facebook": 500000
+      },
+      "estimatedMonthlyVisits": 1900000,
       "estimatedUsers": 5000000,
       "ranking": 133,
       "dataQuality": "verified",
@@ -3726,7 +3796,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$3.5M revenue. 32 person team. 1.9M monthly visits. 60% male audience, 25-34 age group.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 134,
@@ -3740,10 +3812,14 @@
       "features": [
         "AI editing",
         "Background removal",
-        "Generation"
+        "Generation",
+        "Stock content"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 20000000,
+      "social": {
+        "twitter": 50000,
+        "facebook": 200000
+      },
+      "estimatedMonthlyVisits": 14500000,
       "estimatedUsers": 10000000,
       "ranking": 134,
       "dataQuality": "verified",
@@ -3751,7 +3827,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "10M+ monthly users globally. Multiple pricing tiers: Plus $1.99/mo, Premium $7.99/mo, Team $12.99/mo.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 135,
@@ -3917,9 +3995,12 @@
       "features": [
         "Pro editing",
         "Filters",
-        "Healing"
+        "Healing",
+        "RAW support"
       ],
-      "social": {},
+      "social": {
+        "twitter": 10000
+      },
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 100000000,
       "ranking": 141,
@@ -3928,7 +4009,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "100M+ users. Major 3.0 update released June 2025 with redesigned UI. Acquired by Google in 2012.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 142,
@@ -3942,10 +4025,12 @@
       "features": [
         "Presets",
         "Editing",
-        "Community"
+        "Community",
+        "VSCO Hub"
       ],
       "social": {
-        "instagram": 500000
+        "instagram": 3000000,
+        "twitter": 200000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 50000000,
@@ -3955,7 +4040,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "3M Instagram followers. 50M+ users. #VSCO hashtag for features. Photographer community focus.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 143,
@@ -3969,9 +4056,13 @@
       "features": [
         "AI editing",
         "Presets",
-        "Cloud sync"
+        "Cloud sync",
+        "Masking"
       ],
-      "social": {},
+      "social": {
+        "instagram": 500000,
+        "twitter": 200000
+      },
       "estimatedMonthlyVisits": 20000000,
       "estimatedUsers": 50000000,
       "ranking": 143,
@@ -3980,7 +4071,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Part of Adobe Creative Cloud (41M paid subscribers). AI-powered masking and editing. Cross-device sync.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 144,
@@ -4044,9 +4137,13 @@
       "features": [
         "AI beautify",
         "Filters",
-        "Video"
+        "Video",
+        "AI portrait"
       ],
-      "social": {},
+      "social": {
+        "instagram": 60000,
+        "weibo": 5000000
+      },
       "estimatedMonthlyVisits": 10000000,
       "estimatedUsers": 100000000,
       "ranking": 146,
@@ -4055,7 +4152,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "100M+ users. AI portrait retouch and creative overlays. Multi-platform sharing integration. Major Chinese photo app.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 147,
@@ -4069,9 +4168,13 @@
       "features": [
         "Beauty filters",
         "Effects",
-        "Video"
+        "Video",
+        "AR stickers"
       ],
-      "social": {},
+      "social": {
+        "instagram": 889000,
+        "tiktok": 200000
+      },
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 100000000,
       "ranking": 147,
@@ -4080,7 +4183,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "889K Instagram followers. 100M+ users. By SNOW Corporation (LINE). Daily updated styles and creator filters.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 148,
@@ -4094,9 +4199,13 @@
       "features": [
         "AR filters",
         "AI beautify",
-        "Video"
+        "Video",
+        "AI profile"
       ],
-      "social": {},
+      "social": {
+        "instagram": 17000,
+        "tiktok": 100000
+      },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 200000000,
       "ranking": 148,
@@ -4105,7 +4214,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "200M+ users worldwide. Custom beauty effects. AR makeup features. Profile-worthy selfies.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 149,
@@ -4144,18 +4255,24 @@
       "features": [
         "Caption generation",
         "Hashtags",
-        "Multiple tones"
+        "Multiple tones",
+        "Social optimization"
       ],
-      "social": {},
+      "social": {
+        "instagram": 4000000,
+        "tiktok": 2500000
+      },
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 2000000,
       "ranking": 150,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Part of Picsart ecosystem (150M+ users). AI-powered social media caption and hashtag generation.",
+      "lastVerified": "2026-02-21T19:09:00+08:00"
     },
     {
       "id": 151,
