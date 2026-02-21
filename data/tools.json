@@ -4777,7 +4777,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -5410,7 +5410,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -9873,21 +9873,28 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "AI video generation tool",
+      "description": "$1.3B valuation AI video reasoning engine - click-to-video for social media",
       "pricing": "Free / Pro available",
       "features": [
         "AI generation"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 131000,
-      "estimatedUsers": 52400,
+      "social": {
+        "twitter": 50000
+      },
+      "estimatedMonthlyVisits": 10000000,
+      "estimatedUsers": 15000000,
       "ranking": 370,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "funding": "$138M total ($50M Series A, $130M Series B)",
+      "valuation": "$1.3B",
+      "arr": "$200M",
+      "lastVerified": "2026-02-21T21:55:00+08:00",
+      "note": "Founded 2023, launched Mar 2025, 15M+ users, doubled ARR in 2 months"
     },
     {
       "id": 371,
@@ -19901,8 +19908,8 @@
     },
     {
       "id": 806,
-      "name": "W\u00fcrstchen 2",
-      "url": "https://w\u00fcrstchen2.ai",
+      "name": "Würstchen 2",
+      "url": "https://würstchen2.ai",
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Open Source",
@@ -22733,8 +22740,8 @@
     },
     {
       "id": 924,
-      "name": "PixArt-\u03a32",
-      "url": "https://pixart\u03c32.ai",
+      "name": "PixArt-Σ2",
+      "url": "https://pixartσ2.ai",
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Open Source",
