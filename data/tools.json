@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T13:28:49+08:00",
+  "lastUpdated": "2026-02-21T21:20:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -5577,23 +5577,31 @@
       "name": "Placeit",
       "url": "https://placeit.net",
       "category": "Design",
-      "founded": "2022",
-      "headquarters": "USA",
-      "description": "Mockup generator",
-      "pricing": "Free / Pro available",
+      "founded": "2013",
+      "headquarters": "Guadalajara, Mexico",
+      "description": "Mockup generator and design tool by Envato",
+      "pricing": "Free / Unlimited $14.95/mo",
       "features": [
-        "AI tools"
+        "Mockup generator",
+        "Logo maker",
+        "Video templates",
+        "Design templates"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 102000,
-      "estimatedUsers": 10000,
+      "social": {
+        "instagram": 50000,
+        "youtube": 30000
+      },
+      "estimatedMonthlyVisits": 5000000,
+      "estimatedUsers": 1000000,
       "ranking": 199,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Part of Envato. AI-assisted template search. No-designer design market leader. 4K templates available.",
+      "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
       "id": 200,
@@ -5601,22 +5609,30 @@
       "url": "https://spark.creativefabrica.com",
       "category": "Image Generation",
       "founded": "2022",
-      "headquarters": "USA",
-      "description": "AI for crafters",
-      "pricing": "Free / Pro available",
+      "headquarters": "Amsterdam, Netherlands",
+      "description": "AI image generation for crafters and designers",
+      "pricing": "Free tier / Subscription included",
       "features": [
-        "AI tools"
+        "AI art generation",
+        "AI writing",
+        "Craft designs",
+        "Studio integration"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 100000,
-      "estimatedUsers": 10000,
+      "social": {
+        "facebook": 500000,
+        "instagram": 100000
+      },
+      "estimatedMonthlyVisits": 5000000,
+      "estimatedUsers": 1000000,
       "ranking": 200,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
-      "imageEditor": false,
-      "imageCanvas": false,
-      "videoTimeline": false
+      "imageEditor": true,
+      "imageCanvas": true,
+      "videoTimeline": false,
+      "note": "Part of Creative Fabrica ($68.5M total funding). 15M+ AI images generated. 380 employees. $14.4M revenue (2024). Founded 2016.",
+      "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
       "id": 201,
