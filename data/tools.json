@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T13:12:00.000000",
+  "lastUpdated": "2026-02-21T16:13:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -38,15 +38,17 @@
         "twitter": 500000,
         "youtube": 2000000
       },
-      "estimatedMonthlyVisits": 180000000,
-      "estimatedUsers": 323000000,
+      "estimatedMonthlyVisits": 200000000,
+      "estimatedUsers": 350000000,
       "ranking": 1,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "81% market share in mobile video editing. 1B+ Google Play downloads.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 2,
@@ -70,15 +72,17 @@
         "youtube": 800000,
         "facebook": 3500000
       },
-      "estimatedMonthlyVisits": 500000000,
-      "estimatedUsers": 260000000,
+      "estimatedMonthlyVisits": 550000000,
+      "estimatedUsers": 265000000,
       "ranking": 2,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "31M paying subscribers. $3.5B revenue in 2025.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 3,
@@ -95,19 +99,20 @@
         "Text rendering"
       ],
       "social": {
-        "twitter": 4300000,
-        "youtube": 800000
+        "twitter": 5000000,
+        "youtube": 1000000
       },
-      "estimatedMonthlyVisits": 5000000000,
-      "estimatedUsers": 700000000,
+      "estimatedMonthlyVisits": 5500000000,
+      "estimatedUsers": 900000000,
       "ranking": 3,
       "dataQuality": "verified",
-      "note": "Part of ChatGPT ecosystem",
+      "note": "Part of ChatGPT with 900M+ weekly active users (Dec 2025).",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 4,
@@ -128,15 +133,17 @@
         "instagram": 1500000,
         "youtube": 500000
       },
-      "estimatedMonthlyVisits": 45000000,
-      "estimatedUsers": 6000000,
+      "estimatedMonthlyVisits": 70000000,
+      "estimatedUsers": 70000000,
       "ranking": 4,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "22B assets generated. 29% AI design market share.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 5,
@@ -159,14 +166,16 @@
         "youtube": 300000
       },
       "estimatedMonthlyVisits": 121940000,
-      "estimatedUsers": 10000000,
+      "estimatedUsers": 13000000,
       "ranking": 5,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$749M revenue in 2024. Now public.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 6,
@@ -185,17 +194,19 @@
       ],
       "social": {
         "discord": 21000000,
-        "twitter": 401600
+        "twitter": 450000
       },
       "estimatedMonthlyVisits": 95000000,
-      "estimatedUsers": 20000000,
+      "estimatedUsers": 21000000,
       "ranking": 6,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Largest Discord server. ~21M Discord members.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 7,
@@ -222,7 +233,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Part of ChatGPT Plus/Pro. Limited availability.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 8,
@@ -252,7 +265,9 @@
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "1.2M+ monthly active creators. 14% of specialized AI tool use.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 9,
@@ -274,14 +289,16 @@
         "twitter": 150000
       },
       "estimatedMonthlyVisits": 25000000,
-      "estimatedUsers": 8000000,
+      "estimatedUsers": 10000000,
       "ranking": 9,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "213M+ model downloads across ecosystem.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 10,
@@ -310,7 +327,9 @@
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "$3B valuation (Apr 2025). $300M revenue. 300K customers.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 11,
@@ -331,15 +350,17 @@
         "tiktok": 300000,
         "twitter": 50000
       },
-      "estimatedMonthlyVisits": 15000000,
-      "estimatedUsers": 5000000,
+      "estimatedMonthlyVisits": 25000000,
+      "estimatedUsers": 60000000,
       "ranking": 11,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$240M ARR (Dec 2025). 600M+ videos generated. 12M MAU.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 12,
@@ -388,7 +409,7 @@
         "instagram": 100000,
         "twitter": 50000
       },
-      "estimatedMonthlyVisits": 18000000,
+      "estimatedMonthlyVisits": 17000000,
       "estimatedUsers": 5000000,
       "ranking": 13,
       "dataQuality": "verified",
@@ -396,7 +417,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 14,
@@ -445,14 +467,16 @@
         "tiktok": 1000000
       },
       "estimatedMonthlyVisits": 15000000,
-      "estimatedUsers": 50000000,
+      "estimatedUsers": 100000000,
       "ranking": 15,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "540M downloads. 10B photos enhanced in 2025.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 16,
@@ -538,7 +562,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "#1 AI video generator 2025 (G2). 4.8/5 rating. 230+ avatars, 140+ languages.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 19,
@@ -567,7 +593,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "10M+ registered users. Powers thousands of apps.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 20,
@@ -589,15 +617,17 @@
         "youtube": 50000,
         "discord": 100000
       },
-      "estimatedMonthlyVisits": 15000000,
-      "estimatedUsers": 3000000,
+      "estimatedMonthlyVisits": 20000000,
+      "estimatedUsers": 5000000,
       "ranking": 20,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$11B valuation (Feb 2026). $500M Series D. IPO planned.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 21,
@@ -618,14 +648,16 @@
         "instagram": 100000
       },
       "estimatedMonthlyVisits": 9500000,
-      "estimatedUsers": 7000000,
+      "estimatedUsers": 50000000,
       "ranking": 21,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "8M videos created monthly. 95%+ retention in Pro/Business.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 22,
@@ -653,7 +685,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$7M revenue (Sep 2025). $80M+ raised. Excellent text rendering.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 23,
@@ -702,14 +736,16 @@
         "discord": 200000
       },
       "estimatedMonthlyVisits": 8500000,
-      "estimatedUsers": 3000000,
+      "estimatedUsers": 14500000,
       "ranking": 24,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$900M valuation (early 2026). $135M+ raised.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 25,
@@ -867,14 +903,16 @@
         "facebook": 2000000
       },
       "estimatedMonthlyVisits": 8000000,
-      "estimatedUsers": 150000000,
+      "estimatedUsers": 30000000,
       "ranking": 30,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "480M lifetime downloads. $135M revenue in 2024.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 31,
@@ -924,14 +962,16 @@
         "youtube": 50000
       },
       "estimatedMonthlyVisits": 6500000,
-      "estimatedUsers": 800000,
+      "estimatedUsers": 1000000,
       "ranking": 32,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$100M ARR (Apr 2025). 60K+ clients. 60% of Fortune 100.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 33,
@@ -978,7 +1018,7 @@
       "social": {
         "discord": 150000
       },
-      "estimatedMonthlyVisits": 6500000,
+      "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 3000000,
       "ranking": 34,
       "dataQuality": "verified",
@@ -986,7 +1026,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "20K paid subscribers. 124M+ votes in 2025 challenges.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 35,
@@ -1007,15 +1049,17 @@
         "discord": 402770,
         "twitter": 100000
       },
-      "estimatedMonthlyVisits": 10000000,
-      "estimatedUsers": 5000000,
+      "estimatedMonthlyVisits": 47000000,
+      "estimatedUsers": 2000000,
       "ranking": 35,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "7M tracks generated daily. 30M downloads.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 36,
@@ -1098,7 +1142,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "110M+ videos created. 120+ languages supported.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 39,
@@ -1119,14 +1165,16 @@
         "twitter": 100000
       },
       "estimatedMonthlyVisits": 5500000,
-      "estimatedUsers": 1000000,
+      "estimatedUsers": 30000000,
       "ranking": 39,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$8M ARR (Apr 2025). 20x revenue growth in 14 months.",
+      "lastVerified": "2026-02-21T16:13:00+08:00"
     },
     {
       "id": 40,
@@ -19096,8 +19144,8 @@
     },
     {
       "id": 806,
-      "name": "Würstchen 2",
-      "url": "https://würstchen2.ai",
+      "name": "W\u00fcrstchen 2",
+      "url": "https://w\u00fcrstchen2.ai",
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Open Source",
@@ -21928,8 +21976,8 @@
     },
     {
       "id": 924,
-      "name": "PixArt-Σ2",
-      "url": "https://pixartσ2.ai",
+      "name": "PixArt-\u03a32",
+      "url": "https://pixart\u03c32.ai",
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Open Source",
@@ -23776,7 +23824,7 @@
     }
   ],
   "summary": {
-    "totalVerified": 100,
+    "totalVerified": 119,
     "totalEstimated": 900,
     "topByCategory": {
       "Video Generation": [
@@ -23826,6 +23874,15 @@
         "Stable Diffusion"
       ],
       "notes": "New entrant with significant growth potential."
+    }
+  },
+  "metadata": {
+    "researchProgress": {
+      "lastBatch": "1-50",
+      "lastRun": "2026-02-21T16:13:00+08:00",
+      "nextBatch": "51-100",
+      "toolsVerified": 25,
+      "method": "web_search with Brave API"
     }
   }
 }
