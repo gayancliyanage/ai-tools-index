@@ -22,7 +22,7 @@
             <div class="flex items-center justify-between flex-wrap gap-4">
                 <div>
                     <h1 class="text-3xl md:text-4xl font-bold">🎨 AI Creative Tools Index</h1>
-                    <p class="text-purple-100 mt-2">Tracking <span id="totalTools">100</span> AI tools for Craftit competitive research</p>
+                    <p class="text-purple-100 mt-2">Tracking <span id="totalTools">100</span> AI creative tools • <span class="text-yellow-300">⚡ Expanding to 1000</span></p>
                 </div>
                 <div class="text-right">
                     <div class="text-sm text-purple-200">Last Updated</div>
@@ -75,6 +75,17 @@
                     <option value="3D/Animation">3D/Animation</option>
                     <option value="Writing/Content">Writing/Content</option>
                     <option value="Multi-Modal">Multi-Modal</option>
+                </select>
+                
+                <!-- Founded Year Filter -->
+                <select id="foundedFilter" class="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500">
+                    <option value="">All Years</option>
+                    <option value="2025">2025 (Newest)</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="older">2020 & Earlier</option>
                 </select>
                 
                 <!-- Sort -->
@@ -160,6 +171,8 @@
                     
                     <p class="text-gray-600 text-sm mb-4 line-clamp-2">${tool.description}</p>
                     
+                    ${tool.dataQuality === 'verified' ? '<span class="inline-block px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full mb-2">✓ Verified Data</span>' : ''}
+                    
                     <div class="grid grid-cols-2 gap-3 mb-4 text-sm">
                         <div class="bg-gray-50 rounded-lg p-2">
                             <div class="text-gray-500 text-xs">Monthly Traffic</div>
@@ -224,12 +237,17 @@
             const search = document.getElementById('searchInput').value.toLowerCase();
             const category = document.getElementById('categoryFilter').value;
             const sortBy = document.getElementById('sortBy').value;
+            const founded = document.getElementById('foundedFilter').value;
             
             let filtered = toolsData.filter(tool => {
                 const matchesSearch = tool.name.toLowerCase().includes(search) || 
                                      tool.description.toLowerCase().includes(search);
                 const matchesCategory = !category || tool.category === category;
-                return matchesSearch && matchesCategory;
+                const toolYear = parseInt(tool.founded) || 0;
+                const matchesFounded = !founded || 
+                    (founded === 'older' && toolYear <= 2020) ||
+                    (founded !== 'older' && tool.founded === founded);
+                return matchesSearch && matchesCategory && matchesFounded;
             });
             
             // Sort
@@ -284,6 +302,7 @@
         document.getElementById('searchInput').addEventListener('input', filterAndSortTools);
         document.getElementById('categoryFilter').addEventListener('change', filterAndSortTools);
         document.getElementById('sortBy').addEventListener('change', filterAndSortTools);
+        document.getElementById('foundedFilter').addEventListener('change', filterAndSortTools);
         
         // Initialize
         loadData();
