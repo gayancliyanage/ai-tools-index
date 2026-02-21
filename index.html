@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Creative Tools Index | Craftit Competitor Research</title>
+    <title>AI Creative Tools Index | 1000 AI Tools Database</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -11,8 +11,10 @@
         .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
         .social-icon { transition: all 0.2s; }
         .social-icon:hover { transform: scale(1.2); }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
-        .animate-pulse-slow { animation: pulse 2s infinite; }
+        .page-btn { transition: all 0.2s; }
+        .page-btn:hover:not(:disabled) { transform: scale(1.05); }
+        .page-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .page-btn.active { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
@@ -37,15 +39,15 @@
                     <div class="text-purple-200 text-sm">Tools Tracked</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statCategories">7</div>
+                    <div class="text-2xl font-bold" id="statCategories">5</div>
                     <div class="text-purple-200 text-sm">Categories</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statTotalUsers">800M+</div>
+                    <div class="text-2xl font-bold" id="statTotalUsers">-</div>
                     <div class="text-purple-200 text-sm">Combined Users</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statTraffic">3.5B+</div>
+                    <div class="text-2xl font-bold" id="statTraffic">-</div>
                     <div class="text-purple-200 text-sm">Monthly Visits</div>
                 </div>
             </div>
@@ -68,13 +70,6 @@
                 <!-- Category Filter -->
                 <select id="categoryFilter" class="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500">
                     <option value="">All Categories</option>
-                    <option value="Image Generation">Image Generation</option>
-                    <option value="Video Generation">Video Generation</option>
-                    <option value="Design">Design</option>
-                    <option value="Audio/Music">Audio/Music</option>
-                    <option value="3D/Animation">3D/Animation</option>
-                    <option value="Writing/Content">Writing/Content</option>
-                    <option value="Multi-Modal">Multi-Modal</option>
                 </select>
                 
                 <!-- Founded Year Filter -->
@@ -93,12 +88,26 @@
                     <option value="ranking">Rank (Default)</option>
                     <option value="traffic">Monthly Traffic</option>
                     <option value="users">Est. Users</option>
-                    <option value="instagram">Instagram Followers</option>
-                    <option value="twitter">Twitter Followers</option>
-                    <option value="tiktok">TikTok Followers</option>
                     <option value="name">Name (A-Z)</option>
                     <option value="founded">Founded (Newest)</option>
                 </select>
+
+                <!-- Per Page -->
+                <select id="perPage" class="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500">
+                    <option value="24">24 per page</option>
+                    <option value="50" selected>50 per page</option>
+                    <option value="100">100 per page</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Results Info & Pagination Top -->
+        <div class="flex flex-wrap justify-between items-center mb-4 gap-4">
+            <div id="resultsInfo" class="text-gray-600">
+                Showing 1-50 of 1000 tools
+            </div>
+            <div id="paginationTop" class="flex items-center gap-2">
+                <!-- Pagination will be inserted here -->
             </div>
         </div>
 
@@ -112,6 +121,11 @@
             <div class="animate-spin rounded-full h-12 w-12 border-4 border-purple-500 border-t-transparent mx-auto"></div>
             <p class="mt-4 text-gray-500">Loading AI tools data...</p>
         </div>
+
+        <!-- Pagination Bottom -->
+        <div class="flex flex-wrap justify-center items-center mt-8 gap-2" id="paginationBottom">
+            <!-- Pagination will be inserted here -->
+        </div>
     </div>
 
     <!-- Footer -->
@@ -124,9 +138,13 @@
 
     <script>
         let toolsData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        let perPage = 50;
         
         // Format numbers
         function formatNumber(num) {
+            if (!num || num === 0) return '0';
             if (num >= 1000000000) return (num / 1000000000).toFixed(1) + 'B';
             if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
             if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
@@ -150,30 +168,36 @@
         // Render tool card
         function renderToolCard(tool) {
             const social = tool.social || {};
+            const socialLinks = [];
+            
+            if (social.instagram) socialLinks.push(`<div class="social-icon text-pink-500" title="Instagram"><i class="fab fa-instagram"></i> <span class="text-xs text-gray-600">${formatNumber(social.instagram)}</span></div>`);
+            if (social.twitter) socialLinks.push(`<div class="social-icon text-blue-400" title="Twitter/X"><i class="fab fa-twitter"></i> <span class="text-xs text-gray-600">${formatNumber(social.twitter)}</span></div>`);
+            if (social.tiktok) socialLinks.push(`<div class="social-icon text-black" title="TikTok"><i class="fab fa-tiktok"></i> <span class="text-xs text-gray-600">${formatNumber(social.tiktok)}</span></div>`);
+            if (social.youtube) socialLinks.push(`<div class="social-icon text-red-500" title="YouTube"><i class="fab fa-youtube"></i> <span class="text-xs text-gray-600">${formatNumber(social.youtube)}</span></div>`);
+            if (social.discord) socialLinks.push(`<div class="social-icon text-indigo-500" title="Discord"><i class="fab fa-discord"></i> <span class="text-xs text-gray-600">${formatNumber(social.discord)}</span></div>`);
+            
             return `
                 <div class="bg-white rounded-xl shadow-sm p-6 card-hover transition-all duration-200">
-                    <div class="flex items-start justify-between mb-4">
+                    <div class="flex items-start justify-between mb-3">
                         <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center text-white font-bold">
-                                ${tool.ranking}
+                            <div class="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center text-white font-bold text-sm">
+                                ${tool.ranking || tool.id}
                             </div>
                             <div>
                                 <h3 class="font-bold text-gray-800">${tool.name}</h3>
-                                <a href="${tool.url}" target="_blank" class="text-sm text-purple-600 hover:underline">
-                                    ${tool.url.replace('https://', '')} <i class="fas fa-external-link-alt text-xs"></i>
+                                <a href="${tool.url}" target="_blank" class="text-sm text-purple-600 hover:underline truncate block max-w-[180px]">
+                                    ${tool.url.replace('https://', '').replace('http://', '')} <i class="fas fa-external-link-alt text-xs"></i>
                                 </a>
                             </div>
                         </div>
-                        <span class="px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(tool.category)}">
+                        <span class="px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(tool.category)} whitespace-nowrap">
                             ${tool.category}
                         </span>
                     </div>
                     
-                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">${tool.description}</p>
+                    <p class="text-gray-600 text-sm mb-3 line-clamp-2">${tool.description || 'No description available'}</p>
                     
-                    ${tool.dataQuality === 'verified' ? '<span class="inline-block px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded-full mb-2">✓ Verified Data</span>' : ''}
-                    
-                    <div class="grid grid-cols-2 gap-3 mb-4 text-sm">
+                    <div class="grid grid-cols-2 gap-2 mb-3 text-sm">
                         <div class="bg-gray-50 rounded-lg p-2">
                             <div class="text-gray-500 text-xs">Monthly Traffic</div>
                             <div class="font-semibold text-gray-800">${formatNumber(tool.estimatedMonthlyVisits)}</div>
@@ -184,52 +208,100 @@
                         </div>
                     </div>
                     
-                    <div class="flex items-center gap-3 text-sm text-gray-500 mb-4">
-                        <span><i class="fas fa-calendar text-purple-400"></i> ${tool.founded}</span>
-                        <span><i class="fas fa-tag text-purple-400"></i> ${tool.pricing}</span>
+                    <div class="flex items-center gap-3 text-sm text-gray-500 mb-3">
+                        <span><i class="fas fa-calendar text-purple-400"></i> ${tool.founded || 'N/A'}</span>
+                        <span class="truncate"><i class="fas fa-tag text-purple-400"></i> ${tool.pricing || 'N/A'}</span>
                     </div>
                     
-                    <!-- Social Stats -->
-                    <div class="flex items-center gap-4 pt-4 border-t border-gray-100">
-                        ${social.instagram ? `
-                            <div class="social-icon text-pink-500" title="Instagram">
-                                <i class="fab fa-instagram"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.instagram)}</span>
-                            </div>
-                        ` : ''}
-                        ${social.twitter ? `
-                            <div class="social-icon text-blue-400" title="Twitter/X">
-                                <i class="fab fa-twitter"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.twitter)}</span>
-                            </div>
-                        ` : ''}
-                        ${social.tiktok ? `
-                            <div class="social-icon text-black" title="TikTok">
-                                <i class="fab fa-tiktok"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.tiktok)}</span>
-                            </div>
-                        ` : ''}
-                        ${social.facebook ? `
-                            <div class="social-icon text-blue-600" title="Facebook">
-                                <i class="fab fa-facebook"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.facebook)}</span>
-                            </div>
-                        ` : ''}
-                        ${social.youtube ? `
-                            <div class="social-icon text-red-500" title="YouTube">
-                                <i class="fab fa-youtube"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.youtube)}</span>
-                            </div>
-                        ` : ''}
-                        ${social.discord ? `
-                            <div class="social-icon text-indigo-500" title="Discord">
-                                <i class="fab fa-discord"></i>
-                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.discord)}</span>
-                            </div>
-                        ` : ''}
-                    </div>
+                    ${socialLinks.length > 0 ? `
+                        <div class="flex items-center gap-3 pt-3 border-t border-gray-100 flex-wrap">
+                            ${socialLinks.join('')}
+                        </div>
+                    ` : ''}
                 </div>
             `;
+        }
+        
+        // Render pagination
+        function renderPagination() {
+            const totalPages = Math.ceil(filteredData.length / perPage);
+            const start = (currentPage - 1) * perPage + 1;
+            const end = Math.min(currentPage * perPage, filteredData.length);
+            
+            document.getElementById('resultsInfo').textContent = 
+                `Showing ${start}-${end} of ${filteredData.length} tools`;
+            
+            let paginationHTML = '';
+            
+            // Previous button
+            paginationHTML += `
+                <button onclick="goToPage(${currentPage - 1})" 
+                    class="page-btn px-3 py-2 rounded-lg border border-gray-200 bg-white" 
+                    ${currentPage === 1 ? 'disabled' : ''}>
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            `;
+            
+            // Page numbers
+            const maxVisible = 7;
+            let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+            let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+            
+            if (endPage - startPage < maxVisible - 1) {
+                startPage = Math.max(1, endPage - maxVisible + 1);
+            }
+            
+            if (startPage > 1) {
+                paginationHTML += `<button onclick="goToPage(1)" class="page-btn px-3 py-2 rounded-lg border border-gray-200 bg-white">1</button>`;
+                if (startPage > 2) paginationHTML += `<span class="px-2 text-gray-400">...</span>`;
+            }
+            
+            for (let i = startPage; i <= endPage; i++) {
+                paginationHTML += `
+                    <button onclick="goToPage(${i})" 
+                        class="page-btn px-3 py-2 rounded-lg border border-gray-200 ${i === currentPage ? 'active' : 'bg-white'}">
+                        ${i}
+                    </button>
+                `;
+            }
+            
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) paginationHTML += `<span class="px-2 text-gray-400">...</span>`;
+                paginationHTML += `<button onclick="goToPage(${totalPages})" class="page-btn px-3 py-2 rounded-lg border border-gray-200 bg-white">${totalPages}</button>`;
+            }
+            
+            // Next button
+            paginationHTML += `
+                <button onclick="goToPage(${currentPage + 1})" 
+                    class="page-btn px-3 py-2 rounded-lg border border-gray-200 bg-white" 
+                    ${currentPage === totalPages ? 'disabled' : ''}>
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            `;
+            
+            document.getElementById('paginationTop').innerHTML = paginationHTML;
+            document.getElementById('paginationBottom').innerHTML = paginationHTML;
+        }
+        
+        // Go to page
+        function goToPage(page) {
+            const totalPages = Math.ceil(filteredData.length / perPage);
+            if (page < 1 || page > totalPages) return;
+            currentPage = page;
+            renderCurrentPage();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        // Render current page
+        function renderCurrentPage() {
+            const start = (currentPage - 1) * perPage;
+            const end = start + perPage;
+            const pageTools = filteredData.slice(start, end);
+            
+            const grid = document.getElementById('toolsGrid');
+            grid.innerHTML = pageTools.map(renderToolCard).join('');
+            
+            renderPagination();
         }
         
         // Filter and sort tools
@@ -238,10 +310,12 @@
             const category = document.getElementById('categoryFilter').value;
             const sortBy = document.getElementById('sortBy').value;
             const founded = document.getElementById('foundedFilter').value;
+            perPage = parseInt(document.getElementById('perPage').value);
             
-            let filtered = toolsData.filter(tool => {
-                const matchesSearch = tool.name.toLowerCase().includes(search) || 
-                                     tool.description.toLowerCase().includes(search);
+            filteredData = toolsData.filter(tool => {
+                const matchesSearch = !search || 
+                    tool.name.toLowerCase().includes(search) || 
+                    (tool.description && tool.description.toLowerCase().includes(search));
                 const matchesCategory = !category || tool.category === category;
                 const toolYear = parseInt(tool.founded) || 0;
                 const matchesFounded = !founded || 
@@ -251,21 +325,18 @@
             });
             
             // Sort
-            filtered.sort((a, b) => {
+            filteredData.sort((a, b) => {
                 switch(sortBy) {
                     case 'traffic': return (b.estimatedMonthlyVisits || 0) - (a.estimatedMonthlyVisits || 0);
                     case 'users': return (b.estimatedUsers || 0) - (a.estimatedUsers || 0);
-                    case 'instagram': return (b.social?.instagram || 0) - (a.social?.instagram || 0);
-                    case 'twitter': return (b.social?.twitter || 0) - (a.social?.twitter || 0);
-                    case 'tiktok': return (b.social?.tiktok || 0) - (a.social?.tiktok || 0);
-                    case 'name': return a.name.localeCompare(b.name);
+                    case 'name': return (a.name || '').localeCompare(b.name || '');
                     case 'founded': return (parseInt(b.founded) || 0) - (parseInt(a.founded) || 0);
-                    default: return a.ranking - b.ranking;
+                    default: return (a.ranking || a.id) - (b.ranking || b.id);
                 }
             });
             
-            const grid = document.getElementById('toolsGrid');
-            grid.innerHTML = filtered.map(renderToolCard).join('');
+            currentPage = 1;
+            renderCurrentPage();
         }
         
         // Load data
@@ -273,13 +344,15 @@
             try {
                 const response = await fetch('data/tools.json');
                 const data = await response.json();
-                toolsData = data.tools;
+                toolsData = data.tools || [];
+                
+                console.log('Loaded tools:', toolsData.length);
                 
                 // Update stats
-                document.getElementById('totalTools').textContent = data.totalTools;
-                document.getElementById('statTools').textContent = data.totalTools;
-                document.getElementById('statCategories').textContent = data.categories.length;
-                document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString();
+                document.getElementById('totalTools').textContent = toolsData.length;
+                document.getElementById('statTools').textContent = toolsData.length;
+                document.getElementById('statCategories').textContent = (data.categories || []).length;
+                document.getElementById('lastUpdated').textContent = data.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'N/A';
                 
                 // Calculate totals
                 const totalUsers = toolsData.reduce((sum, t) => sum + (t.estimatedUsers || 0), 0);
@@ -287,13 +360,26 @@
                 document.getElementById('statTotalUsers').textContent = formatNumber(totalUsers);
                 document.getElementById('statTraffic').textContent = formatNumber(totalTraffic);
                 
+                // Populate category filter
+                const categories = [...new Set(toolsData.map(t => t.category).filter(Boolean))].sort();
+                const categorySelect = document.getElementById('categoryFilter');
+                categories.forEach(cat => {
+                    const option = document.createElement('option');
+                    option.value = cat;
+                    option.textContent = cat;
+                    categorySelect.appendChild(option);
+                });
+                
                 // Hide loading, show grid
                 document.getElementById('loadingState').style.display = 'none';
-                filterAndSortTools();
+                
+                filteredData = [...toolsData];
+                renderCurrentPage();
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('loadingState').innerHTML = `
-                    <p class="text-red-500">Error loading data. Please refresh.</p>
+                    <p class="text-red-500">Error loading data: ${error.message}</p>
+                    <p class="text-gray-500 mt-2">Make sure you're viewing this from a web server, not a local file.</p>
                 `;
             }
         }
@@ -303,6 +389,7 @@
         document.getElementById('categoryFilter').addEventListener('change', filterAndSortTools);
         document.getElementById('sortBy').addEventListener('change', filterAndSortTools);
         document.getElementById('foundedFilter').addEventListener('change', filterAndSortTools);
+        document.getElementById('perPage').addEventListener('change', filterAndSortTools);
         
         // Initialize
         loadData();
