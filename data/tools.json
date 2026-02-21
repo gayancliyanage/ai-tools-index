@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-21T16:13:00+08:00",
+  "lastUpdated": "2026-02-21T18:20:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -16,6 +16,12 @@
     "videoTimeline"
   ],
   "dataNote": "Rankings based on combined social reach (Instagram 30%, TikTok 25%, Twitter 20%, YouTube 15%, Discord 10%), monthly traffic, and user base. Data verified Feb 2026. Feature capabilities indicate core functionality.",
+  "researchProgress": {
+    "lastBatch": "51-100",
+    "nextBatch": "101-150",
+    "lastResearched": "2026-02-21T18:20:00+08:00",
+    "batchesCompleted": ["1-50", "51-100"]
+  },
   "tools": [
     {
       "id": 1,
@@ -1222,14 +1228,16 @@
         "twitter": 50000
       },
       "estimatedMonthlyVisits": 5500000,
-      "estimatedUsers": 1500000,
+      "estimatedUsers": 10000000,
       "ranking": 41,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "10M+ users. Founded Jan 2022 by Young Zhao and Grace Wang. Big data analysis for content repurposing.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 42,
@@ -1250,14 +1258,16 @@
         "facebook": 500000
       },
       "estimatedMonthlyVisits": 5500000,
-      "estimatedUsers": 2000000,
+      "estimatedUsers": 30000000,
       "ranking": 42,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "30M+ people worldwide. All-in-1 video animation platform for individuals, teams, enterprises.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 43,
@@ -1271,7 +1281,7 @@
       "features": [
         "Text-to-video",
         "Image-to-video",
-        "Fast"
+        "Hailuo 2.3"
       ],
       "social": {
         "twitter": 30000
@@ -1279,12 +1289,14 @@
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 1500000,
       "ranking": 43,
-      "dataQuality": "estimated",
-      "imageGen": false,
+      "dataQuality": "verified",
+      "imageGen": true,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$10M ARR (Aug 2025). MiniMax parent company $2.5B valuation. Audio functions added Jan 2025.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 44,
@@ -1298,7 +1310,8 @@
       "features": [
         "Face swap video",
         "GIFs",
-        "Viral content"
+        "AI Singing",
+        "Hair try-on"
       ],
       "social": {
         "instagram": 200000,
@@ -1308,11 +1321,13 @@
       "estimatedUsers": 80000000,
       "ranking": 44,
       "dataQuality": "verified",
-      "imageGen": false,
+      "imageGen": true,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "42M+ creators. AI headshot generation, gender swap, future baby generator added 2025-2026.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 45,
@@ -1353,21 +1368,24 @@
       "features": [
         "Auto captions",
         "Eye contact fix",
-        "AI editing"
+        "AI editing",
+        "AI avatars"
       ],
       "social": {
         "instagram": 200000,
         "tiktok": 300000
       },
       "estimatedMonthlyVisits": 4500000,
-      "estimatedUsers": 8000000,
+      "estimatedUsers": 10000000,
       "ranking": 46,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "$100M total funding. $60M Series C. $500M valuation. 10M+ downloads.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 47,
@@ -1490,8 +1508,9 @@
       "pricing": "Free / Pro $4/mo",
       "features": [
         "Free unlimited",
-        "Multiple models",
-        "Private mode"
+        "60+ AI models",
+        "Private mode",
+        "GIF/Video"
       ],
       "social": {
         "discord": 100000
@@ -1499,37 +1518,44 @@
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 1500000,
       "ranking": 51,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
-      "videoGen": false,
+      "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "60+ AI models including SD versions. Browser-based, no Discord needed. Rapid prototyping and concept art focus.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 52,
       "name": "Vidu AI",
-      "url": "https://vidu.io",
+      "url": "https://vidu.com",
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Beijing, China",
-      "description": "Chinese AI video generation",
+      "description": "Chinese AI video generation by ShengShu Technology",
       "pricing": "Free tier / Pro available",
       "features": [
         "Text-to-video",
         "4K output",
-        "Character consistency"
+        "Character consistency",
+        "Vidu 2.0"
       ],
-      "social": {},
-      "estimatedMonthlyVisits": 3500000,
-      "estimatedUsers": 800000,
+      "social": {
+        "twitter": 30000
+      },
+      "estimatedMonthlyVisits": 5000000,
+      "estimatedUsers": 10000000,
       "ranking": 52,
-      "dataQuality": "estimated",
-      "imageGen": false,
+      "dataQuality": "verified",
+      "imageGen": true,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "10M users in 100 days (Jan 2025). ShengShu parent company. Honor partnership.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 53,
@@ -1539,26 +1565,29 @@
       "founded": "2005",
       "headquarters": "Dallas, USA",
       "description": "AI photo/video enhancement software",
-      "pricing": "One-time $199 / $99/yr",
+      "pricing": "Subscription $99/yr",
       "features": [
         "Upscaling",
         "Denoising",
         "Sharpening",
-        "Video"
+        "Video AI"
       ],
       "social": {
         "youtube": 200000,
-        "twitter": 50000
+        "twitter": 50000,
+        "linkedin": 15000
       },
       "estimatedMonthlyVisits": 3500000,
-      "estimatedUsers": 1500000,
+      "estimatedUsers": 1000000,
       "ranking": 53,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "1M+ photographers & videographers. 1B+ images processed. 1500% revenue growth in 6 years. Trusted by Apple, Netflix, NASA. Subscription-only since Sep 2025.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 54,
@@ -1572,7 +1601,8 @@
       "features": [
         "AI avatars",
         "Free daily videos",
-        "Voice cloning"
+        "Voice cloning",
+        "800+ AI voices"
       ],
       "social": {
         "youtube": 100000
@@ -1580,12 +1610,14 @@
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 800000,
       "ranking": 54,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "800+ AI voices in various languages, accents, emotional tones. Voice Clone feature for paid users.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 55,
@@ -1627,21 +1659,25 @@
       "features": [
         "Templates",
         "Stock library",
-        "Brand kit"
+        "Brand kit",
+        "AI editing"
       ],
       "social": {
         "facebook": 500000,
-        "youtube": 100000
+        "youtube": 100000,
+        "twitter": 50000
       },
-      "estimatedMonthlyVisits": 3500000,
-      "estimatedUsers": 1000000,
+      "estimatedMonthlyVisits": 1550000,
+      "estimatedUsers": 1500000,
       "ranking": 56,
       "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "$30M revenue. 150K sign-ups/month. 7% conversion rate. ~10.5K new paying customers monthly at $250/yr avg.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 57,
@@ -1682,20 +1718,23 @@
       "features": [
         "AI editing",
         "Background remove",
-        "Effects"
+        "Effects",
+        "AI generation"
       ],
       "social": {
         "instagram": 200000
       },
       "estimatedMonthlyVisits": 3000000,
-      "estimatedUsers": 25000000,
+      "estimatedUsers": 30000000,
       "ranking": 58,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "30M+ downloads. 4.6 rating. Part of Lightricks ($250M ARR as of July 2025).",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 59,
@@ -1762,7 +1801,8 @@
       "features": [
         "Text-to-video",
         "Blog-to-video",
-        "AI voiceover"
+        "AI voiceover",
+        "Zapier integration"
       ],
       "social": {
         "youtube": 50000
@@ -1775,7 +1815,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "$4.72M total funding over 2 rounds from 6 investors. Zapier/Make integrations connect to 8K+ apps.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 62,
@@ -1789,20 +1831,23 @@
       "features": [
         "High quality",
         "Fast",
-        "Open weights"
+        "Open weights",
+        "FLUX.2"
       ],
       "social": {
-        "twitter": 50000
+        "twitter": 100000
       },
-      "estimatedMonthlyVisits": 2800000,
-      "estimatedUsers": 1500000,
+      "estimatedMonthlyVisits": 5000000,
+      "estimatedUsers": 5000000,
       "ranking": 62,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$300M Series B (Dec 2025). $3.25B valuation. Led by Salesforce Ventures, AMP. Investors: a16z, NVIDIA, General Catalyst, Temasek. Partners with Adobe, Canva, Meta, Microsoft.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 63,
@@ -1870,7 +1915,8 @@
       "features": [
         "Blog-to-video",
         "Templates",
-        "Stock library"
+        "Stock library",
+        "AI editing"
       ],
       "social": {
         "youtube": 50000
@@ -1883,7 +1929,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "$7M revenue. 5K paying customers (2024). Founded by Christopher Bowal and Nigel Gutzmann.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 66,
@@ -1897,7 +1945,8 @@
       "features": [
         "Animation",
         "AI avatar",
-        "Enterprise"
+        "Enterprise",
+        "L&D focus"
       ],
       "social": {
         "youtube": 100000
@@ -1910,7 +1959,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "note": "20,000+ customers (Mar 2024). Formerly GoAnimate. Leading software for organizational animated video.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 67,
@@ -1924,7 +1975,8 @@
       "features": [
         "Face editing",
         "Skin smoothing",
-        "Teeth whitening"
+        "Teeth whitening",
+        "Video editing"
       ],
       "social": {
         "instagram": 500000
@@ -1937,7 +1989,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "200M+ downloads. Apple's most downloaded paid app 2017. Lightricks $250M ARR (July 2025), $1B+ valuation.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 68,
@@ -1945,26 +1999,29 @@
       "url": "https://recraft.ai",
       "category": "Image Generation",
       "founded": "2023",
-      "headquarters": "USA",
+      "headquarters": "London, UK",
       "description": "AI design for vector and raster graphics",
       "pricing": "Free / Pro $20/mo",
       "features": [
         "Vector generation",
         "Consistent styles",
-        "SVG export"
+        "SVG export",
+        "Brand control"
       ],
       "social": {
         "twitter": 30000
       },
       "estimatedMonthlyVisits": 2500000,
-      "estimatedUsers": 400000,
+      "estimatedUsers": 4000000,
       "ranking": 68,
       "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$42M total funding. $30M Series B (May 2025) led by Accel. 4M+ registered users. Investors: Accel, Madrona Ventures, Khosla Ventures, Nat Friedman, Elad Gil.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 69,
@@ -1978,18 +2035,23 @@
       "features": [
         "Face swap",
         "Talking avatar",
-        "Video translate"
+        "Video translate",
+        "Streaming avatars"
       ],
-      "social": {},
+      "social": {
+        "twitter": 20000
+      },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 500000,
       "ranking": 69,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "#1 on Inc 5000. 10,000+ enterprise companies use Akool. Photorealistic AI-generated content.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 70,
@@ -2030,20 +2092,24 @@
       "features": [
         "Node-based workflow",
         "Custom pipelines",
-        "ControlNet"
+        "ControlNet",
+        "Flux support"
       ],
       "social": {
-        "discord": 200000
+        "discord": 200000,
+        "github": 89200
       },
       "estimatedMonthlyVisits": 2500000,
-      "estimatedUsers": 1000000,
+      "estimatedUsers": 2000000,
       "ranking": 71,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "89.2K GitHub stars (Sep 2025). 7.5K forks. GPL-3.0 license. Part of Open Model Initiative (Linux Foundation). Weekly releases.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 72,
@@ -2051,13 +2117,14 @@
       "url": "https://prisma-ai.com",
       "category": "Image Generation",
       "founded": "2016",
-      "headquarters": "Russia/USA",
+      "headquarters": "USA",
       "description": "AI photo editing with artistic filters",
       "pricing": "Free / Premium $7.99/mo",
       "features": [
         "Art filters",
         "Photo editing",
-        "Video filters"
+        "Video filters",
+        "700+ styles"
       ],
       "social": {
         "instagram": 300000
@@ -2070,7 +2137,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "120M+ users worldwide. App of the Year 2016. 700+ art and portrait styles.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 73,
@@ -2109,7 +2178,8 @@
       "features": [
         "Text-to-video",
         "Mochi model",
-        "3D"
+        "3D",
+        "Open source"
       ],
       "social": {
         "twitter": 50000
@@ -2122,7 +2192,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$28.4M Series A led by NEA. Investors: NEA, The House Fund, Gold House Ventures, WndrCo, Eastlink Capital, Essence VC. Mochi 1 is open source.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 75,
@@ -2207,27 +2279,29 @@
       "name": "Haiper",
       "url": "https://haiper.ai",
       "category": "Video Generation",
-      "founded": "2024",
+      "founded": "2021",
       "headquarters": "London, UK",
       "description": "AI video by ex-DeepMind team",
       "pricing": "Free tier / Pro available",
       "features": [
         "Text-to-video",
         "Image-to-video",
-        "Fast"
+        "3D reconstruction"
       ],
       "social": {
         "twitter": 30000
       },
-      "estimatedMonthlyVisits": 1500000,
-      "estimatedUsers": 400000,
+      "estimatedMonthlyVisits": 500000,
+      "estimatedUsers": 200000,
       "ranking": 78,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$13.8M funding. Founded by ex-DeepMind Dr. Yishu Miao and Dr. Ziyu Wang. Investor: Octopus Ventures. Web app shut down early 2025.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 79,
@@ -2279,7 +2353,9 @@
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Part of Lightricks Creative Kit ($250M ARR). Formerly Enlight Pixaloop.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 81,
@@ -2318,18 +2394,23 @@
       "features": [
         "Simple UI",
         "High quality defaults",
-        "Inpainting"
+        "Inpainting",
+        "SDXL"
       ],
-      "social": {},
+      "social": {
+        "github": 47600
+      },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 500000,
       "ranking": 82,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "47.6K GitHub stars. 7.8K forks. By lllyasviel (ControlNet creator). Midjourney-like simplicity with SD quality.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 83,
@@ -2354,7 +2435,9 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$8M Series A led by GL Ventures. Chinese entrepreneurs team.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 84,
@@ -2429,7 +2512,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$22M funding led by Lakestar. Investors: Launchub, Day One Capital, Emerge Education.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 87,
@@ -2468,7 +2553,8 @@
       "features": [
         "AI avatars",
         "ChatGPT integration",
-        "Multi-language"
+        "Multi-language",
+        "Conversational AI"
       ],
       "social": {},
       "estimatedMonthlyVisits": 850000,
@@ -2479,7 +2565,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$44M Series B led by Korea Development Bank. $180M post-money valuation. Formerly Moneybrain.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 89,
@@ -2543,7 +2631,8 @@
       "features": [
         "Custom training",
         "Game assets",
-        "API"
+        "API",
+        "3D/Video/Audio"
       ],
       "social": {},
       "estimatedMonthlyVisits": 800000,
@@ -2554,7 +2643,9 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$6M seed funding. Gaming, media, marketing focus. Custom model training.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 92,
@@ -2563,12 +2654,13 @@
       "category": "Video Generation",
       "founded": "2019",
       "headquarters": "Tel Aviv, Israel",
-      "description": "AI video for enterprise training",
+      "description": "AI video for enterprise training - Acquired by Wix",
       "pricing": "From $30/mo",
       "features": [
         "AI presenters",
         "Multi-language",
-        "L&D"
+        "L&D",
+        "Wix integration"
       ],
       "social": {},
       "estimatedMonthlyVisits": 650000,
@@ -2579,7 +2671,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "Acquired by Wix (May 2025). HR training, eLearning, corporate comms focus.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 93,
@@ -2642,19 +2736,21 @@
       "pricing": "Free tier / Pro $12/mo",
       "features": [
         "Video dubbing",
-        "30+ languages",
+        "60+ languages",
         "Subtitles"
       ],
       "social": {},
       "estimatedMonthlyVisits": 350000,
       "estimatedUsers": 100000,
       "ranking": 95,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$800K seed funding (Jun 2022). Browser-based. AI dubbing at $1/minute.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 96,
@@ -2718,7 +2814,8 @@
       "features": [
         "Digital twin",
         "Video personalization",
-        "API"
+        "API",
+        "30+ languages"
       ],
       "social": {},
       "estimatedMonthlyVisits": 200000,
@@ -2729,7 +2826,9 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "note": "$64.2M total funding over 4 rounds from 19 investors. Real-time conversational AI avatars.",
+      "lastVerified": "2026-02-21T18:20:00+08:00"
     },
     {
       "id": 99,
