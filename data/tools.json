@@ -2886,17 +2886,19 @@
       "name": "Craftit AI",
       "url": "https://craftit.ai",
       "category": "Image Generation",
-      "founded": "2024",
+      "founded": "2025",
       "headquarters": "Singapore",
-      "description": "AI image generation platform for design",
+      "description": "AI-powered design platform with image generation, canvas editor, and video generation",
       "pricing": "Free tier / Pro available",
       "features": [
-        "Text-to-image",
-        "Design tools",
-        "Templates"
+        "Image Generation",
+        "Video Generation",
+        "Canvas Editor",
+        "Templates",
+        "AI Design Tools"
       ],
       "social": {
-        "instagram": 500,
+        "instagram": 1700,
         "linkedin": 200
       },
       "estimatedMonthlyVisits": 50000,
@@ -2905,10 +2907,11 @@
       "dataQuality": "verified",
       "note": "New entrant - growing platform",
       "imageGen": true,
-      "videoGen": false,
+      "videoGen": true,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-22T03:15:00+08:00"
     },
     {
       "id": 101,
@@ -4797,7 +4800,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -5430,7 +5433,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -10121,7 +10124,7 @@
     },
     {
       "id": 350,
-      "name": "Voil\u00e0 AI Artist",
+      "name": "Voilà AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -16412,7 +16415,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
       "lastVerified": "2026-02-22T02:28:00+08:00"
     },
     {
@@ -26791,7 +26794,7 @@
     },
     {
       "id": 924,
-      "name": "PixArt-\u03a3",
+      "name": "PixArt-Σ",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -26816,7 +26819,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-22T03:03:02+08:00"
     },
     {
