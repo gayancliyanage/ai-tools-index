@@ -1,7 +1,15 @@
 {
-  "lastUpdated": "2026-02-21T09:48:00+08:00",
+  "lastUpdated": "2026-02-21T10:17:36.620860",
   "totalTools": 100,
-  "categories": ["Image Generation", "Video Generation", "Design", "Audio/Music", "3D/Animation", "Writing/Content", "Multi-Modal"],
+  "categories": [
+    "Image Generation",
+    "Video Generation",
+    "Design",
+    "Audio/Music",
+    "3D/Animation",
+    "Writing/Content",
+    "Multi-Modal"
+  ],
   "tools": [
     {
       "id": 1,
@@ -12,7 +20,13 @@
       "headquarters": "San Francisco, USA",
       "description": "AI image generation via Discord, known for artistic quality",
       "pricing": "From $10/mo",
-      "features": ["Text-to-image", "Style transfer", "Upscaling", "Variations", "Pan/Zoom"],
+      "features": [
+        "Text-to-image",
+        "Style transfer",
+        "Upscaling",
+        "Variations",
+        "Pan/Zoom"
+      ],
       "social": {
         "instagram": 1200000,
         "twitter": 2800000,
@@ -22,7 +36,8 @@
       },
       "estimatedMonthlyVisits": 95000000,
       "estimatedUsers": 20000000,
-      "ranking": 1
+      "ranking": 1,
+      "dataQuality": "estimated"
     },
     {
       "id": 2,
@@ -33,7 +48,14 @@
       "headquarters": "Sydney, Australia",
       "description": "Online design platform with AI-powered features",
       "pricing": "Free / Pro $12.99/mo",
-      "features": ["Magic Design", "Text-to-image", "Background remover", "Templates", "Brand kit", "Video editing"],
+      "features": [
+        "Magic Design",
+        "Text-to-image",
+        "Background remover",
+        "Templates",
+        "Brand kit",
+        "Video editing"
+      ],
       "social": {
         "instagram": 4500000,
         "twitter": 1200000,
@@ -43,7 +65,8 @@
       },
       "estimatedMonthlyVisits": 780000000,
       "estimatedUsers": 170000000,
-      "ranking": 2
+      "ranking": 2,
+      "dataQuality": "estimated"
     },
     {
       "id": 3,
@@ -54,7 +77,13 @@
       "headquarters": "San Jose, USA",
       "description": "Adobe's generative AI integrated into Creative Cloud",
       "pricing": "Free tier / Creative Cloud from $22.99/mo",
-      "features": ["Text-to-image", "Generative fill", "Text effects", "Generative expand", "Vector recoloring"],
+      "features": [
+        "Text-to-image",
+        "Generative fill",
+        "Text effects",
+        "Generative expand",
+        "Vector recoloring"
+      ],
       "social": {
         "instagram": 850000,
         "twitter": 420000,
@@ -64,7 +93,8 @@
       },
       "estimatedMonthlyVisits": 45000000,
       "estimatedUsers": 8000000,
-      "ranking": 3
+      "ranking": 3,
+      "dataQuality": "estimated"
     },
     {
       "id": 4,
@@ -75,7 +105,12 @@
       "headquarters": "San Francisco, USA",
       "description": "OpenAI's latest image generation model via ChatGPT",
       "pricing": "ChatGPT Plus $20/mo / API pricing",
-      "features": ["Text-to-image", "Image editing", "Excellent text rendering", "Prompt understanding"],
+      "features": [
+        "Text-to-image",
+        "Image editing",
+        "Excellent text rendering",
+        "Prompt understanding"
+      ],
       "social": {
         "instagram": 680000,
         "twitter": 3200000,
@@ -85,7 +120,8 @@
       },
       "estimatedMonthlyVisits": 1800000000,
       "estimatedUsers": 300000000,
-      "ranking": 4
+      "ranking": 4,
+      "dataQuality": "estimated"
     },
     {
       "id": 5,
@@ -96,7 +132,13 @@
       "headquarters": "Sydney, Australia",
       "description": "AI image generation for game assets and creative content",
       "pricing": "Free 150/day / Pro from $12/mo",
-      "features": ["Multiple models", "Canvas editor", "Motion", "Realtime gen", "Training"],
+      "features": [
+        "Multiple models",
+        "Canvas editor",
+        "Motion",
+        "Realtime gen",
+        "Training"
+      ],
       "social": {
         "instagram": 380000,
         "twitter": 290000,
@@ -106,7 +148,8 @@
       },
       "estimatedMonthlyVisits": 28000000,
       "estimatedUsers": 12000000,
-      "ranking": 5
+      "ranking": 5,
+      "dataQuality": "estimated"
     },
     {
       "id": 6,
@@ -117,7 +160,13 @@
       "headquarters": "New York, USA",
       "description": "AI video generation and editing platform",
       "pricing": "Free tier / Pro from $15/mo",
-      "features": ["Gen-3 Alpha", "Text-to-video", "Image-to-video", "Video editing", "Green screen"],
+      "features": [
+        "Gen-3 Alpha",
+        "Text-to-video",
+        "Image-to-video",
+        "Video editing",
+        "Green screen"
+      ],
       "social": {
         "instagram": 520000,
         "twitter": 380000,
@@ -127,7 +176,8 @@
       },
       "estimatedMonthlyVisits": 18000000,
       "estimatedUsers": 5000000,
-      "ranking": 6
+      "ranking": 6,
+      "dataQuality": "estimated"
     },
     {
       "id": 7,
@@ -138,7 +188,13 @@
       "headquarters": "London, UK",
       "description": "Open-source image generation model",
       "pricing": "Free (open source) / DreamStudio from $10",
-      "features": ["Open source", "Local running", "ControlNet", "LoRA training", "Inpainting"],
+      "features": [
+        "Open source",
+        "Local running",
+        "ControlNet",
+        "LoRA training",
+        "Inpainting"
+      ],
       "social": {
         "instagram": 125000,
         "twitter": 580000,
@@ -148,7 +204,8 @@
       },
       "estimatedMonthlyVisits": 12000000,
       "estimatedUsers": 10000000,
-      "ranking": 7
+      "ranking": 7,
+      "dataQuality": "estimated"
     },
     {
       "id": 8,
@@ -159,7 +216,14 @@
       "headquarters": "San Francisco, USA",
       "description": "Collaborative design tool with AI features",
       "pricing": "Free / Pro $15/mo",
-      "features": ["AI design", "Prototyping", "Dev mode", "FigJam", "Plugins", "Auto layout"],
+      "features": [
+        "AI design",
+        "Prototyping",
+        "Dev mode",
+        "FigJam",
+        "Plugins",
+        "Auto layout"
+      ],
       "social": {
         "instagram": 890000,
         "twitter": 720000,
@@ -169,7 +233,8 @@
       },
       "estimatedMonthlyVisits": 85000000,
       "estimatedUsers": 30000000,
-      "ranking": 8
+      "ranking": 8,
+      "dataQuality": "estimated"
     },
     {
       "id": 9,
@@ -180,7 +245,13 @@
       "headquarters": "Palo Alto, USA",
       "description": "AI video generation with cinematic quality",
       "pricing": "Free tier / Pro from $8/mo",
-      "features": ["Text-to-video", "Image-to-video", "Video editing", "Lip sync", "Sound effects"],
+      "features": [
+        "Text-to-video",
+        "Image-to-video",
+        "Video editing",
+        "Lip sync",
+        "Sound effects"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 290000,
@@ -190,7 +261,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
-      "ranking": 9
+      "ranking": 9,
+      "dataQuality": "estimated"
     },
     {
       "id": 10,
@@ -201,7 +273,13 @@
       "headquarters": "Los Angeles, USA",
       "description": "AI avatar video creation platform",
       "pricing": "Free tier / Creator from $24/mo",
-      "features": ["AI avatars", "Voice cloning", "Translation", "Templates", "API"],
+      "features": [
+        "AI avatars",
+        "Voice cloning",
+        "Translation",
+        "Templates",
+        "API"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 85000,
@@ -211,7 +289,8 @@
       },
       "estimatedMonthlyVisits": 12000000,
       "estimatedUsers": 2500000,
-      "ranking": 10
+      "ranking": 10,
+      "dataQuality": "estimated"
     },
     {
       "id": 11,
@@ -222,7 +301,12 @@
       "headquarters": "Toronto, Canada",
       "description": "AI image generation with excellent text rendering",
       "pricing": "Free tier / Pro from $7/mo",
-      "features": ["Text-in-image", "Multiple styles", "Upscaling", "Remix"],
+      "features": [
+        "Text-in-image",
+        "Multiple styles",
+        "Upscaling",
+        "Remix"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 180000,
@@ -232,7 +316,8 @@
       },
       "estimatedMonthlyVisits": 9500000,
       "estimatedUsers": 4000000,
-      "ranking": 11
+      "ranking": 11,
+      "dataQuality": "estimated"
     },
     {
       "id": 12,
@@ -243,7 +328,12 @@
       "headquarters": "Palo Alto, USA",
       "description": "3D capture and video generation AI",
       "pricing": "Free tier / Pro plans available",
-      "features": ["Dream Machine", "3D scanning", "NeRF", "Video generation"],
+      "features": [
+        "Dream Machine",
+        "3D scanning",
+        "NeRF",
+        "Video generation"
+      ],
       "social": {
         "instagram": 125000,
         "twitter": 210000,
@@ -253,7 +343,8 @@
       },
       "estimatedMonthlyVisits": 6800000,
       "estimatedUsers": 2000000,
-      "ranking": 12
+      "ranking": 12,
+      "dataQuality": "estimated"
     },
     {
       "id": 13,
@@ -264,7 +355,12 @@
       "headquarters": "Beijing, China",
       "description": "AI video generation by Kuaishou",
       "pricing": "Free tier / Pro from $9/mo",
-      "features": ["Text-to-video", "Image-to-video", "Motion brush", "Camera control"],
+      "features": [
+        "Text-to-video",
+        "Image-to-video",
+        "Motion brush",
+        "Camera control"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 120000,
@@ -273,7 +369,8 @@
       },
       "estimatedMonthlyVisits": 15000000,
       "estimatedUsers": 5000000,
-      "ranking": 13
+      "ranking": 13,
+      "dataQuality": "estimated"
     },
     {
       "id": 14,
@@ -284,7 +381,12 @@
       "headquarters": "Cambridge, USA",
       "description": "AI music generation from text",
       "pricing": "Free tier / Pro from $10/mo",
-      "features": ["Text-to-music", "Lyrics generation", "Multiple genres", "Extend songs"],
+      "features": [
+        "Text-to-music",
+        "Lyrics generation",
+        "Multiple genres",
+        "Extend songs"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 180000,
@@ -294,7 +396,8 @@
       },
       "estimatedMonthlyVisits": 28000000,
       "estimatedUsers": 12000000,
-      "ranking": 14
+      "ranking": 14,
+      "dataQuality": "estimated"
     },
     {
       "id": 15,
@@ -305,7 +408,13 @@
       "headquarters": "New York, USA",
       "description": "AI voice synthesis and cloning",
       "pricing": "Free tier / Starter from $5/mo",
-      "features": ["Text-to-speech", "Voice cloning", "Dubbing", "Sound effects", "API"],
+      "features": [
+        "Text-to-speech",
+        "Voice cloning",
+        "Dubbing",
+        "Sound effects",
+        "API"
+      ],
       "social": {
         "instagram": 68000,
         "twitter": 290000,
@@ -315,7 +424,8 @@
       },
       "estimatedMonthlyVisits": 18000000,
       "estimatedUsers": 6000000,
-      "ranking": 15
+      "ranking": 15,
+      "dataQuality": "estimated"
     },
     {
       "id": 16,
@@ -326,7 +436,12 @@
       "headquarters": "San Francisco, USA",
       "description": "Free AI image generation with 500 daily images",
       "pricing": "Free 500/day / Pro from $15/mo",
-      "features": ["Multiple models", "Canvas", "Inpainting", "Outpainting"],
+      "features": [
+        "Multiple models",
+        "Canvas",
+        "Inpainting",
+        "Outpainting"
+      ],
       "social": {
         "instagram": 42000,
         "twitter": 85000,
@@ -336,7 +451,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3500000,
-      "ranking": 16
+      "ranking": 16,
+      "dataQuality": "estimated"
     },
     {
       "id": 17,
@@ -347,7 +463,13 @@
       "headquarters": "London, UK",
       "description": "AI video generation with digital avatars",
       "pricing": "From $29/mo",
-      "features": ["AI avatars", "140+ languages", "Templates", "Custom avatars", "API"],
+      "features": [
+        "AI avatars",
+        "140+ languages",
+        "Templates",
+        "Custom avatars",
+        "API"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 65000,
@@ -357,7 +479,8 @@
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 800000,
-      "ranking": 17
+      "ranking": 17,
+      "dataQuality": "estimated"
     },
     {
       "id": 18,
@@ -368,7 +491,12 @@
       "headquarters": "Freiburg, Germany",
       "description": "State-of-the-art open image generation model",
       "pricing": "Open source / API available",
-      "features": ["High quality", "Fast generation", "Open weights", "ControlNet support"],
+      "features": [
+        "High quality",
+        "Fast generation",
+        "Open weights",
+        "ControlNet support"
+      ],
       "social": {
         "instagram": 15000,
         "twitter": 85000,
@@ -377,7 +505,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 1500000,
-      "ranking": 18
+      "ranking": 18,
+      "dataQuality": "estimated"
     },
     {
       "id": 19,
@@ -388,7 +517,13 @@
       "headquarters": "New York, USA",
       "description": "AI music generation with vocals",
       "pricing": "Free tier / Pro from $10/mo",
-      "features": ["Text-to-music", "Vocals", "Extend", "Remix", "Multiple genres"],
+      "features": [
+        "Text-to-music",
+        "Vocals",
+        "Extend",
+        "Remix",
+        "Multiple genres"
+      ],
       "social": {
         "instagram": 35000,
         "twitter": 95000,
@@ -398,7 +533,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
-      "ranking": 19
+      "ranking": 19,
+      "dataQuality": "estimated"
     },
     {
       "id": 20,
@@ -409,7 +545,12 @@
       "headquarters": "Singapore",
       "description": "Online photo editor with AI tools",
       "pricing": "Free / Plus from $4.90/mo",
-      "features": ["AI image gen", "Background remove", "Photo editing", "Batch editor"],
+      "features": [
+        "AI image gen",
+        "Background remove",
+        "Photo editing",
+        "Batch editor"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 125000,
@@ -419,7 +560,8 @@
       },
       "estimatedMonthlyVisits": 18000000,
       "estimatedUsers": 8000000,
-      "ranking": 20
+      "ranking": 20,
+      "dataQuality": "estimated"
     },
     {
       "id": 21,
@@ -430,7 +572,12 @@
       "headquarters": "Vienna, Austria",
       "description": "AI background removal tool",
       "pricing": "Free preview / From $9/mo",
-      "features": ["Background removal", "API", "Batch processing", "HD output"],
+      "features": [
+        "Background removal",
+        "API",
+        "Batch processing",
+        "HD output"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 45000,
@@ -440,7 +587,8 @@
       },
       "estimatedMonthlyVisits": 45000000,
       "estimatedUsers": 15000000,
-      "ranking": 21
+      "ranking": 21,
+      "dataQuality": "estimated"
     },
     {
       "id": 22,
@@ -451,7 +599,13 @@
       "headquarters": "Paris, France",
       "description": "AI-powered creative tools by Stability AI",
       "pricing": "Free tier / Pro from $9/mo",
-      "features": ["Background remove", "Uncrop", "Relight", "Cleanup", "Stable Diffusion XL"],
+      "features": [
+        "Background remove",
+        "Uncrop",
+        "Relight",
+        "Cleanup",
+        "Stable Diffusion XL"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 65000,
@@ -460,7 +614,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
-      "ranking": 22
+      "ranking": 22,
+      "dataQuality": "estimated"
     },
     {
       "id": 23,
@@ -471,7 +626,12 @@
       "headquarters": "Tel Aviv, Israel",
       "description": "AI video generation with talking avatars",
       "pricing": "Free tier / Pro from $6/mo",
-      "features": ["Talking photos", "AI avatars", "Voice cloning", "API"],
+      "features": [
+        "Talking photos",
+        "AI avatars",
+        "Voice cloning",
+        "API"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 35000,
@@ -481,7 +641,8 @@
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 1500000,
-      "ranking": 23
+      "ranking": 23,
+      "dataQuality": "estimated"
     },
     {
       "id": 24,
@@ -492,7 +653,13 @@
       "headquarters": "London, UK",
       "description": "Online video editor with AI features",
       "pricing": "Free / Pro from $18/mo",
-      "features": ["AI subtitles", "Video editing", "Screen recording", "Templates", "AI avatars"],
+      "features": [
+        "AI subtitles",
+        "Video editing",
+        "Screen recording",
+        "Templates",
+        "AI avatars"
+      ],
       "social": {
         "instagram": 125000,
         "twitter": 45000,
@@ -502,7 +669,8 @@
       },
       "estimatedMonthlyVisits": 18000000,
       "estimatedUsers": 5000000,
-      "ranking": 24
+      "ranking": 24,
+      "dataQuality": "estimated"
     },
     {
       "id": 25,
@@ -513,7 +681,13 @@
       "headquarters": "San Francisco, USA",
       "description": "AI-powered video and podcast editor",
       "pricing": "Free / Pro from $15/mo",
-      "features": ["Overdub", "Filler removal", "Transcription", "Screen recording", "Studio sound"],
+      "features": [
+        "Overdub",
+        "Filler removal",
+        "Transcription",
+        "Screen recording",
+        "Studio sound"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 85000,
@@ -523,7 +697,8 @@
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 2000000,
-      "ranking": 25
+      "ranking": 25,
+      "dataQuality": "estimated"
     },
     {
       "id": 26,
@@ -534,7 +709,12 @@
       "headquarters": "Paris, France",
       "description": "AI photo editing for e-commerce",
       "pricing": "Free / Pro from $12.99/mo",
-      "features": ["Background removal", "AI backgrounds", "Batch editing", "Templates"],
+      "features": [
+        "Background removal",
+        "AI backgrounds",
+        "Batch editing",
+        "Templates"
+      ],
       "social": {
         "instagram": 280000,
         "twitter": 35000,
@@ -544,7 +724,8 @@
       },
       "estimatedMonthlyVisits": 12000000,
       "estimatedUsers": 6000000,
-      "ranking": 26
+      "ranking": 26,
+      "dataQuality": "estimated"
     },
     {
       "id": 27,
@@ -555,7 +736,13 @@
       "headquarters": "USA",
       "description": "Collaborative AI art creation through gene mixing",
       "pricing": "Free / Starter from $8.99/mo",
-      "features": ["Gene mixing", "Portraits", "Landscapes", "Characters", "Collage"],
+      "features": [
+        "Gene mixing",
+        "Portraits",
+        "Landscapes",
+        "Characters",
+        "Collage"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 65000,
@@ -565,7 +752,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 2500000,
-      "ranking": 27
+      "ranking": 27,
+      "dataQuality": "estimated"
     },
     {
       "id": 28,
@@ -576,7 +764,12 @@
       "headquarters": "Australia",
       "description": "AI art generator with multiple algorithms",
       "pricing": "Free tier / Pro from $5.99/mo",
-      "features": ["Multiple AI models", "Style transfer", "Community", "Daily challenges"],
+      "features": [
+        "Multiple AI models",
+        "Style transfer",
+        "Community",
+        "Daily challenges"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 45000,
@@ -586,7 +779,8 @@
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 3000000,
-      "ranking": 28
+      "ranking": 28,
+      "dataQuality": "estimated"
     },
     {
       "id": 29,
@@ -597,7 +791,12 @@
       "headquarters": "USA",
       "description": "AI art platform with model training",
       "pricing": "Free tier / Pro from $12/mo",
-      "features": ["Multiple models", "Training", "ControlNet", "Workflow builder"],
+      "features": [
+        "Multiple models",
+        "Training",
+        "ControlNet",
+        "Workflow builder"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 85000,
@@ -607,7 +806,8 @@
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 2000000,
-      "ranking": 29
+      "ranking": 29,
+      "dataQuality": "estimated"
     },
     {
       "id": 30,
@@ -618,7 +818,11 @@
       "headquarters": "USA",
       "description": "Free AI image generator (formerly DALL-E mini)",
       "pricing": "Free / Pro from $6/mo",
-      "features": ["Free unlimited", "Simple interface", "Fast generation"],
+      "features": [
+        "Free unlimited",
+        "Simple interface",
+        "Fast generation"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 125000,
@@ -627,7 +831,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 5000000,
-      "ranking": 30
+      "ranking": 30,
+      "dataQuality": "estimated"
     },
     {
       "id": 31,
@@ -638,7 +843,13 @@
       "headquarters": "San Francisco, USA",
       "description": "Online video editor with AI tools",
       "pricing": "Free / Pro from $16/mo",
-      "features": ["AI video editing", "Subtitles", "Resize", "Templates", "Collaboration"],
+      "features": [
+        "AI video editing",
+        "Subtitles",
+        "Resize",
+        "Templates",
+        "Collaboration"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 65000,
@@ -648,7 +859,8 @@
       },
       "estimatedMonthlyVisits": 12000000,
       "estimatedUsers": 4000000,
-      "ranking": 31
+      "ranking": 31,
+      "dataQuality": "estimated"
     },
     {
       "id": 32,
@@ -659,7 +871,12 @@
       "headquarters": "India",
       "description": "AI video creation platform",
       "pricing": "Free / Business from $15/mo",
-      "features": ["AI video gen", "Templates", "Text-to-video", "Stock library"],
+      "features": [
+        "AI video gen",
+        "Templates",
+        "Text-to-video",
+        "Stock library"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 45000,
@@ -669,7 +886,8 @@
       },
       "estimatedMonthlyVisits": 9500000,
       "estimatedUsers": 7000000,
-      "ranking": 32
+      "ranking": 32,
+      "dataQuality": "estimated"
     },
     {
       "id": 33,
@@ -680,7 +898,12 @@
       "headquarters": "USA",
       "description": "AI photo editing and avatar generation app",
       "pricing": "Free / Pro from $3.99/mo",
-      "features": ["Magic avatars", "Photo editing", "Face retouching", "Background blur"],
+      "features": [
+        "Magic avatars",
+        "Photo editing",
+        "Face retouching",
+        "Background blur"
+      ],
       "social": {
         "instagram": 450000,
         "twitter": 35000,
@@ -689,7 +912,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 30000000,
-      "ranking": 33
+      "ranking": 33,
+      "dataQuality": "estimated"
     },
     {
       "id": 34,
@@ -700,7 +924,11 @@
       "headquarters": "USA",
       "description": "AI art generator mobile app",
       "pricing": "Free / Pro from $4.99/week",
-      "features": ["Text-to-art", "Multiple styles", "Mobile-first"],
+      "features": [
+        "Text-to-art",
+        "Multiple styles",
+        "Mobile-first"
+      ],
       "social": {
         "instagram": 280000,
         "twitter": 18000,
@@ -709,7 +937,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 10000000,
-      "ranking": 34
+      "ranking": 34,
+      "dataQuality": "estimated"
     },
     {
       "id": 35,
@@ -720,7 +949,11 @@
       "headquarters": "Toronto, Canada",
       "description": "AI art generator mobile app",
       "pricing": "Free / Premium from $4.99/mo",
-      "features": ["Text-to-art", "Multiple styles", "NFT minting"],
+      "features": [
+        "Text-to-art",
+        "Multiple styles",
+        "NFT minting"
+      ],
       "social": {
         "instagram": 380000,
         "twitter": 95000,
@@ -729,7 +962,8 @@
       },
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 15000000,
-      "ranking": 35
+      "ranking": 35,
+      "dataQuality": "estimated"
     },
     {
       "id": 36,
@@ -740,7 +974,12 @@
       "headquarters": "Austin, USA",
       "description": "AI image generation for marketing",
       "pricing": "Creator from $49/mo",
-      "features": ["Text-to-image", "Templates", "Brand voice", "Marketing focus"],
+      "features": [
+        "Text-to-image",
+        "Templates",
+        "Brand voice",
+        "Marketing focus"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 125000,
@@ -750,7 +989,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 100000,
-      "ranking": 36
+      "ranking": 36,
+      "dataQuality": "estimated"
     },
     {
       "id": 37,
@@ -761,7 +1001,12 @@
       "headquarters": "USA",
       "description": "AI video generation for music and art",
       "pricing": "From $5/mo",
-      "features": ["Text-to-video", "Audio reactive", "Flipbook", "Transform"],
+      "features": [
+        "Text-to-video",
+        "Audio reactive",
+        "Flipbook",
+        "Transform"
+      ],
       "social": {
         "instagram": 125000,
         "twitter": 85000,
@@ -771,7 +1016,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 800000,
-      "ranking": 37
+      "ranking": 37,
+      "dataQuality": "estimated"
     },
     {
       "id": 38,
@@ -782,7 +1028,11 @@
       "headquarters": "San Francisco, USA",
       "description": "AI video and image generation",
       "pricing": "Free tier / Pro available",
-      "features": ["Text-to-video", "Image-to-video", "3D generation"],
+      "features": [
+        "Text-to-video",
+        "Image-to-video",
+        "3D generation"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 45000,
@@ -792,7 +1042,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 500000,
-      "ranking": 38
+      "ranking": 38,
+      "dataQuality": "estimated"
     },
     {
       "id": 39,
@@ -803,7 +1054,12 @@
       "headquarters": "USA",
       "description": "AI design tool for vector and raster graphics",
       "pricing": "Free / Pro from $20/mo",
-      "features": ["Vector generation", "Consistent styles", "Mockups", "Brand kits"],
+      "features": [
+        "Vector generation",
+        "Consistent styles",
+        "Mockups",
+        "Brand kits"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 65000,
@@ -813,7 +1069,8 @@
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 400000,
-      "ranking": 39
+      "ranking": 39,
+      "dataQuality": "estimated"
     },
     {
       "id": 40,
@@ -824,7 +1081,12 @@
       "headquarters": "Dallas, USA",
       "description": "AI photo and video enhancement",
       "pricing": "One-time $199 / Subscription $99/yr",
-      "features": ["Upscaling", "Denoising", "Sharpening", "Video enhance"],
+      "features": [
+        "Upscaling",
+        "Denoising",
+        "Sharpening",
+        "Video enhance"
+      ],
       "social": {
         "instagram": 125000,
         "twitter": 45000,
@@ -834,7 +1096,8 @@
       },
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 1500000,
-      "ranking": 40
+      "ranking": 40,
+      "dataQuality": "estimated"
     },
     {
       "id": 41,
@@ -845,7 +1108,11 @@
       "headquarters": "Spain",
       "description": "AI image upscaler and enhancer",
       "pricing": "From $39/mo",
-      "features": ["Upscaling", "Detail enhancement", "Creative reinterpretation"],
+      "features": [
+        "Upscaling",
+        "Detail enhancement",
+        "Creative reinterpretation"
+      ],
       "social": {
         "instagram": 35000,
         "twitter": 85000,
@@ -854,7 +1121,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 200000,
-      "ranking": 41
+      "ranking": 41,
+      "dataQuality": "estimated"
     },
     {
       "id": 42,
@@ -865,7 +1133,13 @@
       "headquarters": "San Francisco, USA",
       "description": "Photo and video editing with AI tools",
       "pricing": "Free / Gold from $5/mo",
-      "features": ["AI image gen", "Photo editing", "Video editing", "Templates", "Background remove"],
+      "features": [
+        "AI image gen",
+        "Photo editing",
+        "Video editing",
+        "Templates",
+        "Background remove"
+      ],
       "social": {
         "instagram": 8500000,
         "twitter": 280000,
@@ -875,7 +1149,8 @@
       },
       "estimatedMonthlyVisits": 85000000,
       "estimatedUsers": 150000000,
-      "ranking": 42
+      "ranking": 42,
+      "dataQuality": "estimated"
     },
     {
       "id": 43,
@@ -886,7 +1161,12 @@
       "headquarters": "China",
       "description": "Online photo editor with AI features",
       "pricing": "Free / Pro from $8.99/mo",
-      "features": ["AI image gen", "Photo editing", "Collage", "Design templates"],
+      "features": [
+        "AI image gen",
+        "Photo editing",
+        "Collage",
+        "Design templates"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 35000,
@@ -896,7 +1176,8 @@
       },
       "estimatedMonthlyVisits": 28000000,
       "estimatedUsers": 10000000,
-      "ranking": 43
+      "ranking": 43,
+      "dataQuality": "estimated"
     },
     {
       "id": 44,
@@ -907,7 +1188,12 @@
       "headquarters": "China",
       "description": "AI visual design platform",
       "pricing": "Free tier / Pro from $9/mo",
-      "features": ["Background removal", "Photo enhancer", "Video background remove", "Colorize"],
+      "features": [
+        "Background removal",
+        "Photo enhancer",
+        "Video background remove",
+        "Colorize"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 12000,
@@ -917,7 +1203,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
-      "ranking": 44
+      "ranking": 44,
+      "dataQuality": "estimated"
     },
     {
       "id": 45,
@@ -928,7 +1215,12 @@
       "headquarters": "USA",
       "description": "AI music generation for content creators",
       "pricing": "Free / Creator from $11.69/mo",
-      "features": ["Royalty-free music", "Text-to-music", "API", "Stem separation"],
+      "features": [
+        "Royalty-free music",
+        "Text-to-music",
+        "API",
+        "Stem separation"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 18000,
@@ -938,7 +1230,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 500000,
-      "ranking": 45
+      "ranking": 45,
+      "dataQuality": "estimated"
     },
     {
       "id": 46,
@@ -948,8 +1241,13 @@
       "founded": "2016",
       "headquarters": "Luxembourg",
       "description": "AI music composition assistant",
-      "pricing": "Free / Standard from €11/mo",
-      "features": ["Music composition", "Multiple genres", "Customization", "Emotional AI"],
+      "pricing": "Free / Standard from \u20ac11/mo",
+      "features": [
+        "Music composition",
+        "Multiple genres",
+        "Customization",
+        "Emotional AI"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 28000,
@@ -959,7 +1257,8 @@
       },
       "estimatedMonthlyVisits": 950000,
       "estimatedUsers": 300000,
-      "ranking": 46
+      "ranking": 46,
+      "dataQuality": "estimated"
     },
     {
       "id": 47,
@@ -970,7 +1269,11 @@
       "headquarters": "Tokyo, Japan",
       "description": "AI music generator for creators",
       "pricing": "From $16.99/mo",
-      "features": ["Customizable music", "Royalty-free", "Mood/genre selection"],
+      "features": [
+        "Customizable music",
+        "Royalty-free",
+        "Mood/genre selection"
+      ],
       "social": {
         "instagram": 15000,
         "twitter": 12000,
@@ -980,7 +1283,8 @@
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 400000,
-      "ranking": 47
+      "ranking": 47,
+      "dataQuality": "estimated"
     },
     {
       "id": 48,
@@ -991,7 +1295,11 @@
       "headquarters": "San Francisco, USA",
       "description": "AI music creation and distribution",
       "pricing": "Free / Pro from $9.99/mo",
-      "features": ["Instant music creation", "Streaming distribution", "Royalties"],
+      "features": [
+        "Instant music creation",
+        "Streaming distribution",
+        "Royalties"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 28000,
@@ -1001,7 +1309,8 @@
       },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 800000,
-      "ranking": 48
+      "ranking": 48,
+      "dataQuality": "estimated"
     },
     {
       "id": 49,
@@ -1012,7 +1321,13 @@
       "headquarters": "USA",
       "description": "3D design tool with AI features",
       "pricing": "Free / Pro from $9/mo",
-      "features": ["3D modeling", "Animation", "Collaboration", "AI textures", "Web export"],
+      "features": [
+        "3D modeling",
+        "Animation",
+        "Collaboration",
+        "AI textures",
+        "Web export"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 125000,
@@ -1022,7 +1337,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 1500000,
-      "ranking": 49
+      "ranking": 49,
+      "dataQuality": "estimated"
     },
     {
       "id": 50,
@@ -1033,7 +1349,12 @@
       "headquarters": "USA",
       "description": "AI 3D model generation",
       "pricing": "Free tier / Pro from $20/mo",
-      "features": ["Text-to-3D", "Image-to-3D", "Texturing", "Multiple formats"],
+      "features": [
+        "Text-to-3D",
+        "Image-to-3D",
+        "Texturing",
+        "Multiple formats"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 45000,
@@ -1043,7 +1364,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
-      "ranking": 50
+      "ranking": 50,
+      "dataQuality": "estimated"
     },
     {
       "id": 51,
@@ -1054,7 +1376,12 @@
       "headquarters": "USA",
       "description": "AI video repurposing for short-form content",
       "pricing": "Free / Pro from $19/mo",
-      "features": ["Auto clip selection", "Captions", "Virality score", "Multi-platform export"],
+      "features": [
+        "Auto clip selection",
+        "Captions",
+        "Virality score",
+        "Multi-platform export"
+      ],
       "social": {
         "instagram": 35000,
         "twitter": 28000,
@@ -1064,7 +1391,8 @@
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 1500000,
-      "ranking": 51
+      "ranking": 51,
+      "dataQuality": "estimated"
     },
     {
       "id": 52,
@@ -1075,7 +1403,12 @@
       "headquarters": "New York, USA",
       "description": "AI-powered video creation app",
       "pricing": "Free / Pro from $9.99/mo",
-      "features": ["Auto captions", "AI editing", "Teleprompter", "Eye contact fix"],
+      "features": [
+        "Auto captions",
+        "AI editing",
+        "Teleprompter",
+        "Eye contact fix"
+      ],
       "social": {
         "instagram": 280000,
         "twitter": 45000,
@@ -1085,7 +1418,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 8000000,
-      "ranking": 52
+      "ranking": 52,
+      "dataQuality": "estimated"
     },
     {
       "id": 53,
@@ -1096,7 +1430,12 @@
       "headquarters": "Ireland",
       "description": "AI video creation from text",
       "pricing": "From $19/mo",
-      "features": ["Text-to-video", "Blog-to-video", "Auto captions", "AI voiceover"],
+      "features": [
+        "Text-to-video",
+        "Blog-to-video",
+        "Auto captions",
+        "AI voiceover"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 28000,
@@ -1106,7 +1445,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
-      "ranking": 53
+      "ranking": 53,
+      "dataQuality": "estimated"
     },
     {
       "id": 54,
@@ -1117,7 +1457,12 @@
       "headquarters": "Vancouver, Canada",
       "description": "AI video creation for marketing",
       "pricing": "Free / Basic from $19/mo",
-      "features": ["Blog-to-video", "Templates", "Stock library", "Brand kit"],
+      "features": [
+        "Blog-to-video",
+        "Templates",
+        "Stock library",
+        "Brand kit"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 18000,
@@ -1127,7 +1472,8 @@
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 800000,
-      "ranking": 54
+      "ranking": 54,
+      "dataQuality": "estimated"
     },
     {
       "id": 55,
@@ -1138,7 +1484,12 @@
       "headquarters": "Budapest, Hungary",
       "description": "AI video generation for workplace learning",
       "pricing": "From $27/mo",
-      "features": ["AI avatars", "Multi-language", "Templates", "Custom avatars"],
+      "features": [
+        "AI avatars",
+        "Multi-language",
+        "Templates",
+        "Custom avatars"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 12000,
@@ -1148,7 +1499,8 @@
       },
       "estimatedMonthlyVisits": 950000,
       "estimatedUsers": 200000,
-      "ranking": 55
+      "ranking": 55,
+      "dataQuality": "estimated"
     },
     {
       "id": 56,
@@ -1159,7 +1511,12 @@
       "headquarters": "Ukraine",
       "description": "AI video generation with avatars",
       "pricing": "Free / Basic from $23/mo",
-      "features": ["AI avatars", "Voice cloning", "Templates", "Multi-language"],
+      "features": [
+        "AI avatars",
+        "Voice cloning",
+        "Templates",
+        "Multi-language"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 8000,
@@ -1169,7 +1526,8 @@
       },
       "estimatedMonthlyVisits": 850000,
       "estimatedUsers": 150000,
-      "ranking": 56
+      "ranking": 56,
+      "dataQuality": "estimated"
     },
     {
       "id": 57,
@@ -1180,7 +1538,12 @@
       "headquarters": "Bangalore, India",
       "description": "AI video personalization platform",
       "pricing": "Enterprise pricing",
-      "features": ["Personalized videos", "AI avatars", "API", "Scale video production"],
+      "features": [
+        "Personalized videos",
+        "AI avatars",
+        "API",
+        "Scale video production"
+      ],
       "social": {
         "instagram": 3000,
         "twitter": 8000,
@@ -1190,7 +1553,8 @@
       },
       "estimatedMonthlyVisits": 450000,
       "estimatedUsers": 50000,
-      "ranking": 57
+      "ranking": 57,
+      "dataQuality": "estimated"
     },
     {
       "id": 58,
@@ -1201,7 +1565,12 @@
       "headquarters": "Tel Aviv, Israel",
       "description": "AI video generation for enterprise",
       "pricing": "From $30/mo",
-      "features": ["AI presenters", "Templates", "Multi-language", "Custom avatars"],
+      "features": [
+        "AI presenters",
+        "Templates",
+        "Multi-language",
+        "Custom avatars"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 12000,
@@ -1211,7 +1580,8 @@
       },
       "estimatedMonthlyVisits": 650000,
       "estimatedUsers": 100000,
-      "ranking": 58
+      "ranking": 58,
+      "dataQuality": "estimated"
     },
     {
       "id": 59,
@@ -1222,7 +1592,12 @@
       "headquarters": "USA",
       "description": "AI animated video creation",
       "pricing": "Free / Basic from $20/mo",
-      "features": ["Text-to-video", "Animation styles", "Voiceover", "Templates"],
+      "features": [
+        "Text-to-video",
+        "Animation styles",
+        "Voiceover",
+        "Templates"
+      ],
       "social": {
         "instagram": 12000,
         "twitter": 8000,
@@ -1232,7 +1607,8 @@
       },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 300000,
-      "ranking": 59
+      "ranking": 59,
+      "dataQuality": "estimated"
     },
     {
       "id": 60,
@@ -1243,7 +1619,12 @@
       "headquarters": "India",
       "description": "Text to video with AI voices",
       "pricing": "Free / Standard from $21/mo",
-      "features": ["Text-to-video", "AI voices", "Stock library", "Blog-to-video"],
+      "features": [
+        "Text-to-video",
+        "AI voices",
+        "Stock library",
+        "Blog-to-video"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 12000,
@@ -1253,7 +1634,8 @@
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 600000,
-      "ranking": 60
+      "ranking": 60,
+      "dataQuality": "estimated"
     },
     {
       "id": 61,
@@ -1264,7 +1646,12 @@
       "headquarters": "Seoul, Korea",
       "description": "AI video synthesis platform",
       "pricing": "From $30/mo",
-      "features": ["AI avatars", "ChatGPT integration", "Real-time video", "Multi-language"],
+      "features": [
+        "AI avatars",
+        "ChatGPT integration",
+        "Real-time video",
+        "Multi-language"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 12000,
@@ -1274,7 +1661,8 @@
       },
       "estimatedMonthlyVisits": 850000,
       "estimatedUsers": 150000,
-      "ranking": 61
+      "ranking": 61,
+      "dataQuality": "estimated"
     },
     {
       "id": 62,
@@ -1285,7 +1673,12 @@
       "headquarters": "London, UK",
       "description": "AI podcast and audio content creation",
       "pricing": "Free / Pro from $19/mo",
-      "features": ["Text-to-podcast", "AI voices", "Music beds", "Multi-language"],
+      "features": [
+        "Text-to-podcast",
+        "AI voices",
+        "Music beds",
+        "Multi-language"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 8000,
@@ -1295,7 +1688,8 @@
       },
       "estimatedMonthlyVisits": 350000,
       "estimatedUsers": 50000,
-      "ranking": 62
+      "ranking": 62,
+      "dataQuality": "estimated"
     },
     {
       "id": 63,
@@ -1306,7 +1700,12 @@
       "headquarters": "San Francisco, USA",
       "description": "Text-to-speech and AI voice platform",
       "pricing": "Free / Premium from $139/yr",
-      "features": ["Text-to-speech", "Voice cloning", "AI audiobooks", "Chrome extension"],
+      "features": [
+        "Text-to-speech",
+        "Voice cloning",
+        "AI audiobooks",
+        "Chrome extension"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 35000,
@@ -1316,7 +1715,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 4000000,
-      "ranking": 63
+      "ranking": 63,
+      "dataQuality": "estimated"
     },
     {
       "id": 64,
@@ -1327,7 +1727,12 @@
       "headquarters": "USA",
       "description": "AI voice generation platform",
       "pricing": "Free / Pro from $31.20/mo",
-      "features": ["Text-to-speech", "Voice cloning", "API", "900+ voices"],
+      "features": [
+        "Text-to-speech",
+        "Voice cloning",
+        "API",
+        "900+ voices"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 18000,
@@ -1337,7 +1742,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
-      "ranking": 64
+      "ranking": 64,
+      "dataQuality": "estimated"
     },
     {
       "id": 65,
@@ -1348,7 +1754,12 @@
       "headquarters": "Kyiv, Ukraine",
       "description": "AI voice cloning for media production",
       "pricing": "Enterprise pricing",
-      "features": ["Voice cloning", "Emotion transfer", "De-aging", "Hollywood-grade"],
+      "features": [
+        "Voice cloning",
+        "Emotion transfer",
+        "De-aging",
+        "Hollywood-grade"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 12000,
@@ -1358,7 +1769,8 @@
       },
       "estimatedMonthlyVisits": 350000,
       "estimatedUsers": 10000,
-      "ranking": 65
+      "ranking": 65,
+      "dataQuality": "estimated"
     },
     {
       "id": 66,
@@ -1369,7 +1781,12 @@
       "headquarters": "Toronto, Canada",
       "description": "AI voice generator and cloning",
       "pricing": "From $0.006/second",
-      "features": ["Voice cloning", "Real-time synthesis", "API", "Emotions"],
+      "features": [
+        "Voice cloning",
+        "Real-time synthesis",
+        "API",
+        "Emotions"
+      ],
       "social": {
         "instagram": 3000,
         "twitter": 12000,
@@ -1379,7 +1796,8 @@
       },
       "estimatedMonthlyVisits": 450000,
       "estimatedUsers": 50000,
-      "ranking": 66
+      "ranking": 66,
+      "dataQuality": "estimated"
     },
     {
       "id": 67,
@@ -1390,7 +1808,12 @@
       "headquarters": "Brisbane, Australia",
       "description": "AI voice actors for games and media",
       "pricing": "From $25/mo",
-      "features": ["AI voices", "Lip sync", "Unreal plugin", "Real-time"],
+      "features": [
+        "AI voices",
+        "Lip sync",
+        "Unreal plugin",
+        "Real-time"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 18000,
@@ -1400,7 +1823,8 @@
       },
       "estimatedMonthlyVisits": 550000,
       "estimatedUsers": 80000,
-      "ranking": 67
+      "ranking": 67,
+      "dataQuality": "estimated"
     },
     {
       "id": 68,
@@ -1411,7 +1835,12 @@
       "headquarters": "Valencia, Spain",
       "description": "Real-time AI voice changer",
       "pricing": "Free / Pro from $45/yr",
-      "features": ["Voice changer", "Soundboard", "AI voices", "Game integration"],
+      "features": [
+        "Voice changer",
+        "Soundboard",
+        "AI voices",
+        "Game integration"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 85000,
@@ -1421,7 +1850,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 5000000,
-      "ranking": 68
+      "ranking": 68,
+      "dataQuality": "estimated"
     },
     {
       "id": 69,
@@ -1432,7 +1862,12 @@
       "headquarters": "Salt Lake City, USA",
       "description": "3D character creation and rendering",
       "pricing": "Free software / Marketplace assets",
-      "features": ["3D characters", "Posing", "Rendering", "Marketplace"],
+      "features": [
+        "3D characters",
+        "Posing",
+        "Rendering",
+        "Marketplace"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 45000,
@@ -1442,7 +1877,8 @@
       },
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 2000000,
-      "ranking": 69
+      "ranking": 69,
+      "dataQuality": "estimated"
     },
     {
       "id": 70,
@@ -1453,7 +1889,11 @@
       "headquarters": "London, UK",
       "description": "AI 2D to 3D model generation",
       "pricing": "From $15/model",
-      "features": ["Image-to-3D", "Game-ready assets", "API"],
+      "features": [
+        "Image-to-3D",
+        "Game-ready assets",
+        "API"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 12000,
@@ -1463,7 +1903,8 @@
       },
       "estimatedMonthlyVisits": 250000,
       "estimatedUsers": 30000,
-      "ranking": 70
+      "ranking": 70,
+      "dataQuality": "estimated"
     },
     {
       "id": 71,
@@ -1474,7 +1915,11 @@
       "headquarters": "Lithuania",
       "description": "AI-powered 2D to 3D conversion",
       "pricing": "From $19/mo",
-      "features": ["Image-to-3D", "E-commerce focus", "AR/VR ready"],
+      "features": [
+        "Image-to-3D",
+        "E-commerce focus",
+        "AR/VR ready"
+      ],
       "social": {
         "instagram": 3000,
         "twitter": 5000,
@@ -1484,7 +1929,8 @@
       },
       "estimatedMonthlyVisits": 180000,
       "estimatedUsers": 20000,
-      "ranking": 71
+      "ranking": 71,
+      "dataQuality": "estimated"
     },
     {
       "id": 72,
@@ -1495,7 +1941,11 @@
       "headquarters": "New York, USA",
       "description": "AI 3D world generation",
       "pricing": "API pricing",
-      "features": ["3D world gen", "Game assets", "API"],
+      "features": [
+        "3D world gen",
+        "Game assets",
+        "API"
+      ],
       "social": {
         "instagram": 2000,
         "twitter": 18000,
@@ -1504,7 +1954,8 @@
       },
       "estimatedMonthlyVisits": 120000,
       "estimatedUsers": 10000,
-      "ranking": 72
+      "ranking": 72,
+      "dataQuality": "estimated"
     },
     {
       "id": 73,
@@ -1515,7 +1966,12 @@
       "headquarters": "Canada",
       "description": "AI 3D creation in VR",
       "pricing": "Free / Pro from $18/mo",
-      "features": ["VR sculpting", "AI assistance", "Animation", "Export"],
+      "features": [
+        "VR sculpting",
+        "AI assistance",
+        "Animation",
+        "Export"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 12000,
@@ -1525,7 +1981,8 @@
       },
       "estimatedMonthlyVisits": 250000,
       "estimatedUsers": 40000,
-      "ranking": 73
+      "ranking": 73,
+      "dataQuality": "estimated"
     },
     {
       "id": 74,
@@ -1536,7 +1993,11 @@
       "headquarters": "Santa Clara, USA",
       "description": "NVIDIA's AI 3D shape generation",
       "pricing": "Research/Open source",
-      "features": ["Text-to-3D", "Textured meshes", "High quality"],
+      "features": [
+        "Text-to-3D",
+        "Textured meshes",
+        "High quality"
+      ],
       "social": {
         "instagram": 0,
         "twitter": 0,
@@ -1545,7 +2006,8 @@
       },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 5000,
-      "ranking": 74
+      "ranking": 74,
+      "dataQuality": "estimated"
     },
     {
       "id": 75,
@@ -1556,7 +2018,11 @@
       "headquarters": "San Francisco, USA",
       "description": "OpenAI's text-to-3D point cloud system",
       "pricing": "Open source",
-      "features": ["Text-to-3D", "Point clouds", "Fast generation"],
+      "features": [
+        "Text-to-3D",
+        "Point clouds",
+        "Fast generation"
+      ],
       "social": {
         "instagram": 0,
         "twitter": 0,
@@ -1565,7 +2031,8 @@
       },
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 3000,
-      "ranking": 75
+      "ranking": 75,
+      "dataQuality": "estimated"
     },
     {
       "id": 76,
@@ -1576,7 +2043,12 @@
       "headquarters": "San Francisco, USA",
       "description": "OpenAI's text-to-video model",
       "pricing": "ChatGPT Plus/Pro",
-      "features": ["Text-to-video", "High quality", "Long form", "Physics understanding"],
+      "features": [
+        "Text-to-video",
+        "High quality",
+        "Long form",
+        "Physics understanding"
+      ],
       "social": {
         "instagram": 0,
         "twitter": 0,
@@ -1585,7 +2057,8 @@
       },
       "estimatedMonthlyVisits": 50000000,
       "estimatedUsers": 5000000,
-      "ranking": 76
+      "ranking": 76,
+      "dataQuality": "estimated"
     },
     {
       "id": 77,
@@ -1596,7 +2069,12 @@
       "headquarters": "USA",
       "description": "AI design tools and templates",
       "pricing": "Free / Pro from $10/mo",
-      "features": ["AI art", "Background remover", "Photo enhancer", "Mockups"],
+      "features": [
+        "AI art",
+        "Background remover",
+        "Photo enhancer",
+        "Mockups"
+      ],
       "social": {
         "instagram": 12000,
         "twitter": 8000,
@@ -1606,7 +2084,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
-      "ranking": 77
+      "ranking": 77,
+      "dataQuality": "estimated"
     },
     {
       "id": 78,
@@ -1617,7 +2096,11 @@
       "headquarters": "USA",
       "description": "AI art generation using deep learning",
       "pricing": "Free / Advanced from $19/mo",
-      "features": ["Deep dream", "Style transfer", "Text-to-image"],
+      "features": [
+        "Deep dream",
+        "Style transfer",
+        "Text-to-image"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 18000,
@@ -1626,7 +2109,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 800000,
-      "ranking": 78
+      "ranking": 78,
+      "dataQuality": "estimated"
     },
     {
       "id": 79,
@@ -1637,7 +2121,11 @@
       "headquarters": "USA",
       "description": "AI art generator mobile app",
       "pricing": "Free / Pro from $11.99/mo",
-      "features": ["Text-to-image", "Multiple models", "Full ownership"],
+      "features": [
+        "Text-to-image",
+        "Multiple models",
+        "Full ownership"
+      ],
       "social": {
         "instagram": 85000,
         "twitter": 28000,
@@ -1646,7 +2134,8 @@
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 3000000,
-      "ranking": 79
+      "ranking": 79,
+      "dataQuality": "estimated"
     },
     {
       "id": 80,
@@ -1657,7 +2146,12 @@
       "headquarters": "Poland",
       "description": "AI art and image enhancement",
       "pricing": "Free / Pro from $10/mo",
-      "features": ["AI art", "Photo enhancer", "Video enhancer", "Audio enhancer"],
+      "features": [
+        "AI art",
+        "Photo enhancer",
+        "Video enhancer",
+        "Audio enhancer"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 12000,
@@ -1666,7 +2160,8 @@
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 400000,
-      "ranking": 80
+      "ranking": 80,
+      "dataQuality": "estimated"
     },
     {
       "id": 81,
@@ -1677,7 +2172,11 @@
       "headquarters": "Singapore",
       "description": "AI image generation and editing",
       "pricing": "Free / Pro from $9.99/mo",
-      "features": ["AI models", "Background removal", "Product photos"],
+      "features": [
+        "AI models",
+        "Background removal",
+        "Product photos"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 12000,
@@ -1686,7 +2185,8 @@
       },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 300000,
-      "ranking": 81
+      "ranking": 81,
+      "dataQuality": "estimated"
     },
     {
       "id": 82,
@@ -1697,7 +2197,12 @@
       "headquarters": "Europe",
       "description": "AI image generation suite",
       "pricing": "Free / Basic from $12/mo",
-      "features": ["Multiple models", "ControlNet", "Inpainting", "Training"],
+      "features": [
+        "Multiple models",
+        "ControlNet",
+        "Inpainting",
+        "Training"
+      ],
       "social": {
         "instagram": 12000,
         "twitter": 28000,
@@ -1707,7 +2212,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 400000,
-      "ranking": 82
+      "ranking": 82,
+      "dataQuality": "estimated"
     },
     {
       "id": 83,
@@ -1718,7 +2224,12 @@
       "headquarters": "Singapore",
       "description": "AI-powered design suite",
       "pricing": "From $29/mo",
-      "features": ["Logo maker", "Video maker", "Mockup", "Speechmaker"],
+      "features": [
+        "Logo maker",
+        "Video maker",
+        "Mockup",
+        "Speechmaker"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 12000,
@@ -1728,7 +2239,8 @@
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
-      "ranking": 83
+      "ranking": 83,
+      "dataQuality": "estimated"
     },
     {
       "id": 84,
@@ -1739,7 +2251,12 @@
       "headquarters": "Toronto, Canada",
       "description": "AI logo and brand kit generator",
       "pricing": "From $20 one-time",
-      "features": ["Logo design", "Brand kit", "Business cards", "Social media"],
+      "features": [
+        "Logo design",
+        "Brand kit",
+        "Business cards",
+        "Social media"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 12000,
@@ -1749,7 +2266,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 1500000,
-      "ranking": 84
+      "ranking": 84,
+      "dataQuality": "estimated"
     },
     {
       "id": 85,
@@ -1760,7 +2278,11 @@
       "headquarters": "USA",
       "description": "AI logo design tool",
       "pricing": "From $25 one-time",
-      "features": ["Logo generation", "Color schemes", "Font pairing"],
+      "features": [
+        "Logo generation",
+        "Color schemes",
+        "Font pairing"
+      ],
       "social": {
         "instagram": 5000,
         "twitter": 8000,
@@ -1769,7 +2291,8 @@
       },
       "estimatedMonthlyVisits": 850000,
       "estimatedUsers": 300000,
-      "ranking": 85
+      "ranking": 85,
+      "dataQuality": "estimated"
     },
     {
       "id": 86,
@@ -1780,7 +2303,11 @@
       "headquarters": "Ottawa, Canada",
       "description": "Free AI logo maker by Shopify",
       "pricing": "Free",
-      "features": ["Logo templates", "Brand assets", "Social media"],
+      "features": [
+        "Logo templates",
+        "Brand assets",
+        "Social media"
+      ],
       "social": {
         "instagram": 0,
         "twitter": 0,
@@ -1789,7 +2316,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 1000000,
-      "ranking": 86
+      "ranking": 86,
+      "dataQuality": "estimated"
     },
     {
       "id": 87,
@@ -1800,7 +2328,11 @@
       "headquarters": "USA",
       "description": "AI business name generator",
       "pricing": "Free / Logo from $20",
-      "features": ["Name generation", "Domain check", "Logo generation"],
+      "features": [
+        "Name generation",
+        "Domain check",
+        "Logo generation"
+      ],
       "social": {
         "instagram": 3000,
         "twitter": 5000,
@@ -1809,7 +2341,8 @@
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 500000,
-      "ranking": 87
+      "ranking": 87,
+      "dataQuality": "estimated"
     },
     {
       "id": 88,
@@ -1820,7 +2353,12 @@
       "headquarters": "New York, USA",
       "description": "AI branding and logo platform",
       "pricing": "From $9.99/mo",
-      "features": ["Logo design", "Brand identity", "Website builder", "Business tools"],
+      "features": [
+        "Logo design",
+        "Brand identity",
+        "Website builder",
+        "Business tools"
+      ],
       "social": {
         "instagram": 65000,
         "twitter": 18000,
@@ -1830,7 +2368,8 @@
       },
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 800000,
-      "ranking": 88
+      "ranking": 88,
+      "dataQuality": "estimated"
     },
     {
       "id": 89,
@@ -1841,7 +2380,12 @@
       "headquarters": "San Francisco, USA",
       "description": "AI-powered design and content platform",
       "pricing": "Free / Pro from $15/mo",
-      "features": ["Design", "AI writing", "Video", "Social scheduling"],
+      "features": [
+        "Design",
+        "AI writing",
+        "Video",
+        "Social scheduling"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 18000,
@@ -1851,7 +2395,8 @@
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 2000000,
-      "ranking": 89
+      "ranking": 89,
+      "dataQuality": "estimated"
     },
     {
       "id": 90,
@@ -1862,7 +2407,12 @@
       "headquarters": "Cyprus",
       "description": "Online design tool with AI features",
       "pricing": "Free / Pro from $10/mo",
-      "features": ["Templates", "Animation", "Background remover", "Brand kit"],
+      "features": [
+        "Templates",
+        "Animation",
+        "Background remover",
+        "Brand kit"
+      ],
       "social": {
         "instagram": 180000,
         "twitter": 28000,
@@ -1872,7 +2422,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
-      "ranking": 90
+      "ranking": 90,
+      "dataQuality": "estimated"
     },
     {
       "id": 91,
@@ -1883,7 +2434,11 @@
       "headquarters": "Ottawa, Canada",
       "description": "Quick graphic design tool",
       "pricing": "Free / Pro from $10/mo",
-      "features": ["Templates", "Stock photos", "Background remover"],
+      "features": [
+        "Templates",
+        "Stock photos",
+        "Background remover"
+      ],
       "social": {
         "instagram": 12000,
         "twitter": 8000,
@@ -1893,7 +2448,8 @@
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 500000,
-      "ranking": 91
+      "ranking": 91,
+      "dataQuality": "estimated"
     },
     {
       "id": 92,
@@ -1904,7 +2460,12 @@
       "headquarters": "Miami, USA",
       "description": "Visual content creation platform",
       "pricing": "Free / Starter from $12.25/mo",
-      "features": ["Presentations", "Infographics", "Documents", "AI design"],
+      "features": [
+        "Presentations",
+        "Infographics",
+        "Documents",
+        "AI design"
+      ],
       "social": {
         "instagram": 35000,
         "twitter": 28000,
@@ -1914,7 +2475,8 @@
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 2000000,
-      "ranking": 92
+      "ranking": 92,
+      "dataQuality": "estimated"
     },
     {
       "id": 93,
@@ -1925,7 +2487,12 @@
       "headquarters": "San Francisco, USA",
       "description": "Presentation software with AI features",
       "pricing": "Free / Plus from $12/mo",
-      "features": ["Presentations", "Video", "Design", "AI assistant"],
+      "features": [
+        "Presentations",
+        "Video",
+        "Design",
+        "AI assistant"
+      ],
       "social": {
         "instagram": 95000,
         "twitter": 180000,
@@ -1935,7 +2502,8 @@
       },
       "estimatedMonthlyVisits": 18000000,
       "estimatedUsers": 8000000,
-      "ranking": 93
+      "ranking": 93,
+      "dataQuality": "estimated"
     },
     {
       "id": 94,
@@ -1946,7 +2514,12 @@
       "headquarters": "San Francisco, USA",
       "description": "AI-powered presentation maker",
       "pricing": "From $12/mo",
-      "features": ["Smart templates", "Auto-design", "Collaboration", "Export"],
+      "features": [
+        "Smart templates",
+        "Auto-design",
+        "Collaboration",
+        "Export"
+      ],
       "social": {
         "instagram": 8000,
         "twitter": 18000,
@@ -1956,7 +2529,8 @@
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
-      "ranking": 94
+      "ranking": 94,
+      "dataQuality": "estimated"
     },
     {
       "id": 95,
@@ -1967,7 +2541,12 @@
       "headquarters": "San Francisco, USA",
       "description": "AI presentation and document generator",
       "pricing": "Free / Plus from $8/mo",
-      "features": ["AI generation", "Templates", "Interactive", "One-click design"],
+      "features": [
+        "AI generation",
+        "Templates",
+        "Interactive",
+        "One-click design"
+      ],
       "social": {
         "instagram": 18000,
         "twitter": 35000,
@@ -1977,7 +2556,8 @@
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 2000000,
-      "ranking": 95
+      "ranking": 95,
+      "dataQuality": "estimated"
     },
     {
       "id": 96,
@@ -1988,7 +2568,12 @@
       "headquarters": "San Francisco, USA",
       "description": "AI-powered storytelling format",
       "pricing": "Free / Pro from $10/mo",
-      "features": ["AI generation", "Interactive pages", "Embedding", "Analytics"],
+      "features": [
+        "AI generation",
+        "Interactive pages",
+        "Embedding",
+        "Analytics"
+      ],
       "social": {
         "instagram": 28000,
         "twitter": 65000,
@@ -1998,7 +2583,8 @@
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 1000000,
-      "ranking": 96
+      "ranking": 96,
+      "dataQuality": "estimated"
     },
     {
       "id": 97,
@@ -2006,10 +2592,14 @@
       "url": "https://slidesgo.com",
       "category": "Design",
       "founded": "2019",
-      "headquarters": "Málaga, Spain",
+      "headquarters": "M\u00e1laga, Spain",
       "description": "Free presentation templates with AI",
       "pricing": "Free / Premium from $4.99/mo",
-      "features": ["Templates", "AI presentation maker", "Customization"],
+      "features": [
+        "Templates",
+        "AI presentation maker",
+        "Customization"
+      ],
       "social": {
         "instagram": 280000,
         "twitter": 28000,
@@ -2019,7 +2609,8 @@
       },
       "estimatedMonthlyVisits": 28000000,
       "estimatedUsers": 10000000,
-      "ranking": 97
+      "ranking": 97,
+      "dataQuality": "estimated"
     },
     {
       "id": 98,
@@ -2030,7 +2621,12 @@
       "headquarters": "USA",
       "description": "Real-time AI image generation",
       "pricing": "Free / Pro from $24/mo",
-      "features": ["Real-time gen", "Upscale", "Enhance", "Canvas"],
+      "features": [
+        "Real-time gen",
+        "Upscale",
+        "Enhance",
+        "Canvas"
+      ],
       "social": {
         "instagram": 45000,
         "twitter": 85000,
@@ -2040,7 +2636,8 @@
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 1000000,
-      "ranking": 98
+      "ranking": 98,
+      "dataQuality": "estimated"
     },
     {
       "id": 99,
@@ -2048,10 +2645,15 @@
       "url": "https://freepik.com/ai",
       "category": "Design",
       "founded": "2010",
-      "headquarters": "Málaga, Spain",
+      "headquarters": "M\u00e1laga, Spain",
       "description": "AI image generation on Freepik",
       "pricing": "Free tier / Premium from $9/mo",
-      "features": ["AI image gen", "Stock assets", "Mockups", "Templates"],
+      "features": [
+        "AI image gen",
+        "Stock assets",
+        "Mockups",
+        "Templates"
+      ],
       "social": {
         "instagram": 850000,
         "twitter": 125000,
@@ -2061,7 +2663,8 @@
       },
       "estimatedMonthlyVisits": 180000000,
       "estimatedUsers": 50000000,
-      "ranking": 99
+      "ranking": 99,
+      "dataQuality": "estimated"
     },
     {
       "id": 100,
@@ -2072,16 +2675,22 @@
       "headquarters": "Singapore",
       "description": "AI-powered digital content creation platform",
       "pricing": "Coming soon",
-      "features": ["AI content creation", "Templates", "Multi-format", "Collaboration"],
+      "features": [
+        "AI content creation",
+        "Templates",
+        "Multi-format",
+        "Collaboration"
+      ],
       "social": {
-        "instagram": 500,
+        "instagram": 1700,
         "twitter": 200,
         "tiktok": 100,
         "facebook": 300
       },
-      "estimatedMonthlyVisits": 5000,
-      "estimatedUsers": 500,
-      "ranking": 100
+      "estimatedMonthlyVisits": 15000,
+      "estimatedUsers": 5000,
+      "ranking": 100,
+      "dataQuality": "verified"
     }
   ]
 }
