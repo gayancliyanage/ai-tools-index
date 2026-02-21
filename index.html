@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Creative Tools Index | Craftit Competitor Research</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(0,0,0,0.15); }
+        .social-icon { transition: all 0.2s; }
+        .social-icon:hover { transform: scale(1.2); }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        .animate-pulse-slow { animation: pulse 2s infinite; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-8 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center justify-between flex-wrap gap-4">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-bold">🎨 AI Creative Tools Index</h1>
+                    <p class="text-purple-100 mt-2">Tracking <span id="totalTools">100</span> AI tools for Craftit competitive research</p>
+                </div>
+                <div class="text-right">
+                    <div class="text-sm text-purple-200">Last Updated</div>
+                    <div id="lastUpdated" class="font-semibold">Loading...</div>
+                </div>
+            </div>
+            
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+                <div class="bg-white/10 rounded-lg p-4">
+                    <div class="text-2xl font-bold" id="statTools">100</div>
+                    <div class="text-purple-200 text-sm">Tools Tracked</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4">
+                    <div class="text-2xl font-bold" id="statCategories">7</div>
+                    <div class="text-purple-200 text-sm">Categories</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4">
+                    <div class="text-2xl font-bold" id="statTotalUsers">800M+</div>
+                    <div class="text-purple-200 text-sm">Combined Users</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4">
+                    <div class="text-2xl font-bold" id="statTraffic">3.5B+</div>
+                    <div class="text-purple-200 text-sm">Monthly Visits</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Filters -->
+    <div class="max-w-7xl mx-auto px-4 py-6">
+        <div class="bg-white rounded-xl shadow-sm p-4 mb-6">
+            <div class="flex flex-wrap gap-4 items-center">
+                <!-- Search -->
+                <div class="flex-1 min-w-[200px]">
+                    <div class="relative">
+                        <input type="text" id="searchInput" placeholder="Search tools..." 
+                            class="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent">
+                        <i class="fas fa-search absolute left-3 top-3 text-gray-400"></i>
+                    </div>
+                </div>
+                
+                <!-- Category Filter -->
+                <select id="categoryFilter" class="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500">
+                    <option value="">All Categories</option>
+                    <option value="Image Generation">Image Generation</option>
+                    <option value="Video Generation">Video Generation</option>
+                    <option value="Design">Design</option>
+                    <option value="Audio/Music">Audio/Music</option>
+                    <option value="3D/Animation">3D/Animation</option>
+                    <option value="Writing/Content">Writing/Content</option>
+                    <option value="Multi-Modal">Multi-Modal</option>
+                </select>
+                
+                <!-- Sort -->
+                <select id="sortBy" class="px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-purple-500">
+                    <option value="ranking">Rank (Default)</option>
+                    <option value="traffic">Monthly Traffic</option>
+                    <option value="users">Est. Users</option>
+                    <option value="instagram">Instagram Followers</option>
+                    <option value="twitter">Twitter Followers</option>
+                    <option value="tiktok">TikTok Followers</option>
+                    <option value="name">Name (A-Z)</option>
+                    <option value="founded">Founded (Newest)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Tools Grid -->
+        <div id="toolsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Tools will be loaded here -->
+        </div>
+        
+        <!-- Loading State -->
+        <div id="loadingState" class="text-center py-12">
+            <div class="animate-spin rounded-full h-12 w-12 border-4 border-purple-500 border-t-transparent mx-auto"></div>
+            <p class="mt-4 text-gray-500">Loading AI tools data...</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8 px-4 mt-12">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>Built for <strong>Craftit</strong> competitive research by River Valley Incubator</p>
+            <p class="text-sm mt-2 text-gray-500">Data collected from public sources. Updated regularly.</p>
+        </div>
+    </footer>
+
+    <script>
+        let toolsData = [];
+        
+        // Format numbers
+        function formatNumber(num) {
+            if (num >= 1000000000) return (num / 1000000000).toFixed(1) + 'B';
+            if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+            if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
+            return num.toString();
+        }
+        
+        // Category colors
+        function getCategoryColor(category) {
+            const colors = {
+                'Image Generation': 'bg-pink-100 text-pink-700',
+                'Video Generation': 'bg-blue-100 text-blue-700',
+                'Design': 'bg-purple-100 text-purple-700',
+                'Audio/Music': 'bg-green-100 text-green-700',
+                '3D/Animation': 'bg-orange-100 text-orange-700',
+                'Writing/Content': 'bg-yellow-100 text-yellow-700',
+                'Multi-Modal': 'bg-indigo-100 text-indigo-700'
+            };
+            return colors[category] || 'bg-gray-100 text-gray-700';
+        }
+        
+        // Render tool card
+        function renderToolCard(tool) {
+            const social = tool.social || {};
+            return `
+                <div class="bg-white rounded-xl shadow-sm p-6 card-hover transition-all duration-200">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-lg gradient-bg flex items-center justify-center text-white font-bold">
+                                ${tool.ranking}
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-800">${tool.name}</h3>
+                                <a href="${tool.url}" target="_blank" class="text-sm text-purple-600 hover:underline">
+                                    ${tool.url.replace('https://', '')} <i class="fas fa-external-link-alt text-xs"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <span class="px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(tool.category)}">
+                            ${tool.category}
+                        </span>
+                    </div>
+                    
+                    <p class="text-gray-600 text-sm mb-4 line-clamp-2">${tool.description}</p>
+                    
+                    <div class="grid grid-cols-2 gap-3 mb-4 text-sm">
+                        <div class="bg-gray-50 rounded-lg p-2">
+                            <div class="text-gray-500 text-xs">Monthly Traffic</div>
+                            <div class="font-semibold text-gray-800">${formatNumber(tool.estimatedMonthlyVisits)}</div>
+                        </div>
+                        <div class="bg-gray-50 rounded-lg p-2">
+                            <div class="text-gray-500 text-xs">Est. Users</div>
+                            <div class="font-semibold text-gray-800">${formatNumber(tool.estimatedUsers)}</div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center gap-3 text-sm text-gray-500 mb-4">
+                        <span><i class="fas fa-calendar text-purple-400"></i> ${tool.founded}</span>
+                        <span><i class="fas fa-tag text-purple-400"></i> ${tool.pricing}</span>
+                    </div>
+                    
+                    <!-- Social Stats -->
+                    <div class="flex items-center gap-4 pt-4 border-t border-gray-100">
+                        ${social.instagram ? `
+                            <div class="social-icon text-pink-500" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.instagram)}</span>
+                            </div>
+                        ` : ''}
+                        ${social.twitter ? `
+                            <div class="social-icon text-blue-400" title="Twitter/X">
+                                <i class="fab fa-twitter"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.twitter)}</span>
+                            </div>
+                        ` : ''}
+                        ${social.tiktok ? `
+                            <div class="social-icon text-black" title="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.tiktok)}</span>
+                            </div>
+                        ` : ''}
+                        ${social.facebook ? `
+                            <div class="social-icon text-blue-600" title="Facebook">
+                                <i class="fab fa-facebook"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.facebook)}</span>
+                            </div>
+                        ` : ''}
+                        ${social.youtube ? `
+                            <div class="social-icon text-red-500" title="YouTube">
+                                <i class="fab fa-youtube"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.youtube)}</span>
+                            </div>
+                        ` : ''}
+                        ${social.discord ? `
+                            <div class="social-icon text-indigo-500" title="Discord">
+                                <i class="fab fa-discord"></i>
+                                <span class="text-xs text-gray-600 ml-1">${formatNumber(social.discord)}</span>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            `;
+        }
+        
+        // Filter and sort tools
+        function filterAndSortTools() {
+            const search = document.getElementById('searchInput').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+            const sortBy = document.getElementById('sortBy').value;
+            
+            let filtered = toolsData.filter(tool => {
+                const matchesSearch = tool.name.toLowerCase().includes(search) || 
+                                     tool.description.toLowerCase().includes(search);
+                const matchesCategory = !category || tool.category === category;
+                return matchesSearch && matchesCategory;
+            });
+            
+            // Sort
+            filtered.sort((a, b) => {
+                switch(sortBy) {
+                    case 'traffic': return (b.estimatedMonthlyVisits || 0) - (a.estimatedMonthlyVisits || 0);
+                    case 'users': return (b.estimatedUsers || 0) - (a.estimatedUsers || 0);
+                    case 'instagram': return (b.social?.instagram || 0) - (a.social?.instagram || 0);
+                    case 'twitter': return (b.social?.twitter || 0) - (a.social?.twitter || 0);
+                    case 'tiktok': return (b.social?.tiktok || 0) - (a.social?.tiktok || 0);
+                    case 'name': return a.name.localeCompare(b.name);
+                    case 'founded': return (parseInt(b.founded) || 0) - (parseInt(a.founded) || 0);
+                    default: return a.ranking - b.ranking;
+                }
+            });
+            
+            const grid = document.getElementById('toolsGrid');
+            grid.innerHTML = filtered.map(renderToolCard).join('');
+        }
+        
+        // Load data
+        async function loadData() {
+            try {
+                const response = await fetch('data/tools.json');
+                const data = await response.json();
+                toolsData = data.tools;
+                
+                // Update stats
+                document.getElementById('totalTools').textContent = data.totalTools;
+                document.getElementById('statTools').textContent = data.totalTools;
+                document.getElementById('statCategories').textContent = data.categories.length;
+                document.getElementById('lastUpdated').textContent = new Date(data.lastUpdated).toLocaleString();
+                
+                // Calculate totals
+                const totalUsers = toolsData.reduce((sum, t) => sum + (t.estimatedUsers || 0), 0);
+                const totalTraffic = toolsData.reduce((sum, t) => sum + (t.estimatedMonthlyVisits || 0), 0);
+                document.getElementById('statTotalUsers').textContent = formatNumber(totalUsers);
+                document.getElementById('statTraffic').textContent = formatNumber(totalTraffic);
+                
+                // Hide loading, show grid
+                document.getElementById('loadingState').style.display = 'none';
+                filterAndSortTools();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loadingState').innerHTML = `
+                    <p class="text-red-500">Error loading data. Please refresh.</p>
+                `;
+            }
+        }
+        
+        // Event listeners
+        document.getElementById('searchInput').addEventListener('input', filterAndSortTools);
+        document.getElementById('categoryFilter').addEventListener('change', filterAndSortTools);
+        document.getElementById('sortBy').addEventListener('change', filterAndSortTools);
+        
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>
