@@ -15,6 +15,10 @@
         .page-btn:hover:not(:disabled) { transform: scale(1.05); }
         .page-btn:disabled { opacity: 0.5; cursor: not-allowed; }
         .page-btn.active { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .chip { transition: all 0.2s; cursor: pointer; user-select: none; }
+        .chip:hover { transform: scale(1.05); }
+        .chip.active { ring: 2px; box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.5); }
+        .feature-badge { font-size: 10px; padding: 2px 6px; }
     </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
@@ -33,22 +37,26 @@
             </div>
             
             <!-- Stats -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4 mt-6">
                 <div class="bg-white/10 rounded-lg p-4">
                     <div class="text-2xl font-bold" id="statTools">1000</div>
                     <div class="text-purple-200 text-sm">Tools Tracked</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statCategories">5</div>
-                    <div class="text-purple-200 text-sm">Categories</div>
+                    <div class="text-2xl font-bold" id="statImageGen">0</div>
+                    <div class="text-purple-200 text-sm">🖼️ Image Gen</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statTotalUsers">-</div>
-                    <div class="text-purple-200 text-sm">Combined Users</div>
+                    <div class="text-2xl font-bold" id="statVideoGen">0</div>
+                    <div class="text-purple-200 text-sm">🎬 Video Gen</div>
                 </div>
                 <div class="bg-white/10 rounded-lg p-4">
-                    <div class="text-2xl font-bold" id="statTraffic">-</div>
-                    <div class="text-purple-200 text-sm">Monthly Visits</div>
+                    <div class="text-2xl font-bold" id="statCanvas">0</div>
+                    <div class="text-purple-200 text-sm">🎨 Canvas</div>
+                </div>
+                <div class="bg-white/10 rounded-lg p-4">
+                    <div class="text-2xl font-bold" id="statTimeline">0</div>
+                    <div class="text-purple-200 text-sm">🎞️ Timeline</div>
                 </div>
             </div>
         </div>
@@ -56,6 +64,37 @@
 
     <!-- Filters -->
     <div class="max-w-7xl mx-auto px-4 py-6">
+        <!-- Feature Chips -->
+        <div class="bg-white rounded-xl shadow-sm p-4 mb-4">
+            <div class="text-sm text-gray-500 mb-3 font-medium">Filter by Capabilities:</div>
+            <div class="flex flex-wrap gap-2" id="featureChips">
+                <button onclick="toggleFeature('imageGen')" id="chip-imageGen" 
+                    class="chip px-4 py-2 rounded-full border-2 border-pink-300 bg-pink-50 text-pink-700 font-medium">
+                    🖼️ Image Gen <span class="text-pink-400" id="count-imageGen">(0)</span>
+                </button>
+                <button onclick="toggleFeature('videoGen')" id="chip-videoGen"
+                    class="chip px-4 py-2 rounded-full border-2 border-blue-300 bg-blue-50 text-blue-700 font-medium">
+                    🎬 Video Gen <span class="text-blue-400" id="count-videoGen">(0)</span>
+                </button>
+                <button onclick="toggleFeature('imageEditor')" id="chip-imageEditor"
+                    class="chip px-4 py-2 rounded-full border-2 border-purple-300 bg-purple-50 text-purple-700 font-medium">
+                    ✏️ Image Editor <span class="text-purple-400" id="count-imageEditor">(0)</span>
+                </button>
+                <button onclick="toggleFeature('imageCanvas')" id="chip-imageCanvas"
+                    class="chip px-4 py-2 rounded-full border-2 border-green-300 bg-green-50 text-green-700 font-medium">
+                    🎨 Image Canvas <span class="text-green-400" id="count-imageCanvas">(0)</span>
+                </button>
+                <button onclick="toggleFeature('videoTimeline')" id="chip-videoTimeline"
+                    class="chip px-4 py-2 rounded-full border-2 border-orange-300 bg-orange-50 text-orange-700 font-medium">
+                    🎞️ Video Timeline <span class="text-orange-400" id="count-videoTimeline">(0)</span>
+                </button>
+                <button onclick="clearFeatures()" 
+                    class="chip px-4 py-2 rounded-full border-2 border-gray-300 bg-gray-50 text-gray-600 font-medium">
+                    ✕ Clear All
+                </button>
+            </div>
+        </div>
+
         <div class="bg-white rounded-xl shadow-sm p-4 mb-6">
             <div class="flex flex-wrap gap-4 items-center">
                 <!-- Search -->
@@ -141,6 +180,7 @@
         let filteredData = [];
         let currentPage = 1;
         let perPage = 50;
+        let activeFeatures = new Set();
         
         // Format numbers
         function formatNumber(num) {
@@ -164,6 +204,31 @@
             };
             return colors[category] || 'bg-gray-100 text-gray-700';
         }
+
+        // Toggle feature filter
+        function toggleFeature(feature) {
+            const chip = document.getElementById(`chip-${feature}`);
+            if (activeFeatures.has(feature)) {
+                activeFeatures.delete(feature);
+                chip.classList.remove('active', 'ring-2');
+                chip.style.boxShadow = '';
+            } else {
+                activeFeatures.add(feature);
+                chip.classList.add('active');
+                chip.style.boxShadow = '0 0 0 3px rgba(102, 126, 234, 0.4)';
+            }
+            filterAndSortTools();
+        }
+
+        // Clear all feature filters
+        function clearFeatures() {
+            activeFeatures.clear();
+            document.querySelectorAll('.chip').forEach(chip => {
+                chip.classList.remove('active');
+                chip.style.boxShadow = '';
+            });
+            filterAndSortTools();
+        }
         
         // Render tool card
         function renderToolCard(tool) {
@@ -175,6 +240,14 @@
             if (social.tiktok) socialLinks.push(`<div class="social-icon text-black" title="TikTok"><i class="fab fa-tiktok"></i> <span class="text-xs text-gray-600">${formatNumber(social.tiktok)}</span></div>`);
             if (social.youtube) socialLinks.push(`<div class="social-icon text-red-500" title="YouTube"><i class="fab fa-youtube"></i> <span class="text-xs text-gray-600">${formatNumber(social.youtube)}</span></div>`);
             if (social.discord) socialLinks.push(`<div class="social-icon text-indigo-500" title="Discord"><i class="fab fa-discord"></i> <span class="text-xs text-gray-600">${formatNumber(social.discord)}</span></div>`);
+
+            // Feature badges
+            const featureBadges = [];
+            if (tool.imageGen) featureBadges.push('<span class="feature-badge bg-pink-100 text-pink-600 rounded-full">🖼️ ImgGen</span>');
+            if (tool.videoGen) featureBadges.push('<span class="feature-badge bg-blue-100 text-blue-600 rounded-full">🎬 VidGen</span>');
+            if (tool.imageEditor) featureBadges.push('<span class="feature-badge bg-purple-100 text-purple-600 rounded-full">✏️ Editor</span>');
+            if (tool.imageCanvas) featureBadges.push('<span class="feature-badge bg-green-100 text-green-600 rounded-full">🎨 Canvas</span>');
+            if (tool.videoTimeline) featureBadges.push('<span class="feature-badge bg-orange-100 text-orange-600 rounded-full">🎞️ Timeline</span>');
             
             return `
                 <div class="bg-white rounded-xl shadow-sm p-6 card-hover transition-all duration-200">
@@ -194,6 +267,13 @@
                             ${tool.category}
                         </span>
                     </div>
+
+                    <!-- Feature Badges -->
+                    ${featureBadges.length > 0 ? `
+                        <div class="flex flex-wrap gap-1 mb-3">
+                            ${featureBadges.join('')}
+                        </div>
+                    ` : ''}
                     
                     <p class="text-gray-600 text-sm mb-3 line-clamp-2">${tool.description || 'No description available'}</p>
                     
@@ -225,11 +305,17 @@
         // Render pagination
         function renderPagination() {
             const totalPages = Math.ceil(filteredData.length / perPage);
-            const start = (currentPage - 1) * perPage + 1;
+            const start = filteredData.length > 0 ? (currentPage - 1) * perPage + 1 : 0;
             const end = Math.min(currentPage * perPage, filteredData.length);
             
             document.getElementById('resultsInfo').textContent = 
                 `Showing ${start}-${end} of ${filteredData.length} tools`;
+            
+            if (totalPages <= 1) {
+                document.getElementById('paginationTop').innerHTML = '';
+                document.getElementById('paginationBottom').innerHTML = '';
+                return;
+            }
             
             let paginationHTML = '';
             
@@ -299,7 +385,11 @@
             const pageTools = filteredData.slice(start, end);
             
             const grid = document.getElementById('toolsGrid');
-            grid.innerHTML = pageTools.map(renderToolCard).join('');
+            if (pageTools.length === 0) {
+                grid.innerHTML = '<div class="col-span-3 text-center py-12 text-gray-500">No tools match your filters</div>';
+            } else {
+                grid.innerHTML = pageTools.map(renderToolCard).join('');
+            }
             
             renderPagination();
         }
@@ -321,7 +411,19 @@
                 const matchesFounded = !founded || 
                     (founded === 'older' && toolYear <= 2020) ||
                     (founded !== 'older' && tool.founded === founded);
-                return matchesSearch && matchesCategory && matchesFounded;
+                
+                // Feature filters (AND logic - must have ALL selected features)
+                let matchesFeatures = true;
+                if (activeFeatures.size > 0) {
+                    for (const feature of activeFeatures) {
+                        if (!tool[feature]) {
+                            matchesFeatures = false;
+                            break;
+                        }
+                    }
+                }
+                
+                return matchesSearch && matchesCategory && matchesFounded && matchesFeatures;
             });
             
             // Sort
@@ -351,14 +453,26 @@
                 // Update stats
                 document.getElementById('totalTools').textContent = toolsData.length;
                 document.getElementById('statTools').textContent = toolsData.length;
-                document.getElementById('statCategories').textContent = (data.categories || []).length;
                 document.getElementById('lastUpdated').textContent = data.lastUpdated ? new Date(data.lastUpdated).toLocaleString() : 'N/A';
                 
-                // Calculate totals
-                const totalUsers = toolsData.reduce((sum, t) => sum + (t.estimatedUsers || 0), 0);
-                const totalTraffic = toolsData.reduce((sum, t) => sum + (t.estimatedMonthlyVisits || 0), 0);
-                document.getElementById('statTotalUsers').textContent = formatNumber(totalUsers);
-                document.getElementById('statTraffic').textContent = formatNumber(totalTraffic);
+                // Count features
+                const imageGenCount = toolsData.filter(t => t.imageGen).length;
+                const videoGenCount = toolsData.filter(t => t.videoGen).length;
+                const imageEditorCount = toolsData.filter(t => t.imageEditor).length;
+                const imageCanvasCount = toolsData.filter(t => t.imageCanvas).length;
+                const videoTimelineCount = toolsData.filter(t => t.videoTimeline).length;
+                
+                document.getElementById('statImageGen').textContent = imageGenCount;
+                document.getElementById('statVideoGen').textContent = videoGenCount;
+                document.getElementById('statCanvas').textContent = imageCanvasCount;
+                document.getElementById('statTimeline').textContent = videoTimelineCount;
+                
+                // Update chip counts
+                document.getElementById('count-imageGen').textContent = `(${imageGenCount})`;
+                document.getElementById('count-videoGen').textContent = `(${videoGenCount})`;
+                document.getElementById('count-imageEditor').textContent = `(${imageEditorCount})`;
+                document.getElementById('count-imageCanvas').textContent = `(${imageCanvasCount})`;
+                document.getElementById('count-videoTimeline').textContent = `(${videoTimelineCount})`;
                 
                 // Populate category filter
                 const categories = [...new Set(toolsData.map(t => t.category).filter(Boolean))].sort();
