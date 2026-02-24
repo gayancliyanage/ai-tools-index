@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T23:15:26.054289",
+  "lastUpdated": "2026-02-24T23:30:11+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 151-200 (cycle 4)",
-    "nextBatch": "ranks 201-250 (cycle 4)",
-    "lastResearched": "2026-02-24T23:15:26.054289",
+    "lastBatch": "ranks 201-250 (cycle 4)",
+    "nextBatch": "ranks 251-300 (cycle 4)",
+    "lastResearched": "2026-02-24T23:30:11+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -31,10 +31,11 @@
       "1-50 (cycle 4)",
       "51-100 (cycle 4)",
       "101-150 (cycle 4)",
-      "151-200 (cycle 4)"
+      "151-200 (cycle 4)",
+      "201-250 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 4. Verified IG for 50 tools (ranks 151-200). Key findings: Luma AI 438K, Pixlr 315K, Kittl 314K, Spline 310K, Afterlight 309K, Luminar Neo 157K, Akool 92K, Hedra 73K, Voicemod 55K, Viggle 42K, VistaCreate 38K, Biteable 29K, Vyond 26K."
+    "note": "Cycle 4 batch 5. Verified IG for 22 tools (ranks 201-250). Key findings: Polycam 188K, ImagineArt 151K, PixVerse 87K, Meshy 82K, Magnific AI 58K, NightCafe 49K, Biteable 29K, Predis.ai 19K, Animoto 16K, ON1 15K, Clipdrop 9.3K, Virbo 8.7K, Wave.video 7.2K, Getimg.ai 4.6K."
   },
   "tools": [
     {
@@ -6290,7 +6291,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Developer-focused AI API platform. Free text-to-image on website. Multiple ML models available.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 202,
@@ -6320,7 +6321,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "900+ AI voices. Real-time streaming TTS.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 203,
@@ -6349,7 +6350,7 @@
       "videoTimeline": false,
       "note": "Google Workspace Marketplace addon. Quick classroom and business presentations.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T23:30:11+08:00",
       "ranking": 203
     },
     {
@@ -6381,7 +6382,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free AI image generator with no login required. Built on Stable Diffusion with proprietary enhancements.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 205,
@@ -6411,7 +6412,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Best-in-class vectorization. PNG/JPG to SVG. API available for developers.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 206,
@@ -6437,7 +6438,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 207,
@@ -6465,7 +6466,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Pixelbin.io ecosystem. Free for personal use on website. Commercial use requires Pixelbin subscription.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 208,
@@ -6495,7 +6496,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top 10 most downloaded Civitai model. Excellent for realistic portraits. V6.0 current.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 209,
@@ -6525,7 +6526,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top anime model on Civitai. Various style variants available. V5 series.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 210,
@@ -6555,7 +6556,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Linaqruf. Top anime SDXL model. V3.1 current. Danbooru tag compatible.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 211,
@@ -6586,7 +6587,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Announced Oct 2024. 30B parameter model. Creates video with sound. Debuts on Instagram 2025.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 212,
@@ -6614,7 +6615,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI-powered WordPress platform for agencies and businesses. Integrates hosting with site building.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 213,
@@ -6633,7 +6634,10 @@
       ],
       "social": {
         "twitter": 20000,
-        "instagram": 30000
+        "instagram": {
+          "followers": 188000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 2000000,
@@ -6645,7 +6649,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$18M funding (2024). Backed by Adobe Ventures, YouTube co-founder.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 214,
@@ -6671,7 +6675,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 215,
@@ -6691,7 +6695,11 @@
       "social": {
         "facebook": 500000,
         "youtube": 100000,
-        "twitter": 50000
+        "twitter": 50000,
+        "instagram": {
+          "followers": 16000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1550000,
       "estimatedUsers": 1500000,
@@ -6703,7 +6711,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$30M revenue. 150K sign-ups/month. 7% conversion rate. ~10.5K new paying customers monthly at $250/yr avg.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 216,
@@ -6721,7 +6729,11 @@
         "Open source"
       ],
       "social": {
-        "twitter": 50000
+        "twitter": 50000,
+        "instagram": {
+          "followers": 877,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 500000,
@@ -6733,7 +6745,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$28.4M Series A led by NEA. Investors: NEA, The House Fund, Gold House Ventures, WndrCo, Eastlink Capital, Essence VC. Mochi 1 is open source.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 217,
@@ -6760,7 +6772,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Vimeo in 2019 for $200M. AI video pioneer.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 218,
@@ -6777,7 +6789,12 @@
         "Training",
         "API"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 4630,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 400000,
       "ranking": 218,
@@ -6787,7 +6804,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 219,
@@ -6804,7 +6821,11 @@
         "Community"
       ],
       "social": {
-        "discord": 150000
+        "discord": 150000,
+        "instagram": {
+          "followers": 49000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 3000000,
@@ -6816,7 +6837,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "20K paid subscribers. 124M+ votes in 2025 challenges.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 220,
@@ -6833,7 +6854,11 @@
         "Creative reinterpretation"
       ],
       "social": {
-        "twitter": 80000
+        "twitter": 80000,
+        "instagram": {
+          "followers": 58000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 200000,
@@ -6844,7 +6869,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 221,
@@ -6872,7 +6897,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "6M+ users. FXhome discontinued Jan 15, 2025. Acquired by Artlist.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 222,
@@ -6891,7 +6916,11 @@
       ],
       "social": {
         "linkedin": 1251,
-        "twitter": 5000
+        "twitter": 5000,
+        "instagram": {
+          "followers": 7225,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 500000,
@@ -6903,7 +6932,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Founded by Dmitry Skavish & Kate Skavish. Women-founded company.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 223,
@@ -6933,7 +6962,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on SD 2.1. Smaller and faster than SDXL Turbo.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 224,
@@ -6952,7 +6981,11 @@
       ],
       "social": {
         "twitter": 50000,
-        "tiktok": 30000
+        "tiktok": 30000,
+        "instagram": {
+          "followers": 9271,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1038900,
       "estimatedUsers": 2000000,
@@ -6964,7 +6997,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "~1M monthly visits. Developed by Stability AI. SDXL paywalled since Oct 2023. Upscaling >2x requires Pro.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 225,
@@ -6990,7 +7023,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 226,
@@ -7020,7 +7053,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By XpucT. Balances photorealism and artistic. V5 current. Top Civitai model.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 227,
@@ -7050,7 +7083,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Meina. Soft anime aesthetic. V11 current. Popular for character art.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 228,
@@ -7080,7 +7113,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By SG_161222. V5.0 current. Focuses on natural, realistic output.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 229,
@@ -7111,7 +7144,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in AI art generation. Known for the original Deep Dream neural network visualization effect.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 230,
@@ -7140,7 +7173,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 200000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T23:30:11+08:00",
       "notes": "AI character consistency tool; bounce rate 36%"
     },
     {
@@ -7160,7 +7193,11 @@
       ],
       "social": {
         "discord": 40000,
-        "twitter": 20000
+        "twitter": 20000,
+        "instagram": {
+          "followers": 87000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
@@ -7172,7 +7209,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular for viral AI effect videos. PixVerse 4.5 model. Credit-based system.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 232,
@@ -7191,7 +7228,11 @@
       ],
       "social": {
         "discord": 33080,
-        "twitter": 15000
+        "twitter": 15000,
+        "instagram": {
+          "followers": 82000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
@@ -7203,7 +7244,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI 3D model generator. Active Discord community. Weekly challenges. 3D printing and game asset focus.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 233,
@@ -7222,7 +7263,11 @@
       ],
       "social": {
         "twitter": 15000,
-        "linkedin": 20000
+        "linkedin": 20000,
+        "instagram": {
+          "followers": 126,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
@@ -7234,7 +7279,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Built on Replicate. 80+ headshots in 2 hours. From $19/person. Full commercial rights.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 234,
@@ -7250,7 +7295,12 @@
         "Voice clone",
         "Multi-language"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 8682,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
       "ranking": 234,
@@ -7261,7 +7311,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 1500000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T23:30:11+08:00",
       "notes": "Wondershare product; AI avatar video generator"
     },
     {
@@ -7279,7 +7329,12 @@
         "Titling",
         "Audio mixing"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 630,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 2000000,
       "ranking": 235,
@@ -7290,7 +7345,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Part of KDE project. Linux-focused but cross-platform.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 236,
@@ -7316,7 +7371,7 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 237,
@@ -7346,7 +7401,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "47.6K GitHub stars. 7.8K forks. By lllyasviel (ControlNet creator). Midjourney-like simplicity with SD quality.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 238,
@@ -7373,7 +7428,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 14000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T23:30:11+08:00",
       "notes": "12-14K visits; declining; SD-based browser tool"
     },
     {
@@ -7393,7 +7448,11 @@
         "Sharpening"
       ],
       "social": {
-        "youtube": 5000
+        "youtube": 5000,
+        "instagram": {
+          "followers": 32,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 300000,
@@ -7405,7 +7464,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Deep learning-powered photo enhancement. Online and desktop versions available. Pay-as-you-go credit system.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 240,
@@ -7421,7 +7480,12 @@
         "Background removal",
         "Fashion AI"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 35,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 300000,
       "ranking": 240,
@@ -7432,7 +7496,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$8M Series A led by GL Ventures. Chinese entrepreneurs team.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 241,
@@ -7448,7 +7512,12 @@
         "Animation styles",
         "Voiceover"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 571,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 300000,
       "ranking": 241,
@@ -7458,7 +7527,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 242,
@@ -7477,7 +7546,11 @@
       ],
       "social": {
         "twitter": 50000,
-        "discord": 30000
+        "discord": 30000,
+        "instagram": {
+          "followers": 1404,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 500000,
@@ -7489,7 +7562,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First AI text-to-music web app. Subscription launched 2025.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 243,
@@ -7517,7 +7590,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Free with Unreal Engine. MetaHuman 5.7 (Nov 2025).",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 244,
@@ -7535,7 +7608,12 @@
         "Actor Builder",
         "Digital actors"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 1399,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 500000,
       "ranking": 244,
@@ -7546,7 +7624,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Create unique animated stories with original characters. Character Builder for consistency. Actor Builder for digital actors.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 245,
@@ -7565,7 +7643,10 @@
       ],
       "social": {
         "twitter": 10000,
-        "instagram": 10000
+        "instagram": {
+          "followers": 19000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 300000,
@@ -7576,7 +7657,7 @@
       "videoTimeline": false,
       "note": "AI social media marketing. Auto-generates posts, carousels, reels, video ads.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T23:30:11+08:00",
       "ranking": 245
     },
     {
@@ -7593,7 +7674,12 @@
         "RAW processing",
         "Presets"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 15000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 300000,
       "ranking": 246,
@@ -7603,7 +7689,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 247,
@@ -7633,7 +7719,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. 2-step to 8-step variants. Feb 2024 release. High quality with minimal steps.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 248,
@@ -7663,7 +7749,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By rqdwdw. Clean anime illustration style. V3.0 popular version.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 249,
@@ -7681,7 +7767,12 @@
         "Bulk processing",
         "API"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 283,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 300000,
       "ranking": 249,
@@ -7692,7 +7783,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Veteran in background removal space. Trained on millions of real-world images, not lab data.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 250,
@@ -7710,7 +7801,10 @@
         "High quality"
       ],
       "social": {
-        "instagram": 50000
+        "instagram": {
+          "followers": 151000,
+          "lastVerified": "2026-02-24T23:30:11+08:00"
+        }
       },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 250000,
@@ -7722,7 +7816,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free daily credits for concept visuals. Fast results. Popular for quick creative content.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:30:11+08:00"
     },
     {
       "id": 251,
