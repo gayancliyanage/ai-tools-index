@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T00:44:05.242136+08:00",
+  "lastUpdated": "2026-02-25T00:59:17.012124+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 451-500 (cycle 4)",
-    "nextBatch": "ranks 501-550 (cycle 4)",
-    "lastResearched": "2026-02-25T00:44:05.242136+08:00",
+    "lastBatch": "ranks 501-550 (cycle 4)",
+    "nextBatch": "ranks 551-600 (cycle 4)",
+    "lastResearched": "2026-02-25T00:59:17.012124+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -37,10 +37,11 @@
       "301-350 (cycle 4)",
       "351-400 (cycle 4)",
       "401-450 (cycle 4)",
-      "451-500 (cycle 4)"
+      "451-500 (cycle 4)",
+      "501-550 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 10. Verified IG for 6 tools (ranks 451-500). Key findings: Exactly AI 18K, Skywork AI 4.3K, Snappa 2.4K, Respeecher 1.2K, Bigjpg 1K, AI Image Enlarger 24."
+    "note": "Cycle 4 batch 11. Ranks 501-550 are mostly research/open-source projects (EDM, ADD, Mix-of-Show, Hallo, MuseTalk, etc.) with minimal social media presence. Picsart (parent of Texture API) has 4M IG. Samur AI has ~1.9K IG. Hallo has 8.6K GitHub stars. Most tools in this range have 0 social followers as expected for academic projects."
   },
   "tools": [
     {
@@ -15576,7 +15577,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI tool pricing and review platform. Hotpot AI pricing breakdowns.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 30000,
       "researchNotes": "AutoGPT Net - AutoGPT wrapper/directory."
     },
@@ -15610,7 +15611,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Video SDK platform with AI apps directory. Artguru and other tool listings.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 100000,
       "researchNotes": "VideoSDK AI Apps - video API/SDK platform."
     },
@@ -15644,7 +15645,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI product discovery platform. Artguru AI and other creative tools listed.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 200000,
       "researchNotes": "Moge AI - AI tools aggregator/directory."
     },
@@ -15675,7 +15676,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tero Karras (NVIDIA). Influential paper defining best practices for diffusion training.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 505,
@@ -15702,7 +15703,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Foundational technique by Stability AI enabling sub-second image generation.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 506,
@@ -15732,7 +15733,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 by TencentARC. Solves concept conflict in multi-LoRA composition.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 507,
@@ -15762,7 +15763,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By NVIDIA. No fine-tuning needed. Uses subject-driven self-attention for consistency.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 508,
@@ -15793,7 +15794,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. First multi-agent role-playing framework. Finding scaling laws of agents.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 509,
@@ -15820,7 +15821,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Peking University. Separate from HPC-AI Tech's Open-Sora.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 510,
@@ -15848,7 +15849,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Fudan Generative Vision Lab. Hallo2 (ICLR 2025) for long duration. Hallo3 (CVPR 2025) with Video DiT.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 511,
@@ -15876,7 +15877,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By TMElyralab (Tencent Music). Version 1.5 released Mar 2025. Real-time lip sync for digital humans.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 512,
@@ -15907,7 +15908,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "TencentARC. State-of-the-art instant 3D mesh generation. HuggingFace Space available.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 513,
@@ -15937,7 +15938,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Outperforms VALL-E and XTTS v2 on zero-shot TTS. Few-second voice cloning. Mar 2024.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 514,
@@ -15967,7 +15968,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba Cloud. Qwen2-VL and Qwen3-VL. Any-resolution image understanding.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 515,
@@ -15997,7 +15998,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "IDEA Research. ECCV 2024. 52.5 AP on COCO zero-shot. Best open-set detector.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 516,
@@ -16015,8 +16016,8 @@
         "Scalable"
       ],
       "social": {
+        "instagram": 4000000,
         "twitter": 0,
-        "instagram": 0,
         "tiktok": 0
       },
       "estimatedMonthlyVisits": 100000,
@@ -16029,9 +16030,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Picsart for Business. Cost-effective API for texture generation at scale.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 10000,
-      "researchNotes": "Picsart Texture API - part of Picsart platform."
+      "researchNotes": "Picsart Texture API - part of Picsart platform.",
+      "researchNote": "Picsart parent has 4M IG followers; Texture API is a sub-product"
     },
     {
       "id": 517,
@@ -16058,7 +16060,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on MUSE architecture. 10x faster than comparable diffusion models.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 518,
@@ -16088,7 +16090,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2024 Oral. By Tianwei Yin et al. 30x faster than Stable Diffusion with comparable quality.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 519,
@@ -16118,7 +16120,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stanford + Google DeepMind. Low-cost whole-body teleoperation. Viral household tasks demo Jan 2024.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 520,
@@ -16147,7 +16149,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Emote Portrait Alive by Alibaba Institute for Intelligent Computing. Feb 2024. Single image + audio = realistic video.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 521,
@@ -16174,7 +16176,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google DeepMind research. Genie 2 released Dec 2024. Creates interactive 3D worlds.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 522,
@@ -16204,7 +16206,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Generates textured meshes from single image in 2-3 minutes via cross-domain attention.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 523,
@@ -16234,7 +16236,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent ARC. Complex scene understanding for instruction-based editing.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 524,
@@ -16265,7 +16267,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba Cloud Qwen team. Aug 2024 release. Qwen2.5-VL further improved. Dynamic resolution.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 525,
@@ -16294,7 +16296,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular A1111 extension. Divide image into regions with different prompts. Supports attention couple.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 526,
@@ -16323,7 +16325,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance. Cross-model diffusion distillation. Works with various SD checkpoints. 4-8 steps.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 527,
@@ -16353,7 +16355,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent AI Lab. Improved motion quality and concept composition. 320x512 output.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 528,
@@ -16382,7 +16384,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Official Black Forest Labs training infrastructure for FLUX customization.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 529,
@@ -16412,7 +16414,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024. RAU-Net + MSW-MSA for 40-60% faster inference. Works with SDXL, SD1.5, SD2.1.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 530,
@@ -16442,7 +16444,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. UW-Madison. Adds spatial control to frozen SD. Outperforms supervised methods on COCO/LVIS.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 531,
@@ -16472,7 +16474,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Successor to TripoSR with faster generation and more game-ready assets. 27K triangles output.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 532,
@@ -16501,7 +16503,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of LyCORIS library. More parameter efficient than standard LoRA.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 533,
@@ -16533,7 +16535,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dance video tips and AI video generation resources. PixVerse reviews.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 5000,
       "researchNotes": "Litmedia AI - niche content creation tool."
     },
@@ -16553,8 +16555,8 @@
         "Reviews"
       ],
       "social": {
-        "twitter": 1000,
-        "instagram": 0,
+        "instagram": 1869,
+        "twitter": 0,
         "tiktok": 0
       },
       "estimatedMonthlyVisits": 80000,
@@ -16567,7 +16569,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Best AI apps of 2024 directory. Artguru and creative tools featured.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 30000,
       "researchNotes": "Samur AI - AI apps directory."
     },
@@ -16598,7 +16600,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tero Karras (NVIDIA). Introduces autoguidance and improved training schedules.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 536,
@@ -16627,7 +16629,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Decomposes weights into magnitude and direction. Outperforms standard LoRA.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 537,
@@ -16654,7 +16656,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Powers Stable Diffusion 3 Turbo. Enables fast high-res generation.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 538,
@@ -16684,7 +16686,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023. Fine-tunes singular values only. Enables style mixing and CoSINE editing.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 539,
@@ -16713,7 +16715,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2023 by Google. Learns separate tokens for each concept in scene.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 540,
@@ -16740,7 +16742,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Maps single image to word embedding instantly. No test-time training.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 541,
@@ -16771,7 +16773,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SUDO AI project. Generates 6 consistent multi-view images from single input. Oct 2023.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 542,
@@ -16802,7 +16804,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "HuggingFace project. Reproduces Stability AI/Edinburgh University research. Fully open.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 543,
@@ -16833,7 +16835,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenMMLab project. Supports TTS, TTA, SVC, zero-shot TTS. Beginner-friendly.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 544,
@@ -16863,7 +16865,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tsinghua + Zhipu AI. CVPR 2024. 18B VLM for GUI. CogAgent-9B released Dec 2024.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 545,
@@ -16893,7 +16895,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2024. First single model for image + multi-image + video. LLaVA-NeXT evolution.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 546,
@@ -16920,7 +16922,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAI research. Trains models that map noise to data in single step.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 547,
@@ -16951,7 +16953,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Applies RLHF-style preference optimization to improve image generation quality.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00",
       "monthlyTraffic": 20000,
       "researchNotes": "SDXL-DPO - HuggingFace model for text2image. Research.",
       "isOpenSource": true
@@ -16984,7 +16986,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reproduces AnimateAnyone paper (~80% performance). Uses diffusion models for consistent human animation.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 549,
@@ -17014,7 +17016,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "NeurIPS 2024. Generates high-quality textured meshes from single images in 30 seconds. AiuniAI project.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 550,
@@ -17044,7 +17046,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. ICLR 2024. Outperforms human experts on 83% of tasks. 52% avg improvement. Pen spinning demo.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T00:59:17.012124+08:00"
     },
     {
       "id": 551,
