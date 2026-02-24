@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T02:29:17.339686+08:00",
+  "lastUpdated": "2026-02-25T02:44:25.812542+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 801-850 (cycle 4)",
-    "nextBatch": "ranks 851-900 (cycle 4)",
-    "lastResearched": "2026-02-25T02:29:17.339686+08:00",
+    "lastBatch": "ranks 851-900 (cycle 4)",
+    "nextBatch": "ranks 901-950 (cycle 4)",
+    "lastResearched": "2026-02-25T02:44:25.812542+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -44,10 +44,11 @@
       "651-700 (cycle 4)",
       "701-750 (cycle 4)",
       "751-800 (cycle 4)",
-      "801-850 (cycle 4)"
+      "801-850 (cycle 4)",
+      "851-900 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 17. Ranks 801-850 mostly research/academic projects. Notable: HunyuanDiT parent ecosystem expanded massively (Hunyuan 2.0, 3D Engine, WorldPlay); Janus-Pro released by DeepSeek beating DALL-E 3; OmniGen published at CVPR 2025 and integrated into Diffusers; Meissonic accepted at ICLR 2025; EchoMimic evolved to V3; Cambrian-1 released spatial benchmarks."
+    "note": "Cycle 4 batch 18. Ranks 851-900 are deep research/academic projects. Notable: DynamiCrafter got ECCV 2024 Oral with new frame interpolation weights; Lumiere tech likely absorbed into Google Veo; LLaVA-Plus superseded by LLaVA-Interleave (ICLR 2025 Spotlight); E2-TTS confirmed by Microsoft as no productization plans; GeneFace++ released real-time 3D talking face; CLAY 3D published in ACM TOG/SIGGRAPH 2024."
   },
   "tools": [
     {
@@ -26168,7 +26169,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ACM TOG publication. Creates high-quality 3D assets from text, images, sketches. Produces PBR textures with diffuse, roughness, metallic modalities.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "CLAY 3D: Published in ACM TOG (SIGGRAPH 2024). OpenCLAY code released on GitHub. Research project, no commercial product."
     },
     {
       "id": 852,
@@ -26197,7 +26199,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Generates globally coherent large images with synchronized denoising.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "SyncDiffusion: KAIST research for panorama generation. Published NeurIPS 2023. No major 2025 updates."
     },
     {
       "id": 853,
@@ -26226,7 +26229,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Leverages GPT-3/4 for spatial layout planning before image generation.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "LayoutGPT: Research project for layout generation. No updates since 2023."
     },
     {
       "id": 854,
@@ -26255,7 +26259,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. UC Berkeley. Control attributes of individual instances separately.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "InstanceDiffusion: Research on instance-level control in diffusion. Published CVPR 2024."
     },
     {
       "id": 855,
@@ -26284,7 +26289,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Single-step generation through progressive distillation.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "SwiftBrush: VinAI one-step image generation. Research paper, no commercial release."
     },
     {
       "id": 856,
@@ -26313,7 +26319,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research Asia. Extends LCM to video domain for few-step generation.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "VideoLCM: Microsoft latent consistency for video. Research only."
     },
     {
       "id": 857,
@@ -26340,7 +26347,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research Asia. Generates videos up to several minutes in length.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "NUWA-XL: Microsoft long video generation research. Archived."
     },
     {
       "id": 858,
@@ -26370,7 +26378,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for high-quality 3D mesh generation. Focuses on detailed geometry reconstruction from 2D images.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "CraftsMan3D: 3D mesh generation from text/images. Active GitHub project."
     },
     {
       "id": 859,
@@ -26399,7 +26408,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Vchitect. ICLR 2024. Specializes in scene transitions and video continuation.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "SEINE: Vchitect short-to-long video diffusion. Published ICLR 2024. Team moved on to newer models."
     },
     {
       "id": 860,
@@ -26429,7 +26439,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab. SPHINX-X extended version. Joint mixing approach for MLLMs.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "SPHINX: Alpha-VLLM multimodal model. Research project."
     },
     {
       "id": 861,
@@ -26459,7 +26470,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 paper from UW-Madison AI Vision lab. Enables user-friendly visual prompting for LMMs.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "ViP-LLaVA: Visual in-context prompting for LLaVA. Research."
     },
     {
       "id": 862,
@@ -26489,7 +26501,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab. NeurIPS 2023. Hierarchical text-based agents for complex Minecraft tasks.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 863,
@@ -26519,7 +26531,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Nanjing University. ICLR 2024. Visual grounding for GUI agents.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "SeeClick: GUI grounding agent by NJU. Inspired follow-up work. Published 2024."
     },
     {
       "id": 864,
@@ -26549,7 +26562,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024 Oral. Animates still images into dynamic videos based on text prompts.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "DynamiCrafter: Tencent AI Lab image animation. ECCV 2024 Oral. Frame interpolation and looping video weights released. Still actively maintained."
     },
     {
       "id": 865,
@@ -26578,7 +26592,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "PolyAI research project for multi-speaker controllable TTS.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "Pheme: PolyAI conversational TTS. Compact model, 10x less data needed. Research release."
     },
     {
       "id": 866,
@@ -26607,7 +26622,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for general audio and music analysis/understanding.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26637,7 +26652,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. Audio language model for captioning, QA, retrieval.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 868,
@@ -26663,7 +26678,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26692,7 +26707,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Dec 2023. Uses LLM architecture instead of diffusion. Trained on 270M videos and 1B image-text pairs.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "VideoPoet: Google Research video generation. No public release, research paper only."
     },
     {
       "id": 870,
@@ -26718,7 +26734,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26747,7 +26763,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Efficient video generation with windowed attention mechanism.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 872,
@@ -26774,7 +26790,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Same as WALT (id 946). Google Research video generation model.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 873,
@@ -26802,7 +26818,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Jan 2024. Novel STUNet processes all frames at once for coherent motion.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "Lumiere: Google Research text-to-video. No public release, technology likely absorbed into Veo/other Google products."
     },
     {
       "id": 874,
@@ -26832,7 +26849,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stability AI. Jul 2024. Generates 8 novel-view videos from single input video. Built on SVD and SV3D.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "Stable Video 4D: Stability AI 4D video generation. Released on HuggingFace."
     },
     {
       "id": 875,
@@ -26862,7 +26880,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Same as Stable Video 4D (id 949). Stability AI's latent video diffusion model for 4D content.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 876,
@@ -26892,7 +26910,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta Research. 45,336 questions on 28,408 images. Tests reading and reasoning about text in images.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 877,
@@ -26922,7 +26940,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab/OpenCompass. ECCV 2024. CCBench for Chinese culture. Industry standard VLM eval.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "MMBench: OpenCompass multimodal benchmark. Published ECCV 2024. Widely used for VLM evaluation."
     },
     {
       "id": 878,
@@ -26951,7 +26970,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2022 Oral. Compose concepts using energy-based methods. Boolean operators for prompts.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 879,
@@ -26979,7 +26998,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First framework to animate static 3D models. Published at NeurIPS 2024. Open source on GitHub.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 880,
@@ -27008,7 +27027,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023. Control object positions using bounding boxes without training.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 881,
@@ -27037,7 +27056,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. Region-controlled generation using position tokens.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 882,
@@ -27066,7 +27085,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NUS ShowLab. Enables high-res generation by sharing attention across patches.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -27095,7 +27114,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Text-to-4D generation with hybrid score distillation. Published at CVPR 2024. Multi-scale hash table representation.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 884,
@@ -27122,7 +27141,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Alibaba DAMO Academy. When Talking Head Generation Meets Diffusion.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "DreamTalk: Alibaba DAMO talking face generation. Research project."
     },
     {
       "id": 885,
@@ -27150,7 +27170,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "GeneFace++ available. Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "GeneFace: GeneFace++ released with real-time 3D talking face. Active GitHub project."
     },
     {
       "id": 886,
@@ -27178,7 +27199,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First to cast 360-degree dynamic object reconstruction as 4D generation problem. Temporal and multiview interpolation.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 887,
@@ -27208,7 +27229,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. Exploring design space of vision encoders for VLMs.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 888,
@@ -27238,7 +27259,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MBZUAI. Pixel-level grounding LMM. Grounded dense captioning.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 889,
@@ -27268,7 +27289,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SenseTime. NeurIPS 2023. Unleashing multimodal LLM's referential dialogue magic.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 890,
@@ -27299,7 +27320,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024 paper. Extends LLaVA with tool-use capabilities. End-to-end training for multimodal agents.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "LLaVA-Plus: Tool-using multimodal agent. Superseded by LLaVA-NeXT series and LLaVA-Interleave (ICLR 2025 Spotlight)."
     },
     {
       "id": 891,
@@ -27329,7 +27351,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Computer control agent using VLMs. ScreenAgent dataset for training.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "ScreenAgent: GUI automation agent. Research project, inspired follow-up work (HiconAgent, HyperClick)."
     },
     {
       "id": 892,
@@ -27359,7 +27382,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "LLM-based planning for embodied agents. Describe-Explain-Plan-Select framework.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 893,
@@ -27387,7 +27410,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Unified approach for text-and-image-guided 4D scene generation. CVPR 2024 research.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 894,
@@ -27416,8 +27439,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for end-to-end TTS architectures.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "researchNote": "E2-TTS: Microsoft research TTS. No plans to productize per Microsoft."
     },
     {
       "id": 895,
@@ -27445,7 +27469,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First 4D Large Reconstruction Model producing animated objects from single-view video in one second. NeurIPS 2024.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "L4GM: NVIDIA Large 4D Gaussian Model. Research project."
     },
     {
       "id": 896,
@@ -27473,7 +27498,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First method to lift multi-object monocular videos to 4D. Published at NeurIPS 2024 by CMU researchers.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 897,
@@ -27503,7 +27528,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stanford NLP. CVPR 2019. Scene graph-based questions. Tests compositional visual reasoning.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 898,
@@ -27533,7 +27558,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UCLA/UW/Microsoft. ICLR 2024 Oral (top 1.2%). GPT-4V achieved 49.9% vs human 60%.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 899,
@@ -27561,7 +27586,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines Gaussian splatting with optical flow for 4D scene reconstruction. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00"
     },
     {
       "id": 900,
@@ -27591,7 +27616,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "PKU-YuanGroup. EMNLP 2024. Unified image/video understanding. LanguageBind encoder.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:44:25.812542+08:00",
+      "researchNote": "Video-LLaVA: PKU video understanding. Superseded by LLaVA-Mini and LLaVA-NeXT series."
     },
     {
       "id": 901,
