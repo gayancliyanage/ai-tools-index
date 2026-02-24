@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T20:29:25.452567",
+  "lastUpdated": "2026-02-24T20:44:46+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -19,15 +19,15 @@
   "researchProgress": {
     "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 50,
-    "lastBatch": "1-50",
-    "nextBatch": "51-100",
-    "lastResearched": "2026-02-24T20:29:25.452567",
+    "verifiedTools": 906,
+    "lastBatch": "51-100 (estimated tools sweep)",
+    "nextBatch": "continue estimated tools 195-500",
+    "lastResearched": "2026-02-24T20:44:46+08:00",
     "batchesCompleted": [
       "1-50"
     ],
     "cycleNumber": 2,
-    "note": "Cycle 2 started. Batch 1-50 verified with fresh Feb 2026 data."
+    "note": "Verified 15 estimated tools in sweep. 906 total verified."
   },
   "tools": [
     {
@@ -1720,16 +1720,21 @@
         "Collage",
         "Video"
       ],
-      "social": {},
+      "social": {
+        "instagram": 1100
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 50000000,
       "ranking": 56,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 500000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "Primarily mobile app; low web/social presence"
     },
     {
       "id": 57,
@@ -2606,12 +2611,15 @@
       "estimatedMonthlyVisits": 8000000,
       "estimatedUsers": 3000000,
       "ranking": 86,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 4000000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "Traffic declining ~14% MoM as of Nov 2025; global rank ~14K"
     },
     {
       "id": 87,
@@ -2633,12 +2641,15 @@
       "estimatedMonthlyVisits": 8000000,
       "estimatedUsers": 2500000,
       "ranking": 87,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 2720000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "Down from 12.7M Oct 2025 peak; 2.72M as of Jan 2026"
     },
     {
       "id": 88,
@@ -3074,12 +3085,15 @@
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 2000000,
       "ranking": 102,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "monthlyTraffic": 630000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "630K monthly visits Oct 2025; organic search 59% of traffic"
     },
     {
       "id": 103,
@@ -3123,17 +3137,21 @@
         "Multiple styles"
       ],
       "social": {
-        "instagram": 100000
+        "instagram": 100000,
+        "discord": 63700
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 5000000,
       "ranking": 104,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 3690000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "3.69M visits Dec 2025; growing 31% MoM; 63.7K Discord"
     },
     {
       "id": 105,
@@ -3271,16 +3289,21 @@
         "Multiple styles",
         "Mobile-first"
       ],
-      "social": {},
+      "social": {
+        "instagram": 122000
+      },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 10000000,
       "ranking": 109,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 500000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "122K Instagram followers; primarily mobile app"
     },
     {
       "id": 110,
@@ -4328,12 +4351,15 @@
       "estimatedMonthlyVisits": 3500000,
       "estimatedUsers": 1200000,
       "ranking": 145,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 810000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "810K visits Jan 2026; prompt discovery platform"
     },
     {
       "id": 146,
@@ -4915,16 +4941,21 @@
         "Editing tools",
         "Textures"
       ],
-      "social": {},
+      "social": {
+        "instagram": 309000
+      },
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 10000000,
       "ranking": 165,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 100000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "309K Instagram; primarily mobile photo editor"
     },
     {
       "id": 166,
@@ -5240,12 +5271,15 @@
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 800000,
       "ranking": 176,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 46000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "29-46K monthly visits; anime art niche"
     },
     {
       "id": 177,
@@ -6842,12 +6876,15 @@
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 350000,
       "ranking": 230,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 200000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "AI character consistency tool; bounce rate 36%"
     },
     {
       "id": 231,
@@ -6960,12 +6997,15 @@
       "estimatedMonthlyVisits": 1500000,
       "estimatedUsers": 300000,
       "ranking": 234,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 1500000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "Wondershare product; AI avatar video generator"
     },
     {
       "id": 235,
@@ -7068,12 +7108,15 @@
       "estimatedMonthlyVisits": 1200000,
       "estimatedUsers": 400000,
       "ranking": 238,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 14000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "12-14K visits; declining; SD-based browser tool"
     },
     {
       "id": 239,
@@ -7664,12 +7707,15 @@
       "estimatedMonthlyVisits": 850000,
       "estimatedUsers": 150000,
       "ranking": 259,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 536000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "536K visits; AI dubbing/localization; 60+ languages"
     },
     {
       "id": 260,
@@ -8044,12 +8090,15 @@
       "estimatedMonthlyVisits": 800000,
       "estimatedUsers": 200000,
       "ranking": 272,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 100000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "148K HuggingFace downloads/month; open source model"
     },
     {
       "id": 273,
@@ -10107,12 +10156,15 @@
       "estimatedMonthlyVisits": 450000,
       "estimatedUsers": 80000,
       "ranking": 342,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 17000,
+      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "notes": "17K visits Jan 2026; lip-sync AI; developer-centric"
     },
     {
       "id": 343,
