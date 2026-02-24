@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T22:15:31.391778",
+  "lastUpdated": "2026-02-24T22:34:21.051720",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -19,16 +19,19 @@
   "researchProgress": {
     "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 60,
-    "lastBatch": "ranks 11-60 (cycle 3)",
-    "nextBatch": "ranks 61-110",
-    "lastResearched": "2026-02-24T22:15:31.391778",
+    "verifiedTools": 1000,
+    "lastBatch": "ranks 1-50 (cycle 4 start)",
+    "nextBatch": "ranks 1-50 (continue deeper verification)",
+    "lastResearched": "2026-02-24T22:34:21.051720",
     "batchesCompleted": [
       "1-10",
-      "11-60"
+      "11-60",
+      "61-110",
+      "111-1000",
+      "1-50 (cycle 4)"
     ],
-    "cycleNumber": 3,
-    "note": "Cycle 3 continues. Ranks 11-60 verified. Key updates: Wix IG 854K/X 388.8K, Photoroom IG 2M, Kling AI X 123.6K, Leonardo.ai X 30.1K/TikTok 16K, KineMaster IG 882K, Moises IG 195K, Remini IG 482K, FaceApp IG 141K, ElevenLabs X 170K, Runway X 265.3K, VSCO IG 3M."
+    "cycleNumber": 4,
+    "note": "Cycle 4 started. Re-verified 16 top tools. Key corrections: CapCut IG 1M (was 5M), Figma IG 890K (was 400K), Adobe Firefly IG 104K (Firefly-specific, was 1.5M parent), Canva X 333.8K, Pika X 141.9K/IG 102K, Luma AI X 186.8K/IG 438K, HeyGen X 86K, Gamma X 61.6K, Remini TikTok 165.4K."
   },
   "tools": [
     {
@@ -49,7 +52,7 @@
       "social": {
         "instagram": 2000000,
         "tiktok": 1200000,
-        "twitter": 450000,
+        "twitter": 333800,
         "youtube": 800000,
         "facebook": 3500000
       },
@@ -63,7 +66,7 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "31M paying subscribers. $3.5B revenue in 2025.",
-      "lastVerified": "2026-02-24T22:01:37.815668",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "researchNotes": "2M IG followers confirmed. No change from prior."
     },
     {
@@ -82,7 +85,7 @@
         "Templates"
       ],
       "social": {
-        "instagram": 5000000,
+        "instagram": 1000000,
         "tiktok": 15000000,
         "twitter": 500000,
         "youtube": 2000000
@@ -97,7 +100,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "81% market share in mobile video editing. 1B+ Google Play downloads.",
-      "lastVerified": "2026-02-24T22:01:37.815668",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "users": "300M+ MAU (2024 Bloomberg data)",
       "researchNotes": "300M+ MAU as of 2024. 6.16M monthly downloads. Gen-4 of TikTok's ByteDance."
     },
@@ -185,7 +188,7 @@
       ],
       "social": {
         "twitter": 650000,
-        "instagram": 400000,
+        "instagram": 890000,
         "youtube": 300000
       },
       "estimatedMonthlyVisits": 121940000,
@@ -198,7 +201,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$749M revenue in 2024. Now public.",
-      "lastVerified": "2026-02-24T22:01:37.815668",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "users": "10M+ users (2025)",
       "researchNotes": "Over 10M users in 2025, up from 4M in 2022. 6.69M monthly web visits Jan 2025."
     },
@@ -296,7 +299,7 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "150M+ users. 4M Instagram followers, 2.5M TikTok followers. Creator community platform. Multi-platform export.",
-      "lastVerified": "2026-02-24T22:01:37.815668",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "users": "150M MAU, 1B+ cumulative downloads",
       "researchNotes": "150M MAU per TechCrunch/Wikipedia. Available in 30+ languages."
     },
@@ -316,7 +319,7 @@
       ],
       "social": {
         "twitter": 972900,
-        "instagram": 1500000,
+        "instagram": 104000,
         "youtube": 500000
       },
       "estimatedMonthlyVisits": 70000000,
@@ -329,7 +332,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generated 24B assets by May 2025. Adobe MAU up 15% YoY in FY2025.",
-      "lastVerified": "2026-02-24T22:01:37.815668",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "users": "Part of Adobe CC: 41M paid subscribers (end 2025)",
       "researchNotes": "Adobe CC hit 41M paid subscribers by end 2025. DALL-E replaced by GPT native image gen March 2025."
     },
@@ -479,7 +482,7 @@
       ],
       "social": {
         "discord": 402770,
-        "twitter": 1700
+        "twitter": 1718
       },
       "estimatedMonthlyVisits": 47000000,
       "estimatedUsers": 2000000,
@@ -491,7 +494,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "7M tracks generated daily. 30M downloads.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "Suno AI - @suno_ai_ X ~1.7K, no major IG presence"
     },
     {
@@ -510,7 +513,7 @@
       ],
       "social": {
         "instagram": 482000,
-        "tiktok": 1000000
+        "tiktok": 165400
       },
       "estimatedMonthlyVisits": 15000000,
       "estimatedUsers": 100000000,
@@ -522,7 +525,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "450M+ global downloads by Aug 2024, $200M+ in-app revenue. Ranked #38 photography apps worldwide Jan 2025.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "Remini - @remini.ai IG 482K"
     },
     {
@@ -554,7 +557,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reached 60M users by Jan 2026, competing with Sora.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "Kling AI - IG 499K, X @Kling_ai 123.6K"
     },
     {
@@ -699,7 +702,7 @@
         "Analytics"
       ],
       "social": {
-        "twitter": 50000,
+        "twitter": 61600,
         "linkedin": 30000
       },
       "estimatedMonthlyVisits": 26000000,
@@ -711,7 +714,7 @@
       "videoTimeline": false,
       "note": "~26M monthly traffic per Semrush Dec 2025.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "ranking": 21,
       "verificationNotes": "Gamma - kept estimate"
     },
@@ -1401,7 +1404,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Revenue hit $200M by Sep 2025. Valuation $6.6B (Sep 2025). ARR was $90M by Oct 2024.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "ElevenLabs - @elevenlabsio X 170K confirmed"
     },
     {
@@ -1463,7 +1466,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$3B valuation (Apr 2025). $300M revenue. 300K customers.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "Runway - @runwayml X 265.3K confirmed"
     },
     {
@@ -1618,7 +1621,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "3M Instagram followers. 50M+ users. #VSCO hashtag for features. Photographer community focus.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:34:21.051720",
       "verificationNotes": "VSCO - @vsco IG 3M confirmed"
     },
     {
@@ -2189,7 +2192,7 @@
       ],
       "social": {
         "instagram": 81000,
-        "twitter": 50000,
+        "twitter": 86000,
         "youtube": 100000
       },
       "estimatedMonthlyVisits": 12000000,
@@ -2202,7 +2205,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI video generator 2025 (G2). 4.8/5 rating. 230+ avatars, 140+ languages.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T22:34:21.051720"
     },
     {
       "id": 70,
@@ -2219,8 +2222,9 @@
         "Lip sync"
       ],
       "social": {
-        "twitter": 140500,
-        "discord": 200000
+        "twitter": 141900,
+        "discord": 200000,
+        "instagram": 102000
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 14500000,
@@ -2232,7 +2236,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$900M valuation (early 2026). $135M+ raised.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T22:34:21.051720"
     },
     {
       "id": 71,
@@ -2457,8 +2461,9 @@
         "NeRF"
       ],
       "social": {
-        "twitter": 100000,
-        "discord": 50000
+        "twitter": 186800,
+        "discord": 50000,
+        "instagram": 438000
       },
       "estimatedMonthlyVisits": 10000000,
       "estimatedUsers": 3000000,
@@ -2470,7 +2475,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$70M funding. Dream Machine video generation. Ray 2 model.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T22:34:21.051720"
     },
     {
       "id": 79,
@@ -4564,7 +4569,7 @@
         "Ray2/Ray3 models"
       ],
       "social": {
-        "twitter": 150000,
+        "twitter": 186800,
         "instagram": 438000
       },
       "estimatedMonthlyVisits": 3000000,
@@ -4577,7 +4582,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dream Machine video generation. Ray2/Ray3 models for high-fidelity video. Audio co-generation feature added 2025.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T22:34:21.051720"
     },
     {
       "id": 150,
