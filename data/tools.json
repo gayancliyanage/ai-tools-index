@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T03:45:38.699448+08:00",
+  "lastUpdated": "2026-02-25T04:00:56.141545+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 51-100 (cycle 5)",
-    "nextBatch": "ranks 101-150 (cycle 5)",
-    "lastResearched": "2026-02-25T03:45:38.699448+08:00",
+    "lastBatch": "ranks 101-150 (cycle 5)",
+    "nextBatch": "ranks 151-200 (cycle 5)",
+    "lastResearched": "2026-02-25T04:00:56.141545+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -49,10 +49,11 @@
       "901-950 (cycle 4)",
       "951-1000 (cycle 4)",
       "1-50 (cycle 5)",
-      "51-100 (cycle 5)"
+      "51-100 (cycle 5)",
+      "101-150 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 2. Ranks 51-100 social media verified. Notable: Procreate leads with 3M IG followers; Captions App (505K), Luma AI (438K), Pixlr (315K) strong. Viggle AI notable on TikTok (165K). Many tools have modest IG presence (<10K). Rate limiting constrained Twitter/TikTok data collection."
+    "note": "Cycle 5 batch 3. Ranks 101-150 social media verified. Notable: MiniMax Hailuo strong at 329K IG; Facetune 297K; Framer 269K; Affinity 234K; Topaz Labs 126K; Fotor 124K; Creative Fabrica 118K; PicCollage 92K; LANDR 90K; OpenArt 71K; Durable AI 63K. Many niche tools have minimal IG presence (<5K). Rate limiting constrained some searches."
   },
   "tools": [
     {
@@ -3371,7 +3372,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@openart_ai",
+          "followers": 71000
+        }
+      }
     },
     {
       "id": 102,
@@ -3401,7 +3408,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "monthlyTraffic": 630000,
-      "lastVerified": "2026-02-24T23:00:32.902053",
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
       "notes": "630K monthly visits Oct 2025; organic search 59% of traffic"
     },
     {
@@ -3431,7 +3438,14 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@lexica.art",
+          "followers": 263,
+          "note": "Unofficial fan account; no major official IG presence"
+        }
+      }
     },
     {
       "id": 104,
@@ -3463,7 +3477,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 3690000,
-      "lastVerified": "2026-02-24T23:00:32.902053",
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
       "notes": "3.69M visits Dec 2025; growing 31% MoM; 63.7K Discord"
     },
     {
@@ -3496,7 +3510,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "110M+ videos created. 120+ languages supported.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 106,
@@ -3528,8 +3542,14 @@
       "videoTimeline": false,
       "note": "Acquired by Canva (Jan 2024). Made free Oct 2025. Perpetual license commitment.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 106
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 106,
+      "socialMedia": {
+        "instagram": {
+          "handle": "@affinity",
+          "followers": 234000
+        }
+      }
     },
     {
       "id": 107,
@@ -3563,7 +3583,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$11.5M funding. 10M+ users. Founded by IIT Kharagpur alumni.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@murfaistudio",
+          "followers": 1338
+        }
+      }
     },
     {
       "id": 108,
@@ -3596,7 +3622,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Wemagine.AI. Viral Pixar/cartoon filter app. V4.0 with Cartoon Multiverse. 15M+ users.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 109,
@@ -3627,7 +3653,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 500000,
-      "lastVerified": "2026-02-24T23:00:32.902053",
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
       "notes": "122K Instagram followers; primarily mobile app"
     },
     {
@@ -3660,7 +3686,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 111,
@@ -3693,7 +3719,7 @@
       "videoTimeline": true,
       "note": "All-in-one content platform. Design + video + AI writing + social media.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
       "ranking": 111
     },
     {
@@ -3724,8 +3750,14 @@
       "videoTimeline": false,
       "note": "89K+ GitHub stars. 75th most popular repo on GitHub. VS Code extension.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 112
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 112,
+      "socialMedia": {
+        "twitter": {
+          "handle": "@excalidraw",
+          "followers": 35100
+        }
+      }
     },
     {
       "id": 113,
@@ -3756,7 +3788,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free Magic Eraser widely used. No signup required. Simple browser-based tools.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 114,
@@ -3786,8 +3818,14 @@
       "videoTimeline": false,
       "note": "Suite of AI image tools. DCNN-powered. Professional photo enhancement.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 114
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 114,
+      "socialMedia": {
+        "instagram": {
+          "handle": "@vanceai_",
+          "followers": 32
+        }
+      }
     },
     {
       "id": 115,
@@ -3817,7 +3855,13 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@befunkyapp",
+          "followers": 12000
+        }
+      }
     },
     {
       "id": 116,
@@ -3847,7 +3891,13 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@cutout_pro",
+          "followers": 2085
+        }
+      }
     },
     {
       "id": 117,
@@ -3878,7 +3928,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "HunyuanVideo 1.5 open source. 8.3B params. Runs on consumer GPUs.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 118,
@@ -3908,7 +3958,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "TIME Best Inventions 2025. Enhance Speech v2 (Nov 2024).",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@adobepodcast",
+          "followers": 79
+        }
+      }
     },
     {
       "id": 119,
@@ -3938,7 +3994,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Leading AI video generator. PixVerse 4.5 supports 720p generation. Multi-transition feature available.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 120,
@@ -3970,7 +4026,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$10M ARR (Aug 2025). MiniMax parent company $2.5B valuation. Audio functions added Jan 2025.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@hailuoai_official",
+          "followers": 329000
+        }
+      }
     },
     {
       "id": 121,
@@ -4002,7 +4064,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "200M+ downloads. Apple's most downloaded paid app 2017. Lightricks $250M ARR (July 2025), $1B+ valuation. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@facetune",
+          "followers": 297000
+        }
+      }
     },
     {
       "id": 122,
@@ -4032,7 +4100,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Gartner company. Neural Frames, Musicful reviews. Trusted B2B software directory.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 123,
@@ -4065,7 +4133,14 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Part of Creative Fabrica ($68.5M total funding). 15M+ AI images generated. 380 employees. $14.4M revenue (2024). Founded 2016.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@creativefabrica",
+          "followers": 118000,
+          "note": "Parent brand Creative Fabrica; Spark-specific @creativefabricaspark has 4.4K"
+        }
+      }
     },
     {
       "id": 124,
@@ -4098,7 +4173,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Envato. AI-assisted template search. No-designer design market leader. 4K templates available.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 125,
@@ -4132,7 +4207,13 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Founded 2012, evolved into AI platform. GoArt for style transfer. 374+ ratings on review sites.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@fotor_app",
+          "followers": 124000
+        }
+      }
     },
     {
       "id": 126,
@@ -4165,8 +4246,14 @@
       "videoTimeline": false,
       "note": "$13.5M revenue (Oct 2025). $16M total funding. 93-person team.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 126
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 126,
+      "socialMedia": {
+        "instagram": {
+          "handle": "@beautiful_ai",
+          "followers": 13000
+        }
+      }
     },
     {
       "id": 127,
@@ -4198,7 +4285,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Announced May 2024 at Google I/O. Veo 3 (May 2025) adds native audio generation. Available via VideoFX.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 128,
@@ -4229,7 +4316,17 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@madewithartbreeder",
+          "followers": 2004
+        },
+        "twitter": {
+          "handle": "@Artbreeder",
+          "followers": 11200
+        }
+      }
     },
     {
       "id": 129,
@@ -4262,7 +4359,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Powers BuzzFeed, Character.ai, Magnific, HeadshotPro. $60M+ raised. 1000+ public models.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 130,
@@ -4293,7 +4390,13 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$2B valuation. $100M Series D (Aug 2025) from Meritech and Atomico. $50M ARR (Aug 2025). 500K+ MAU. Targeting $100M ARR by 2026.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@framer",
+          "followers": 269000
+        }
+      }
     },
     {
       "id": 131,
@@ -4326,7 +4429,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Photo Lab team. 100M+ downloads. Viral Disney/Pixar filter trend starter.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@toonmeapp",
+          "followers": 6738
+        }
+      }
     },
     {
       "id": 132,
@@ -4360,7 +4469,17 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Netflix Dec 2025. $72M funding. a16z backed.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@readyplayer.me",
+          "followers": 6837
+        },
+        "twitter": {
+          "handle": "@readyplayerme",
+          "followers": 39300
+        }
+      }
     },
     {
       "id": 133,
@@ -4391,8 +4510,14 @@
       "videoTimeline": true,
       "note": "200M+ downloads. Cardinal Blue. PicCollage EDU for schools. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 133
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 133,
+      "socialMedia": {
+        "instagram": {
+          "handle": "@piccollage",
+          "followers": 92000
+        }
+      }
     },
     {
       "id": 134,
@@ -4422,7 +4547,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Mosaic S.r.l., acquired by Bending Spoons. Upload photos to create AI avatars in various artistic styles.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 135,
@@ -4456,7 +4581,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "6M+ musicians. $34.95M funding. Apple/Spotify preferred partner.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@landrmusic",
+          "followers": 90000
+        }
+      }
     },
     {
       "id": 136,
@@ -4486,7 +4617,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 137,
@@ -4518,8 +4649,14 @@
       "videoTimeline": false,
       "note": "KDE Foundation project. 100+ brush presets. Professional digital painting.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "ranking": 137
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "ranking": 137,
+      "socialMedia": {
+        "instagram": {
+          "handle": "@krita_foundation",
+          "followers": 14000
+        }
+      }
     },
     {
       "id": 138,
@@ -4553,7 +4690,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$5-6M funding. Helped 5M+ entrepreneurs. Formerly Logojoy. Brand Kit on Design Huddle platform.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 139,
@@ -4582,7 +4719,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Alibaba Tongyi AI suite. Cloud integration.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 140,
@@ -4612,7 +4749,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Adobe-owned since 2015. Free for all users. 2500+ animations.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 141,
@@ -4643,7 +4780,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By CyberLink. Features include AI Outfit Generator, AI Scenes, AI Room Designer. Zero learning curve.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@myedit.online",
+          "followers": 142
+        }
+      }
     },
     {
       "id": 142,
@@ -4672,7 +4815,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Lightricks Creative Kit ($250M ARR). Formerly Enlight Pixaloop.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 143,
@@ -4704,7 +4847,13 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$14M Series A from Spark Capital with Torch Capital, South Park Commons, Infinity Ventures participation. 10M+ users.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@durable.ai",
+          "followers": 63000
+        }
+      }
     },
     {
       "id": 144,
@@ -4735,7 +4884,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "60+ AI models including SD versions. Browser-based, no Discord needed. Rapid prototyping and concept art focus.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@magespace_",
+          "followers": 3013
+        }
+      }
     },
     {
       "id": 145,
@@ -4767,8 +4922,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 810000,
-      "lastVerified": "2026-02-24T23:00:32.902053",
-      "notes": "810K visits Jan 2026; prompt discovery platform"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "notes": "810K visits Jan 2026; prompt discovery platform",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@prompthero",
+          "followers": 4916
+        }
+      }
     },
     {
       "id": 146,
@@ -4803,7 +4964,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "1M+ photographers & videographers. 1B+ images processed. 1500% revenue growth in 6 years. Trusted by Apple, Netflix, NASA. Subscription-only since Sep 2025.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@topazlabs",
+          "followers": 126000
+        }
+      }
     },
     {
       "id": 147,
@@ -4836,7 +5003,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "800+ AI voices in various languages, accents, emotional tones. Voice Clone feature for paid users.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 148,
@@ -4869,7 +5036,13 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$42M total funding. $30M Series B (May 2025) led by Accel. 4M+ registered users. Investors: Accel, Madrona Ventures, Khosla Ventures, Nat Friedman, Elad Gil.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@recraftai",
+          "followers": 26000
+        }
+      }
     },
     {
       "id": 149,
@@ -4902,7 +5075,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dream Machine video generation. Ray2/Ray3 models for high-fidelity video. Audio co-generation feature added 2025.",
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00"
     },
     {
       "id": 150,
@@ -4932,7 +5105,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T23:00:32.902053"
+      "lastVerified": "2026-02-25T04:00:56.141545+08:00",
+      "socialMedia": {
+        "instagram": {
+          "handle": "@get_starryai",
+          "followers": 16000
+        }
+      }
     },
     {
       "id": 151,
