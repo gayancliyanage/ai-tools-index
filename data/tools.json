@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T07:16:23.991647+08:00",
+  "lastUpdated": "2026-02-25T07:30:03.847617+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 751-800 (cycle 5)",
-    "nextBatch": "ranks 801-850 (cycle 5)",
-    "lastResearched": "2026-02-25T07:16:23.991647+08:00",
+    "lastBatch": "ranks 801-850 (cycle 5)",
+    "nextBatch": "ranks 851-900 (cycle 5)",
+    "lastResearched": "2026-02-25T07:30:03.847617+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -63,10 +63,11 @@
       "601-650 (cycle 5)",
       "651-700 (cycle 5)",
       "701-750 (cycle 5)",
-      "751-800 (cycle 5)"
+      "751-800 (cycle 5)",
+      "801-850 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 16. Ranks 751-800 verified. Mostly research projects and niche 3D/multimodal models. Key findings: Apple Ferret 8.7K stars (most popular), InternLM-XComposer 2.9K stars (ACL 2025 Reward model), MARS5-TTS 2.8K stars, Cradle 2.5K stars (BAAI agents), Lumina-T2X 2.3K stars, Chameleon 2.1K stars (Meta FAIR), Show-o 1.9K stars (ICLR+NeurIPS 2025, Show-o2 released Jun 2025), RPG-DiffusionMaster 1.8K stars (integrated DeepSeek-R1 Feb 2025), Emu3.5 released Oct 2025 as 'world learners' trained on 10T tokens, BLIP3-o released May 2025 as BLIP-Diffusion successor."
+    "note": "Cycle 5 batch 17. Ranks 801-850 verified. Mostly research projects in video editing, 3D generation, and diffusion techniques. Key findings: Janus (DeepSeek) 17.7K stars (biggest in batch, Janus-Pro released Jan 2025), OmniGen 4.3K stars (CVPR 2025, OmniGen2 released Jun 2025), HunyuanDiT 4.3K stars (Tencent multi-res DiT), EchoMimic 4.2K stars (AAAI 2025, V2 released), Text2Video-Zero 4.2K stars (Picsart), V-Express 2.4K stars (Tencent talking heads)."
   },
   "tools": [
     {
@@ -25569,13 +25570,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Lumina family. Enhanced architecture and training.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
           "note": "Lumina-Next: Evolved into Lumina-Image 2.0 (Jan 2025), ICLR 2025 Spotlight. Alpha-VLLM active development continues."
         }
-      ]
+      ],
+      "githubStars": 2252
     },
     {
       "id": 802,
@@ -25605,7 +25607,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. 1M+ captions for Objaverse objects, enabling text-3D training.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 803,
@@ -25636,13 +25638,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent Hunyuan. First Chinese-native high-quality DiT model. V1.1 and V1.2 available.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "Cap3D: Stable research project, no major 2025 updates."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "4.3K stars. Tencent's multi-resolution DiT. IPAdapter support, ComfyUI integration. Last code update Dec 2024.",
+      "githubStars": 4293
     },
     {
       "id": 804,
@@ -25672,13 +25670,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
           "note": "HunyuanDiT: Tencent released Hunyuan 2.0 (Dec 2025), HY-World 1.5/WorldPlay (Dec 2025), Hunyuan 3D Engine launched globally (Dec 2025). Major ecosystem expansion."
         }
-      ]
+      ],
+      "githubStars": 1897
     },
     {
       "id": 805,
@@ -25706,7 +25705,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses LLMs as problem solvers for instruction-driven 3D modeling with Blender.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -25741,7 +25740,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Fal.ai. Open-source flow-based alternative to proprietary models.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -25775,7 +25774,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Controllable 3D scene generation using layout guidance.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -25807,14 +25806,15 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "researchNotes": [
         {
           "date": "2026-02-25",
           "note": "SceneCraft: Research project, minimal 2025 activity."
         }
-      ]
+      ],
+      "githubStars": 340
     },
     {
       "id": 809,
@@ -25842,7 +25842,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Synthesizes 3D scenes using explicit objects + implicit backgrounds.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -25877,7 +25877,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023. Predecessor to PAG. Exploits attention maps for guidance without classifier.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 122
     },
     {
       "id": 811,
@@ -25906,7 +25907,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2023. Fixes catastrophic neglect where SD ignores some prompt tokens.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 763
     },
     {
       "id": 812,
@@ -25935,7 +25937,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent QQ Lab. Connects LLM to SD for better prompt comprehension. Works with SDXL.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1278
     },
     {
       "id": 813,
@@ -25961,7 +25964,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -25992,13 +25995,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "VectorSpaceLab. Sep 2024. Supports diverse tasks without additional modules. OmniGen-v1 on HuggingFace.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "MARS: Research project, stable."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "4.3K stars. Available in Diffusers (Feb 2025). OmniGen2 released Jun 2025. CVPR 2025 paper.",
+      "githubStars": 4313
     },
     {
       "id": 815,
@@ -26026,7 +26025,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Enables compositional control over generated 3D scenes.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -26060,7 +26059,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI tool reviews including Hotpot AI. Educational content for AI users.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26091,13 +26090,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DeepSeek AI. Oct 2024. Janus-Pro-7B available. Decouples visual encoding for better performance.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "Fahim AI: Niche creative tool, limited public data."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "17.7K stars. Janus-Pro released Jan 2025 (beats DALL-E 3). HuggingFace updated Nov 2025. DeepSeek's multimodal unified model.",
+      "githubStars": 17710
     },
     {
       "id": 818,
@@ -26127,7 +26122,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "TVCG 2024. Generates diverse 3D scenes from text using depth-guided NeRF.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -26163,7 +26158,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NYU. Vision-centric exploration of MLLMs. Multiple visual encoder combination.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1986,
+      "researchNotes": "2K stars. Multimodal LLM with vision-centric design."
     },
     {
       "id": 820,
@@ -26193,13 +26190,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CUHK. CVPR 2024. Segmentation via reasoning. Complex implicit query understanding.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "Cambrian-1: Released VSI-Bench spatial sensing benchmark (Nov 2025). Active vision-centric MLLM research continues."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "2.6K stars. Reasoning segmentation model from dvlab.",
+      "githubStars": 2589
     },
     {
       "id": 821,
@@ -26226,7 +26219,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel approach learning shortcuts through diffusion trajectory for faster sampling.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26254,7 +26247,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Unifying framework for OFT, BOFT, and related orthogonal methods.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26282,7 +26275,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Minimal parameter editing approach focusing on cross-attention key-value pairs.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26313,7 +26306,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "ICLR 2024. Enables consistent video editing using pre-trained text-to-image models.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1698
     },
     {
       "id": 825,
@@ -26340,7 +26334,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Show Lab (NUS). Marrying Pixel and Latent Diffusion Models for text-to-video.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1135
     },
     {
       "id": 826,
@@ -26367,7 +26362,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Alibaba DAMO Academy. High-quality image-to-video synthesis via cascaded diffusion.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 8
     },
     {
       "id": 827,
@@ -26394,13 +26390,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tencent AI Lab. Conditional Dropout for Progressive Training of Portrait Video Generation.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "I2VGen-XL: Alibaba DAMO project. Gradio demo on ModelScope. Part of VGen ecosystem. No major 2025 updates."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "2.4K stars. Tencent AI Lab talking head generation.",
+      "githubStars": 2365
     },
     {
       "id": 828,
@@ -26427,13 +26419,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Lifelike Audio-Driven Portrait Animations through Editable Landmark Conditions.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "researchNotes": [
-        {
-          "date": "2026-02-25",
-          "note": "V-Express: Audio-driven portrait animation, stable research."
-        }
-      ]
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "researchNotes": "4.2K stars (antgroup/echomimic). AAAI 2025 paper. EchoMimic V2 for half-body animation released.",
+      "githubStars": 4185
     },
     {
       "id": 829,
@@ -26461,7 +26449,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google DeepMind research. Hierarchical robot learning with language-conditioned policies.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
@@ -26497,7 +26485,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "End-to-end web agent. Benchmark on real websites. Multimodal web understanding.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1028
     },
     {
       "id": 831,
@@ -26525,7 +26514,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creates immersive 3D scenes from panoramic images.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 832,
@@ -26554,7 +26543,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "General-purpose audio understanding with reasoning. Research by Yuan Gong.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 470
     },
     {
       "id": 833,
@@ -26584,7 +26574,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "ICCV 2023 Oral. First zero-shot text-driven video style and local attribute editing.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 1161
     },
     {
       "id": 834,
@@ -26611,7 +26602,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for video-based avatar generation.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26640,7 +26631,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Enables fine-grained control over 3D Gaussian generation process.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 836,
@@ -26668,8 +26659,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "githubStars": 424
     },
     {
       "id": 837,
@@ -26698,7 +26690,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "BAAI. Video editing without any training or optimization.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 357
     },
     {
       "id": 838,
@@ -26728,7 +26721,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023. Produces relightable meshes with disentangled geometry and materials.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 839,
@@ -26757,7 +26750,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Picsart AI Research. ICCV 2023. Generates videos without training on video data.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "githubStars": 4242,
+      "researchNotes": "4.2K stars. Picsart AI Research. Zero-shot text-to-video generation."
     },
     {
       "id": 840,
@@ -26785,7 +26780,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Pioneering 2-stage text-to-3D with high-resolution output.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 841,
@@ -26814,13 +26809,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extends ControlNet to video generation without additional training.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
           "date": "2026-02-25",
           "note": "Magic3D: NVIDIA research, foundational 3D generation. No major 2025 updates."
         }
-      ]
+      ],
+      "githubStars": 858
     },
     {
       "id": 842,
@@ -26848,7 +26844,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta approach to 3D generation using triplane latent diffusion.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 843,
@@ -26876,8 +26872,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "githubStars": 403
     },
     {
       "id": 844,
@@ -26907,7 +26904,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research Asia project. Uses roll-out diffusion network for efficient 3D generation. RodinHD extension for high-fidelity avatars.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 845,
@@ -26935,7 +26932,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates game-ready 3D assets automatically from descriptions.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 846,
@@ -26961,7 +26958,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -26991,8 +26988,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates longer videos with multiple text prompts for different segments.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "githubStars": 306
     },
     {
       "id": 848,
@@ -27020,7 +27018,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "VT/Georgia Tech. Foundational VQA benchmark. 1.1M questions, balanced to reduce language bias.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 849,
@@ -27050,7 +27048,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UCLA/UW/Microsoft. CVPR 2024. Tests college-level subject knowledge. MMMU-Pro harder variant.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 850,
@@ -27078,7 +27076,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. CVPR 2024. Generates humans speaking from single image and audio.",
-      "lastVerified": "2026-02-25T02:29:17.339686+08:00"
+      "lastVerified": "2026-02-25T07:30:03.847617+08:00"
     },
     {
       "id": 851,
