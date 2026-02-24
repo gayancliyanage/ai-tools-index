@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T05:30:49.763748+08:00",
+  "lastUpdated": "2026-02-25T05:45:29.917883+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 401-450 (cycle 5)",
-    "nextBatch": "ranks 451-500 (cycle 5)",
-    "lastResearched": "2026-02-25T05:30:49.763748+08:00",
+    "lastBatch": "ranks 451-500 (cycle 5)",
+    "nextBatch": "ranks 501-550 (cycle 5)",
+    "lastResearched": "2026-02-25T05:45:29.917883+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -56,10 +56,11 @@
       "251-300 (cycle 5)",
       "301-350 (cycle 5)",
       "351-400 (cycle 5)",
-      "401-450 (cycle 5)"
+      "401-450 (cycle 5)",
+      "451-500 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 9. Ranks 401-450 verified. Notable: OpenVoice 36K GitHub stars (voice cloning), BabyAGI 20.7K GitHub stars, LivePortrait 13.9K GitHub stars (adopted by major platforms), Fish Speech ~18K GitHub stars (SOTA open-source TTS), SWE-Agent ~15K GitHub stars. Hotshot acquired by xAI (March 2025), Wonder Dynamics acquired by Autodesk (May 2024). Many tools (403-415, 421, 423-428, 440-441, 443-448, 450) are research/open-source with no social presence. Soundful 9.4K IG, Claid AI 10K IG, CSM AI 9.8K Twitter, Beatoven.ai 3.2K IG, Mokker 3.2K IG."
+    "note": "Cycle 5 batch 10. Ranks 451-500 verified. GitHub stars updated: Real-ESRGAN 34.4K (top upscaler), ChatDev 31.2K (released 2.0 Jan 2026), MiniCPM-o 23.9K, SadTalker 13.6K, CogVideo 12.4K (CogVideoX1.5 released), Wav2Lip 12.8K, Shap-E 12.2K (OpenAI 3D), Kohya SS 12K (SD training GUI), MagicAnimate 10.9K, Stability Matrix 7.6K, StoryDiffusion 6.4K (NeurIPS 2024 spotlight), TripoSR 6.2K, SUPIR 5.5K, Tiled Diffusion 5K, Sana 5K (NVIDIA, now supports video), LCM 4.6K, LyCORIS/LoHa 2.5K, Qwen-Audio 1.9K, Rectified Flow 1.6K. Many tools (451-456, 461, 468-471, 475, 483, 485, 489, 498-500) are small/research with minimal social presence. Skywork AI is Singapore-based (joined Twitter Feb 2025). Duplicate TripoSR at 493 & 495."
   },
   "tools": [
     {
@@ -14758,7 +14759,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Suno alternative. Turn humming into full songs. AI lyrics generation.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 10000,
       "researchNotes": "Tad AI - niche AI tool."
     },
@@ -14792,7 +14793,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Web tools directory including AI creative tools. Soundraw and other AI reviews.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 500000,
       "researchNotes": "Siteefy - AI tools directory/review site."
     },
@@ -14821,7 +14822,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Lipman et al. State-of-the-art on ImageNet in NLL and FID. Foundation for SD3/Flux.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 454,
@@ -14848,7 +14849,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Stability AI. Powers SDXL Turbo. 1-step real-time generation with GAN discriminator.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 455,
@@ -14878,7 +14879,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 by Adobe. ~6 min fine-tuning. Only tunes cross-attention key/value layers.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 456,
@@ -14910,7 +14911,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Tracks AI video creation trends. Beginner-friendly video tools.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 5000,
       "researchNotes": "Clippie AI - niche AI assistant tool."
     },
@@ -14947,7 +14948,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reviews and comparisons of AI video tools. Educational content for creators.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 50000,
       "researchNotes": "Skywork AI - large language model by Kunlun Tech."
     },
@@ -14979,7 +14980,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 300000,
       "researchNotes": "Generated Photos - AI-generated stock faces. Niche but established.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 459,
@@ -14997,7 +14998,7 @@
         "Virtual company"
       ],
       "social": {
-        "github": 25000
+        "github": 31183
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 30000,
@@ -15009,7 +15010,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenBMB/Tsinghua. 25K+ stars. Virtual software company. Agents as CEO, CTO, programmers, testers.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 460,
@@ -15027,7 +15028,7 @@
         "Video understanding"
       ],
       "social": {
-        "github": 15000
+        "github": 23901
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 30000,
@@ -15039,7 +15040,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenBMB/Tsinghua. 8B params. Outperforms GPT-4V on many benchmarks. Real-time video on iPad.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 461,
@@ -15067,7 +15068,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel architecture with 42x compressed latent space. Enables training on consumer GPUs.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 462,
@@ -15102,7 +15103,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Used in Hollywood productions including Star Wars. De-aged Luke Skywalker's voice. Enterprise focus.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 463,
@@ -15135,7 +15136,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 60000,
       "researchNotes": "Exactly AI - AI art tool for artists to train on own style.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 464,
@@ -15165,7 +15166,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 150000,
       "researchNotes": "Draw Things - free offline AI art app for Apple devices. Very popular on iOS/Mac.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 465,
@@ -15182,7 +15183,8 @@
       "social": {
         "twitter": 0,
         "instagram": 0,
-        "tiktok": 0
+        "tiktok": 0,
+        "github": 12015
       },
       "estimatedMonthlyVisits": 138000,
       "estimatedUsers": 19000,
@@ -15197,7 +15199,7 @@
       "researchNotes": "Kohya SS - popular SD training GUI. Major open source project.",
       "isOpenSource": true,
       "githubStars": 10000,
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 466,
@@ -15214,7 +15216,8 @@
       "social": {
         "twitter": 0,
         "instagram": 0,
-        "tiktok": 0
+        "tiktok": 0,
+        "github": 7582
       },
       "estimatedMonthlyVisits": 136000,
       "estimatedUsers": 18000,
@@ -15228,7 +15231,7 @@
       "monthlyTraffic": 80000,
       "researchNotes": "Stability Matrix - SD GUI launcher/manager. Popular open source.",
       "isOpenSource": true,
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 467,
@@ -15261,7 +15264,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 400000,
       "researchNotes": "AI Image Enlarger (imglarger.com) - image upscaling tool.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 468,
@@ -15292,7 +15295,7 @@
       "monthlyTraffic": 500000,
       "researchNotes": "waifu2x - classic anime image upscaler. Open source.",
       "isOpenSource": true,
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 469,
@@ -15325,7 +15328,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 1450000,
       "researchNotes": "Bigjpg - AI image upscaler. ~1.45M monthly visits, popular in Asia.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 470,
@@ -15352,7 +15355,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ControlNet-style guidance using Canny edge detection on FLUX architecture.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 471,
@@ -15379,7 +15382,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Depth-conditioned FLUX variant for maintaining spatial relationships.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 472,
@@ -15397,7 +15400,7 @@
         "Identity preservation"
       ],
       "social": {
-        "github": 9000
+        "github": 10905
       },
       "estimatedMonthlyVisits": 120000,
       "estimatedUsers": 40000,
@@ -15409,7 +15412,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. ByteDance research. Animate humans from single image with pose video. Strong identity preservation.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 473,
@@ -15439,7 +15442,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 200000,
       "researchNotes": "Deep Image AI - image enhancement/upscaling.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 474,
@@ -15456,7 +15459,7 @@
         "ODE transport"
       ],
       "social": {
-        "github": 2500
+        "github": 1552
       },
       "estimatedMonthlyVisits": 120000,
       "estimatedUsers": 30000,
@@ -15468,7 +15471,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2023 Spotlight by Xingchao Liu. Can make Stable Diffusion one-step generator.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 475,
@@ -15498,7 +15501,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "~20 seconds personalization. 10,000x smaller models (120KB). One reference image.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 476,
@@ -15515,7 +15518,8 @@
       "social": {
         "twitter": 0,
         "instagram": 0,
-        "tiktok": 0
+        "tiktok": 0,
+        "github": 34414
       },
       "estimatedMonthlyVisits": 124000,
       "estimatedUsers": 12000,
@@ -15530,7 +15534,7 @@
       "researchNotes": "Real-ESRGAN - widely used open source image upscaler by Tencent.",
       "isOpenSource": true,
       "githubStars": 28000,
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 477,
@@ -15560,7 +15564,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab. CVPR 2024 Oral. Best open-source VLM. Closes gap to commercial models.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 478,
@@ -15577,7 +15581,8 @@
       "social": {
         "twitter": 0,
         "instagram": 0,
-        "tiktok": 0
+        "tiktok": 0,
+        "github": 5455
       },
       "estimatedMonthlyVisits": 118000,
       "estimatedUsers": 10000,
@@ -15591,7 +15596,7 @@
       "monthlyTraffic": 30000,
       "researchNotes": "SUPIR - image restoration research project.",
       "isOpenSource": true,
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 479,
@@ -15608,7 +15613,7 @@
         "Open source"
       ],
       "social": {
-        "github": 10000
+        "github": 12210
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 50000,
@@ -15620,7 +15625,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAI research project. Open source 3D generation.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 480,
@@ -15637,7 +15642,9 @@
         "Open weights",
         "Research"
       ],
-      "social": {},
+      "social": {
+        "github": 12445
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 50000,
       "imageGen": false,
@@ -15647,7 +15654,7 @@
       "videoTimeline": false,
       "note": "Academic research model. CogVideoX released 2024. Tsinghua & Zhipu AI.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "ranking": 480
     },
     {
@@ -15665,7 +15672,9 @@
         "Lip sync",
         "Expression control"
       ],
-      "social": {},
+      "social": {
+        "github": 13602
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 50000,
       "imageGen": false,
@@ -15675,7 +15684,7 @@
       "videoTimeline": false,
       "note": "CVPR 2023 paper. 13K+ GitHub stars. Learning realistic 3D motion coefficients.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "ranking": 481
     },
     {
@@ -15693,7 +15702,9 @@
         "Any audio",
         "High accuracy"
       ],
-      "social": {},
+      "social": {
+        "github": 12840
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 50000,
       "imageGen": false,
@@ -15703,7 +15714,7 @@
       "videoTimeline": false,
       "note": "ACM MM 2020 Best Paper. 13K+ GitHub stars. IIIT Hyderabad.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "ranking": 482
     },
     {
@@ -15734,7 +15745,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OSU NLP Group. Manually annotated dataset for instruction-based editing.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 484,
@@ -15767,7 +15778,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 400000,
       "researchNotes": "Snappa - simple graphic design tool for social media.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 485,
@@ -15798,7 +15809,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Deci AI. Neural Architecture Search optimized. 2x faster than SD. Enterprise focus.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 486,
@@ -15816,7 +15827,7 @@
         "Upscaling"
       ],
       "social": {
-        "github": 5000
+        "github": 5001
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 40000,
@@ -15828,7 +15839,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Most popular A1111 upscaler extension. Integrates MultiDiffusion and Tiled VAE. Works on 8GB VRAM.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 487,
@@ -15846,7 +15857,7 @@
         "Real-time capable"
       ],
       "social": {
-        "github": 6000
+        "github": 4616
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 40000,
@@ -15858,7 +15869,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tsinghua & StabilityAI. LCM-LoRA enables 2-8 step generation. Powers many real-time apps.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 488,
@@ -15888,7 +15899,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 100000,
       "researchNotes": "Stencil - simple social media graphic design tool.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 489,
@@ -15915,7 +15926,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creates image variations while maintaining style consistency from reference.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 490,
@@ -15933,7 +15944,7 @@
         "30s videos"
       ],
       "social": {
-        "github": 4000
+        "github": 6387
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 35000,
@@ -15945,7 +15956,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NKU research. Consistent characters across sequences. Generates comics and 30-second videos.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 491,
@@ -15974,7 +15985,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of HyperHuman suite by Deemos. Professional 3D generation.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 492,
@@ -16004,7 +16015,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 300000,
       "researchNotes": "Desygner - cloud-based design tool for non-designers.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 493,
@@ -16022,7 +16033,7 @@
         "MIT license"
       ],
       "social": {
-        "github": 5000
+        "github": 6194
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 30000,
@@ -16034,7 +16045,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stability AI & Tripo collaboration. Sub-second 3D generation.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 494,
@@ -16052,7 +16063,7 @@
         "Linear attention"
       ],
       "social": {
-        "github": 3000
+        "github": 4969
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 30000,
@@ -16064,7 +16075,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA research model. Uses linear attention for 16x efficiency improvement over standard diffusion.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 495,
@@ -16082,7 +16093,7 @@
         "Open source"
       ],
       "social": {
-        "github": 5000
+        "github": 6194
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 30000,
@@ -16094,7 +16105,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Co-developed by Stability AI and Tripo AI. Based on LRM (Large Reconstruction Model). Generates 32K triangles per mesh.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 496,
@@ -16111,7 +16122,7 @@
         "LyCORIS family"
       ],
       "social": {
-        "github": 2500
+        "github": 2478
       },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 30000,
@@ -16123,7 +16134,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of LyCORIS library. More parameters than LoRA for complex adaptations.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 497,
@@ -16141,7 +16152,7 @@
         "Qwen2-Audio"
       ],
       "social": {
-        "github": 3500,
+        "github": 1873,
         "huggingface": 5000
       },
       "estimatedMonthlyVisits": 100000,
@@ -16154,7 +16165,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba Qwen series. Understands speech, sounds, music. Qwen2-Audio supports 8+ languages.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00"
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00"
     },
     {
       "id": 498,
@@ -16186,7 +16197,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free daily credits refresh every 24 hours. Optimized for complex musical arrangements.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 50000,
       "researchNotes": "AI Song Generator - niche AI music tool."
     },
@@ -16220,7 +16231,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI video tool comparison and review platform. Helpful for choosing video generators.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 20000,
       "researchNotes": "Fritz AI - mobile ML SDK. Acquired/merged."
     },
@@ -16254,7 +16265,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI video upscaler reviews. Comparisons with Nero AI and Topaz Labs.",
-      "lastVerified": "2026-02-25T00:44:05.242136+08:00",
+      "lastVerified": "2026-02-25T05:45:29.917883+08:00",
       "monthlyTraffic": 80000,
       "researchNotes": "Unifab AI - AI video enhancer/upscaler tool."
     },
