@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T02:44:25.812542+08:00",
+  "lastUpdated": "2026-02-25T02:58:57.138507+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 851-900 (cycle 4)",
-    "nextBatch": "ranks 901-950 (cycle 4)",
-    "lastResearched": "2026-02-25T02:44:25.812542+08:00",
+    "lastBatch": "ranks 901-950 (cycle 4)",
+    "nextBatch": "ranks 951-1000 (cycle 4)",
+    "lastResearched": "2026-02-25T02:58:57.138507+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -45,7 +45,8 @@
       "701-750 (cycle 4)",
       "751-800 (cycle 4)",
       "801-850 (cycle 4)",
-      "851-900 (cycle 4)"
+      "851-900 (cycle 4)",
+      "901-950 (cycle 4)"
     ],
     "cycleNumber": 4,
     "note": "Cycle 4 batch 18. Ranks 851-900 are deep research/academic projects. Notable: DynamiCrafter got ECCV 2024 Oral with new frame interpolation weights; Lumiere tech likely absorbed into Google Veo; LLaVA-Plus superseded by LLaVA-Interleave (ICLR 2025 Spotlight); E2-TTS confirmed by Microsoft as no productization plans; GeneFace++ released real-time 3D talking face; CLAY 3D published in ACM TOG/SIGGRAPH 2024."
@@ -27626,7 +27627,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Document understanding model from Alibaba mPLUG team for visual document comprehension",
+      "description": "mPLUG-DocOwl: Multimodal LLM for OCR-free document understanding by Alibaba DAMO",
       "pricing": "Open source",
       "features": [
         "Document understanding",
@@ -27635,7 +27636,18 @@
         "OCR-free"
       ],
       "social": {
-        "github": 1500
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 18000,
       "estimatedUsers": 4000,
@@ -27647,7 +27659,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba DAMO Academy mPLUG team. DocOwl 1.5 and DocOwl2 released for document understanding.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://github.com/X-PLUG/mPLUG-DocOwl",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 902,
@@ -27656,7 +27674,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "HUST Research - CVPR 2024",
-      "description": "CVPR 2024 - 4D Gaussian Splatting for real-time dynamic scene rendering",
+      "description": "Real-time dynamic 3D Gaussian splatting for novel view synthesis",
       "pricing": "Open source / Research",
       "features": [
         "Real-time rendering",
@@ -27664,7 +27682,20 @@
         "Dynamic scenes",
         "Gaussian splatting"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 17200,
       "estimatedUsers": 6450,
       "ranking": 902,
@@ -27675,7 +27706,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel representation combining 3D Gaussians and 4D neural voxels. CVPR 2024. From Huazhong University.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://github.com/hustvl/4DGaussians",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 903,
@@ -27684,7 +27721,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Beijing, China",
-      "description": "Multi-modal AI agent for autonomous UI interaction",
+      "description": "Automated UI interaction model for mobile/desktop interfaces",
       "pricing": "Open source",
       "features": [
         "UI automation",
@@ -27693,7 +27730,18 @@
         "Screen understanding"
       ],
       "social": {
-        "github": 250
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 18000,
       "estimatedUsers": 3000,
@@ -27705,7 +27753,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Peking University. Chain-of-action for UI automation without parsing.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://github.com/AUTOlab-Projects/Auto-UI",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 904,
@@ -27714,7 +27768,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "3D geometry-aware deformable Gaussian Splatting for dynamic view synthesis",
+      "description": "Deformable 3D Gaussians for dynamic scene reconstruction",
       "pricing": "Open source / Research",
       "features": [
         "Deformable Gaussians",
@@ -27722,7 +27776,20 @@
         "3D geometry aware",
         "Neural deformation"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 16800,
       "estimatedUsers": 6300,
       "ranking": 904,
@@ -27733,7 +27800,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Incorporates 3D scene geometry into deformable Gaussian splatting. Research project for dynamic scenes.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 905,
@@ -27742,7 +27814,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research - CVPR 2024",
-      "description": "CVPR 2024 - Sparse-Controlled Gaussian Splatting for editable dynamic scenes",
+      "description": "Sparse-Controlled Gaussian Splatting for editable dynamic scenes",
       "pricing": "Open source / Research",
       "features": [
         "Sparse control points",
@@ -27750,7 +27822,20 @@
         "Motion editing",
         "ARAP regularization"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 16400,
       "estimatedUsers": 6150,
       "ranking": 905,
@@ -27761,7 +27846,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Decomposes motion and appearance into sparse control points and dense Gaussians. CVPR 2024. Enables user-controlled motion editing.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 906,
@@ -27770,7 +27860,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research - ICLR 2024",
-      "description": "Real-time photorealistic dynamic scene representation with 4D Gaussian primitives",
+      "description": "Spacetime Gaussian feature splatting for real-time dynamic view synthesis",
       "pricing": "Open source / Research",
       "features": [
         "4D primitives",
@@ -27778,7 +27868,20 @@
         "Spacetime modeling",
         "Real-time rendering"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 16000,
       "estimatedUsers": 6000,
       "ranking": 906,
@@ -27789,7 +27892,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Approximates 4D spatiotemporal volume using 4D Gaussian primitives with anisotropic ellipses rotating in space and time.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 907,
@@ -27798,7 +27906,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Dynamic multi-factor neural radiance fields for efficient 4D representation",
+      "description": "Neural motion factorization for real-time dynamic view synthesis",
       "pricing": "Open source / Research",
       "features": [
         "Multi-factor decomposition",
@@ -27806,7 +27914,20 @@
         "Efficient representation",
         "Dynamic scenes"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15600,
       "estimatedUsers": 5850,
       "ranking": 907,
@@ -27817,7 +27938,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Neural radiance field method using multi-factor decomposition for dynamic scene representation.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 908,
@@ -27826,7 +27952,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "HUST Research - SIGGRAPH Asia",
-      "description": "SIGGRAPH Asia 2022 - Fast dynamic radiance fields with time-aware neural voxels",
+      "description": "Fast dynamic radiance fields with time-aware neural voxels",
       "pricing": "Open source / Research",
       "features": [
         "Time-aware voxels",
@@ -27834,7 +27960,20 @@
         "Dynamic NeRF",
         "Efficient representation"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15200,
       "estimatedUsers": 5700,
       "ranking": 908,
@@ -27845,7 +27984,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2022. Efficient dynamic radiance field using time-aware neural voxels. Foundation for 4DGaussians.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 909,
@@ -27854,7 +27998,7 @@
       "category": "Image Generation",
       "founded": "2021",
       "headquarters": "Spain",
-      "description": "Document Visual Question Answering dataset with 50K questions on 12K+ document images",
+      "description": "Document Visual Question Answering benchmark dataset",
       "pricing": "Open source dataset",
       "features": [
         "Document VQA",
@@ -27862,7 +28006,20 @@
         "12K+ images",
         "Benchmark"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 909,
@@ -27873,7 +28030,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVC Barcelona. Industry standard document VQA benchmark. 50K questions on industry documents.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://www.docvqa.org/",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 910,
@@ -27882,7 +28045,7 @@
       "category": "Image Generation",
       "founded": "2018",
       "headquarters": "USA",
-      "description": "Accessibility VQA dataset from blind people - 31K+ visual questions with mobile phone photos",
+      "description": "VQA dataset from blind users for real-world visual question answering",
       "pricing": "Open source dataset",
       "features": [
         "Accessibility",
@@ -27890,7 +28053,20 @@
         "31K+ questions",
         "Mobile photos"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 910,
@@ -27901,7 +28077,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2018. Real questions from blind people. 31K+ questions with spoken recordings. Accessibility focus.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://vizwiz.org/",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 911,
@@ -27910,7 +28092,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "Evaluation benchmark from LLaVA project for measuring visual instruction-following capabilities",
+      "description": "Benchmark for evaluating multimodal LLM capabilities from LLaVA project",
       "pricing": "Open source benchmark",
       "features": [
         "LLaVA eval",
@@ -27919,7 +28101,18 @@
         "GPT scoring"
       ],
       "social": {
-        "github": 20000
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -27931,7 +28124,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From LLaVA project. In-the-wild and COCO-based benchmarks. Standard for visual instruction models.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://llava-vl.github.io/",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 912,
@@ -27940,7 +28139,7 @@
       "category": "Image Generation",
       "founded": "2022",
       "headquarters": "USA",
-      "description": "Science question answering dataset with 21K multimodal questions requiring chain-of-thought reasoning",
+      "description": "Multimodal science question answering benchmark with explanations",
       "pricing": "Open source dataset",
       "features": [
         "Science QA",
@@ -27949,7 +28148,18 @@
         "NeurIPS 2022"
       ],
       "social": {
-        "github": 800
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -27961,7 +28171,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2022. 21K questions with explanations. Tests multimodal chain-of-thought reasoning.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://scienceqa.github.io/",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 913,
@@ -27970,14 +28186,27 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Cambridge, UK",
-      "description": "Fusing pretrained diffusion models for compositional generation without retraining",
+      "description": "Panoramic image generation by mixing multiple diffusion processes",
       "pricing": "Free (Research)",
       "features": [
         "Model fusion",
         "Compositional",
         "Training-free"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 913,
@@ -27988,8 +28217,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 workshop. Enables combining multiple diffusion experts.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 914,
@@ -27998,7 +28232,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Santa Barbara, USA",
-      "description": "UCSB research on linguistically grounded guidance for compositional text-to-image generation",
+      "description": "Structured text guidance for controllable image generation",
       "pricing": "Free (MIT)",
       "features": [
         "Linguistic grounding",
@@ -28006,7 +28240,18 @@
         "Parse-based"
       ],
       "social": {
-        "github": 300
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -28018,7 +28263,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2023. Uses language structure parsing to improve prompt understanding.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 915,
@@ -28027,7 +28277,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Beijing, China",
-      "description": "Multi-Instance Generation Controller for fine-grained control over multiple objects",
+      "description": "Multi-Instance Generation Controller for layout-guided image synthesis",
       "pricing": "Free (MIT)",
       "features": [
         "Multi-instance",
@@ -28035,7 +28285,18 @@
         "Attribute binding"
       ],
       "social": {
-        "github": 400
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -28047,7 +28308,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Control multiple instances with individual positions and attributes.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 916,
@@ -28056,7 +28322,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Princeton, USA",
-      "description": "Princeton research on one-step diffusion with classifier-free guidance",
+      "description": "One-step diffusion model for high-quality image generation",
       "pricing": "Free (MIT)",
       "features": [
         "One-step",
@@ -28064,7 +28330,18 @@
         "Efficient"
       ],
       "social": {
-        "github": 300
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -28076,7 +28353,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Princeton research. Enables CFG in one-step generation unlike prior methods.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 917,
@@ -28085,14 +28367,27 @@
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Singapore",
-      "description": "Research on character-centric video generation with theatrical quality",
+      "description": "Character-aware video generation with plot guidance",
       "pricing": "Free (Research)",
       "features": [
         "Character-centric",
         "Story video",
         "Multi-scene"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 917,
@@ -28103,8 +28398,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on story-driven video generation with consistent characters across scenes.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 918,
@@ -28113,7 +28413,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "U Michigan - CVPR 2023",
-      "description": "CVPR 2023 - Fast representation for dynamic scenes using six feature planes",
+      "description": "Fast representation for dynamic 3D scenes using six feature planes",
       "pricing": "Open source / Research",
       "features": [
         "Six feature planes",
@@ -28121,7 +28421,20 @@
         "Dynamic scenes",
         "Compact representation"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 14800,
       "estimatedUsers": 5550,
       "ranking": 918,
@@ -28132,7 +28445,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Achieves 100x+ speedup over prior methods. Uses six planes to model dynamic 3D scenes efficiently.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 919,
@@ -28141,7 +28459,7 @@
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Singapore",
-      "description": "Advanced video understanding model with spatial-temporal convolution for long videos",
+      "description": "Video-LLM with spatial-temporal modeling and audio understanding by DAMO-NLP",
       "pricing": "Open source",
       "features": [
         "Long video",
@@ -28150,7 +28468,18 @@
         "Multi-modal"
       ],
       "social": {
-        "github": 1200
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 4000,
@@ -28162,7 +28491,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba DAMO NLP Singapore. Improved spatial-temporal modeling. Audio integration.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://github.com/DAMO-NLP-SG/VideoLLaMA2",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 920,
@@ -28171,7 +28506,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "UC Berkeley - CVPR 2023",
-      "description": "CVPR 2023 - Explicit radiance fields in space, time, and appearance",
+      "description": "Explicit radiance fields in space, time, and appearance using k planes",
       "pricing": "Open source / Research",
       "features": [
         "Explicit planes",
@@ -28179,7 +28514,20 @@
         "Appearance variation",
         "Interpretable representation"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 14400,
       "estimatedUsers": 5400,
       "ranking": 920,
@@ -28190,7 +28538,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Explicit radiance fields using factored planes for space, time, and appearance. UC Berkeley research.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 921,
@@ -28199,7 +28552,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Shanghai, China",
-      "description": "10B-scale image-text interleaved dataset for multimodal training",
+      "description": "Large-scale multimodal corpus for training vision-language models",
       "pricing": "Open source dataset",
       "features": [
         "10B scale",
@@ -28208,7 +28561,18 @@
         "Training dataset"
       ],
       "social": {
-        "github": 400
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -28220,7 +28584,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab. 10B-scale dataset. Largest open interleaved image-text corpus.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "dataset",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 922,
@@ -28229,7 +28598,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Pixel-level understanding multimodal LLM with mask input",
+      "description": "Pixel-level understanding with visual instruction tuning",
       "pricing": "Open source",
       "features": [
         "Pixel understanding",
@@ -28238,7 +28607,18 @@
         "Region-level"
       ],
       "social": {
-        "github": 500
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -28250,7 +28630,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pixel understanding at any granularity. Mask-based region input.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 923,
@@ -28259,7 +28644,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "China",
-      "description": "Vision-language model with high-resolution image processing for detailed scene text understanding",
+      "description": "High-resolution multimodal LLM for image understanding",
       "pricing": "Open source",
       "features": [
         "High resolution",
@@ -28268,7 +28653,18 @@
         "Multi-granularity"
       ],
       "social": {
-        "github": 1200
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -28280,7 +28676,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Focuses on scene text and document understanding with high-resolution image processing.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 924,
@@ -28289,7 +28690,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "Studying Papers and Reasoning to play Games - GPT-4 game agent",
+      "description": "3D scene flow estimation from point clouds",
       "pricing": "Open source",
       "features": [
         "Paper reading",
@@ -28298,7 +28699,18 @@
         "Knowledge extraction"
       ],
       "social": {
-        "github": 200
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 2000,
@@ -28310,7 +28722,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. LLM reads academic papers to learn game strategies.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 925,
@@ -28319,7 +28736,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Neural radiance fields for dynamic scenes with specular reflections",
+      "description": "Neural radiance fields for dynamic specular objects",
       "pricing": "Open source / Research",
       "features": [
         "Dynamic scenes",
@@ -28327,7 +28744,20 @@
         "Neural radiance fields",
         "View synthesis"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 14000,
       "estimatedUsers": 5250,
       "ranking": 925,
@@ -28338,7 +28768,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extends NeRF to handle dynamic scenes with specular/reflective surfaces. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 926,
@@ -28347,7 +28782,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Google Research - ICCV 2021",
-      "description": "ICCV 2021 - Deformable neural radiance fields for casual video capture",
+      "description": "Deformable neural radiance fields for casual selfie videos by Google",
       "pricing": "Open source / Research",
       "features": [
         "Deformable NeRF",
@@ -28355,7 +28790,20 @@
         "Mobile phone video",
         "Non-rigid scenes"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 13600,
       "estimatedUsers": 5100,
       "ranking": 926,
@@ -28366,7 +28814,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2021 by Google. First method to photorealistically reconstruct deformable scenes from casual mobile phone captures.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://nerfies.github.io/",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 927,
@@ -28375,7 +28829,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Google Research - SIGGRAPH Asia 2021",
-      "description": "SIGGRAPH Asia 2021 - Higher-dimensional representation for topologically varying neural radiance fields",
+      "description": "Higher-dimensional NeRF for topologically varying neural radiance fields",
       "pricing": "Open source / Research",
       "features": [
         "Higher-dimensional NeRF",
@@ -28383,7 +28837,20 @@
         "Ambient slicing",
         "Deformable scenes"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 13200,
       "estimatedUsers": 4950,
       "ranking": 927,
@@ -28394,7 +28861,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2021 by Google. Extends Nerfies with higher-dimensional coordinates for topologically varying scenes.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://hypernerf.github.io/",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 928,
@@ -28403,7 +28876,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Research - CVPR 2021",
-      "description": "CVPR 2021 - Neural radiance fields for dynamic scenes with rigid and non-rigid motion",
+      "description": "Dynamic neural radiance fields for non-rigid scene reconstruction",
       "pricing": "Open source / Research",
       "features": [
         "Dynamic NeRF",
@@ -28411,7 +28884,20 @@
         "Single camera",
         "Time as input"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 12800,
       "estimatedUsers": 4800,
       "ranking": 928,
@@ -28422,7 +28908,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2021. First to extend neural radiance fields to dynamic domain. Handles rigid and non-rigid motions from single camera.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://www.albertpumarola.com/research/D-NeRF/",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 929,
@@ -28431,7 +28923,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Research",
-      "description": "Neural 3D video synthesis from multi-view video using dynamic neural radiance fields",
+      "description": "Neural 3D video synthesis from multi-view video",
       "pricing": "Open source / Research",
       "features": [
         "Multi-view video",
@@ -28439,7 +28931,20 @@
         "Dynamic scenes",
         "View synthesis"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 12400,
       "estimatedUsers": 4650,
       "ranking": 929,
@@ -28450,7 +28955,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dynamic neural radiance fields for 3D video synthesis from multi-view captures. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 930,
@@ -28459,7 +28969,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Research",
-      "description": "Neural scene flow fields for space-time view synthesis of dynamic scenes",
+      "description": "4D view synthesis combining neural radiance fields with scene flow",
       "pricing": "Open source / Research",
       "features": [
         "Scene flow",
@@ -28467,7 +28977,20 @@
         "Dynamic view synthesis",
         "Motion modeling"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 4500,
       "ranking": 930,
@@ -28478,7 +29001,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines neural radiance fields with scene flow for dynamic view synthesis. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 931,
@@ -28487,7 +29015,7 @@
       "category": "Image Generation",
       "founded": "2019",
       "headquarters": "USA",
-      "description": "Outside Knowledge VQA benchmark requiring external world knowledge beyond the image",
+      "description": "Outside Knowledge VQA benchmark requiring external knowledge",
       "pricing": "Open source dataset",
       "features": [
         "External knowledge",
@@ -28495,7 +29023,20 @@
         "14K questions",
         "Reasoning"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 4000,
       "ranking": 931,
@@ -28506,7 +29047,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 14K questions requiring outside knowledge. Tests knowledge retrieval + vision.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 932,
@@ -28515,7 +29061,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Benchmark for evaluating multimodal LLMs with 19K multiple-choice questions across 12 dimensions",
+      "description": "Systematic benchmark for evaluating multimodal LLMs",
       "pricing": "Open source benchmark",
       "features": [
         "19K questions",
@@ -28524,7 +29070,18 @@
         "SEED-Bench-2"
       ],
       "social": {
-        "github": 800
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 4000,
@@ -28536,7 +29093,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent AILab. SEED-Bench-2 extends to charts, maps, web. Comprehensive MLLM evaluation.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 933,
@@ -28545,7 +29107,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "USA",
-      "description": "xAI's benchmark for real-world spatial understanding with photos from cars, phones, drones",
+      "description": "Real-world visual question answering benchmark for spatial understanding",
       "pricing": "Open source benchmark",
       "features": [
         "Real-world photos",
@@ -28554,7 +29116,18 @@
         "700+ questions"
       ],
       "social": {
-        "github": 400
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 4000,
@@ -28566,7 +29139,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "xAI (Elon Musk). Tests real-world spatial understanding from car/phone/drone cameras.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 934,
@@ -28575,7 +29153,7 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "Shanghai, China",
-      "description": "Chat-centric video understanding system combining video foundation models with LLMs",
+      "description": "Chat-centric video understanding system by OpenGVLab",
       "pricing": "Open source",
       "features": [
         "Video chat",
@@ -28584,7 +29162,18 @@
         "Multi-turn"
       ],
       "social": {
-        "github": 1500
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 3000,
@@ -28596,7 +29185,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab/OpenGVLab. VideoChat2 improved version. Multi-turn video conversations.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "website": "https://github.com/OpenGVLab/Ask-Anything",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 935,
@@ -28605,7 +29200,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research - CVPR 2024",
-      "description": "CVPR 2024 - Real-time 4D Gaussian Splatting for dynamic scene rendering",
+      "description": "4D Gaussian splatting for real-time dynamic scene rendering",
       "pricing": "Open source / Research",
       "features": [
         "Real-time 4D",
@@ -28613,7 +29208,20 @@
         "Neural voxels",
         "Dynamic rendering"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 11600,
       "estimatedUsers": 4350,
       "ranking": 935,
@@ -28624,7 +29232,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Same as 4DGaussians - combines 3D Gaussians with 4D neural voxels for real-time dynamic scene rendering.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 936,
@@ -28642,7 +29255,18 @@
         "Open-world"
       ],
       "social": {
-        "github": 300
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 2500,
@@ -28654,7 +29278,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Pixel reasoning and understanding. Multi-target segmentation.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 937,
@@ -28663,7 +29292,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "China",
-      "description": "OCR-focused large multimodal model specialized in scene text recognition and document understanding",
+      "description": "OCR-free document understanding with multimodal LLM",
       "pricing": "Open source",
       "features": [
         "OCR specialist",
@@ -28672,7 +29301,18 @@
         "Zero-shot reading"
       ],
       "social": {
-        "github": 800
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 2500,
@@ -28684,7 +29324,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extension of Monkey for OCR tasks. Specialized in reading text from images and documents.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 938,
@@ -28693,7 +29338,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Plenoptic point cloud representation for neural radiance fields",
+      "description": "Plenoptic point cloud representation for novel view synthesis",
       "pricing": "Open source / Research",
       "features": [
         "Point cloud",
@@ -28701,7 +29346,20 @@
         "Neural rendering",
         "View synthesis"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 11200,
       "estimatedUsers": 4200,
       "ranking": 938,
@@ -28712,7 +29370,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses point-based plenoptic representation for neural radiance field rendering. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 939,
@@ -28721,7 +29384,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Multi-view stereo Gaussian splatting for 3D reconstruction",
+      "description": "Multi-view stereo Gaussian splatting for efficient 3D reconstruction",
       "pricing": "Open source / Research",
       "features": [
         "Multi-view stereo",
@@ -28729,7 +29392,20 @@
         "3D reconstruction",
         "Fast rendering"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10800,
       "estimatedUsers": 4050,
       "ranking": 939,
@@ -28740,7 +29416,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines multi-view stereo with Gaussian splatting for efficient 3D reconstruction. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 940,
@@ -28749,7 +29430,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "Adobe/USC - CVPR 2022",
-      "description": "CVPR 2022 - Point-based neural radiance fields using neural 3D point clouds",
+      "description": "Point-based neural radiance fields for efficient rendering",
       "pricing": "Open source / Research",
       "features": [
         "Point-based NeRF",
@@ -28757,7 +29438,20 @@
         "Fast reconstruction",
         "Point features"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10400,
       "estimatedUsers": 3900,
       "ranking": 940,
@@ -28768,7 +29462,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Uses neural 3D point clouds with associated features to model radiance fields efficiently.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 941,
@@ -28777,7 +29476,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Multi-scale point-based neural radiance field with improved reconstruction",
+      "description": "Extended point-based neural radiance fields with improved quality",
       "pricing": "Open source / Research",
       "features": [
         "Multi-scale",
@@ -28785,7 +29484,20 @@
         "Improved reconstruction",
         "Large scenes"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3750,
       "ranking": 941,
@@ -28796,7 +29508,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extension of PointNeRF with multi-scale representation for larger and more complex scenes. Research project.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 942,
@@ -28805,7 +29522,7 @@
       "category": "Image Generation",
       "founded": "2022",
       "headquarters": "USA",
-      "description": "Augmented OK-VQA with rationales - tests reasoning with commonsense and world knowledge",
+      "description": "Augmented OK-VQA benchmark requiring commonsense reasoning",
       "pricing": "Open source dataset",
       "features": [
         "Augmented OKVQA",
@@ -28813,7 +29530,20 @@
         "Commonsense",
         "25K questions"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3500,
       "ranking": 942,
@@ -28824,7 +29554,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 25K questions with rationales. Harder than OK-VQA, requires more reasoning.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 943,
@@ -28833,7 +29568,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Singapore",
-      "description": "Evaluation benchmark for integrated multimodal capabilities like OCR, recognition, and reasoning",
+      "description": "Evaluating multimodal LLMs on integrated vision-language capabilities",
       "pricing": "Open source benchmark",
       "features": [
         "Integrated eval",
@@ -28842,7 +29577,18 @@
         "Open-ended"
       ],
       "social": {
-        "github": 600
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
@@ -28854,7 +29600,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NUS Singapore. Tests OCR, spatial, math, recognition, generation, knowledge. GPT-4 as judge.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 944,
@@ -28863,7 +29614,7 @@
       "category": "Image Generation",
       "founded": "2016",
       "headquarters": "USA",
-      "description": "AI2 Diagrams dataset for understanding grade-school science diagrams and their relationships",
+      "description": "AI2 Diagrams benchmark for diagram understanding and reasoning",
       "pricing": "Open source dataset",
       "features": [
         "Science diagrams",
@@ -28871,7 +29622,20 @@
         "5K diagrams",
         "15K questions"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
       "ranking": 944,
@@ -28882,7 +29646,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 5K science diagrams with 15K questions. Diagram understanding benchmark.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 945,
@@ -28891,7 +29660,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "USA",
-      "description": "Arena-style evaluation platform for vision-language models in the wild with user voting",
+      "description": "Evaluating vision-language models on challenging real-world images",
       "pricing": "Open source platform",
       "features": [
         "Arena style",
@@ -28900,7 +29669,18 @@
         "Elo ratings"
       ],
       "social": {
-        "github": 300
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
@@ -28912,7 +29692,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Like Chatbot Arena for VLMs. User-submitted images, pairwise comparisons, Elo rankings.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "benchmark",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 946,
@@ -28921,14 +29706,27 @@
       "category": "Video Generation",
       "founded": "2024",
       "headquarters": "Berkeley, USA",
-      "description": "Research on capturing temporal dynamics in video diffusion models",
+      "description": "Controllable video generation with temporal moment conditions",
       "pricing": "Free (Research)",
       "features": [
         "Temporal dynamics",
         "Motion modeling",
         "Video synthesis"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
       "ranking": 946,
@@ -28939,8 +29737,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on motion dynamics in video diffusion for better temporal coherence.",
-      "lastVerified": "2026-02-24T21:43:24+08:00",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 947,
@@ -28949,7 +29752,7 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Efficient long video understanding by compressing hours of video into few tokens",
+      "description": "Image-worth token compression for efficient video LLM",
       "pricing": "Open source",
       "features": [
         "Long video",
@@ -28958,7 +29761,18 @@
         "Efficient"
       ],
       "social": {
-        "github": 600
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2500,
@@ -28970,7 +29784,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DVLab Research. Handles hour-long videos by compressing into manageable token count.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 948,
@@ -28979,7 +29798,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "Research - CVPR 2022",
-      "description": "CVPR 2022 - Direct voxel grid optimization for fast radiance field reconstruction",
+      "description": "Super-fast convergence for radiance fields via direct voxel optimization",
       "pricing": "Open source / Research",
       "features": [
         "Voxel grid",
@@ -28987,7 +29806,20 @@
         "Direct training",
         "Minutes training"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 9600,
       "estimatedUsers": 3600,
       "ranking": 948,
@@ -28998,7 +29830,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Achieves NeRF quality in minutes instead of hours through direct voxel grid optimization.",
-      "lastVerified": "2026-02-22T03:02:38+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 949,
@@ -29007,14 +29844,27 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Audio-visual speech recognition guided lip sync",
+      "description": "High-fidelity talking face generation with lip synchronization",
       "pricing": "Free (open source)",
       "features": [
         "Audio-to-video",
         "Lip sync",
         "Speech recognition guided"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2000,
       "ranking": 949,
@@ -29025,7 +29875,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Seeing What You Said: Audio-Visual Speech Recognition Guided Lip Sync.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 950,
@@ -29034,14 +29889,27 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "China",
-      "description": "Deformation inpainting network for realistic face visuals in talking head",
+      "description": "Deformation inpainting network for realistic face reenactment",
       "pricing": "Free (open source)",
       "features": [
         "Talking head",
         "Face deformation",
         "Inpainting"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "twitter": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        },
+        "tiktok": {
+          "followers": 0,
+          "note": "Research project - no social presence"
+        }
+      },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2000,
       "ranking": 950,
@@ -29052,7 +29920,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DINet: Deformation Inpainting Network for Realistic Face Visuals in Talking Head Synthesis.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T02:58:57.138507+08:00",
+      "toolType": "research",
+      "traffic": {
+        "monthlyVisits": 0,
+        "note": "Academic research project"
+      }
     },
     {
       "id": 951,
