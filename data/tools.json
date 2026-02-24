@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T05:15:40.216692+08:00",
+  "lastUpdated": "2026-02-25T05:30:49.763748+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 351-400 (cycle 5)",
-    "nextBatch": "ranks 401-450 (cycle 5)",
-    "lastResearched": "2026-02-25T05:15:40.216692+08:00",
+    "lastBatch": "ranks 401-450 (cycle 5)",
+    "nextBatch": "ranks 451-500 (cycle 5)",
+    "lastResearched": "2026-02-25T05:30:49.763748+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -55,10 +55,11 @@
       "201-250 (cycle 5)",
       "251-300 (cycle 5)",
       "301-350 (cycle 5)",
-      "351-400 (cycle 5)"
+      "351-400 (cycle 5)",
+      "401-450 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 8. Ranks 351-400 verified. Notable findings: Move AI 59K IG (highest in batch, motion capture), Vizcom 46K IG (design tool), Black Forest Labs/FLUX.1 Pro 36.7K Twitter, Khroma 21K IG (color tool), CrewAI 20.9K Twitter (AI agent framework), Artguru 13K IG, PromeAI 10K IG, Loudly 9.2K IG, Glorify 8.8K IG, Pebblely 6.8K IG, Boomy 6.4K IG. Many tools (369-376, 385, 392-393, 396, 400) are research models/open-source with no social presence. Upscayl notable with 3.2K GitHub followers as open-source image upscaler."
+    "note": "Cycle 5 batch 9. Ranks 401-450 verified. Notable: OpenVoice 36K GitHub stars (voice cloning), BabyAGI 20.7K GitHub stars, LivePortrait 13.9K GitHub stars (adopted by major platforms), Fish Speech ~18K GitHub stars (SOTA open-source TTS), SWE-Agent ~15K GitHub stars. Hotshot acquired by xAI (March 2025), Wonder Dynamics acquired by Autodesk (May 2024). Many tools (403-415, 421, 423-428, 440-441, 443-448, 450) are research/open-source with no social presence. Soundful 9.4K IG, Claid AI 10K IG, CSM AI 9.8K Twitter, Beatoven.ai 3.2K IG, Mokker 3.2K IG."
   },
   "tools": [
     {
@@ -13073,7 +13074,8 @@
       ],
       "social": {
         "twitter": 5000,
-        "discord": 3000
+        "discord": 3000,
+        "instagram": 1934
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
@@ -13085,12 +13087,13 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "VR-native 3D creation. Text and voice controls.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 1934
         }
-      }
+      },
+      "verificationNotes": "3D platform for creators, IG @withmpstudio"
     },
     {
       "id": 402,
@@ -13106,7 +13109,10 @@
         "Royalty-free",
         "Video sync"
       ],
-      "social": {},
+      "social": {
+        "instagram": 3208,
+        "twitter": 2000
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
       "ranking": 402,
@@ -13116,7 +13122,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI music composition, IG @beatovenai 3.2K"
     },
     {
       "id": 403,
@@ -13134,7 +13141,9 @@
         "M1/M2 optimized"
       ],
       "social": {
-        "github": 15000
+        "github": 15000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
@@ -13146,7 +13155,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free Mac app by solo dev. One-click installer, no dependencies. Flux support added Aug 2024. Apple Silicon optimized.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Mac-only Stable Diffusion app, no social presence, open-source"
     },
     {
       "id": 404,
@@ -13164,7 +13174,9 @@
         "Hugging Face demo"
       ],
       "social": {
-        "github": 17800
+        "github": 17800,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
@@ -13176,7 +13188,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2022 paper. 17.8K+ GitHub stars. Codebook Lookup Transformer for face restoration. Hugging Face Space demo available.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research project by Tencent ARC, face restoration, GitHub-only"
     },
     {
       "id": 405,
@@ -13194,7 +13207,9 @@
         "Python API"
       ],
       "social": {
-        "github": 36000
+        "github": 36000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
@@ -13206,7 +13221,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tencent ARC Lab. 36K+ GitHub stars. Integrates with Real-ESRGAN for background upscaling. Versions 1, 1.2, 1.3 available.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research project by Tencent ARC, face restoration, GitHub 36K+ stars"
     },
     {
       "id": 406,
@@ -13224,7 +13240,9 @@
         "Multilingual"
       ],
       "social": {
-        "github": 30000
+        "github": 30000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
@@ -13236,7 +13254,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open source by Suno. Can generate speech, music, sound effects.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Open-source TTS by Suno AI, GitHub-only"
     },
     {
       "id": 407,
@@ -13253,7 +13272,11 @@
         "Expression transfer",
         "Fast inference"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0,
+        "github": 13900
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 100000,
       "imageGen": false,
@@ -13263,8 +13286,9 @@
       "videoTimeline": false,
       "note": "Kuaishou VGI research. 13K+ GitHub stars. Real-time inference capable.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
-      "ranking": 407
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "ranking": 407,
+      "verificationNotes": "KwaiVGI portrait animation, 13.9K GitHub stars, adopted by Kuaishou/Douyin/Jianying"
     },
     {
       "id": 408,
@@ -13282,7 +13306,9 @@
         "Background options"
       ],
       "social": {
-        "linkedin": 5000
+        "linkedin": 5000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
@@ -13294,7 +13320,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "300+ headshots per order. Various professional styles. Good for job seekers.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI headshot generator, 196K+ professionals served, minimal social presence"
     },
     {
       "id": 409,
@@ -13310,7 +13337,10 @@
         "Single image",
         "Style transfer"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
       "ranking": 409,
@@ -13321,8 +13351,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 50000,
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
-      "note": "Research project; widely used in ComfyUI/SD workflows"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "note": "Research project; widely used in ComfyUI/SD workflows",
+      "verificationNotes": "Research project, zero-shot identity-preserving generation"
     },
     {
       "id": 410,
@@ -13340,7 +13371,9 @@
         "Lightning fast"
       ],
       "social": {
-        "github": 2500
+        "github": 2500,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
@@ -13352,7 +13385,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pure and Lightning ID. Fast tuning-free personalization. Mar 2024 release.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research model, GitHub-only"
     },
     {
       "id": 411,
@@ -13370,7 +13404,9 @@
         "Efficient training"
       ],
       "social": {
-        "github": 1500
+        "github": 1500,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
@@ -13382,7 +13418,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "THUDM/Zhipu AI. Relay diffusion for efficient generation. Powers Zhipu products.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "THUDM research model, GitHub-only"
     },
     {
       "id": 412,
@@ -13400,7 +13437,9 @@
         "Cross-lingual"
       ],
       "social": {
-        "github": 30000
+        "github": 35998,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
@@ -13412,7 +13451,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MIT and MyShell collaboration. Instant voice cloning from short audio. Cost-effective.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "MyShell voice cloning, 36K GitHub stars, MIT license"
     },
     {
       "id": 413,
@@ -13429,7 +13469,10 @@
         "Fine-tuning",
         "Community models"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
       "ranking": 413,
@@ -13440,7 +13483,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Ecosystem of community-trained LoRA adapters for FLUX. Widely used on Civitai and HuggingFace.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Black Forest Labs model variants on HuggingFace"
     },
     {
       "id": 414,
@@ -13457,7 +13501,10 @@
         "Style options",
         "Mobile friendly"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 60000,
       "ranking": 414,
@@ -13468,7 +13515,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta Research demo. Transform doodles into detailed artwork. Mobile-accessible interface.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Meta demo lab sketch tool"
     },
     {
       "id": 415,
@@ -13485,7 +13533,9 @@
         "No inversion"
       ],
       "social": {
-        "github": 4000
+        "github": 4000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 60000,
@@ -13497,7 +13547,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Edit images via natural language instructions without mask or inversion.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research project by Tim Brooks"
     },
     {
       "id": 416,
@@ -13515,8 +13566,9 @@
         "Prioritization"
       ],
       "social": {
-        "github": 20000,
-        "twitter": 10000
+        "github": 20737,
+        "twitter": 10000,
+        "instagram": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
@@ -13528,7 +13580,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Yohei Nakajima (venture capitalist). Mar 2023. Task-driven autonomous agent loop. 20K+ stars.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "20.7K GitHub stars, self-building autonomous agent framework by yoheinakajima"
     },
     {
       "id": 417,
@@ -13546,7 +13599,8 @@
         "Copyright safe"
       ],
       "social": {
-        "twitter": 8000
+        "twitter": 8000,
+        "instagram": 9449
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
@@ -13558,7 +13612,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Business-focused AI music. Premium features for enterprises. Soundful Studios for production.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI music generator, IG @soundfulmusic 9.4K"
     },
     {
       "id": 418,
@@ -13576,7 +13631,8 @@
         "ControlNet-based"
       ],
       "social": {
-        "twitter": 5000
+        "twitter": 5000,
+        "instagram": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
@@ -13588,7 +13644,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses ControlNet with Stable Diffusion. Transform quick doodles into diverse artistic styles.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Sketch to image tool"
     },
     {
       "id": 419,
@@ -13605,7 +13662,8 @@
         "API"
       ],
       "social": {
-        "twitter": 15000
+        "twitter": 9841,
+        "instagram": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
@@ -13617,13 +13675,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 147000,
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "note": "146.7K monthly visits Nov 2025-Jan 2026",
       "socialMedia": {
         "instagram": {
           "followers": 445
         }
-      }
+      },
+      "verificationNotes": "Common Sense Machines, 3D generation, Twitter @CSM_ai 9.8K"
     },
     {
       "id": 420,
@@ -13640,7 +13699,10 @@
         "AI fashion models",
         "4K output"
       ],
-      "social": {},
+      "social": {
+        "instagram": 10000,
+        "twitter": 2000
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 420,
@@ -13651,12 +13713,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$3M seed from Chamaeleon, Acrobator, Hype Ventures, Margo Georgiadis. E-commerce image enhancement API.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 10000
         }
-      }
+      },
+      "verificationNotes": "AI product photography, IG @claid.ai 10K"
     },
     {
       "id": 421,
@@ -13674,7 +13737,9 @@
         "Research tools"
       ],
       "social": {
-        "github": 10000
+        "github": 10000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
@@ -13686,7 +13751,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UC Berkeley project. Open source NeRF framework.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Open-source NeRF framework"
     },
     {
       "id": 422,
@@ -13702,7 +13768,10 @@
         "Short videos",
         "Text-to-GIF"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 422,
@@ -13713,7 +13782,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Text-to-GIF AI generation. Hotshot-XL open source SDXL-based GIF model.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Acquired by xAI (Elon Musk) in March 2025, AI video generation"
     },
     {
       "id": 423,
@@ -13729,7 +13799,10 @@
         "25 frames",
         "Diffusion model"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 423,
@@ -13740,7 +13813,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "img2vid-xt generates 25 frames. Commercial use requires Stability AI license.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Stability AI model on HuggingFace"
     },
     {
       "id": 424,
@@ -13757,7 +13831,10 @@
         "Music generation",
         "Audio tools"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 424,
@@ -13768,8 +13845,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of FineShare platform; includes vocal remover, stem splitter",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
-      "monthlyVisits": 100000
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "monthlyVisits": 100000,
+      "verificationNotes": "FineShare AI singing voice tool"
     },
     {
       "id": 425,
@@ -13801,9 +13879,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI productivity tool with comprehensive AI tool comparison guides. Luma AI pricing guide.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "monthlyTraffic": 80000,
-      "researchNotes": "AI knowledge base assistant for teams. $5.27M funding."
+      "researchNotes": "AI knowledge base assistant for teams. $5.27M funding.",
+      "verificationNotes": "AI knowledge/support tool"
     },
     {
       "id": 426,
@@ -13821,7 +13900,10 @@
         "Royalty-free",
         "API"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 426,
@@ -13832,7 +13914,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Shutterstock in 2020. Enterprise AI music solution. API integration available.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Acquired by Shutterstock"
     },
     {
       "id": 427,
@@ -13848,7 +13931,10 @@
         "Distilled",
         "Fast inference"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 427,
@@ -13859,7 +13945,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. Achieves high quality in just 2-4 inference steps using progressive distillation.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "ByteDance model on HuggingFace"
     },
     {
       "id": 428,
@@ -13875,7 +13962,10 @@
         "Few-step sampling",
         "Distillation"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 428,
@@ -13886,7 +13976,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICML 2023 by Yang Song et al (OpenAI). FID 3.55 on CIFAR-10 for one-step generation.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research paper/arxiv only"
     },
     {
       "id": 429,
@@ -13904,7 +13995,7 @@
         "API access"
       ],
       "social": {
-        "twitter": 5000,
+        "twitter": 4807,
         "instagram": 1500,
         "tiktok": 3000
       },
@@ -13918,14 +14009,15 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Build custom AI video workflows. Combines music and video generation in one platform.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "monthlyTraffic": 120000,
       "researchNotes": "AI video avatar platform. $5.27M total funding. Pricing $39-149/mo.",
       "socialMedia": {
         "instagram": {
           "followers": 7593
         }
-      }
+      },
+      "verificationNotes": "AI video clones, Twitter @argildotai 4.8K"
     },
     {
       "id": 430,
@@ -13942,7 +14034,10 @@
         "Batch processing",
         "Digital canvas"
       ],
-      "social": {},
+      "social": {
+        "instagram": 3156,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 40000,
       "ranking": 430,
@@ -13953,12 +14048,13 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Acquired by soona (Mar 2024). Originally Zerolens GmbH. 100+ AI background templates.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 3156
         }
-      }
+      },
+      "verificationNotes": "AI product photography, IG @mokker.ai 3.2K"
     },
     {
       "id": 431,
@@ -13976,7 +14072,9 @@
         "Bug repair"
       ],
       "social": {
-        "github": 15000
+        "github": 15000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 40000,
@@ -13988,7 +14086,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Princeton NLP. NeurIPS 2024. SWE-bench creators. Used by Meta, NVIDIA, IBM. Mini-SWE-agent 100 lines.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Software engineering agent, also has mini-swe-agent scoring 74%+ on SWE-bench"
     },
     {
       "id": 432,
@@ -14019,7 +14118,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$12.5M total funding. Acquired by Autodesk (May 2024). Epic Games and Founders Fund investors.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Acquired by Autodesk in May 2024, AI VFX tool"
     },
     {
       "id": 433,
@@ -14051,12 +14151,13 @@
       "videoTimeline": false,
       "monthlyTraffic": 50000,
       "researchNotes": "AI motion capture from video. Niche tool for 3D animation.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 3899
         }
-      }
+      },
+      "verificationNotes": "Motion capture AI"
     },
     {
       "id": 434,
@@ -14073,7 +14174,10 @@
         "E-commerce ready",
         "Batch processing"
       ],
-      "social": {},
+      "social": {
+        "instagram": 3156,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 30000,
       "ranking": 434,
@@ -14084,7 +14188,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "E-commerce focused. 50%+ higher sales reported by Etsy sellers. 100 images/day on Standard.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Duplicate of #430"
     },
     {
       "id": 435,
@@ -14100,7 +14205,10 @@
         "Figma export",
         "Design system"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 1410
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 20000,
       "ranking": 435,
@@ -14110,7 +14218,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI design tool, Twitter @rungalileo 1.4K (note: may be different product - evaluation platform)"
     },
     {
       "id": 436,
@@ -14127,7 +14236,10 @@
         "API",
         "30+ languages"
       ],
-      "social": {},
+      "social": {
+        "instagram": 189,
+        "twitter": 5000
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 10000,
       "ranking": 436,
@@ -14138,12 +14250,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$64.2M total funding over 4 rounds from 19 investors. Real-time conversational AI avatars.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 189
         }
-      }
+      },
+      "verificationNotes": "AI video personalization, IG tiny, active on X @heytavus, Phoenix-3/Raven-0/Sparrow-0 models"
     },
     {
       "id": 437,
@@ -14162,7 +14275,9 @@
       ],
       "social": {
         "github": 18000,
-        "huggingface": 8000
+        "huggingface": 8000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 180000,
       "estimatedUsers": 60000,
@@ -14174,7 +14289,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAudio S1 (4B params) flagship. Fish Speech v1.5 trained on 1M+ hours.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Fish Audio TTS, state-of-the-art open source TTS"
     },
     {
       "id": 438,
@@ -14190,7 +14306,7 @@
       ],
       "social": {
         "twitter": 1500,
-        "instagram": 800,
+        "instagram": 130,
         "tiktok": 0
       },
       "estimatedMonthlyVisits": 174000,
@@ -14204,12 +14320,13 @@
       "videoTimeline": false,
       "monthlyTraffic": 30000,
       "researchNotes": "AI product photo generator. Small niche tool.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 130
         }
-      }
+      },
+      "verificationNotes": "AI product photography, minimal IG presence"
     },
     {
       "id": 439,
@@ -14227,7 +14344,8 @@
         "Quick generation"
       ],
       "social": {
-        "instagram": 10000
+        "instagram": 275,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 60000,
@@ -14239,7 +14357,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "100+ avatar styles. Focus on artistic portraits and social avatars.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI photo tool, IG @thedream_ai 275"
     },
     {
       "id": 440,
@@ -14257,7 +14376,9 @@
         "Fast inference"
       ],
       "social": {
-        "github": 2000
+        "github": 2000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 60000,
@@ -14269,7 +14390,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MIT Han Lab. Generate images with multiple subjects without fine-tuning.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "MIT research, GitHub-only"
     },
     {
       "id": 441,
@@ -14287,7 +14409,9 @@
         "SDXL compatible"
       ],
       "social": {
-        "github": 1000
+        "github": 1000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 60000,
@@ -14299,7 +14423,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Segmind. 50% smaller and 60% faster than SDXL. Knowledge distillation.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Segmind model on HuggingFace"
     },
     {
       "id": 442,
@@ -14330,7 +14455,8 @@
       "monthlyTraffic": 15000,
       "researchNotes": "AI art generator app. Discontinued in 2025 per AllAboutAI.",
       "status": "discontinued",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "AI art/video generation app"
     },
     {
       "id": 443,
@@ -14363,7 +14489,8 @@
       "monthlyTraffic": 200000,
       "researchNotes": "IP-Adapter - open source image prompt adapter. Research project/GitHub.",
       "isOpenSource": true,
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Research project, image prompt adapter"
     },
     {
       "id": 444,
@@ -14382,7 +14509,9 @@
       ],
       "social": {
         "github": 35000,
-        "huggingface": 10000
+        "huggingface": 10000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
@@ -14394,7 +14523,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Coqui TTS XTTS-v2 model. 17 languages, emotion/style transfer, cross-lingual cloning.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Coqui AI TTS, open-source"
     },
     {
       "id": 445,
@@ -14410,7 +14540,10 @@
         "Outpainting",
         "Context-aware fill"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
       "ranking": 445,
@@ -14421,7 +14554,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Specialized FLUX model for seamless content filling and expansion.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Black Forest Labs inpainting model"
     },
     {
       "id": 446,
@@ -14437,7 +14571,10 @@
         "Masked editing",
         "Seamless blending"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
       "ranking": 446,
@@ -14448,7 +14585,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Specialized for seamless inpainting with context-aware generation.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Black Forest Labs inpainting variant"
     },
     {
       "id": 447,
@@ -14466,7 +14604,9 @@
         "Interactive"
       ],
       "social": {
-        "github": 10000
+        "github": 10000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
@@ -14478,7 +14618,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2025. 59x faster than Diffusers. Batched denoising + residual CFG. Live video-to-video capable.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "Real-time diffusion pipeline, GitHub"
     },
     {
       "id": 448,
@@ -14496,7 +14637,9 @@
         "ReferenceNet"
       ],
       "social": {
-        "github": 15000
+        "github": 15000,
+        "instagram": 0,
+        "twitter": 0
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
@@ -14508,7 +14651,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Alibaba Tongyi Lab. Viral demo Dec 2023. Animate Anyone 2 released Feb 2025 with environment affordance.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00"
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "verificationNotes": "HumanAIGC research project, character animation"
     },
     {
       "id": 449,
@@ -14526,7 +14670,8 @@
         "Royalty-free"
       ],
       "social": {
-        "twitter": 3000
+        "twitter": 3000,
+        "instagram": 661
       },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 40000,
@@ -14538,12 +14683,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Designed specifically for video creators. Select scene, mood, and length for perfect video sync.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 661
         }
-      }
+      },
+      "verificationNotes": "AI music composition, IG @ecrettmusic 661"
     },
     {
       "id": 450,
@@ -14560,7 +14706,10 @@
         "Fabric patterns",
         "POD ready"
       ],
-      "social": {},
+      "social": {
+        "instagram": 0,
+        "twitter": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 40000,
       "ranking": 450,
@@ -14571,12 +14720,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
-      "lastVerified": "2026-02-25T00:29:11.283253+08:00",
+      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 182
         }
-      }
+      },
+      "verificationNotes": "AI pattern generation, minimal social presence"
     },
     {
       "id": 451,
