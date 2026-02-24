@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T06:14:51.112377+08:00",
+  "lastUpdated": "2026-02-25T06:29:54.167180+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 551-600 (cycle 5)",
-    "nextBatch": "ranks 601-650 (cycle 5)",
-    "lastResearched": "2026-02-25T06:14:51.112377+08:00",
+    "lastBatch": "ranks 601-650 (cycle 5)",
+    "nextBatch": "ranks 651-700 (cycle 5)",
+    "lastResearched": "2026-02-25T06:29:54.167180+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -59,10 +59,11 @@
       "401-450 (cycle 5)",
       "451-500 (cycle 5)",
       "501-550 (cycle 5)",
-      "551-600 (cycle 5)"
+      "551-600 (cycle 5)",
+      "601-650 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 12. Ranks 551-600 verified. Key findings: AnimateDiff 11.8K stars (Imagine360 at ICCV 2025), MeloTTS ~4.5K stars (20M+ downloads, hit #1 GitHub trending), IC-Light ~4.5K stars (ICLR 2025, V2 released), InstantMesh 4.3K stars, AnyDoor 4.2K stars, DWPose 2.6K stars, DemoFusion 2K stars (CVPR 2024), Zero123++ 2K stars, FreeU 1.8K stars (CVPR 2024 Oral), ControlNeXt 1.6K stars, StableFast3D 1.6K stars, OpenLRM 1.2K stars (3DTopia-XL CVPR 2025 Highlight), MVSplat 1.1K stars (ECCV 2024 Oral). SwitchLight 3.0 launched Nov 2025 by Beeble.ai. DeepSeek-VL superseded by VL2. Unique3D moved to AiuniAI org (NeurIPS 2024)."
+    "note": "Cycle 5 batch 13. Ranks 601-650 verified. Key findings: DragGAN 36K stars (SIGGRAPH 2023, most starred in batch), Shap-E 12.2K stars (OpenAI 3D gen), Point-E 6.9K stars (OpenAI), InstructPix2Pix 6.9K stars, Voyager 6.7K stars (MineDojo), TaskWeaver 6.1K stars (Microsoft), SimSwap 5.1K stars, MetaVoice 4.2K stars (pivoted to duplex speech-to-speech Voice AI), Mini-Omni 3.5K stars, DreamCraft3D 3K stars, AudioSR 1.8K stars, BrushNet 1.7K stars (ECCV 2024), ProlificDreamer 1.6K stars, Octo 1.5K stars (robotics foundation model), DragDiffusion 1.3K stars, Pitch Innovations ~10K Instagram followers (music plugin dev)."
   },
   "tools": [
     {
@@ -19410,7 +19411,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for diffusion-based inpainting.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "DreamInpainter - small research project, minimal web presence"
     },
     {
@@ -19441,7 +19442,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024. Separates masked image features from noisy latent for better preservation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "BrushNet by TencentARC - ECCV 2024 paper, plug-and-play inpainting",
       "githubUrl": "https://github.com/TencentARC/BrushNet"
     },
@@ -19471,7 +19472,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel wavelet-tree representation compactly encodes shapes for large-scale 3D generation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Make-A-Shape - research paper (arXiv 2401.11067), no public code release"
     },
     {
@@ -19491,7 +19492,7 @@
       ],
       "social": {
         "twitter": 1000,
-        "instagram": 500,
+        "instagram": 9958,
         "tiktok": 0
       },
       "estimatedMonthlyVisits": 60000,
@@ -19504,7 +19505,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI music generator comparisons for EDM producers. Text-to-music tool reviews.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "monthlyTraffic": 15000,
       "researchNotes": "Pitch Innovations - music/audio plugin developer.",
       "researchNote": "Pitch Innovations - active audio plugin company, released Fluid Chords 2 in 2025, MPE plugins"
@@ -19536,7 +19537,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Swaps subjects using learned concepts without additional training.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "PhotoSwap - research project page, minimal ongoing activity"
     },
     {
@@ -19567,7 +19568,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024. Uses learnable task prompts for different inpainting tasks.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "PowerPaint by OpenMMLab - versatile image inpainting",
       "githubUrl": "https://github.com/open-mmlab/PowerPaint"
     },
@@ -19597,7 +19598,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Early text-to-3D research from Stanford. Created Text2Shape dataset with ShapeNet.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Text2Shape - Stanford research, older project (2018), static"
     },
     {
@@ -19628,7 +19629,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2025. Uses Prompt-Aware Introverted Attention and super-resolution for high-res editing.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "HD-Painter by Picsart AI Research",
       "githubUrl": "https://github.com/Picsart-AI-Research/HD-Painter"
     },
@@ -19648,7 +19649,7 @@
         "Fast generation"
       ],
       "social": {
-        "github": 6500,
+        "github": 6857,
         "githubStars": 6857
       },
       "estimatedMonthlyVisits": 57000,
@@ -19661,7 +19662,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAI research. Generates point clouds from text via image-conditioned diffusion.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Point-E by OpenAI - 3D point cloud generation",
       "githubUrl": "https://github.com/openai/point-e"
     },
@@ -19681,8 +19682,8 @@
         "Stateful execution"
       ],
       "social": {
-        "github": 5500,
-        "githubStars": 6117
+        "github": 6118,
+        "githubStars": 6118
       },
       "estimatedMonthlyVisits": 60000,
       "estimatedUsers": 12000,
@@ -19694,7 +19695,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. Code-first agent for complex data tasks. Stateful conversation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "TaskWeaver by Microsoft - code-first agent framework, added vision input March 2025, actively maintained",
       "githubUrl": "https://github.com/microsoft/TaskWeaver"
     },
@@ -19727,7 +19728,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research paper showing how to apply DPO from LLMs to diffusion models.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Diffusion-DPO - research paper (arxiv). Not a product.",
       "toolType": "research_paper",
@@ -19762,7 +19763,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Follow-up to original consistency models paper with improved training recipes.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Improved Consistency Training - research paper (arxiv).",
       "toolType": "research_paper",
@@ -19794,7 +19795,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for intelligent brush-based image manipulation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "SmartBrush - research project, minimal presence"
     },
     {
@@ -19813,7 +19814,8 @@
         "Improved quality"
       ],
       "social": {
-        "githubStars": 12210
+        "githubStars": 12210,
+        "github": 12210
       },
       "estimatedMonthlyVisits": 56500,
       "estimatedUsers": 22600,
@@ -19825,7 +19827,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on OpenAI Shap-E. Generates implicit 3D representations directly.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Shap-E by OpenAI - 3D generation from text/images",
       "githubUrl": "https://github.com/openai/shap-e"
     },
@@ -19855,7 +19857,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Builds on Imagen for instruction-based image manipulation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Imagen Editor by Google Research - not publicly released, research demo only"
     },
     {
@@ -19887,7 +19889,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance project. Generates geometrically consistent multi-view images from text. ICLR 2024.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "MVDream by ByteDance - multi-view diffusion for 3D",
       "githubUrl": "https://github.com/bytedance/MVDream"
     },
@@ -19920,7 +19922,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Upsamples any audio to 48kHz 24kHz bandwidth. Speech, music, sound effects. Sep 2023.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "AudioSR - versatile audio super resolution",
       "githubUrl": "https://github.com/haoheliu/versatile_audio_super_resolution"
     },
@@ -19954,7 +19956,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MetaVoice-1B trained on 100K hours. Foundational model for expressive TTS. Feb 2024.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "MetaVoice - open source TTS",
       "githubUrl": "https://github.com/metavoiceio/metavoice-src"
     },
@@ -19987,7 +19989,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open-source real-time speech model similar to GPT-4o voice mode.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Mini-Omni - multimodal LLM with voice",
       "githubUrl": "https://github.com/gpt-omni/mini-omni"
     },
@@ -20020,7 +20022,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. NeurIPS 2023 Oral. First LLM embodied agent. Auto curriculum + skill library.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Voyager by MineDojo - LLM-powered Minecraft agent",
       "githubUrl": "https://github.com/MineDojo/Voyager"
     },
@@ -20051,7 +20053,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Commercial video platform. Different from Google's Muse text-to-image model.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Muse.ai - next-gen ad-free video hosting with in-video search, active commercial product"
     },
     {
@@ -20080,7 +20082,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 paper. Uses explicit 3D shape prior to improve geometry accuracy.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Dream3D - research paper (arXiv 2212.14704), no active development"
     },
     {
@@ -20111,7 +20113,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Improved version by SUDO AI. Multi-view consistent 3D from single image.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "One-2-3-45++ - single image to 3D",
       "githubUrl": "https://github.com/sudo-ai-3d/One2345plus"
     },
@@ -20144,7 +20146,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UC Berkeley/Stanford/CMU/Google. Open X-Embodiment dataset. Robot foundation model.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Octo - generalist robot policy",
       "githubUrl": "https://github.com/octo-models/octo"
     },
@@ -20174,7 +20176,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI. Published July 2022. Enables scene editing and text editing with anchor scenes.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Make-A-Scene by Meta - research paper, not publicly released"
     },
     {
@@ -20206,7 +20208,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 Spotlight. Introduces VSD as principled alternative to SDS.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "ProlificDreamer by THU-ML - high-fidelity 3D generation",
       "githubUrl": "https://github.com/thu-ml/prolificdreamer"
     },
@@ -20236,7 +20238,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Published June 2022. Treats text-to-image as sequence-to-sequence problem.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Parti by Google Research - text-to-image, research only"
     },
     {
@@ -20255,7 +20257,8 @@
         "Photo-realistic"
       ],
       "social": {
-        "github": 400
+        "github": 400,
+        "githubStars": 208
       },
       "estimatedMonthlyVisits": 55000,
       "estimatedUsers": 22000,
@@ -20267,7 +20270,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Uses holistic sampling and smoothing for high-quality results.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "HiFA - research project for 3D generation, minimal activity"
     },
     {
@@ -20296,7 +20299,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for parallelizing diffusion model inference.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "ParaDiffusion - research project, minimal presence"
     },
     {
@@ -20325,7 +20328,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023 NVIDIA paper. Generates 3D in single forward pass after amortized training.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "ATT3D by NVIDIA - amortized text-to-3D, research"
     },
     {
@@ -20354,7 +20357,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Supports background, style, object add/remove, local/texture edits.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Emu Edit by Meta - precise instruction-based image editing, research demo at metademolab"
     },
     {
@@ -20385,7 +20388,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Uses GPT-3 + Stable Diffusion to generate 450K+ training examples.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "InstructPix2Pix - instruction-based image editing, influential paper",
       "githubUrl": "https://github.com/timothybrooks/instruct-pix2pix"
     },
@@ -20415,7 +20418,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "2023 paper focusing on 2D image generation to enhance 3D texture and geometry.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "IT3D - research paper, no public repo"
     },
     {
@@ -20444,7 +20447,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for high-precision image manipulation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "UltraEdit - research project page"
     },
     {
@@ -20473,7 +20476,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Decomposes NVS into observed/hallucinated region generation for better consistency.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Consistent123 - 3D generation research"
     },
     {
@@ -20504,7 +20507,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Works with SD, SDXL, and DeepFloyd IF models.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "LEDITS++ - semantic image editing",
       "githubUrl": "https://github.com/ml-research/ledits_pp"
     },
@@ -20536,7 +20539,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Fine-tunes diffusion model to generate viewpoint-conditioned coordinate maps.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "SweetDreamer - 3D generation research"
     },
     {
@@ -20565,7 +20568,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "KDD 2016. Widely used ML interpretability tool, not an image editor.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "LIME - ML explanation framework, older project"
     },
     {
@@ -20595,7 +20598,7 @@
       "videoTimeline": false,
       "note": "ACM MM 2020. Preserves target face attributes. 4K+ GitHub stars.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "ranking": 639,
       "researchNote": "SimSwap - face swapping",
       "githubUrl": "https://github.com/neuralchen/SimSwap"
@@ -20626,7 +20629,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 paper. SJC method for text-to-3D using pretrained 2D models.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Score Jacobian Chaining - 3D generation method, research"
     },
     {
@@ -20655,7 +20658,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for efficient diffusion-based image manipulation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "DEff - research project, minimal presence"
     },
     {
@@ -20684,7 +20687,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for style-based image manipulation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "InST - research project, minimal presence"
     },
     {
@@ -20716,7 +20719,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Alternating optimization of diffusion prior and 3D scene representation.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "DreamCraft3D by DeepSeek AI",
       "githubUrl": "https://github.com/deepseek-ai/DreamCraft3D"
     },
@@ -20746,7 +20749,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for drag-style noise-based image editing.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "Drag Your Noise - research project, minimal presence"
     },
     {
@@ -20775,7 +20778,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Core technique from DreamFusion. Foundation for most modern text-to-3D methods.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "ScoreDistillation - DreamFusion technique, foundational research"
     },
     {
@@ -20806,7 +20809,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2023. Enables deformation of animals, cars, humans, landscapes with pixel-level control.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "DragGAN - SIGGRAPH 2023, viral interactive editing tool",
       "githubUrl": "https://github.com/XingangPan/DragGAN"
     },
@@ -20836,7 +20839,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From DreamFusion paper. Enables optimization in arbitrary parameter spaces using diffusion.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "SDS (Score Distillation Sampling) - DreamFusion technique, not a standalone tool"
     },
     {
@@ -20867,7 +20870,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 Highlight. Overcomes GAN limitations with pretrained diffusion models.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "DragDiffusion - drag-based editing for diffusion models",
       "githubUrl": "https://github.com/Yujun-Shi/DragDiffusion"
     },
@@ -20897,7 +20900,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From ProlificDreamer. Models 3D parameter as random variable for better results than SDS.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "VSD (Variational Score Distillation) - ProlificDreamer technique"
     },
     {
@@ -20928,7 +20931,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Outperforms DragGAN in challenging scenarios with similar structures.",
-      "lastVerified": "2026-02-25T01:30:13.746403+08:00",
+      "lastVerified": "2026-02-25T06:29:54.167180+08:00",
       "researchNote": "FreeDrag - improved drag-based editing",
       "githubUrl": "https://github.com/LPengYang/FreeDrag"
     },
