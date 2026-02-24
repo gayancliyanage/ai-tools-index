@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T22:34:21.051720",
+  "lastUpdated": "2026-02-24T22:44:50.387534",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,18 +20,19 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 1-50 (cycle 4 start)",
-    "nextBatch": "ranks 1-50 (continue deeper verification)",
-    "lastResearched": "2026-02-24T22:34:21.051720",
+    "lastBatch": "ranks 51-100 (cycle 4)",
+    "nextBatch": "ranks 101-150 (cycle 4)",
+    "lastResearched": "2026-02-24T22:44:50.387534",
     "batchesCompleted": [
       "1-10",
       "11-60",
       "61-110",
       "111-1000",
-      "1-50 (cycle 4)"
+      "1-50 (cycle 4)",
+      "51-100 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 started. Re-verified 16 top tools. Key corrections: CapCut IG 1M (was 5M), Figma IG 890K (was 400K), Adobe Firefly IG 104K (Firefly-specific, was 1.5M parent), Canva X 333.8K, Pika X 141.9K/IG 102K, Luma AI X 186.8K/IG 438K, HeyGen X 86K, Gamma X 61.6K, Remini TikTok 165.4K."
+    "note": "Cycle 4 batch 2. Verified IG followers for 20 tools in ranks 51-100. Key findings: Procreate 3M IG (huge), Captions App 505K, Luma AI 438K, Pixlr 315K, FaceApp 141K, Opus Clip 129K, Synthesia 115K, Krea AI 104K, Pika 102K."
   },
   "tools": [
     {
@@ -1641,7 +1642,8 @@
       ],
       "social": {
         "twitter": 50000,
-        "facebook": 200000
+        "facebook": 200000,
+        "instagram": "315K"
       },
       "estimatedMonthlyVisits": 14500000,
       "estimatedUsers": 10000000,
@@ -1653,7 +1655,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "10M+ monthly users globally. Multiple pricing tiers: Plus $1.99/mo, Premium $7.99/mo, Team $12.99/mo.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "Pixlr AI - kept estimate"
     },
     {
@@ -1673,7 +1675,7 @@
       "social": {
         "twitter": 100000,
         "youtube": 150000,
-        "instagram": 15000
+        "instagram": "15K"
       },
       "estimatedMonthlyVisits": 15000000,
       "estimatedUsers": 8000000,
@@ -1684,7 +1686,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "Clipchamp - kept estimate"
     },
     {
@@ -1702,7 +1704,7 @@
         "Hair color"
       ],
       "social": {
-        "instagram": 141000,
+        "instagram": "141K",
         "facebook": 2000000
       },
       "estimatedMonthlyVisits": 8000000,
@@ -1715,7 +1717,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "480M lifetime downloads. $135M revenue in 2024.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "FaceApp - @faceapp IG 141K"
     },
     {
@@ -1746,7 +1748,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Meitu ecosystem. Focus on beauty and video editing.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "Meitu Wink - kept estimate"
     },
     {
@@ -1775,7 +1777,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "500K+ commercial templates. China's Canva alternative.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "Gaoding - Chinese tool"
     },
     {
@@ -1805,7 +1807,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 500000,
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "notes": "Primarily mobile app; low web/social presence",
       "verificationNotes": "Retrica - kept estimate"
     },
@@ -1837,7 +1839,7 @@
       "videoTimeline": true,
       "note": "5B yen ARR ($33M+). Record revenue Mar 2025 (1B yen). Celsys Inc.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 57,
       "verificationNotes": "Clip Studio Paint - kept estimate"
     },
@@ -1870,7 +1872,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "10M+ registered users. Powers thousands of apps.",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "verificationNotes": "Stable Diffusion - @StableDiffusion community account"
     },
     {
@@ -1889,7 +1891,8 @@
         "Browser-based"
       ],
       "social": {
-        "twitter": 50000
+        "twitter": 50000,
+        "instagram": "5.5K"
       },
       "estimatedMonthlyVisits": 10000000,
       "estimatedUsers": 15000000,
@@ -1900,7 +1903,7 @@
       "videoTimeline": false,
       "note": "500K daily users. $100K+/mo revenue. Solo dev Ivan Kutskir. No employees.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 59,
       "verificationNotes": "Photopea - kept estimate"
     },
@@ -1933,7 +1936,7 @@
       "funding": "$138M total ($50M Series A, $130M Series B)",
       "valuation": "$1.3B",
       "arr": "$200M",
-      "lastVerified": "2026-02-24T22:15:31.391778",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "note": "Founded 2023, launched Mar 2025, 15M+ users, doubled ARR in 2 months",
       "verificationNotes": "Higgsfield - kept estimate"
     },
@@ -1965,7 +1968,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "30M+ people worldwide. All-in-1 video animation platform for individuals, teams, enterprises.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 62,
@@ -1983,7 +1986,8 @@
         "ControlNet"
       ],
       "social": {
-        "twitter": 100000
+        "twitter": 100000,
+        "instagram": "104K"
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 30000000,
@@ -1995,7 +1999,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$8M ARR (Apr 2025). 20x revenue growth in 14 months.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 63,
@@ -2013,7 +2017,7 @@
         "Time-lapse"
       ],
       "social": {
-        "instagram": 2500000,
+        "instagram": "3M",
         "twitter": 300000,
         "youtube": 200000
       },
@@ -2026,7 +2030,7 @@
       "videoTimeline": false,
       "note": "300K downloads/month, $3M/month revenue. #1 paid iPad app. Savage Interactive.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 63
     },
     {
@@ -2056,7 +2060,7 @@
       "videoTimeline": false,
       "note": "300M+ installs. 600K downloads/month, $2M revenue/month. Meitu Inc. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 64
     },
     {
@@ -2086,7 +2090,7 @@
       "videoTimeline": true,
       "note": "40M+ downloads. Acquired by Dailymotion. 1200+ unique templates.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 65
     },
     {
@@ -2106,7 +2110,7 @@
       "social": {
         "youtube": 400000,
         "twitter": 80000,
-        "instagram": 50000
+        "instagram": "7.8K"
       },
       "estimatedMonthlyVisits": 12000000,
       "estimatedUsers": 4000000,
@@ -2117,7 +2121,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 67,
@@ -2146,7 +2150,7 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 68,
@@ -2174,7 +2178,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T21:30:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 69,
@@ -2191,7 +2195,7 @@
         "Translation"
       ],
       "social": {
-        "instagram": 81000,
+        "instagram": "81K",
         "twitter": 86000,
         "youtube": 100000
       },
@@ -2205,7 +2209,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI video generator 2025 (G2). 4.8/5 rating. 230+ avatars, 140+ languages.",
-      "lastVerified": "2026-02-24T22:34:21.051720"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 70,
@@ -2224,7 +2228,7 @@
       "social": {
         "twitter": 141900,
         "discord": 200000,
-        "instagram": 102000
+        "instagram": "102K"
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 14500000,
@@ -2236,7 +2240,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$900M valuation (early 2026). $135M+ raised.",
-      "lastVerified": "2026-02-24T22:34:21.051720"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 71,
@@ -2267,7 +2271,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "CyberLink 260M+ downloads. PCMag Editors' Choice. $150M revenue. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 72,
@@ -2295,7 +2299,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. Originally Dreamina. 8.93M MAU (Mar 2025). Integrated with Jianying (CapCut China). Part of Doubao ecosystem.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 73,
@@ -2325,7 +2329,7 @@
       "videoTimeline": true,
       "note": "500M+ downloads. QuVideo Inc. 500K downloads/month, $400K revenue/month. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 73
     },
     {
@@ -2356,7 +2360,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "30M+ downloads. 4.6 rating. Part of Lightricks ($250M ARR as of July 2025).",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 75,
@@ -2385,7 +2389,7 @@
       "videoTimeline": false,
       "note": "Part of Figma suite. AI-powered brainstorming and diagramming.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 75
     },
     {
@@ -2405,7 +2409,8 @@
       ],
       "social": {
         "twitter": 30000,
-        "linkedin": 20000
+        "linkedin": 20000,
+        "instagram": "79K"
       },
       "estimatedMonthlyVisits": 10000000,
       "estimatedUsers": 5000000,
@@ -2416,7 +2421,7 @@
       "videoTimeline": false,
       "note": "$1.3B valuation. $213M Series C (Aug 2025). Pivoted to enterprise sales tool.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 76
     },
     {
@@ -2443,7 +2448,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 78,
@@ -2463,7 +2468,7 @@
       "social": {
         "twitter": 186800,
         "discord": 50000,
-        "instagram": 438000
+        "instagram": "438K"
       },
       "estimatedMonthlyVisits": 10000000,
       "estimatedUsers": 3000000,
@@ -2475,7 +2480,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$70M funding. Dream Machine video generation. Ray 2 model.",
-      "lastVerified": "2026-02-24T22:34:21.051720"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 79,
@@ -2492,7 +2497,7 @@
         "Upscaling"
       ],
       "social": {
-        "instagram": 21000,
+        "instagram": "21K",
         "twitter": 80000
       },
       "estimatedMonthlyVisits": 9500000,
@@ -2505,7 +2510,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$7M revenue (Sep 2025). $80M+ raised. Excellent text rendering.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 80,
@@ -2521,7 +2526,8 @@
         "Simple interface"
       ],
       "social": {
-        "twitter": 100000
+        "twitter": 100000,
+        "instagram": "4.7K"
       },
       "estimatedMonthlyVisits": 2200000,
       "estimatedUsers": 5000000,
@@ -2532,7 +2538,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T21:30:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 81,
@@ -2561,7 +2567,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 82,
@@ -2592,7 +2598,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Focuses on aesthetic quality. Beats SDXL on human preference. Feb 2024 release.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 83,
@@ -2621,7 +2627,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 84,
@@ -2639,7 +2645,7 @@
       ],
       "social": {
         "youtube": 300000,
-        "instagram": 31000
+        "instagram": "31K"
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
@@ -2650,7 +2656,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T21:30:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 85,
@@ -2679,7 +2685,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 86,
@@ -2706,7 +2712,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 4000000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "notes": "Traffic declining ~14% MoM as of Nov 2025; global rank ~14K"
     },
     {
@@ -2736,7 +2742,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 2720000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "notes": "Down from 12.7M Oct 2025 peak; 2.72M as of Jan 2026"
     },
     {
@@ -2768,7 +2774,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "200M+ users worldwide. Custom beauty effects. AR makeup features. Profile-worthy selfies. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 89,
@@ -2786,7 +2792,8 @@
       ],
       "social": {
         "youtube": 100000,
-        "twitter": 50000
+        "twitter": 50000,
+        "instagram": "129K"
       },
       "estimatedMonthlyVisits": 5500000,
       "estimatedUsers": 10000000,
@@ -2798,7 +2805,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "10M+ users. Founded Jan 2022 by Young Zhao and Grace Wang. Big data analysis for content repurposing.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 90,
@@ -2827,7 +2834,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 91,
@@ -2857,7 +2864,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "10M users in 100 days (Jan 2025). ShengShu parent company. Honor partnership.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 92,
@@ -2884,7 +2891,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Baidu's ERNIE AI ecosystem. Chinese market leader.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 93,
@@ -2902,7 +2909,7 @@
         "AI avatars"
       ],
       "social": {
-        "instagram": 200000,
+        "instagram": "505K",
         "tiktok": 300000
       },
       "estimatedMonthlyVisits": 4500000,
@@ -2915,7 +2922,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$100M total funding. $60M Series C. $500M valuation. 10M+ downloads.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 94,
@@ -2933,7 +2940,8 @@
         "Discord bot"
       ],
       "social": {
-        "discord": 4157334
+        "discord": 4157334,
+        "instagram": "42K"
       },
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 4000000,
@@ -2944,7 +2952,7 @@
       "videoTimeline": false,
       "note": "4.1M+ Discord members. Viral AI meme generator. Physics understanding.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T22:44:50.387534",
       "ranking": 94
     },
     {
@@ -2963,7 +2971,8 @@
       ],
       "social": {
         "twitter": 100000,
-        "youtube": 150000
+        "youtube": 150000,
+        "instagram": "21K"
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 2000000,
@@ -2974,7 +2983,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 96,
@@ -2992,7 +3001,8 @@
       ],
       "social": {
         "discord": 200000,
-        "twitter": 80000
+        "twitter": 80000,
+        "instagram": "8"
       },
       "estimatedMonthlyVisits": 6500000,
       "estimatedUsers": 1500000,
@@ -3003,7 +3013,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 97,
@@ -3034,7 +3044,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "6.79M users (2025). 32M+ vocal splits in 2025. Top Meta benchmark.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 98,
@@ -3051,7 +3061,7 @@
         "Custom avatars"
       ],
       "social": {
-        "instagram": 115000,
+        "instagram": "115K",
         "twitter": 11300,
         "youtube": 50000
       },
@@ -3065,7 +3075,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$100M ARR (Apr 2025). 60K+ clients. 60% of Fortune 100.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 99,
@@ -3096,7 +3106,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Picsart ecosystem (150M+ users). AI-powered social media caption and hashtag generation.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 100,
@@ -3126,7 +3136,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$300M Series B (Dec 2025). $3.25B valuation. Led by Salesforce Ventures, AMP. Investors: a16z, NVIDIA, General Catalyst, Temasek. Partners with Adobe, Canva, Meta, Microsoft.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T22:44:50.387534"
     },
     {
       "id": 101,
