@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T20:44:46+08:00",
+  "lastUpdated": "2026-02-24T20:57:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -19,15 +19,15 @@
   "researchProgress": {
     "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 906,
-    "lastBatch": "51-100 (estimated tools sweep)",
-    "nextBatch": "continue estimated tools 195-500",
-    "lastResearched": "2026-02-24T20:44:46+08:00",
+    "verifiedTools": 921,
+    "lastBatch": "estimated tools sweep batch 3 (ids 195-424)",
+    "nextBatch": "continue estimated tools 425+",
+    "lastResearched": "2026-02-24T20:57:00+08:00",
     "batchesCompleted": [
       "1-50"
     ],
     "cycleNumber": 2,
-    "note": "Verified 15 estimated tools in sweep. 906 total verified."
+    "note": "Verified 15 more estimated tools. 921 total verified. 79 remaining."
   },
   "tools": [
     {
@@ -5833,7 +5833,7 @@
       "category": "Design",
       "founded": "2019",
       "headquarters": "Lithuania",
-      "description": "AI tool reviews and tech news platform",
+      "description": "AI tools directory and review platform by Cybernews",
       "pricing": "Free",
       "features": [
         "AI reviews",
@@ -5842,19 +5842,20 @@
         "Comparisons"
       ],
       "social": {
-        "twitter": 50000
+        "twitter": 85000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
       "ranking": 195,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Tech and security news with AI tool reviews. Soundraw AI reviews.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "Part of cybernews.com; traffic grew 99% MoM as of Jan 2026",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 5000000
     },
     {
       "id": 196,
@@ -7551,7 +7552,7 @@
       "category": "Design",
       "founded": "2019",
       "headquarters": "India",
-      "description": "SaaS software reviews and comparisons",
+      "description": "SaaS product comparison and review platform with AI tools category",
       "pricing": "Free",
       "features": [
         "Software reviews",
@@ -7559,18 +7560,21 @@
         "Comparisons",
         "User ratings"
       ],
-      "social": {},
+      "social": {
+        "twitter": 5000
+      },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 250000,
       "ranking": 254,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "SaaS review platform with AI tools. Beatoven.ai, Soundraw, Fotor pricing info.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "SaaS review site; competitor to G2/TrustRadius",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 500000
     },
     {
       "id": 255,
@@ -9298,7 +9302,7 @@
       "category": "Design",
       "founded": "2015",
       "headquarters": "Nigeria",
-      "description": "African tech news with AI tool guides",
+      "description": "African tech news platform covering AI tools and startups",
       "pricing": "Free",
       "features": [
         "AI guides",
@@ -9312,14 +9316,15 @@
       "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 120000,
       "ranking": 313,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "African tech publication with AI tool guides. Suno alternatives reviews.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 300000
     },
     {
       "id": 314,
@@ -9447,7 +9452,7 @@
       "category": "Audio/Music",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "Free unlimited text-to-speech with AI voices",
+      "description": "AI-powered note-taking and text-to-speech platform",
       "pricing": "Free unlimited",
       "features": [
         "Lifelike voices",
@@ -9459,14 +9464,15 @@
       "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 120000,
       "ranking": 318,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Free, unlimited, no sign-up required. Part of NoteGPT productivity suite.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "notegpt.io traffic grew 80% MoM as of Jan 2026; strong organic search",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 800000
     },
     {
       "id": 319,
@@ -9475,7 +9481,7 @@
       "category": "Design",
       "founded": "2023",
       "headquarters": "China",
-      "description": "AI tools directory and discovery platform",
+      "description": "AI tools directory and ranking platform",
       "pricing": "Free",
       "features": [
         "AI directory",
@@ -9483,18 +9489,21 @@
         "Categories",
         "Rankings"
       ],
-      "social": {},
+      "social": {
+        "twitter": 10000
+      },
       "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 120000,
       "ranking": 319,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Large AI tools directory. Artguru and thousands of other AI tools listed.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "67% organic search traffic; major AI tools directory",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 2000000
     },
     {
       "id": 320,
@@ -10173,23 +10182,28 @@
       "category": "3D/Animation",
       "founded": "2017",
       "headquarters": "San Francisco, USA",
-      "description": "AI 3D animation for avatars",
+      "description": "AI-powered 3D animation platform for creators",
       "pricing": "Free / Pro $20/mo",
       "features": [
         "3D avatars",
         "Animation",
         "Face tracking"
       ],
-      "social": {},
+      "social": {
+        "instagram": 13000
+      },
       "estimatedMonthlyVisits": 400000,
       "estimatedUsers": 200000,
       "ranking": 343,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 200000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "1M+ creators claimed; 13K Instagram followers"
     },
     {
       "id": 344,
@@ -10526,7 +10540,7 @@
       "category": "Design",
       "founded": "2017",
       "headquarters": "USA",
-      "description": "AI color palette generator",
+      "description": "AI color palette generator that learns your preferences",
       "pricing": "Free",
       "features": [
         "Color AI",
@@ -10537,12 +10551,15 @@
       "estimatedMonthlyVisits": 400000,
       "estimatedUsers": 100000,
       "ranking": 355,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 150000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "Niche design tool; neural network-based color generation"
     },
     {
       "id": 356,
@@ -10817,7 +10834,7 @@
       "category": "Image Generation",
       "founded": "2022",
       "headquarters": "USA",
-      "description": "AI image generation with fine-tuned models",
+      "description": "AI fine-tuning platform for image generation, avatars, and virtual try-on",
       "pricing": "From $7/mo",
       "features": [
         "Custom models",
@@ -10828,12 +10845,15 @@
       "estimatedMonthlyVisits": 350000,
       "estimatedUsers": 50000,
       "ranking": 365,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 182000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "182K monthly visits as of Nov 2025; low bounce rate 0.4%"
     },
     {
       "id": 366,
@@ -11078,7 +11098,7 @@
       "category": "Video Generation",
       "founded": "2023",
       "headquarters": "Open Source",
-      "description": "Open source animate SD to video",
+      "description": "Open-source video generation framework for Stable Diffusion",
       "pricing": "Free (open source)",
       "features": [
         "Image animation",
@@ -11089,12 +11109,15 @@
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 100000,
       "ranking": 374,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 100000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "GitHub open source project; integrates with AUTOMATIC1111 WebUI"
     },
     {
       "id": 375,
@@ -11366,7 +11389,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "AI photo editing suite with pattern generator",
+      "description": "AI-powered photo editing and visual design platform",
       "pricing": "Free tier / Pro available",
       "features": [
         "Pattern generator",
@@ -11378,14 +11401,15 @@
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 80000,
       "ranking": 384,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Free AI textile design generator. Seamless textures for crafts and professional projects.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "655.7K monthly visits; 35% traffic from India",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 656000
     },
     {
       "id": 385,
@@ -11515,7 +11539,7 @@
       "category": "3D/Animation",
       "founded": "2021",
       "headquarters": "Seoul, Korea",
-      "description": "AI motion capture from video",
+      "description": "AI-powered 3D motion capture and animation from video",
       "pricing": "Free / Pro $50/mo",
       "features": [
         "Video mocap",
@@ -11526,12 +11550,15 @@
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 50000,
       "ranking": 389,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 73000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "72.6K monthly visits Nov 2025-Jan 2026; browser-based mocap"
     },
     {
       "id": 390,
@@ -11540,7 +11567,7 @@
       "category": "Design",
       "founded": "2020",
       "headquarters": "Canada",
-      "description": "AI-powered logo maker",
+      "description": "AI-powered logo maker for professional logo creation",
       "pricing": "From $29 one-time",
       "features": [
         "Logo generation",
@@ -11551,12 +11578,15 @@
       "estimatedMonthlyVisits": 300000,
       "estimatedUsers": 50000,
       "ranking": 390,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 287000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "287-484K monthly visits; top traffic from Russia, Indonesia"
     },
     {
       "id": 391,
@@ -12090,7 +12120,7 @@
       "category": "Image Generation",
       "founded": "2024",
       "headquarters": "Open Source",
-      "description": "Zero-shot identity-preserving generation",
+      "description": "Zero-shot identity-preserving image generation research project",
       "pricing": "Free (open source)",
       "features": [
         "Identity preservation",
@@ -12101,12 +12131,15 @@
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 80000,
       "ranking": 409,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 50000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "Research project; widely used in ComfyUI/SD workflows"
     },
     {
       "id": 410,
@@ -12381,23 +12414,28 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "USA",
-      "description": "AI 3D world generation",
+      "description": "AI platform for generating 3D worlds from images, text, and sketches",
       "pricing": "Free tier / Pro available",
       "features": [
         "3D worlds",
         "Game assets",
         "API"
       ],
-      "social": {},
+      "social": {
+        "twitter": 15000
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 419,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyVisits": 147000,
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "note": "146.7K monthly visits Nov 2025-Jan 2026"
     },
     {
       "id": 420,
@@ -12518,7 +12556,7 @@
       "category": "Audio/Music",
       "founded": "2023",
       "headquarters": "China",
-      "description": "AI voice and music generation platform",
+      "description": "AI song cover generator with voice cloning by FineShare",
       "pricing": "Free tier / Pro available",
       "features": [
         "AI covers",
@@ -12530,14 +12568,15 @@
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 424,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Part of FineShare suite. AI music app reviews and comparisons. PopPop AI integration.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "note": "Part of FineShare platform; includes vocal remover, stem splitter",
+      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "monthlyVisits": 100000
     },
     {
       "id": 425,
