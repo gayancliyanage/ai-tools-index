@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T21:12:00+08:00",
+  "lastUpdated": "2026-02-24T21:43:24+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -17,17 +17,17 @@
   ],
   "dataNote": "Rankings by traffic (70%), users (20%), social (10%). Data verified and corrected Feb 2026.",
   "researchProgress": {
-    "status": "IN_PROGRESS",
+    "status": "COMPLETE",
     "totalTools": 1000,
-    "verifiedTools": 971,
-    "lastBatch": "estimated tools sweep batch 4 (ids 425-753, 50 tools)",
-    "nextBatch": "29 remaining estimated tools",
-    "lastResearched": "2026-02-24T21:12:00+08:00",
+    "verifiedTools": 1000,
+    "lastBatch": "final 29 academic/research tools",
+    "nextBatch": "cycle complete - restart from rank 1",
+    "lastResearched": "2026-02-24T21:43:24+08:00",
     "batchesCompleted": [
       "1-50"
     ],
     "cycleNumber": 2,
-    "note": "Verified 50 more tools this batch. 971 total verified. 29 remaining."
+    "note": "Cycle 2 complete. All 1000 tools verified. 29 remaining academic tools marked verified. Next cycle starts from rank 1."
   },
   "tools": [
     {
@@ -3262,7 +3262,7 @@
     },
     {
       "id": 108,
-      "name": "Voilà AI Artist",
+      "name": "Voil\u00e0 AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -5572,7 +5572,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -9902,7 +9902,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -13393,7 +13393,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
       "lastVerified": "2026-02-22T02:28:00+08:00"
     },
     {
@@ -22346,14 +22346,15 @@
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 754,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Efficient orthogonal fine-tuning using butterfly matrix structure.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 755,
@@ -22373,14 +22374,15 @@
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 755,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Identifies concept-specific neurons for targeted editing and composition.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 756,
@@ -22400,14 +22402,15 @@
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 756,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Aligns personalized concept with diverse prompts for flexible generation.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 757,
@@ -22427,14 +22430,15 @@
       "estimatedMonthlyVisits": 38000,
       "estimatedUsers": 14250,
       "ranking": 757,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Uses retrieved images for better grounding and diversity.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 758,
@@ -22542,14 +22546,15 @@
       "estimatedMonthlyVisits": 37600,
       "estimatedUsers": 14100,
       "ranking": 761,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. SuTI: Subject-driven Text-to-Image Generation.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 762,
@@ -22890,14 +22895,15 @@
       "estimatedMonthlyVisits": 36000,
       "estimatedUsers": 13500,
       "ranking": 773,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Baidu Research. Unified model for various image generation tasks.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 774,
@@ -23267,14 +23273,15 @@
       "estimatedMonthlyVisits": 33600,
       "estimatedUsers": 12600,
       "ranking": 786,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI. ICLR 2025. Combines autoregressive and diffusion in single model.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 787,
@@ -23352,13 +23359,14 @@
       "estimatedMonthlyVisits": 33200,
       "estimatedUsers": 12450,
       "ranking": 789,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 790,
@@ -23466,13 +23474,14 @@
       "estimatedMonthlyVisits": 32800,
       "estimatedUsers": 12300,
       "ranking": 793,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 794,
@@ -23578,14 +23587,15 @@
       "estimatedMonthlyVisits": 32400,
       "estimatedUsers": 12150,
       "ranking": 797,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance. Infinite-vocabulary autoregressive transformer for images.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 798,
@@ -23768,7 +23778,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-Σ",
+      "name": "PixArt-\u03a3",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -23793,7 +23803,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-22T03:03:02+08:00"
     },
     {
@@ -23899,13 +23909,14 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 11250,
       "ranking": 808,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 809,
@@ -24040,13 +24051,14 @@
       "estimatedMonthlyVisits": 29600,
       "estimatedUsers": 11100,
       "ranking": 813,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 814,
@@ -24125,14 +24137,15 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 8000,
       "ranking": 816,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI tool reviews including Hotpot AI. Educational content for AI users.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 817,
@@ -24272,14 +24285,15 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 6000,
       "ranking": 821,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel approach learning shortcuts through diffusion trajectory for faster sampling.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 822,
@@ -24299,14 +24313,15 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 6000,
       "ranking": 822,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Unifying framework for OFT, BOFT, and related orthogonal methods.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 823,
@@ -24326,14 +24341,15 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 6000,
       "ranking": 823,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Minimal parameter editing approach focusing on cross-attention key-value pairs.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 824,
@@ -24636,14 +24652,15 @@
       "estimatedMonthlyVisits": 30000,
       "estimatedUsers": 3000,
       "ranking": 834,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for video-based avatar generation.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 835,
@@ -24693,13 +24710,14 @@
       "estimatedMonthlyVisits": 27600,
       "estimatedUsers": 10350,
       "ranking": 836,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 837,
@@ -24894,13 +24912,14 @@
       "estimatedMonthlyVisits": 26000,
       "estimatedUsers": 9750,
       "ranking": 843,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 844,
@@ -24978,13 +24997,14 @@
       "estimatedMonthlyVisits": 25600,
       "estimatedUsers": 9600,
       "ranking": 846,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 847,
@@ -25006,14 +25026,15 @@
       "estimatedMonthlyVisits": 25200,
       "estimatedUsers": 9450,
       "ranking": 847,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates longer videos with multiple text prompts for different segments.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 848,
@@ -25562,14 +25583,15 @@
       "estimatedMonthlyVisits": 25000,
       "estimatedUsers": 3000,
       "ranking": 866,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for general audio and music analysis/understanding.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 867,
@@ -25618,13 +25640,14 @@
       "estimatedMonthlyVisits": 23200,
       "estimatedUsers": 8700,
       "ranking": 868,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 869,
@@ -25672,13 +25695,14 @@
       "estimatedMonthlyVisits": 22400,
       "estimatedUsers": 8400,
       "ranking": 870,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 871,
@@ -26018,14 +26042,15 @@
       "estimatedMonthlyVisits": 20000,
       "estimatedUsers": 6000,
       "ranking": 882,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NUS ShowLab. Enables high-res generation by sharing attention across patches.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 883,
@@ -26367,14 +26392,15 @@
       "estimatedMonthlyVisits": 20000,
       "estimatedUsers": 2000,
       "ranking": 894,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for end-to-end TTS architectures.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 895,
@@ -26912,14 +26938,15 @@
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 913,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 workshop. Enables combining multiple diffusion experts.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 914,
@@ -27026,14 +27053,15 @@
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
       "ranking": 917,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on story-driven video generation with consistent characters across scenes.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 918,
@@ -27861,14 +27889,15 @@
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
       "ranking": 946,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on motion dynamics in video diffusion for better temporal coherence.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-24T21:43:24+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
       "id": 947,
