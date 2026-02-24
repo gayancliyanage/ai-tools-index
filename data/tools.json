@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T23:00:32.902053",
+  "lastUpdated": "2026-02-24T23:15:26.054289",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 101-150 (cycle 4)",
-    "nextBatch": "ranks 151-200 (cycle 4)",
-    "lastResearched": "2026-02-24T23:00:32.902053",
+    "lastBatch": "ranks 151-200 (cycle 4)",
+    "nextBatch": "ranks 201-250 (cycle 4)",
+    "lastResearched": "2026-02-24T23:15:26.054289",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -30,10 +30,11 @@
       "111-1000",
       "1-50 (cycle 4)",
       "51-100 (cycle 4)",
-      "101-150 (cycle 4)"
+      "101-150 (cycle 4)",
+      "151-200 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 3. Verified IG for 50 tools (ranks 101-150). Key findings: Simplified 436K, Hailuo/MiniMax 322K, Topaz Labs 126K, Fotor 124K, OpenArt 71K, Durable 63K, Looka 43K, Udio 37K, Recraft 24K, Krita 14K, Beautiful.ai 13K."
+    "note": "Cycle 4 batch 4. Verified IG for 50 tools (ranks 151-200). Key findings: Luma AI 438K, Pixlr 315K, Kittl 314K, Spline 310K, Afterlight 309K, Luminar Neo 157K, Akool 92K, Hedra 73K, Voicemod 55K, Viggle 42K, VistaCreate 38K, Biteable 29K, Vyond 26K."
   },
   "tools": [
     {
@@ -4749,7 +4750,8 @@
       ],
       "social": {
         "twitter": 30000,
-        "facebook": 500000
+        "facebook": 500000,
+        "instagram": 124000
       },
       "estimatedMonthlyVisits": 1900000,
       "estimatedUsers": 5000000,
@@ -4761,7 +4763,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$3.5M revenue. 32 person team. 1.9M monthly visits. 60% male audience, 25-34 age group.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 152,
@@ -4779,7 +4781,8 @@
         "Collaboration"
       ],
       "social": {
-        "twitter": 200000
+        "twitter": 200000,
+        "instagram": 3000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
@@ -4791,7 +4794,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Mac-only design tool. Popular in UI/UX community.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 153,
@@ -4808,7 +4811,8 @@
         "HDR"
       ],
       "social": {
-        "youtube": 200000
+        "youtube": 200000,
+        "instagram": 157000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
@@ -4819,7 +4823,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 154,
@@ -4840,7 +4844,8 @@
       "social": {
         "twitter": 50000,
         "discord": 200000,
-        "youtube": 100000
+        "youtube": 100000,
+        "instagram": 55000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 800000,
@@ -4852,7 +4857,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "40M+ users. Popular with gamers and streamers. Real-time voice modification with AI.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 155,
@@ -4871,7 +4876,8 @@
       ],
       "social": {
         "youtube": 100000,
-        "twitter": 20000
+        "twitter": 20000,
+        "instagram": 5000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
@@ -4883,7 +4889,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$21.3M total funding. 100-250 employees. Strong in education market.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 156,
@@ -4914,7 +4920,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Rebranded to Pixa.com. Focus on e-commerce product photography. Popular mobile app.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 157,
@@ -4934,7 +4940,8 @@
       ],
       "social": {
         "twitter": 30000,
-        "facebook": 100000
+        "facebook": 100000,
+        "instagram": 315000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
@@ -4946,7 +4953,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Suite of online photo editors including Pixlr X (quick) and Pixlr E (advanced). Web, desktop, and mobile apps.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 158,
@@ -4972,7 +4979,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 159,
@@ -4989,7 +4996,9 @@
         "Video extension",
         "HD output"
       ],
-      "social": {},
+      "social": {
+        "instagram": 4000
+      },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 1000000,
       "ranking": 159,
@@ -5000,7 +5009,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Founded by ex-DeepMind researchers. Web app and iOS app available.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 160,
@@ -5030,7 +5039,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Lykon. Most versatile Civitai model. 8M+ downloads. V8 & XL versions available.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 161,
@@ -5058,7 +5067,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free TTS with generous limits. Popular for YouTube videos and podcasts. Email support available.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 162,
@@ -5086,7 +5095,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Gartner company. AVCLabs Video Enhancer AI reviews. Enterprise software advisory.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 163,
@@ -5105,7 +5114,8 @@
       ],
       "social": {
         "twitter": 80000,
-        "discord": 100000
+        "discord": 100000,
+        "instagram": 438000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 500000,
@@ -5117,7 +5127,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$157M+ funding. Pioneer in 3D/NeRF technology. Credit-based system for video generation.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 164,
@@ -5136,7 +5146,8 @@
       ],
       "social": {
         "youtube": 100000,
-        "twitter": 30000
+        "twitter": 30000,
+        "instagram": 15000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 500000,
@@ -5148,7 +5159,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Bootstrapped (no VC). $15-18M revenue (2024). 7,500 customers. 98 employees. 21-person engineering team.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 165,
@@ -5177,7 +5188,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 100000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "notes": "309K Instagram; primarily mobile photo editor"
     },
     {
@@ -5196,7 +5207,7 @@
         "AI assistant"
       ],
       "social": {
-        "instagram": 50000,
+        "instagram": 38000,
         "facebook": 100000
       },
       "estimatedMonthlyVisits": 3000000,
@@ -5209,7 +5220,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Formerly Crello, acquired by Vista (Cimpress). Lithuanian headquarters. Design platform for social media and marketing.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 167,
@@ -5226,7 +5237,9 @@
         "AI chat",
         "API access"
       ],
-      "social": {},
+      "social": {
+        "instagram": 7000
+      },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 500000,
       "ranking": 167,
@@ -5237,7 +5250,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Multiple AI tools including text-to-image, image editing, and AI characters. Simple API access for developers.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 168,
@@ -5256,7 +5269,8 @@
       ],
       "social": {
         "discord": 200000,
-        "github": 89200
+        "github": 89200,
+        "instagram": 6000
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 2000000,
@@ -5268,7 +5282,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "89.2K GitHub stars (Sep 2025). 7.5K forks. GPL-3.0 license. Part of Open Model Initiative (Linux Foundation). Weekly releases.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 169,
@@ -5287,7 +5301,8 @@
       ],
       "social": {
         "twitter": 30000,
-        "linkedin": 40000
+        "linkedin": 40000,
+        "instagram": 4000
       },
       "estimatedMonthlyVisits": 3000000,
       "estimatedUsers": 250000,
@@ -5299,7 +5314,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "250K+ companies. $21.3M total funding. 4,500+ daily signups.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 170,
@@ -5328,7 +5343,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 171,
@@ -5346,7 +5361,8 @@
         "Zapier integration"
       ],
       "social": {
-        "youtube": 50000
+        "youtube": 50000,
+        "instagram": 6000
       },
       "estimatedMonthlyVisits": 2800000,
       "estimatedUsers": 500000,
@@ -5358,7 +5374,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$4.72M total funding over 2 rounds from 6 investors. Zapier/Make integrations connect to 8K+ apps.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 172,
@@ -5388,7 +5404,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Open source. 50M+ downloads. Cross-platform.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 173,
@@ -5417,7 +5433,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI art generator for everyone. Includes AI anime/human creator, image-to-cartoon converter, and text-to-art generator.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 174,
@@ -5445,7 +5461,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Open source. Wide codec support. Active development.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 175,
@@ -5473,7 +5489,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Online AI image upscaler. Convert low-resolution photos to HD and 4K with clear details.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 176,
@@ -5502,7 +5518,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 46000,
-      "lastVerified": "2026-02-24T20:44:46+08:00",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "notes": "29-46K monthly visits; anime art niche"
     },
     {
@@ -5521,7 +5537,8 @@
         "AI editing"
       ],
       "social": {
-        "youtube": 50000
+        "youtube": 50000,
+        "instagram": 10000
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 800000,
@@ -5533,7 +5550,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$7M revenue. 5K paying customers (2024). Founded by Christopher Bowal and Nigel Gutzmann.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 178,
@@ -5550,7 +5567,8 @@
         "Stock library"
       ],
       "social": {
-        "youtube": 80000
+        "youtube": 80000,
+        "instagram": 7000
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 600000,
@@ -5561,7 +5579,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-24T13:29:02.546+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 179,
@@ -5591,7 +5609,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By purplesmart.ai. Unique tag-based system. V6 XL version widely used. 2024 release.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 180,
@@ -5621,7 +5639,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By kandoo. #1 SDXL model on Civitai by rating. V10+ versions. Excellent for realism.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 181,
@@ -5639,7 +5657,8 @@
         "L&D focus"
       ],
       "social": {
-        "youtube": 100000
+        "youtube": 100000,
+        "instagram": 26000
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 500000,
@@ -5651,7 +5670,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "20,000+ customers (Mar 2024). Formerly GoAnimate. Leading software for organizational animated video.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 182,
@@ -5669,7 +5688,8 @@
         "Streaming avatars"
       ],
       "social": {
-        "twitter": 20000
+        "twitter": 20000,
+        "instagram": 92000
       },
       "estimatedMonthlyVisits": 2500000,
       "estimatedUsers": 500000,
@@ -5681,7 +5701,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 on Inc 5000. 10,000+ enterprise companies use Akool. Photorealistic AI-generated content.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 183,
@@ -5708,7 +5728,7 @@
       "videoTimeline": true,
       "note": "Adobe CC integration. Limited updates since 2021. Cloud sync discontinued.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "ranking": 183
     },
     {
@@ -5727,7 +5747,7 @@
         "Avatar creator"
       ],
       "social": {
-        "instagram": 50000
+        "instagram": 223
       },
       "estimatedMonthlyVisits": 1000000,
       "estimatedUsers": 5000000,
@@ -5739,7 +5759,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "50M+ downloads. Multiple cartoon styles. Popular in India and Southeast Asia.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 185,
@@ -5757,7 +5777,7 @@
         "Print-on-demand"
       ],
       "social": {
-        "instagram": 50000,
+        "instagram": 314000,
         "youtube": 30000
       },
       "estimatedMonthlyVisits": 2000000,
@@ -5770,7 +5790,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 186,
@@ -5788,7 +5808,8 @@
         "Apple silicon"
       ],
       "social": {
-        "twitter": 80000
+        "twitter": 80000,
+        "instagram": 7000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 1000000,
@@ -5799,7 +5820,7 @@
       "videoTimeline": false,
       "note": "Acquired by Apple (Feb 2025). Mac App of Year 2018. Native Apple Silicon.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "ranking": 186
     },
     {
@@ -5831,7 +5852,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Single-step generation (50x faster than SDXL). Uses Adversarial Diffusion Distillation. Nov 2023 release.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 188,
@@ -5862,7 +5883,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stable Audio 2.5 (Dec 2025). UMG partnership. <2s inference.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 189,
@@ -5881,7 +5902,8 @@
       ],
       "social": {
         "twitter": 106100,
-        "discord": 81619
+        "discord": 81619,
+        "instagram": 310000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -5893,7 +5915,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Browser-based 3D design tool. Introduced Hana interactive canvas in Apr 2025. Strong community.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 190,
@@ -5925,7 +5947,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "170K+ GitHub stars. One of fastest growing repos ever. Sparked AI agent revolution in 2023.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 191,
@@ -5956,7 +5978,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free real-time voice changing. Popular for gaming and streaming. Audio tools suite.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 192,
@@ -5975,7 +5997,8 @@
       ],
       "social": {
         "discord": 100000,
-        "twitter": 30000
+        "twitter": 30000,
+        "instagram": 42000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -5987,7 +6010,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular for meme creation. Mix, Move, and Animate features. Powered by JST-1 video-3D model.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 193,
@@ -6018,7 +6041,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "4M+ downloads. Used for Scorsese films. Academy Award-winning editor.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 194,
@@ -6049,7 +6072,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Powers Pixlr AI features. 50M+ images generated. 10K+ GPUs. Enterprise-grade API.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 195,
@@ -6079,7 +6102,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of cybernews.com; traffic grew 99% MoM as of Jan 2026",
-      "lastVerified": "2026-02-24T20:57:00+08:00",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "monthlyVisits": 5000000
     },
     {
@@ -6110,7 +6133,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "One of the largest AI tools directories. 10,000+ AI tools catalogued. Mokker AI listed.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 197,
@@ -6129,7 +6152,8 @@
       ],
       "social": {
         "twitter": 10000,
-        "youtube": 30000
+        "youtube": 30000,
+        "instagram": 29000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -6141,7 +6165,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Business-focused video creation. Templates for marketing/sales.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 198,
@@ -6171,7 +6195,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Formerly Pixelcut. Rebranded to Pixa. Popular for e-commerce product photos.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 199,
@@ -6189,7 +6213,8 @@
         "Scene generation"
       ],
       "social": {
-        "twitter": 20000
+        "twitter": 20000,
+        "instagram": 73000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -6200,7 +6225,7 @@
       "videoTimeline": false,
       "note": "$32M Series A (May 2025). 10M+ videos created. Led by a16z. Viral baby podcasts.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T23:15:26.054289",
       "ranking": 199
     },
     {
@@ -6221,7 +6246,8 @@
       ],
       "social": {
         "facebook": 500000,
-        "twitter": 20000
+        "twitter": 20000,
+        "instagram": 124000
       },
       "estimatedMonthlyVisits": 2000000,
       "estimatedUsers": 500000,
@@ -6233,7 +6259,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Veteran photo editor with extensive AI features. 400M+ users globally.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
       "id": 201,
