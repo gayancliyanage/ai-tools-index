@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T01:30:13.746403+08:00",
+  "lastUpdated": "2026-02-25T01:44:58.570355+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 601-650 (cycle 4)",
-    "nextBatch": "ranks 651-700 (cycle 4)",
-    "lastResearched": "2026-02-25T01:30:13.746403+08:00",
+    "lastBatch": "ranks 651-700 (cycle 4)",
+    "nextBatch": "ranks 701-750 (cycle 4)",
+    "lastResearched": "2026-02-25T01:44:58.570355+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -40,10 +40,11 @@
       "451-500 (cycle 4)",
       "501-550 (cycle 4)",
       "551-600 (cycle 4)",
-      "601-650 (cycle 4)"
+      "601-650 (cycle 4)",
+      "651-700 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 13. Ranks 601-650 are deep research/academic projects. Notable GitHub stars: DragGAN 36K (most popular), Shap-E 12.2K, Point-E 6.9K, InstructPix2Pix 6.9K, Voyager 6.7K, TaskWeaver 6.1K (actively maintained by Microsoft), SimSwap 5.1K, MetaVoice 4.2K, Mini-Omni 3.5K, DreamCraft3D 3K. Pitch Innovations is active commercial audio plugin company. Muse.ai is active video hosting platform. Many entries are research papers/techniques rather than standalone tools."
+    "note": "Cycle 4 batch 14. Ranks 651-700 are deep research projects and niche tools. Notable GitHub stars: stable-dreamfusion 8.8K (unofficial DreamFusion impl), OpenVLA 5.3K (robotics VLA, actively maintained), VideoCrafter 5K (active Jan 2026), AniPortrait 5K, DynamiCrafter 3K (ECCV 2024 Oral), LGM 2K, Latte 1.9K (maintained). SALMONN by ByteDance still active (Feb 2026). CogVLM2 repo transferred from THUDM to zai-org. Many entries are arxiv papers without standalone repos."
   },
   "tools": [
     {
@@ -20133,7 +20134,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project improving upon drag-based editing methods.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "GoodDrag - research paper on drag editing with diffusion models, GitHub repo not found/moved"
     },
     {
       "id": 652,
@@ -20160,8 +20162,10 @@
       "videoTimeline": false,
       "note": "Alibaba DAMO Academy research. Open source on GitHub.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
-      "ranking": 652
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "ranking": 652,
+      "githubStars": 953,
+      "researchNote": "VideoComposer by Alibaba DAMO, 953 stars, last updated Nov 2023 - inactive"
     },
     {
       "id": 653,
@@ -20194,10 +20198,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research model. Space-MoE for compositional generation. Text accuracy focus.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 5000,
       "researchNotes": "RAPHAEL - text-to-image research model. GitHub project.",
-      "toolType": "research_paper"
+      "toolType": "research_paper",
+      "researchNote": "RAPHAEL - research paper, no public GitHub repo"
     },
     {
       "id": 654,
@@ -20225,7 +20230,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Instant 3D lifting from 2-4 unposed images. No camera pose required.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "PF-LRM - research project page only"
     },
     {
       "id": 655,
@@ -20253,7 +20259,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses regional guidance and time travel for enhanced editing with fewer steps.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "DiffEditor by MC-E, GitHub API returned error"
     },
     {
       "id": 656,
@@ -20281,7 +20288,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creates production-ready 3D meshes directly from single images. DiT-based architecture.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "CraftsMan - 3D generation research project page"
     },
     {
       "id": 657,
@@ -20309,7 +20317,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 Spotlight. Constructs classifier guidance from intermediate diffusion features.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 785,
+      "researchNote": "DragonDiffusion by MC-E, 785 stars, last updated Mar 2024 - inactive"
     },
     {
       "id": 658,
@@ -20337,7 +20347,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Generates animatable 3D characters from single portrait images.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "CharacterGen - research project page only"
     },
     {
       "id": 659,
@@ -20365,7 +20376,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for training-free image manipulation.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "SelfGuidance - research project page only"
     },
     {
       "id": 660,
@@ -20396,7 +20408,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "THUDM/Tsinghua. Released May 2024. CogVLM2-Video for video understanding. GLM-4V-9B variant with 13B params.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "CogVLM2 by THUDM - repo transferred to zai-org, multimodal model based on Llama3-8B"
     },
     {
       "id": 661,
@@ -20426,7 +20439,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "KAIST CVLAB. Works in unconditional and conditional settings. Integrated in Diffusers and A1111.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 325,
+      "researchNote": "PAG (Perturbed-Attention Guidance), 325 stars, last updated Jul 2024"
     },
     {
       "id": 662,
@@ -20456,7 +20471,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open-source LRM implementation. Generates 662K triangles. Foundation for other 3D tools.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 1199,
+      "researchNote": "OpenLRM by 3DTopia, 1.2K stars, last updated May 2024 - inactive"
     },
     {
       "id": 663,
@@ -20484,7 +20501,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "3DV 2024. Generates high-quality 3D humans from text descriptions.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "TeCH - research project page only"
     },
     {
       "id": 664,
@@ -20512,7 +20530,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Proposes multimodal classifier-free guidance for combined image+text editing.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 521,
+      "researchNote": "PAIR Diffusion by Picsart AI Research, 521 stars, last updated Apr 2024"
     },
     {
       "id": 665,
@@ -20540,7 +20560,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Duplicate entry. See SelfGuidance (ID 878).",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Self-Guidance - duplicate of ID 659"
     },
     {
       "id": 666,
@@ -20568,7 +20589,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reconstructs clothed humans with material properties for relighting.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "SHINOBI - research project from MPI"
     },
     {
       "id": 667,
@@ -20600,9 +20622,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI music tool information hub. Beatoven.ai pricing guides and comparisons.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 5000,
-      "researchNotes": "Oreate AI - niche AI tool."
+      "researchNotes": "Oreate AI - niche AI tool.",
+      "researchNote": "Oreate AI - commercial creative AI tool"
     },
     {
       "id": 668,
@@ -20633,10 +20656,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Simple modification setting B matrix LR higher than A. 2x speedup in fine-tuning.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "LoRA+ - research paper on improved LoRA training.",
-      "toolType": "research_paper"
+      "toolType": "research_paper",
+      "researchNote": "LoRA+ - research paper (arxiv), optimization technique for LoRA fine-tuning"
     },
     {
       "id": 669,
@@ -20663,7 +20687,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ACM TOG 2023. Encoder maps images to embeddings for rapid personalization.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "E4T (Encoder for Tuning) - research project page"
     },
     {
       "id": 670,
@@ -20694,7 +20719,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2022 Journal Track. First framework for text-driven 3D avatar generation and animation.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "AvatarCLIP - research project page"
     },
     {
       "id": 671,
@@ -20722,7 +20748,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Fine-tunes model on single image then interpolates text embeddings for editing.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Imagic - research project on text-based image editing"
     },
     {
       "id": 672,
@@ -20749,7 +20776,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Pioneered Score Distillation Sampling.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 8808,
+      "researchNote": "stable-dreamfusion (unofficial impl) 8.8K stars. Original DreamFusion by Google has no public code. Seminal text-to-3D paper."
     },
     {
       "id": 673,
@@ -20778,7 +20807,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Columbia University research. Image-to-3D breakthrough.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Zero123 by Columbia - 3D generation from single image, influential paper"
     },
     {
       "id": 674,
@@ -20805,7 +20835,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research model. Latent Diffusion Transformer for Video Generation.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 1919,
+      "researchNote": "Latte by Vchitect, 1.9K stars, last updated Oct 2025 - maintained"
     },
     {
       "id": 675,
@@ -20832,7 +20864,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By AILab-CVC. VideoCrafter1 and VideoCrafter2 for high-quality video generation.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 5029,
+      "researchNote": "VideoCrafter by AILab-CVC, 5K stars, last updated Jan 2026 - active"
     },
     {
       "id": 676,
@@ -20859,7 +20893,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Animating Open-domain Images with Video Diffusion Priors. High-quality image animation.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 2997,
+      "researchNote": "DynamiCrafter, 3K stars, ECCV 2024 Oral, last updated Sep 2024"
     },
     {
       "id": 677,
@@ -20886,7 +20922,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Audio-Driven Synthesis of Photorealistic Portrait Animation. Open source on GitHub.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 5019,
+      "researchNote": "AniPortrait, 5K stars, audio-driven portrait animation, last updated Jul 2024"
     },
     {
       "id": 678,
@@ -20916,7 +20954,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Stanford research. 7B params on Llama 2. Trained on 970k robot trajectories. Outperforms Diffusion Policy by 20.4%.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 5322,
+      "researchNote": "OpenVLA, 5.3K stars, vision-language-action model for robotics, actively maintained"
     },
     {
       "id": 679,
@@ -20946,7 +20986,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Hugging Face M4. Successor to Idefics. 8B efficient multimodal model.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Idefics2 by HuggingFace - 8B multimodal model on HuggingFace"
     },
     {
       "id": 680,
@@ -20977,10 +21018,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel nested representation learning for efficient high-resolution synthesis.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Matryoshka Diffusion - research paper.",
-      "toolType": "research_paper"
+      "toolType": "research_paper",
+      "researchNote": "Matryoshka Diffusion - research paper on multi-resolution diffusion"
     },
     {
       "id": 681,
@@ -21011,10 +21053,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Foundational research by Google. Halves sampling steps iteratively while maintaining quality.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Progressive Distillation - research paper by Google.",
-      "toolType": "research_paper"
+      "toolType": "research_paper",
+      "researchNote": "Progressive Distillation - research paper on fast sampling"
     },
     {
       "id": 682,
@@ -21045,10 +21088,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Preserves hyperspherical energy during fine-tuning for better generalization.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "OFT (Orthogonal Fine-Tuning) - research paper.",
-      "toolType": "research_paper"
+      "toolType": "research_paper",
+      "researchNote": "OFT (Orthogonal Fine-Tuning) - research paper"
     },
     {
       "id": 683,
@@ -21077,7 +21121,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2023. Different prompts at different denoising stages for fine control.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 142,
+      "researchNote": "ProSpect, 142 stars, last updated Dec 2023 - inactive"
     },
     {
       "id": 684,
@@ -21105,7 +21151,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "SIGGRAPH 2023 / ACM TOG. Uses CFG for controlling edit strength.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "UniTune - research paper on image editing"
     },
     {
       "id": 685,
@@ -21135,7 +21182,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Generates animatable avatars in ~1 hour from text. Supports complex clothing.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "DreamWaltz - research on 3D character animation"
     },
     {
       "id": 686,
@@ -21166,7 +21214,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Fudan University. First multimodal LLM unifying speech and text intrinsically.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 1404,
+      "researchNote": "SpeechGPT by 0nutation, 1.4K stars, last updated Jul 2024"
     },
     {
       "id": 687,
@@ -21196,7 +21246,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance. Integrates LLM with speech/audio encoders. Video-SALMONN 2 released 2025.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 1390,
+      "researchNote": "SALMONN by ByteDance, 1.4K stars, last updated Feb 2026 - active"
     },
     {
       "id": 688,
@@ -21226,7 +21278,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. RSS 2024. Auto-configures domain randomization. Robot balancing on ball demo.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "DrEureka - sim-to-real transfer research by Eureka team"
     },
     {
       "id": 689,
@@ -21254,7 +21307,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2023. Uses ViT features for content preservation and CLIP for style guidance.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 302,
+      "researchNote": "DiffuseIT, 302 stars, last updated Jan 2023 - inactive"
     },
     {
       "id": 690,
@@ -21282,7 +21337,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Creates animatable human avatars from text with detailed clothing.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "DreamHuman - research project page"
     },
     {
       "id": 691,
@@ -21310,7 +21366,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Pioneered ROI-based text-guided image editing with diffusion models.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Blended Diffusion - research on local image editing"
     },
     {
       "id": 692,
@@ -21339,7 +21396,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Large Multi-View Gaussian Model for high-resolution 3D content creation.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 2038,
+      "researchNote": "LGM by 3DTopia, 2K stars, Large Multi-View Gaussian Model, last updated Aug 2024"
     },
     {
       "id": 693,
@@ -21371,7 +21430,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": true,
-      "lastVerified": "2026-02-22T03:15:00+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Craftit AI - digital content creation platform (craftit.ai)"
     },
     {
       "id": 694,
@@ -21401,7 +21461,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for text-to-3D human generation using 3D Gaussian Splatting. CVPR 2024.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "HumanGaussian - research on 3D human generation"
     },
     {
       "id": 695,
@@ -21429,7 +21490,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. State-of-the-art TTS quality. Factorized diffusion for attributes.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "NaturalSpeech 3 by Microsoft Research - zero-shot speech synthesis, ICML 2024"
     },
     {
       "id": 696,
@@ -21457,7 +21519,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "SIGGRAPH 2023. Extends Blended Diffusion to LDM for speed while improving accuracy.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "Blended Latent Diffusion - research on local editing in latent space"
     },
     {
       "id": 697,
@@ -21485,7 +21548,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Uses normal maps for improved geometry in human generation.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "HumanNorm - research on text-driven 3D human generation"
     },
     {
       "id": 698,
@@ -21513,7 +21577,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Surpasses Imagic with Imagen on TEdBench benchmark for text-guided editing.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 288,
+      "researchNote": "Forgedit, 288 stars, last updated Jul 2024 - inactive"
     },
     {
       "id": 699,
@@ -21541,7 +21607,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creates animatable avatars with textures from a single image.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "researchNote": "GETAvatar - research project page"
     },
     {
       "id": 700,
@@ -21569,7 +21636,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Mirrors generative process invertibly by tracking paired intermediate representations.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:44:58.570355+08:00",
+      "githubStars": 324,
+      "researchNote": "EDICT by Salesforce, 324 stars, last updated Jan 2025"
     },
     {
       "id": 701,
