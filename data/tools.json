@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T10:22:21.713855",
+  "lastUpdated": "2026-02-24T20:29:25.452567",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -17,36 +17,17 @@
   ],
   "dataNote": "Rankings by traffic (70%), users (20%), social (10%). Data verified and corrected Feb 2026.",
   "researchProgress": {
-    "status": "COMPLETE",
+    "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 1000,
-    "lastBatch": "901-950",
-    "nextBatch": "951-1000",
-    "lastResearched": "2026-02-22T03:03:02.846760",
+    "verifiedTools": 50,
+    "lastBatch": "1-50",
+    "nextBatch": "51-100",
+    "lastResearched": "2026-02-24T20:29:25.452567",
     "batchesCompleted": [
-      "1-50",
-      "51-100",
-      "101-150",
-      "151-200",
-      "201-250",
-      "251-300",
-      "301-350",
-      "351-400",
-      "401-450",
-      "451-500",
-      "501-550",
-      "551-600",
-      "601-650",
-      "651-700",
-      "701-750",
-      "751-800",
-      "801-850",
-      "851-900",
-      "901-950",
-      "951-1000"
+      "1-50"
     ],
-    "completedAt": "2026-02-22T03:02:38+08:00",
-    "note": "All 1000 AI creative tools verified. Research complete."
+    "cycleNumber": 2,
+    "note": "Cycle 2 started. Batch 1-50 verified with fresh Feb 2026 data."
   },
   "tools": [
     {
@@ -81,7 +62,7 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "31M paying subscribers. $3.5B revenue in 2025.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 2,
@@ -114,7 +95,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "81% market share in mobile video editing. 1B+ Google Play downloads.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 3,
@@ -146,7 +127,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Public company. 300M+ users. Professional video platform.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 4,
@@ -177,7 +158,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "360M+ monthly active users. China's top photo app.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 5,
@@ -209,7 +190,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$749M revenue in 2024. Now public.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 6,
@@ -239,7 +220,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Chinese version of CapCut. 200M+ users. ByteDance product.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 7,
@@ -270,7 +251,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Largest Discord server. ~21M Discord members.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 8,
@@ -303,7 +284,7 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "150M+ users. 4M Instagram followers, 2.5M TikTok followers. Creator community platform. Multi-platform export.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 9,
@@ -333,8 +314,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "22B assets generated. 29% AI design market share.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "note": "Generated 24B assets by May 2025. Adobe MAU up 15% YoY in FY2025.",
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 10,
@@ -365,7 +346,7 @@
       "videoTimeline": false,
       "note": "$665M ARR. $17.5B valuation (Jan 2022). 99% Fortune 100 use Miro.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 10
     },
     {
@@ -394,7 +375,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Part of Wix (NASDAQ: WIX). Best overall website builder (CNET Mar 2025). ADI launched 2016, evolved to Wix Harmony. 61% mobile traffic.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 12,
@@ -422,8 +403,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Part of ChatGPT Plus/Pro. Limited availability.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "note": "Sora 2 launched; installs declining 45% MoM as of Jan 2026 to 1.2M installs. Consumer spending down 32% MoM.",
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 13,
@@ -455,7 +436,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "150M+ downloads. $500M valuation (Feb 2024). $43M Series B. $50M ARR. 5B images processed annually.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 14,
@@ -486,7 +467,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "7M tracks generated daily. 30M downloads.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 15,
@@ -515,8 +496,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "540M downloads. 10B photos enhanced in 2025.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "note": "450M+ global downloads by Aug 2024, $200M+ in-app revenue. Ranked #38 photography apps worldwide Jan 2025.",
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 16,
@@ -546,8 +527,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$240M ARR (Dec 2025). 600M+ videos generated. 12M MAU.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "note": "Reached 60M users by Jan 2026, competing with Sora.",
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 17,
@@ -577,7 +558,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 18,
@@ -608,7 +589,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "100M+ users. AI portrait retouch and creative overlays. Multi-platform sharing integration. Major Chinese photo app.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 19,
@@ -639,7 +620,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Viral AI Yearbook trend in 2023. 20 AI generations/month for subscribers. By Snow Corporation (also behind SNOW and B612 apps).",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 20,
@@ -669,7 +650,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "120M+ users worldwide. App of the Year 2016. 700+ art and portrait styles.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 21,
@@ -690,16 +671,16 @@
         "twitter": 50000,
         "linkedin": 30000
       },
-      "estimatedMonthlyVisits": 30000000,
+      "estimatedMonthlyVisits": 26000000,
       "estimatedUsers": 20000000,
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$102M+ ARR. $2.1B valuation. $68M Series B (Nov 2025). a16z led. PowerPoint replacement.",
+      "note": "~26M monthly traffic per Semrush Dec 2025.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 21
     },
     {
@@ -731,7 +712,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Adobe Creative Cloud (41M paid subscribers). AI-powered masking and editing. Cross-device sync.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 23,
@@ -762,7 +743,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "889K Instagram followers. 100M+ users. By SNOW Corporation (LINE). Daily updated styles and creator filters.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 24,
@@ -791,7 +772,7 @@
       "videoTimeline": false,
       "note": "1B+ downloads (Oct 2025). 200K downloads/month. Beauty brand partnerships. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 24
     },
     {
@@ -821,7 +802,7 @@
       "videoTimeline": true,
       "note": "100M+ downloads. 7M downloads/month. Free pro-level mobile editor.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 25
     },
     {
@@ -852,7 +833,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "100M+ users. Major 3.0 update released June 2025 with redesigned UI. Acquired by Google in 2012.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 27,
@@ -880,7 +861,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Free on all Apple devices. Gateway to Final Cut Pro.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 28,
@@ -909,7 +890,7 @@
       "videoTimeline": false,
       "note": "300K downloads/month, $1M revenue/month. Perfect Corp suite. 1B+ total downloads.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 28
     },
     {
@@ -942,7 +923,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "1.2M+ monthly active creators. 14% of specialized AI tool use.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 30,
@@ -970,7 +951,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Part of Hostinger web hosting. AI builder launched 2023 as part of hosting packages.",
-      "lastVerified": "2026-02-21T21:20:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 31,
@@ -999,7 +980,7 @@
       "videoTimeline": true,
       "note": "Cheetah Mobile (sold). 100M+ downloads. Photo social community.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 31
     },
     {
@@ -1031,7 +1012,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "70M users. $50M+ funding. 45 AI models. 2.5M min audio/day.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 33,
@@ -1062,7 +1043,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "213M+ model downloads across ecosystem.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 34,
@@ -1093,7 +1074,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "42M+ creators. AI headshot generation, gender swap, future baby generator added 2025-2026.",
-      "lastVerified": "2026-02-21T18:20:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 35,
@@ -1124,7 +1105,7 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "Part of Adobe Creative Cloud (41M paid subscribers). Firefly AI integration. Formerly Adobe Spark.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 36,
@@ -1155,7 +1136,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "500M+ Google Play downloads. Leading mobile video editor. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 37,
@@ -1185,7 +1166,7 @@
       "videoTimeline": true,
       "note": "11M downloads/month. $1.5M revenue/month. #4 free photography app. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 37
     },
     {
@@ -1216,7 +1197,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "8M videos created monthly. 95%+ retention in Pro/Business.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 39,
@@ -1247,7 +1228,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "70M+ users worldwide. Great ratings on TrustPilot, G2.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 40,
@@ -1272,7 +1253,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 41,
@@ -1302,7 +1284,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance product. 10M+ users in 6 months. 2M WAU (Feb 2025).",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 42,
@@ -1333,7 +1315,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "25M users. Acquired by Atlassian for $975M (2023). Product-led growth pioneer.",
-      "lastVerified": "2026-02-21T13:28:49+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 43,
@@ -1364,8 +1346,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$11B valuation (Feb 2026). $500M Series D. IPO planned.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "note": "Revenue hit $200M by Sep 2025. Valuation $6.6B (Sep 2025). ARR was $90M by Oct 2024.",
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 44,
@@ -1393,7 +1375,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 45,
@@ -1424,7 +1407,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$3B valuation (Apr 2025). $300M revenue. 300K customers.",
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 46,
@@ -1453,7 +1436,7 @@
       "videoTimeline": false,
       "note": "Part of Runway platform. Superseded by Gen-3 Alpha. Hollywood partnerships.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 46
     },
     {
@@ -1483,7 +1466,7 @@
       "videoTimeline": false,
       "note": "Current flagship Runway model. Used in film production. $4B valuation.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-24T20:29:25.452567",
       "ranking": 47
     },
     {
@@ -1514,7 +1497,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-21T16:13:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 49,
@@ -1543,7 +1526,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Popular aesthetic photo/video editor with retro and vintage presets. Available on iOS and Android.",
-      "lastVerified": "2026-02-22T02:13:31+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 50,
@@ -1574,7 +1557,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "3M Instagram followers. 50M+ users. #VSCO hashtag for features. Photographer community focus.",
-      "lastVerified": "2026-02-21T19:09:00+08:00"
+      "lastVerified": "2026-02-24T20:29:25.452567"
     },
     {
       "id": 51,
@@ -3245,7 +3228,7 @@
     },
     {
       "id": 108,
-      "name": "Voil\u00e0 AI Artist",
+      "name": "Voilà AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -5527,7 +5510,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -9819,7 +9802,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -13232,7 +13215,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
       "lastVerified": "2026-02-22T02:28:00+08:00"
     },
     {
@@ -23309,7 +23292,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-\u03a3",
+      "name": "PixArt-Σ",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -23334,7 +23317,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-22T03:03:02+08:00"
     },
     {
