@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T04:42:00+08:00",
+  "lastUpdated": "2026-02-25T05:00:10.535223+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 251-300 (cycle 5)",
-    "nextBatch": "ranks 301-350 (cycle 5)",
-    "lastResearched": "2026-02-25T04:42:00+08:00",
+    "lastBatch": "ranks 301-350 (cycle 5)",
+    "nextBatch": "ranks 351-400 (cycle 5)",
+    "lastResearched": "2026-02-25T05:00:10.535223+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -53,10 +53,11 @@
       "101-150 (cycle 5)",
       "151-200 (cycle 5)",
       "201-250 (cycle 5)",
-      "251-300 (cycle 5)"
+      "251-300 (cycle 5)",
+      "301-350 (cycle 5)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 5 batch 6. Ranks 251-300 verified. Key findings: Kittl 314K IG (highest in batch), Rokoko 112K IG, Relume 76K IG, Tripo AI 31K IG, Soundraw 18K IG, Uizard 16K IG, DeepBrain AI 14K IG, Darkroom 14K IG, Haiper AI 4K IG, Rask AI 2.9K IG, DeepMotion 2.6K IG. Many tools in 251-300 range are research models or dev tools with minimal/no IG presence. Haiper AI noted as discontinued."
+    "note": "Cycle 5 batch 7. Ranks 301-350 verified. Most tools confirmed at previous values. Notable: insMind 51K IG (highest in batch), Lightricks/LTX Studio 22K IG (parent company), Soundraw 18K IG, Krikey AI 13K IG, Moonvalley 12K IG + 2.9K Twitter, DxO 21K IG, Mubert 10K IG, Boomy 6.4K IG. Many tools (304-314) are research models/open-source with no social presence (PixArt-Alpha, Kolors, Kandinsky 3, FLUX.1 Schnell, etc.). Morph Studio found at 296 IG followers. AIVA Twitter found at 1.2K."
   },
   "tools": [
     {
@@ -9897,7 +9898,7 @@
         "linkedin": 5000,
         "instagram": {
           "followers": 542,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -9909,7 +9910,7 @@
       "videoTimeline": false,
       "note": "AI-first UI design. Sketch-to-design conversion. Team collaboration.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "ranking": 301
     },
     {
@@ -9932,7 +9933,7 @@
         "twitter": 8000,
         "instagram": {
           "followers": 156,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -9945,7 +9946,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$800K total funding over 5 rounds. 75M+ media objects library.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 303,
@@ -9964,7 +9965,7 @@
       "social": {
         "instagram": {
           "followers": 21000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -9976,7 +9977,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 304,
@@ -10006,7 +10007,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Huawei Noah's Ark Lab. DiT architecture with efficient training. Competes with SDXL and Midjourney quality.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 305,
@@ -10036,7 +10037,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Kuaishou (Kwai). Excellent Chinese text understanding and rendering. CVPR 2024.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 306,
@@ -10067,7 +10068,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Sber AI Forever. Best-in-class for Russian text. Kandinsky 3.1 pixel-based variant. Dec 2023.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 307,
@@ -10097,7 +10098,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in neural style transfer. Based on Gatys et al. research. Print shop available.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 308,
@@ -10113,7 +10114,12 @@
         "Video generation",
         "Creative tools"
       ],
-      "social": {},
+      "social": {
+        "instagram": {
+          "followers": 296,
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+        }
+      },
       "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 200000,
       "ranking": 308,
@@ -10123,7 +10129,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 309,
@@ -10153,7 +10159,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Fastest FLUX model. Apache 2.0 licensed. Part of Black Forest Labs FLUX family founded by ex-Stability AI team.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 310,
@@ -10183,7 +10189,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in AI upscaling. Originally designed for 'waifu' anime art. Now supports general images.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 311,
@@ -10211,7 +10217,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Google Creative Lab project. AI suggests drawings based on your doodles. Free forever.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 312,
@@ -10241,7 +10247,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Plug-and-play acceleration for any SD checkpoint. Works with SD 1.5 and SDXL.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 313,
@@ -10271,7 +10277,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "African tech publication with AI tool guides. Suno alternatives reviews.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "monthlyVisits": 300000
     },
     {
@@ -10302,7 +10308,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of SD 3.5 family released Oct 2024. Good balance of quality and speed.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 315,
@@ -10324,7 +10330,7 @@
         "youtube": 8000,
         "instagram": {
           "followers": 3208,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10337,7 +10343,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Royalty-free AI music for videos, podcasts, games. API available. 69% lower than average pricing.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 316,
@@ -10357,7 +10363,7 @@
       "social": {
         "instagram": {
           "followers": 51000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10370,7 +10376,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Comprehensive AI platform for visual content creation. Generate, enhance, and edit images and videos.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 317,
@@ -10399,7 +10405,7 @@
       "videoTimeline": true,
       "note": "Acquired by Autodesk (May 2024). $12.5M total funding. Co-founded by actor Tye Sheridan.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "ranking": 317
     },
     {
@@ -10428,7 +10434,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "notegpt.io traffic grew 80% MoM as of Jan 2026; strong organic search",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "monthlyVisits": 800000
     },
     {
@@ -10459,7 +10465,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "67% organic search traffic; major AI tools directory",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "monthlyVisits": 2000000
     },
     {
@@ -10491,7 +10497,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Co-released TripoSR with Stability AI. Fast 3D object reconstruction from single image. Honor smartphone partnership.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 321,
@@ -10523,7 +10529,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reworkd AI. Launched Apr 2023. 31K GitHub stars. Browser-based autonomous agents.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 322,
@@ -10554,7 +10560,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. 40K+ stars. Merging with Semantic Kernel. AutoGen Studio no-code GUI.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 323,
@@ -10576,7 +10582,7 @@
         "twitter": 15000,
         "instagram": {
           "followers": 10000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10589,7 +10595,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates music in real-time. Popular with streamers and game developers for dynamic soundtracks. API for developers.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 324,
@@ -10608,11 +10614,14 @@
         "Copyright ownership"
       ],
       "social": {
-        "twitter": 10000,
+        "twitter": {
+          "followers": 1241,
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+        },
         "youtube": 50000,
         "instagram": {
           "followers": 326,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10625,7 +10634,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First virtual artist registered with SACEM (French copyright society). Composes emotional, cinematic music.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 325,
@@ -10648,7 +10657,7 @@
         "linkedin": 8000,
         "instagram": {
           "followers": 418,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10661,7 +10670,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Enterprise-focused voice AI. Partners with content creators and studios. Ethical AI voice cloning.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 326,
@@ -10692,7 +10701,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Founded by OctoML team. Acquired by AI infrastructure companies. Enterprise AI deployment.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 327,
@@ -10711,7 +10720,7 @@
       "social": {
         "instagram": {
           "followers": 2526,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10723,7 +10732,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 328,
@@ -10742,8 +10751,8 @@
       ],
       "social": {
         "instagram": {
-          "followers": 935,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "followers": 938,
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10756,7 +10765,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI-powered small business website builder with integrated booking and e-commerce.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 329,
@@ -10776,7 +10785,7 @@
       "social": {
         "instagram": {
           "followers": 135,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10789,7 +10798,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI generates website from brief idea description in seconds. Built-in email waiting lists for startup validation.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 330,
@@ -10809,7 +10818,7 @@
       "social": {
         "instagram": {
           "followers": 3395,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10822,7 +10831,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Netflairs Technology Private Limited. iOS and Android apps available. Credit-based pricing system.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 331,
@@ -10850,7 +10859,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 332,
@@ -10879,7 +10888,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of AudioCraft. Open source by Meta AI.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 333,
@@ -10908,7 +10917,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "LTX-Video released Nov 2024. LTX-2 (Oct 2025) first complete open-source AI video foundation model. By Lightricks ($250M ARR).",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 334,
@@ -10937,7 +10946,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Dec 2024. Industry's largest open-source video generation model. HunyuanVideo-I2V added Mar 2025.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 335,
@@ -10958,7 +10967,11 @@
       "social": {
         "instagram": {
           "followers": 12000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+        },
+        "twitter": {
+          "followers": 2919,
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -10971,7 +10984,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Y Combinator backed. Marey model released Jul 2025. First fully-licensed AI video model. Ex-DeepMind CSO.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 336,
@@ -10989,8 +11002,8 @@
       ],
       "social": {
         "instagram": {
-          "followers": 176000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "followers": 22000,
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -11003,7 +11016,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Lightricks consumer video creation studio. Part of Lightricks suite ($250M ARR Jul 2025).",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 337,
@@ -11030,7 +11043,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Nov 2023. First open generative AI video model by Stability AI. SVD and SVD-XT variants.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 338,
@@ -11058,7 +11071,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Anthropic. Oct 2024 launch. First frontier AI with computer use. Public beta on API.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 339,
@@ -11080,7 +11093,7 @@
         "discord": 10000,
         "instagram": {
           "followers": 2455,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 500000,
@@ -11092,7 +11105,7 @@
       "videoTimeline": true,
       "note": "10K+ artists. Trusted AI music video platform. Frame-by-frame control.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "ranking": 339
     },
     {
@@ -11113,7 +11126,7 @@
         "tiktok": 100000,
         "instagram": {
           "followers": 6393,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 168000,
@@ -11125,7 +11138,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 341,
@@ -11145,7 +11158,7 @@
       "social": {
         "instagram": {
           "followers": 321,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 450000,
@@ -11158,7 +11171,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Bootstrapped (no VC disclosed). Credit-based pricing. 87% on monthly plans. Broad tool mix for static visuals.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 342,
@@ -11185,7 +11198,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 17000,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "notes": "17K visits Jan 2026; lip-sync AI; developer-centric"
     },
     {
@@ -11205,7 +11218,7 @@
       "social": {
         "instagram": {
           "followers": 13000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 400000,
@@ -11218,7 +11231,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 200000,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00",
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
       "note": "1M+ creators claimed; 13K Instagram followers"
     },
     {
@@ -11249,7 +11262,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free anime portrait generator. AI learns preferences through 4-step process. Tied to Arrowmancer game.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 345,
@@ -11268,7 +11281,7 @@
       "social": {
         "instagram": {
           "followers": 18000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 400000,
@@ -11280,7 +11293,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 346,
@@ -11310,7 +11323,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Direct 4K image generation. Improved prompt following over PixArt-Alpha.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 347,
@@ -11340,7 +11353,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tim Brooks (now at OpenAI). CVPR 2023. Edit images with natural language instructions.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 348,
@@ -11362,7 +11375,7 @@
         "twitter": 25000,
         "instagram": {
           "followers": 12000,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 400000,
@@ -11375,7 +11388,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Y Combinator backed. Marey model trained on licensed data. Pro tiers $14.99-$149.99/mo.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 349,
@@ -11405,7 +11418,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released June 2024. Predecessor to SD 3.5 family.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 350,
@@ -11427,7 +11440,7 @@
         "discord": 30000,
         "instagram": {
           "followers": 214,
-          "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+          "lastVerified": "2026-02-25T05:00:10.535223+08:00"
         }
       },
       "estimatedMonthlyVisits": 400000,
@@ -11440,7 +11453,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Focus on music production. Licensed artist voices. Vocal transformation for producers.",
-      "lastVerified": "2026-02-25T00:00:07.524497+08:00"
+      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
       "id": 351,
