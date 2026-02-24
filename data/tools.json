@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T21:43:24+08:00",
+  "lastUpdated": "2026-02-24T22:01:37.815668",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -17,17 +17,17 @@
   ],
   "dataNote": "Rankings by traffic (70%), users (20%), social (10%). Data verified and corrected Feb 2026.",
   "researchProgress": {
-    "status": "COMPLETE",
+    "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 1000,
-    "lastBatch": "final 29 academic/research tools",
-    "nextBatch": "cycle complete - restart from rank 1",
-    "lastResearched": "2026-02-24T21:43:24+08:00",
+    "verifiedTools": 10,
+    "lastBatch": "ranks 1-10 (cycle 3)",
+    "nextBatch": "ranks 11-50",
+    "lastResearched": "2026-02-24T22:01:37.815668",
     "batchesCompleted": [
-      "1-50"
+      "1-10"
     ],
-    "cycleNumber": 2,
-    "note": "Cycle 2 complete. All 1000 tools verified. 29 remaining academic tools marked verified. Next cycle starts from rank 1."
+    "cycleNumber": 3,
+    "note": "Cycle 3 started. Ranks 1-10 verified with fresh web data. Rate limited on search API - continuing next run."
   },
   "tools": [
     {
@@ -62,7 +62,8 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "31M paying subscribers. $3.5B revenue in 2025.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "researchNotes": "2M IG followers confirmed. No change from prior."
     },
     {
       "id": 2,
@@ -95,7 +96,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "81% market share in mobile video editing. 1B+ Google Play downloads.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "300M+ MAU (2024 Bloomberg data)",
+      "researchNotes": "300M+ MAU as of 2024. 6.16M monthly downloads. Gen-4 of TikTok's ByteDance."
     },
     {
       "id": 3,
@@ -127,7 +130,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Public company. 300M+ users. Professional video platform.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "240K business-tier subscribers, 1.51B monthly site visitors",
+      "researchNotes": "715M monthly video views. 1.51B monthly visitors. 61.68% direct traffic."
     },
     {
       "id": 4,
@@ -158,7 +163,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "360M+ monthly active users. China's top photo app.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "280M MAU (H1 2025, 98M outside China)",
+      "researchNotes": "280M MAU as of June 2025 per official data. Revenue up 71% H1 2025. AI-driven growth."
     },
     {
       "id": 5,
@@ -190,7 +197,9 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$749M revenue in 2024. Now public.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "10M+ users (2025)",
+      "researchNotes": "Over 10M users in 2025, up from 4M in 2022. 6.69M monthly web visits Jan 2025."
     },
     {
       "id": 6,
@@ -251,7 +260,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Largest Discord server. ~21M Discord members.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "~20M users (Jan 2026)",
+      "researchNotes": "19.83M users Jan 2026 per DemandSage. 1.1M concurrent. V7 default since June 2025. $300M+ revenue target."
     },
     {
       "id": 8,
@@ -284,7 +295,9 @@
       "imageCanvas": true,
       "videoTimeline": true,
       "note": "150M+ users. 4M Instagram followers, 2.5M TikTok followers. Creator community platform. Multi-platform export.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "150M MAU, 1B+ cumulative downloads",
+      "researchNotes": "150M MAU per TechCrunch/Wikipedia. Available in 30+ languages."
     },
     {
       "id": 9,
@@ -315,7 +328,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generated 24B assets by May 2025. Adobe MAU up 15% YoY in FY2025.",
-      "lastVerified": "2026-02-24T20:29:25.452567"
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "users": "Part of Adobe CC: 41M paid subscribers (end 2025)",
+      "researchNotes": "Adobe CC hit 41M paid subscribers by end 2025. DALL-E replaced by GPT native image gen March 2025."
     },
     {
       "id": 10,
@@ -346,8 +361,10 @@
       "videoTimeline": false,
       "note": "$665M ARR. $17.5B valuation (Jan 2022). 99% Fortune 100 use Miro.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-24T20:29:25.452567",
-      "ranking": 10
+      "lastVerified": "2026-02-24T22:01:37.815668",
+      "ranking": 10,
+      "users": "90M+ users, 250K+ organizations (2025)",
+      "researchNotes": "90M users as of 2025 per Wikipedia. Founded 2011 as RealtimeBoard."
     },
     {
       "id": 11,
@@ -3262,7 +3279,7 @@
     },
     {
       "id": 108,
-      "name": "Voil\u00e0 AI Artist",
+      "name": "Voilà AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -5572,7 +5589,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -9902,7 +9919,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-21T21:20:00+08:00"
     },
     {
@@ -13393,7 +13410,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
       "lastVerified": "2026-02-22T02:28:00+08:00"
     },
     {
@@ -23778,7 +23795,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-\u03a3",
+      "name": "PixArt-Σ",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -23803,7 +23820,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-22T03:03:02+08:00"
     },
     {
