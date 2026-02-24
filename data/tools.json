@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T00:59:17.012124+08:00",
+  "lastUpdated": "2026-02-25T01:14:38.116963+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 501-550 (cycle 4)",
-    "nextBatch": "ranks 551-600 (cycle 4)",
-    "lastResearched": "2026-02-25T00:59:17.012124+08:00",
+    "lastBatch": "ranks 551-600 (cycle 4)",
+    "nextBatch": "ranks 601-650 (cycle 4)",
+    "lastResearched": "2026-02-25T01:14:38.116963+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -38,10 +38,11 @@
       "351-400 (cycle 4)",
       "401-450 (cycle 4)",
       "451-500 (cycle 4)",
-      "501-550 (cycle 4)"
+      "501-550 (cycle 4)",
+      "551-600 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 11. Ranks 501-550 are mostly research/open-source projects (EDM, ADD, Mix-of-Show, Hallo, MuseTalk, etc.) with minimal social media presence. Picsart (parent of Texture API) has 4M IG. Samur AI has ~1.9K IG. Hallo has 8.6K GitHub stars. Most tools in this range have 0 social followers as expected for academic projects."
+    "note": "Cycle 4 batch 12. Ranks 551-600 are research/academic projects. Notable: Roop 30.5K GH stars (archived), AnimateDiff 12K, IC-Light 8.4K, MeloTTS 7.2K (20M downloads), InstantMesh 4.3K, DeepSeek-VL 4.1K, AnyDoor 4.2K. SwitchLight/Beeble launched v3.0 Nov 2025. Most tools have minimal social media presence."
   },
   "tools": [
     {
@@ -3373,7 +3374,7 @@
     },
     {
       "id": 108,
-      "name": "Voilà AI Artist",
+      "name": "Voil\u00e0 AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -5796,7 +5797,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
       "lastVerified": "2026-02-24T23:15:26.054289"
     },
     {
@@ -10408,7 +10409,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-25T00:00:07.524497+08:00"
     },
     {
@@ -14009,7 +14010,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
       "lastVerified": "2026-02-25T00:29:11.283253+08:00",
       "socialMedia": {
         "instagram": {
@@ -17076,7 +17077,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 paper. Enables arbitrary compositionality of human subjects, backgrounds, and dance moves.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 1080
+      }
     },
     {
       "id": 552,
@@ -17104,7 +17108,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI breakthrough. First model to generalize to untrained tasks. Demo available.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 553,
@@ -17134,7 +17138,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023 Workshop paper. Popular pose estimator for Stable Diffusion workflows.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 2670
+      }
     },
     {
       "id": 554,
@@ -17162,7 +17169,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. 562B param embodied LLM. Vision-language + robotics.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 555,
@@ -17192,7 +17199,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Efficient alternative to ControlNet for video generation. Supports human pose sequences.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 556,
@@ -17222,7 +17229,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024 paper. Optimizes pixel-level consistency between generated images and controls.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 541
+      }
     },
     {
       "id": 557,
@@ -17252,7 +17262,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Models from 14M to 491M params. 1.6% of base model size still works reliably.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 558,
@@ -17280,7 +17290,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for lightweight controllable diffusion on resource-constrained devices.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 559,
@@ -17310,7 +17320,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From ControlNet creator. Supports text-conditioned and background-conditioned relighting.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 8374
+      }
     },
     {
       "id": 560,
@@ -17340,7 +17353,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SwitchLight 3.0 transforms video to PBR maps. Used in film and VFX production.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "researchNote": "Beeble SwitchLight 3.0 launched Nov 2025, video-to-PBR AI"
     },
     {
       "id": 561,
@@ -17368,7 +17382,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of ClipDrop suite by Stability AI. Drag-and-drop light positioning.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 562,
@@ -17394,8 +17408,11 @@
       "videoTimeline": false,
       "note": "Archived Aug 2023. Superseded by FaceFusion. 28K+ GitHub stars.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
-      "ranking": 562
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "ranking": 562,
+      "socialMedia": {
+        "githubStars": 30535
+      }
     },
     {
       "id": 563,
@@ -17425,7 +17442,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2024 paper. Three-stage method for controlling lighting during generation.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 564,
@@ -17453,7 +17470,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2021 paper from Google. Uses light stage data for photorealistic relighting.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 565,
@@ -17481,7 +17498,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for single-image relighting. Predecessor to modern relighting methods.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 566,
@@ -17509,7 +17526,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on disentangled representations for face manipulation tasks.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 567,
@@ -17537,7 +17554,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research model for animating static images with motion information.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 568,
@@ -17567,7 +17584,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Extends SDXL to 4096x4096 and beyond. No training required. Uses dilated sampling.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 2046
+      }
     },
     {
       "id": 569,
@@ -17595,7 +17615,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Focused on portrait photography enhancement with AI relighting.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 570,
@@ -17623,7 +17643,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Academic research on face relighting with spherical harmonics and neural networks.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 571,
@@ -17650,7 +17670,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Put your face everywhere in seconds. Built on StableDiffusion with identity encoder.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 572,
@@ -17678,7 +17698,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR research on estimating lighting from single portrait and relighting.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 573,
@@ -17706,7 +17726,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Early deep learning approach to portrait relighting using light stage captures.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 574,
@@ -17736,7 +17756,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Supports English, Spanish, French, Chinese, Japanese, Korean. MIT and MyShell.ai.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 7218
+      }
     },
     {
       "id": 575,
@@ -17765,7 +17788,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NUS NExT++ group. ICML 2024. Handles any modality input and output.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 3617
+      }
     },
     {
       "id": 576,
@@ -17793,7 +17819,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on light estimation. Name used by multiple projects in lighting space.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 577,
@@ -17824,7 +17850,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open implementation of LRM. Predicts 3D from single image in 5 seconds. By 3DTopia team.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 1199
+      }
     },
     {
       "id": 578,
@@ -17854,7 +17883,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates 6 consistent multi-view images from single input. Used for 3D reconstruction.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 2009
+      }
     },
     {
       "id": 579,
@@ -17882,7 +17914,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI. Builds on VoiceBox. Unified model for speech, sound, and mixed audio.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 580,
@@ -17910,7 +17942,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google DeepMind. First VLA model. Translates vision and language into robot actions.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 581,
@@ -17940,7 +17972,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SF3D generates textured UV-unwrapped 3D models from single image in under 1 second.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 1632
+      }
     },
     {
       "id": 582,
@@ -17970,7 +18005,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Same as StableFast3D. Explicitly trained for mesh generation with fast UV unwrapping.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 583,
@@ -18000,7 +18035,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Achieves high-quality 3D reconstruction without real 3D training data.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 584,
@@ -18030,7 +18065,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates 3D representation in single forward pass. Published in IJCV 2024.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 585,
@@ -18060,7 +18095,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024 Oral paper. Uses plane sweeping cost volumes for accurate Gaussian localization.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 1203
+      }
     },
     {
       "id": 586,
@@ -18090,7 +18128,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 Oral, Best Paper Runner-Up. Feed-forward 3D Gaussian inference from two images.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 587,
@@ -18118,7 +18156,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "2024 paper combining rectified flow with Gaussian Splatting Decoder (GSDecoder).",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 588,
@@ -18148,7 +18186,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024 paper. Models splat features using implicit neural fields for sparse settings.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 589,
@@ -18178,7 +18216,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2024 paper. Handles long sequence input for whole scene reconstruction.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 590,
@@ -18207,7 +18245,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 Spotlight. Official I2V adapter for AnimateDiff. Part of v3 release.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 12031
+      }
     },
     {
       "id": 591,
@@ -18237,7 +18278,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 paper. Uses diffusion model trained on synthetic/multiview data as prior.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 592,
@@ -18265,7 +18306,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Published June 2023. Uses adapter tuning for efficient style capture.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 593,
@@ -18293,7 +18334,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta research. Uses image-to-video diffusion model for turntable-like video generation.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 594,
@@ -18321,7 +18362,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Model-agnostic encoder works with any customized diffusion model.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 595,
@@ -18351,7 +18392,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines multi-view diffusion with normal prediction for high-fidelity 3D mesh output.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00"
     },
     {
       "id": 596,
@@ -18382,7 +18423,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DeepSeek AI. DeepSeek-VL2 (Dec 2024) uses MoE architecture. Strong on document/diagram understanding.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 4072
+      }
     },
     {
       "id": 597,
@@ -18412,7 +18456,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 Oral. S-Lab NTU Singapore. Just 2 scaling factors to boost quality. Works with SD, ControlNet, DreamBooth.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 1895
+      }
     },
     {
       "id": 598,
@@ -18442,7 +18489,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent ARC Lab project. Generates 57.3K triangles. Efficient mesh reconstruction.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 4270
+      }
     },
     {
       "id": 599,
@@ -18470,7 +18520,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Uses ID and structure features for high-fidelity object transfer.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 4222
+      }
     },
     {
       "id": 600,
@@ -18500,7 +18553,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2024 paper. Users control 3D generation with basic shape primitives.",
-      "lastVerified": "2026-02-22T02:47:53.766933"
+      "lastVerified": "2026-02-25T01:14:38.116963+08:00",
+      "socialMedia": {
+        "githubStars": 194
+      }
     },
     {
       "id": 601,
@@ -24419,7 +24475,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-Σ",
+      "name": "PixArt-\u03a3",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -24444,7 +24500,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-22T03:03:02+08:00"
     },
     {
