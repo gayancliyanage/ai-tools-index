@@ -1606,7 +1606,8 @@
       ],
       "social": {
         "twitter": 100000,
-        "youtube": 150000
+        "youtube": 150000,
+        "instagram": 15000
       },
       "estimatedMonthlyVisits": 15000000,
       "estimatedUsers": 8000000,
@@ -1616,7 +1617,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 53,
@@ -2039,7 +2041,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 67,
@@ -2067,7 +2070,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 68,
@@ -2084,7 +2088,7 @@
         "Face retouching"
       ],
       "social": {
-        "instagram": 200000
+        "instagram": 274000
       },
       "estimatedMonthlyVisits": 4500000,
       "estimatedUsers": 30000000,
@@ -2094,7 +2098,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 69,
@@ -2361,7 +2366,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 78,
@@ -2440,7 +2446,7 @@
       "social": {
         "twitter": 100000
       },
-      "estimatedMonthlyVisits": 8500000,
+      "estimatedMonthlyVisits": 2200000,
       "estimatedUsers": 5000000,
       "ranking": 80,
       "dataQuality": "verified",
@@ -2448,7 +2454,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 81,
@@ -2476,7 +2483,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 82,
@@ -2535,7 +2543,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 84,
@@ -2553,7 +2562,7 @@
       ],
       "social": {
         "youtube": 300000,
-        "instagram": 100000
+        "instagram": 31000
       },
       "estimatedMonthlyVisits": 8500000,
       "estimatedUsers": 3000000,
@@ -2563,7 +2572,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 85,
@@ -2591,7 +2601,8 @@
       "videoGen": true,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 86,
@@ -2738,7 +2749,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 91,
@@ -2884,7 +2896,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 96,
@@ -2912,7 +2925,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 97,
@@ -3063,7 +3077,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 102,
@@ -3120,7 +3135,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 104,
@@ -3323,7 +3339,7 @@
         "twitter": 50000,
         "discord": 150000
       },
-      "estimatedMonthlyVisits": 5000000,
+      "estimatedMonthlyVisits": 1840000,
       "estimatedUsers": 2000000,
       "ranking": 110,
       "dataQuality": "verified",
@@ -3331,7 +3347,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 111,
@@ -3468,7 +3485,9 @@
         "Collage maker",
         "Graphic design"
       ],
-      "social": {},
+      "social": {
+        "instagram": 12000
+      },
       "estimatedMonthlyVisits": 5000000,
       "estimatedUsers": 2000000,
       "ranking": 115,
@@ -3477,7 +3496,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 116,
@@ -3502,7 +3522,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 117,
@@ -3857,7 +3878,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 129,
@@ -4099,7 +4121,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 137,
@@ -4509,7 +4532,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 151,
@@ -4597,7 +4621,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 154,
@@ -4749,7 +4774,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 159,
@@ -5104,7 +5130,8 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 171,
@@ -5336,7 +5363,8 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 179,
@@ -6185,7 +6213,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 207,
@@ -6418,7 +6447,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 215,
@@ -6533,7 +6563,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 219,
@@ -6589,7 +6620,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 221,
@@ -6734,7 +6766,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 226,
@@ -7059,7 +7092,8 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 237,
@@ -7200,7 +7234,8 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 242,
@@ -7344,7 +7379,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 247,
@@ -7488,7 +7524,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 252,
@@ -7772,7 +7809,8 @@
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 262,
@@ -7857,7 +7895,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 265,
@@ -8003,7 +8042,7 @@
         "twitter": 20000,
         "youtube": 15000
       },
-      "estimatedMonthlyVisits": 800000,
+      "estimatedMonthlyVisits": 495000,
       "estimatedUsers": 200000,
       "ranking": 269,
       "dataQuality": "verified",
@@ -8013,7 +8052,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Japanese AI music startup. Customize every instrument. Popular with YouTubers and content creators.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 270,
@@ -8217,7 +8256,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 277,
@@ -9028,7 +9068,8 @@
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 304,
@@ -9749,7 +9790,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": true
+      "videoTimeline": true,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 328,
@@ -10109,7 +10151,7 @@
       "social": {
         "tiktok": 100000
       },
-      "estimatedMonthlyVisits": 350000,
+      "estimatedMonthlyVisits": 168000,
       "estimatedUsers": 500000,
       "ranking": 340,
       "dataQuality": "verified",
@@ -10117,7 +10159,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 341,
@@ -10258,7 +10301,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 346,
@@ -11728,7 +11772,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 396,
@@ -11933,7 +11978,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T13:29:02.546+08:00"
     },
     {
       "id": 403,
@@ -12885,7 +12931,7 @@
       "category": "Design",
       "founded": "2022",
       "headquarters": "San Francisco, USA",
-      "description": "AI UI design from text",
+      "description": "AI UI generation platform, acquired by Google in 2025 and rebranded as Google Stitch",
       "pricing": "Waitlist / Enterprise",
       "features": [
         "Text-to-UI",
@@ -12901,7 +12947,8 @@
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "lastVerified": "2026-02-24T21:30:00+08:00"
     },
     {
       "id": 436,
@@ -29426,11 +29473,14 @@
   },
   "metadata": {
     "researchProgress": {
-      "lastBatch": "1-50",
-      "lastRun": "2026-02-21T16:13:00+08:00",
+      "lastBatch": "unverified-44-batch",
+      "lastRun": "2026-02-24T21:30:00+08:00",
       "nextBatch": "51-100",
-      "toolsVerified": 25,
-      "method": "web_search with Brave API"
+      "toolsVerified": 44,
+      "totalVerified": 971,
+      "totalTools": 1000,
+      "method": "web_search with Brave API (rate limited to 1/sec)",
+      "notes": "Verified 44 previously unverified tools. Updated social/traffic data for 9 tools with real search data. Rate limits constrained depth of research."
     }
   }
 }
