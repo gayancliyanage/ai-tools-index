@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T01:44:58.570355+08:00",
+  "lastUpdated": "2026-02-25T01:59:52.497556+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 651-700 (cycle 4)",
-    "nextBatch": "ranks 701-750 (cycle 4)",
-    "lastResearched": "2026-02-25T01:44:58.570355+08:00",
+    "lastBatch": "ranks 701-750 (cycle 4)",
+    "nextBatch": "ranks 751-800 (cycle 4)",
+    "lastResearched": "2026-02-25T01:59:52.497556+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -41,10 +41,11 @@
       "501-550 (cycle 4)",
       "551-600 (cycle 4)",
       "601-650 (cycle 4)",
-      "651-700 (cycle 4)"
+      "651-700 (cycle 4)",
+      "701-750 (cycle 4)"
     ],
     "cycleNumber": 4,
-    "note": "Cycle 4 batch 14. Ranks 651-700 are deep research projects and niche tools. Notable GitHub stars: stable-dreamfusion 8.8K (unofficial DreamFusion impl), OpenVLA 5.3K (robotics VLA, actively maintained), VideoCrafter 5K (active Jan 2026), AniPortrait 5K, DynamiCrafter 3K (ECCV 2024 Oral), LGM 2K, Latte 1.9K (maintained). SALMONN by ByteDance still active (Feb 2026). CogVLM2 repo transferred from THUDM to zai-org. Many entries are arxiv papers without standalone repos."
+    "note": "Cycle 4 batch 15. Ranks 701-750 mostly research papers/3D generation projects. Notable: InstantID 11K+ stars (very popular ID-preserving gen), InternVL 8K+ stars (InternVL3.5 released Aug 2025, SOTA open-source MLLM), Ferret-UI 8.6K stars (Apple's UI MLLM), AIOS 5.1K stars (active Jan 2026), Magic123 archived May 2025. Many are academic papers with limited commercial traction."
   },
   "tools": [
     {
@@ -21666,7 +21667,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "3DV 2024. Hierarchical generation of avatars with clothing and accessories.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 702,
@@ -21694,7 +21695,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "WACV 2025. Enables real-time image editing with diffusion models.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 703,
@@ -21720,7 +21721,7 @@
       "videoTimeline": false,
       "note": "Meta AI research. Not publicly available. Published Sep 2022.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
       "ranking": 703
     },
     {
@@ -21747,7 +21748,7 @@
       "videoTimeline": false,
       "note": "Google DeepMind research. Powers parts of Veo. Not standalone product.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-22T02:11:21.514317",
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
       "ranking": 704
     },
     {
@@ -21776,7 +21777,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Core technique used by Prompt-to-Prompt, Null-text Inversion, and many others.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 706,
@@ -21804,7 +21805,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates diverse 3D humans at scale with consistent multi-view rendering.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 707,
@@ -21832,7 +21833,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Works with existing editing methods to prevent unintended background changes.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 708,
@@ -21860,7 +21861,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reconstructs fully rigged avatars from single images.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 709,
@@ -21890,7 +21891,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses Gaussian splatting for 3D representation. 42.1K triangles output.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "2K",
+      "notes": "LGM - Large Multi-View Gaussian Model for 3D generation."
     },
     {
       "id": 710,
@@ -21918,7 +21921,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "ECCV 2024. Works with accelerated diffusion models like SDXL-Turbo.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 711,
@@ -21946,7 +21949,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates high-quality 3D characters in minutes from text prompts.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 712,
@@ -21974,7 +21977,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for improved diffusion inversion methods.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 713,
@@ -22002,7 +22005,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Efficient character generation maintaining style across multiple outputs.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 714,
@@ -22030,7 +22033,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2024. Significantly improves image and noise reconstruction accuracy.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 715,
@@ -22058,7 +22061,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "SIGGRAPH Asia 2024. Works with distilled models like SDXL-Turbo for instant editing.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 716,
@@ -22088,7 +22091,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024. Two-stage pipeline combining 2D and 3D diffusion priors for high-quality meshes.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "1.6K",
+      "notes": "Magic123 - Image to 3D using 2D+3D diffusion priors. ICLR 2024. Repo ARCHIVED May 2025."
     },
     {
       "id": 717,
@@ -22118,7 +22123,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 1000,
       "researchNotes": "AI Tool 157 - placeholder/niche tool. Minimal presence.",
-      "lastVerified": "2026-02-24T21:12:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 718,
@@ -22146,7 +22151,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for style-controllable image generation.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 719,
@@ -22176,7 +22181,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Generates 3D in seconds with improved multi-view consistency.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 720,
@@ -22205,7 +22210,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates consistent multi-view images through synchronized diffusion process.",
-      "lastVerified": "2026-02-22T02:15:52+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "1.5K+",
+      "notes": "SyncDreamer - ICLR 2024 Spotlight. Multiview-consistent image generation from single view."
     },
     {
       "id": 721,
@@ -22233,7 +22240,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for face-centric image generation.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 722,
@@ -22263,7 +22270,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Combines triplane representation with Gaussian splatting for fast reconstruction.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 723,
@@ -22291,7 +22298,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Research project for face-focused diffusion models.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 724,
@@ -22319,7 +22326,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "TMLR 2024. Produces 3D Gaussians instantly without per-instance optimization.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 725,
@@ -22347,7 +22354,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "One model for both reenactment and swapping. Works with community SD models.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 726,
@@ -22375,7 +22382,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Outperforms DreamBooth, Textual Inversion, E4T in identity preservation.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 727,
@@ -22403,7 +22410,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Scalable 3D generation using latent neural field diffusion.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 728,
@@ -22431,7 +22438,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Unifies image, video, and 3D customized generation with consistent identity.",
-      "lastVerified": "2026-02-22T02:59:54.336162+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 729,
@@ -22459,7 +22466,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Enables diffusion-based generation with structured Gaussian representation.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 730,
@@ -22488,7 +22495,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extension for A1111. Generate multiple characters without blending. Works with rectangular regions.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 731,
@@ -22517,7 +22524,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CUHK research. 4-8 step video generation. Compatible with existing AnimateDiff workflows.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 732,
@@ -22546,7 +22553,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of AnimateDiff v3. Control video with sparse keyframe conditions instead of every frame.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 733,
@@ -22576,7 +22583,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "arXiv paper Apr 2024. Outperforms previous methods in identity preservation across expression, pose, and style variations.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "notes": "ConsistentID - Identity-preserving portrait generation with fine-grained multimodal facial prompts."
     },
     {
       "id": 734,
@@ -22604,7 +22612,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alternative Gaussian-based text-to-3D approach with fast generation.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 735,
@@ -22634,7 +22642,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "State-of-the-art tuning-free method. Works with SD1.5 and SDXL. InstantX Research, Jan 2024.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "11K+",
+      "notes": "InstantID - Zero-shot identity-preserving generation. Kolors version training (2024). InstantStyle released for style transfer. Very popular."
     },
     {
       "id": 736,
@@ -22664,7 +22674,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 Oral. Photo-realistic 3D in 2 minutes. 5K+ GitHub stars.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "4K+",
+      "notes": "DreamGaussian - Image-to-3D in 2 minutes. DreamGaussian4D variant also exists."
     },
     {
       "id": 737,
@@ -22694,7 +22706,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab/OpenGVLab. CVPR 2024 Oral. InternVL2-Pro best open-source on CharXiv.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "8K+",
+      "notes": "InternVL2-Video - InternVL3.5 released Aug 2025 with 241B-A28B model. State-of-the-art among open-source MLLMs. CascadeRL training. Very active project."
     },
     {
       "id": 738,
@@ -22723,7 +22737,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICML 2023. Generates large-scale panoramas. MultiDiffusion Upscaler popular in A1111.",
-      "lastVerified": "2026-02-22T02:38:47+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 739,
@@ -22753,7 +22767,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tsinghua University ML Lab. Generates compact 24.1K triangles. Research-focused.",
-      "lastVerified": "2026-02-22T02:40:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 740,
@@ -22783,7 +22797,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "MoA (Mixture of Attention) - research project.",
       "toolType": "research_paper"
@@ -22816,7 +22830,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2025. Alibaba Group internship project. First layout-guided multi-subject personalization.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 742,
@@ -22846,7 +22860,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Generates 3D Gaussians in 15 minutes with real-time rendering support.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 743,
@@ -22877,7 +22891,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "01.AI founded by AI luminary Kai-Fu Lee. Yi-VL-34B and Yi-VL-6B released Jan 2024. LLaVA-inspired architecture.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "7K+",
+      "notes": "Yi-VL by 01.ai - Vision-language model based on LLaVA architecture. Yi-VL-34B and Yi-VL-6B variants."
     },
     {
       "id": 744,
@@ -22909,7 +22925,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI software discovery platform. Reviews of video generation and creative tools.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
       "monthlyTraffic": 50000,
       "researchNotes": "Revoyant - AI blog/review site about AI tools."
     },
@@ -22942,7 +22958,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OPPO Mente Lab. Subject-aware diffusion model.",
-      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Subject-Diffusion - research by OPPO.",
       "toolType": "research_paper"
@@ -22973,7 +22989,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates 3D from any image with interactive editing capabilities.",
-      "lastVerified": "2026-02-22T02:50:37.725057+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00"
     },
     {
       "id": 747,
@@ -23003,7 +23019,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. NeurIPS 2022 Outstanding Paper Award. 730K YouTube videos. Foundation for Voyager.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "1K+",
+      "notes": "MineDojo - Embodied AI agents in Minecraft. Also spawned Voyager project."
     },
     {
       "id": 748,
@@ -23033,7 +23051,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Apple ML Research. Mobile UI understanding. Built on Ferret grounding model.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "8.6K",
+      "notes": "Ferret-UI by Apple - First UI-centric MLLM for referring, grounding, reasoning. 505 forks."
     },
     {
       "id": 749,
@@ -23063,7 +23083,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AGI Research. LLM as OS kernel. Agent scheduling and resource management.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "5.1K",
+      "notes": "AIOS - AI Agent Operating System by AGI Research. Active development, last updated Jan 2026. Rust scaffold added. 690 forks."
     },
     {
       "id": 750,
@@ -23093,7 +23115,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. Grounding to the world. Object-aware multimodal LLM.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-25T01:59:52.497556+08:00",
+      "githubStars": "N/A (part of unilm repo)",
+      "notes": "Kosmos-2 by Microsoft - Grounding multimodal LLM. Part of larger unilm monorepo."
     },
     {
       "id": 751,
