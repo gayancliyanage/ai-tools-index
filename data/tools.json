@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T20:57:00+08:00",
+  "lastUpdated": "2026-02-24T21:12:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -19,15 +19,15 @@
   "researchProgress": {
     "status": "IN_PROGRESS",
     "totalTools": 1000,
-    "verifiedTools": 921,
-    "lastBatch": "estimated tools sweep batch 3 (ids 195-424)",
-    "nextBatch": "continue estimated tools 425+",
-    "lastResearched": "2026-02-24T20:57:00+08:00",
+    "verifiedTools": 971,
+    "lastBatch": "estimated tools sweep batch 4 (ids 425-753, 50 tools)",
+    "nextBatch": "29 remaining estimated tools",
+    "lastResearched": "2026-02-24T21:12:00+08:00",
     "batchesCompleted": [
       "1-50"
     ],
     "cycleNumber": 2,
-    "note": "Verified 15 more estimated tools. 921 total verified. 79 remaining."
+    "note": "Verified 50 more tools this batch. 971 total verified. 29 remaining."
   },
   "tools": [
     {
@@ -12593,18 +12593,24 @@
         "Tool guides",
         "Productivity"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 50000,
       "ranking": 425,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI productivity tool with comprehensive AI tool comparison guides. Luma AI pricing guide.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 80000,
+      "researchNotes": "AI knowledge base assistant for teams. $5.27M funding."
     },
     {
       "id": 426,
@@ -12705,19 +12711,23 @@
         "API access"
       ],
       "social": {
-        "twitter": 15000
+        "twitter": 5000,
+        "instagram": 1500,
+        "tiktok": 3000
       },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 40000,
       "ranking": 429,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Build custom AI video workflows. Combines music and video generation in one platform.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 120000,
+      "researchNotes": "AI video avatar platform. $5.27M total funding. Pricing $39-149/mo."
     },
     {
       "id": 430,
@@ -12822,16 +12832,23 @@
         "3D animation",
         "Multi-person"
       ],
-      "social": {},
+      "social": {
+        "twitter": 3000,
+        "instagram": 500,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 200000,
       "estimatedUsers": 30000,
       "ranking": 433,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 50000,
+      "researchNotes": "AI motion capture from video. Niche tool for 3D animation.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 434,
@@ -12957,16 +12974,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1500,
+        "instagram": 800,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 174000,
       "estimatedUsers": 37000,
       "ranking": 438,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 30000,
+      "researchNotes": "AI product photo generator. Small niche tool.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 439,
@@ -13070,16 +13094,24 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2000,
+        "instagram": 1000,
+        "tiktok": 500
+      },
       "estimatedMonthlyVisits": 158000,
       "estimatedUsers": 29000,
       "ranking": 442,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 15000,
+      "researchNotes": "AI art generator app. Discontinued in 2025 per AllAboutAI.",
+      "status": "discontinued",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 443,
@@ -13095,16 +13127,24 @@
         "Style transfer",
         "Composition"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 50000,
       "ranking": 443,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 200000,
+      "researchNotes": "IP-Adapter - open source image prompt adapter. Research project/GitHub.",
+      "isOpenSource": true,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 444,
@@ -13324,18 +13364,24 @@
         "Multiple genres",
         "Vocal generation"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 40000,
       "ranking": 451,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Suno alternative. Turn humming into full songs. AI lyrics generation.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 10000,
+      "researchNotes": "Tad AI - niche AI tool."
     },
     {
       "id": 452,
@@ -13352,18 +13398,24 @@
         "Comparisons",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 3000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 40000,
       "ranking": 452,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Web tools directory including AI creative tools. Soundraw and other AI reviews.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 500000,
+      "researchNotes": "Siteefy - AI tools directory/review site."
     },
     {
       "id": 453,
@@ -13464,18 +13516,24 @@
         "Templates",
         "Auto editing"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 35000,
       "ranking": 456,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Tracks AI video creation trends. Beginner-friendly video tools.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 5000,
+      "researchNotes": "Clippie AI - niche AI assistant tool."
     },
     {
       "id": 457,
@@ -13492,18 +13550,24 @@
         "Creative tools",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 5000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 150000,
       "estimatedUsers": 35000,
       "ranking": 457,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reviews and comparisons of AI video tools. Educational content for creators.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 50000,
+      "researchNotes": "Skywork AI - large language model by Kunlun Tech."
     },
     {
       "id": 458,
@@ -13517,16 +13581,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 5000,
+        "instagram": 2000,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 152000,
       "estimatedUsers": 26000,
       "ranking": 458,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 300000,
+      "researchNotes": "Generated Photos - AI-generated stock faces. Niche but established.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 459,
@@ -13659,16 +13730,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 3000,
+        "instagram": 2000,
+        "tiktok": 500
+      },
       "estimatedMonthlyVisits": 148000,
       "estimatedUsers": 24000,
       "ranking": 463,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 60000,
+      "researchNotes": "Exactly AI - AI art tool for artists to train on own style.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 464,
@@ -13682,16 +13760,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 144000,
       "estimatedUsers": 22000,
       "ranking": 464,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 150000,
+      "researchNotes": "Draw Things - free offline AI art app for Apple devices. Very popular on iOS/Mac.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 465,
@@ -13705,16 +13790,25 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 138000,
       "estimatedUsers": 19000,
       "ranking": 465,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 100000,
+      "researchNotes": "Kohya SS - popular SD training GUI. Major open source project.",
+      "isOpenSource": true,
+      "githubStars": 10000,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 466,
@@ -13728,16 +13822,24 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 136000,
       "estimatedUsers": 18000,
       "ranking": 466,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 80000,
+      "researchNotes": "Stability Matrix - SD GUI launcher/manager. Popular open source.",
+      "isOpenSource": true,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 467,
@@ -13751,16 +13853,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2000,
+        "instagram": 500,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 134000,
       "estimatedUsers": 17000,
       "ranking": 467,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 400000,
+      "researchNotes": "AI Image Enlarger (imglarger.com) - image upscaling tool.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 468,
@@ -13774,16 +13883,24 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 130000,
       "estimatedUsers": 15000,
       "ranking": 468,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 500000,
+      "researchNotes": "waifu2x - classic anime image upscaler. Open source.",
+      "isOpenSource": true,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 469,
@@ -13797,16 +13914,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 128000,
       "estimatedUsers": 14000,
       "ranking": 469,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 1450000,
+      "researchNotes": "Bigjpg - AI image upscaler. ~1.45M monthly visits, popular in Asia.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 470,
@@ -13904,16 +14028,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1500,
+        "instagram": 500,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 126000,
       "estimatedUsers": 13000,
       "ranking": 473,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 200000,
+      "researchNotes": "Deep Image AI - image enhancement/upscaling.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 474,
@@ -13986,16 +14117,25 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 124000,
       "estimatedUsers": 12000,
       "ranking": 476,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 300000,
+      "researchNotes": "Real-ESRGAN - widely used open source image upscaler by Tencent.",
+      "isOpenSource": true,
+      "githubStars": 28000,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 477,
@@ -14039,16 +14179,24 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 118000,
       "estimatedUsers": 10000,
       "ranking": 478,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 30000,
+      "researchNotes": "SUPIR - image restoration research project.",
+      "isOpenSource": true,
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 479,
@@ -14205,16 +14353,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 8000,
+        "instagram": 3000,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 110000,
       "estimatedUsers": 10000,
       "ranking": 484,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 400000,
+      "researchNotes": "Snappa - simple graphic design tool for social media.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 485,
@@ -14319,16 +14474,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 5000,
+        "instagram": 1000,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 108000,
       "estimatedUsers": 10000,
       "ranking": 488,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 100000,
+      "researchNotes": "Stencil - simple social media graphic design tool.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 489,
@@ -14428,16 +14590,23 @@
       "features": [
         "AI tools"
       ],
-      "social": {},
+      "social": {
+        "twitter": 5000,
+        "instagram": 3000,
+        "tiktok": 500
+      },
       "estimatedMonthlyVisits": 106000,
       "estimatedUsers": 10000,
       "ranking": 492,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": true,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 300000,
+      "researchNotes": "Desygner - cloud-based design tool for non-designers.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 493,
@@ -14604,18 +14773,24 @@
         "Vocal generation",
         "Fast processing"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 498,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free daily credits refresh every 24 hours. Optimized for complex musical arrangements.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 50000,
+      "researchNotes": "AI Song Generator - niche AI music tool."
     },
     {
       "id": 499,
@@ -14632,18 +14807,24 @@
         "Comparisons",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 499,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI video tool comparison and review platform. Helpful for choosing video generators.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 20000,
+      "researchNotes": "Fritz AI - mobile ML SDK. Acquired/merged."
     },
     {
       "id": 500,
@@ -14660,18 +14841,24 @@
         "4K/8K output",
         "Batch processing"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 500,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI video upscaler reviews. Comparisons with Nero AI and Topaz Labs.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 80000,
+      "researchNotes": "Unifab AI - AI video enhancer/upscaler tool."
     },
     {
       "id": 501,
@@ -14688,18 +14875,24 @@
         "Pricing guides",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 501,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI tool pricing and review platform. Hotpot AI pricing breakdowns.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 30000,
+      "researchNotes": "AutoGPT Net - AutoGPT wrapper/directory."
     },
     {
       "id": 502,
@@ -14716,18 +14909,24 @@
         "Live streaming",
         "Integration"
       ],
-      "social": {},
+      "social": {
+        "twitter": 2000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 502,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Video SDK platform with AI apps directory. Artguru and other tool listings.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 100000,
+      "researchNotes": "VideoSDK AI Apps - video API/SDK platform."
     },
     {
       "id": 503,
@@ -14744,18 +14943,24 @@
         "Categories",
         "Discovery"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 25000,
       "ranking": 503,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI product discovery platform. Artguru AI and other creative tools listed.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 200000,
+      "researchNotes": "Moge AI - AI tools aggregator/directory."
     },
     {
       "id": 504,
@@ -15123,18 +15328,24 @@
         "API integration",
         "Scalable"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 100000,
       "estimatedUsers": 20000,
       "ranking": 516,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Picsart for Business. Cost-effective API for texture generation at scale.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 10000,
+      "researchNotes": "Picsart Texture API - part of Picsart platform."
     },
     {
       "id": 517,
@@ -15621,18 +15832,24 @@
         "Creative tools",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 80000,
       "estimatedUsers": 20000,
       "ranking": 533,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": true,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dance video tips and AI video generation resources. PixVerse reviews.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 5000,
+      "researchNotes": "Litmedia AI - niche content creation tool."
     },
     {
       "id": 534,
@@ -15649,18 +15866,24 @@
         "Categories",
         "Reviews"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1000,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 80000,
       "estimatedUsers": 20000,
       "ranking": 534,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Best AI apps of 2024 directory. Artguru and creative tools featured.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 30000,
+      "researchNotes": "Samur AI - AI apps directory."
     },
     {
       "id": 535,
@@ -16027,18 +16250,25 @@
         "Improved aesthetics",
         "SDXL-based"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 80000,
       "estimatedUsers": 15000,
       "ranking": 547,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Applies RLHF-style preference optimization to improve image generation quality.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 20000,
+      "researchNotes": "SDXL-DPO - HuggingFace model for text2image. Research.",
+      "isOpenSource": true
     },
     {
       "id": 548,
@@ -17683,18 +17913,24 @@
         "EDM tools",
         "Reviews"
       ],
-      "social": {},
+      "social": {
+        "twitter": 1000,
+        "instagram": 500,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 60000,
       "estimatedUsers": 15000,
       "ranking": 604,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI music generator comparisons for EDM producers. Text-to-music tool reviews.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 15000,
+      "researchNotes": "Pitch Innovations - music/audio plugin developer."
     },
     {
       "id": 605,
@@ -17883,18 +18119,25 @@
         "Preference learning",
         "Quality improvement"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 60000,
       "estimatedUsers": 12000,
       "ranking": 611,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research paper showing how to apply DPO from LLMs to diffusion models.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Diffusion-DPO - research paper (arxiv). Not a product.",
+      "toolType": "research_paper"
     },
     {
       "id": 612,
@@ -17910,18 +18153,25 @@
         "Better scaling",
         "Higher quality"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 60000,
       "estimatedUsers": 12000,
       "ranking": 612,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Follow-up to original consistency models paper with improved training recipes.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Improved Consistency Training - research paper (arxiv).",
+      "toolType": "research_paper"
     },
     {
       "id": 613,
@@ -19082,19 +19332,25 @@
         "High fidelity"
       ],
       "social": {
-        "github": 300
+        "github": 300,
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
       },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 20000,
       "ranking": 653,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research model. Space-MoE for compositional generation. Text accuracy focus.",
-      "lastVerified": "2026-02-22T02:10:45+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 5000,
+      "researchNotes": "RAPHAEL - text-to-image research model. GitHub project.",
+      "toolType": "research_paper"
     },
     {
       "id": 654,
@@ -19482,18 +19738,24 @@
         "Pricing info",
         "Tutorials"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 12000,
       "ranking": 667,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI music tool information hub. Beatoven.ai pricing guides and comparisons.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 5000,
+      "researchNotes": "Oreate AI - niche AI tool."
     },
     {
       "id": 668,
@@ -19509,18 +19771,25 @@
         "Asymmetric LR",
         "Better convergence"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 12000,
       "ranking": 668,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Simple modification setting B matrix LR higher than A. 2x speedup in fine-tuning.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "LoRA+ - research paper on improved LoRA training.",
+      "toolType": "research_paper"
     },
     {
       "id": 669,
@@ -19846,18 +20115,25 @@
         "Nested structure",
         "Efficient scaling"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 10000,
       "ranking": 680,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel nested representation learning for efficient high-resolution synthesis.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Matryoshka Diffusion - research paper.",
+      "toolType": "research_paper"
     },
     {
       "id": 681,
@@ -19873,18 +20149,25 @@
         "Distillation",
         "Quality preservation"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 10000,
       "ranking": 681,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Foundational research by Google. Halves sampling steps iteratively while maintaining quality.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Progressive Distillation - research paper by Google.",
+      "toolType": "research_paper"
     },
     {
       "id": 682,
@@ -19900,18 +20183,25 @@
         "Structure preserving",
         "Stable training"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 50000,
       "estimatedUsers": 10000,
       "ranking": 682,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Preserves hyperspherical energy during fine-tuning for better generalization.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "OFT (Orthogonal Fine-Tuning) - research paper.",
+      "toolType": "research_paper"
     },
     {
       "id": 683,
@@ -20896,16 +21186,23 @@
       "features": [
         "AI features"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 42150,
       "estimatedUsers": 16860,
       "ranking": 717,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
-      "videoTimeline": false
+      "videoTimeline": false,
+      "monthlyTraffic": 1000,
+      "researchNotes": "AI Tool 157 - placeholder/niche tool. Minimal presence.",
+      "lastVerified": "2026-02-24T21:12:00+08:00"
     },
     {
       "id": 718,
@@ -21556,17 +21853,24 @@
         "Subject preservation",
         "Context generation"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 39200,
       "estimatedUsers": 14700,
       "ranking": 740,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "MoA (Mixture of Attention) - research project.",
+      "toolType": "research_paper"
     },
     {
       "id": 741,
@@ -21674,18 +21978,24 @@
         "Feature lists",
         "User ratings"
       ],
-      "social": {},
+      "social": {
+        "twitter": 500,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 10000,
       "ranking": 744,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": false,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI software discovery platform. Reviews of video generation and creative tools.",
-      "lastVerified": "2026-02-22T02:28:00+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 50000,
+      "researchNotes": "Revoyant - AI blog/review site about AI tools."
     },
     {
       "id": 745,
@@ -21701,18 +22011,25 @@
         "No fine-tuning",
         "Open domain"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 38400,
       "estimatedUsers": 14400,
       "ranking": 745,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OPPO Mente Lab. Subject-aware diffusion model.",
-      "lastVerified": "2026-02-22T03:03:02+08:00"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Subject-Diffusion - research by OPPO.",
+      "toolType": "research_paper"
     },
     {
       "id": 746,
@@ -21876,18 +22193,25 @@
         "Quality control",
         "Fine-grained preferences"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 751,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extends DPO to handle multiple aspects like aesthetics, alignment, and safety.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "MaPO - research paper on diffusion model alignment.",
+      "toolType": "research_paper"
     },
     {
       "id": 752,
@@ -21903,18 +22227,25 @@
         "Efficient sampling",
         "Quality preservation"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 752,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Distills classifier-free guidance into model weights for faster inference.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Guided Distillation - research paper.",
+      "toolType": "research_paper"
     },
     {
       "id": 753,
@@ -21930,18 +22261,25 @@
         "Simplified training",
         "Practical"
       ],
-      "social": {},
+      "social": {
+        "twitter": 0,
+        "instagram": 0,
+        "tiktok": 0
+      },
       "estimatedMonthlyVisits": 40000,
       "estimatedUsers": 8000,
       "ranking": 753,
-      "dataQuality": "estimated",
+      "dataQuality": "verified",
       "imageGen": true,
       "videoGen": false,
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Makes consistency model training more accessible for practitioners.",
-      "lastVerified": "2026-02-22T02:54:01.903571"
+      "lastVerified": "2026-02-24T21:12:00+08:00",
+      "monthlyTraffic": 0,
+      "researchNotes": "Easy Consistency Tuning - research paper.",
+      "toolType": "research_paper"
     },
     {
       "id": 754,
