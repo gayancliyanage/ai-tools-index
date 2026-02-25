@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T09:57:00+08:00",
+  "lastUpdated": "2026-02-25T10:15:06.018269+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 301-350 (cycle 6)",
-    "nextBatch": "ranks 351-400 (cycle 6)",
-    "lastResearched": "2026-02-25T09:57:00+08:00",
+    "lastBatch": "ranks 351-400 (cycle 6)",
+    "nextBatch": "ranks 401-450 (cycle 6)",
+    "lastResearched": "2026-02-25T10:15:06.018269+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -74,10 +74,11 @@
       "151-200 (cycle 6)",
       "201-250 (cycle 6)",
       "251-300 (cycle 6)",
-      "301-350 (cycle 6)"
+      "301-350 (cycle 6)",
+      "351-400 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 batch 7/20. Ranks 301-350 verified. Key updates: Wonder Studio acquired by Autodesk (rebranded Flow Studio), OctoAI acquired by NVIDIA (shut down Oct 2024), Kits AI acquired by Splice (Jan 2026), Moonvalley raised $84M (Jul 2025), BFL raised $300M Series B + FLUX.2 klein (Jan 2026), LTX-2 open-sourced with 4K audio-video (Oct 2025), HunyuanVideo-1.5 released (Nov 2025), AutoGen v0.4 + MS Agent Framework targeting Q1 2026 GA, Kandinsky now at v5.0 in GigaChat."
+    "note": "Cycle 6 batch 8/20. Ranks 351-400 verified. Key updates: Vizcom $27M Series B (700K+ designers), Bria AI $40M Series B ($65M total, licensed data), OpenDevin renamed to OpenHands, MetaGPT launched MGX product (Feb 2025), Open-Sora 2.0 SOTA-level for $200K training, MCP became industry standard (adopted by OpenAI/Google/MS), Riffusion Voice Over Mode (Dec 2025), PromeAI ~1.6M monthly visits, InvokeAI added FLUX.2 Klein + CogView4 support."
   },
   "tools": [
     {
@@ -11646,7 +11647,7 @@
       "social": {
         "twitter": 50000
       },
-      "estimatedMonthlyVisits": 400000,
+      "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 100000,
       "ranking": 351,
       "dataQuality": "verified",
@@ -11655,8 +11656,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Highest ELO rating (1153) on Artificial Analysis Oct 2024. API only - powers many commercial applications.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "$300M Series B, $3.25B valuation. NVIDIA Blackwell partnership. FLUX.2 Klein Jan 2026.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "followers": 0
       },
@@ -11664,7 +11665,8 @@
         "handle": "@bfl_ml",
         "followers": 36700,
         "note": "Black Forest Labs parent account"
-      }
+      },
+      "researchNotes": "BFL raised $300M Series B at $3.25B valuation (Dec 2025). NVIDIA partnership for Blackwell. FLUX.2 Klein released Jan 2026. Industry-leading image gen."
     },
     {
       "id": 352,
@@ -11695,7 +11697,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From makers of Nero Burning ROM. 4K/8K upscaling. Anime model available. $195 lifetime license.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@neroai.com.br",
         "followers": 1082,
@@ -11721,7 +11723,7 @@
         "twitter": 15000,
         "instagram": 20000
       },
-      "estimatedMonthlyVisits": 400000,
+      "estimatedMonthlyVisits": 170000,
       "estimatedUsers": 100000,
       "ranking": 353,
       "dataQuality": "verified",
@@ -11730,12 +11732,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Create and release songs to streaming platforms. 17M+ songs created. Earn royalties from streams.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "~168K monthly visits. Free tier + $9.99/mo paid. Streaming distribution integration.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@boomy.music",
         "followers": 6393
-      }
+      },
+      "researchNotes": "~168K monthly visits (Oct 2025 data). Pricing from $9.99/mo. Popular with content creators for streaming distribution."
     },
     {
       "id": 354,
@@ -11765,7 +11768,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free online platform. AI Painter feature. Renaissance to Impressionist styles.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@artguru_ai",
         "followers": 13000
@@ -11796,7 +11799,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 150000,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "note": "Niche design tool; neural network-based color generation",
       "instagram": {
         "handle": "@khromacolors",
@@ -11829,7 +11832,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Converts raster images to scalable vectors in seconds. Popular for logo and design work.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 357,
@@ -11857,7 +11860,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Waifu2x alternative with additional features. Good for anime wallpaper upscaling.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@imageenlarger",
         "followers": 24
@@ -11891,7 +11894,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI's open-source music generation. Free sandbox for melodic ideas. Multiple model sizes available.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 359,
@@ -11921,12 +11924,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "25K+ stars. Built from scratch, no LangChain. CrewAI AMP enterprise platform.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "Leading multi-agent framework. Enterprise version available. Active development.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "twitter": {
         "handle": "@crewAIInc",
         "followers": 20900
-      }
+      },
+      "researchNotes": "Active multi-agent framework. Launched CrewAI Enterprise. Regular releases on GitHub. Popular for role-based AI agent orchestration."
     },
     {
       "id": 360,
@@ -11948,7 +11952,7 @@
         "linkedin": 10000,
         "instagram": 46000
       },
-      "estimatedMonthlyVisits": 400000,
+      "estimatedMonthlyVisits": 450000,
       "estimatedUsers": 80000,
       "ranking": 360,
       "dataQuality": "verified",
@@ -11957,12 +11961,13 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Popular with product designers and industrial designers. Go from sketch to photorealistic render in seconds.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "$27M Series B (Nov 2025), 700K+ designers. Expanding into full design workflow for automotive, consumer electronics.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@vizcom_",
         "followers": 46000
-      }
+      },
+      "researchNotes": "Raised $27M Series B led by Radical Ventures (Nov 2025/Jan 2026 announcement). 700K+ designers. Total funding ~$51M. Expanding beyond visualization into full creative workflow."
     },
     {
       "id": 361,
@@ -11982,7 +11987,7 @@
       "social": {
         "github": 30000
       },
-      "estimatedMonthlyVisits": 400000,
+      "estimatedMonthlyVisits": 500000,
       "estimatedUsers": 80000,
       "ranking": 361,
       "dataQuality": "verified",
@@ -11991,8 +11996,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Anthropic. Nov 2024 launch. De facto standard for AI tool integration. 1000s of MCP servers.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "note": "De facto industry standard protocol for AI tool integration. Adopted by OpenAI, Google, Microsoft. JSON-RPC 2.0.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
+      "researchNotes": "MCP became de facto industry standard. Adopted by OpenAI, Google DeepMind, Microsoft, thousands of developers. JSON-RPC 2.0 based, inspired by LSP."
     },
     {
       "id": 362,
@@ -12022,7 +12028,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of SD 3 lineup with enhanced typography and prompt following.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 363,
@@ -12054,7 +12060,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creates music that matches video pacing. Also offers $3/minute pay-as-you-go option.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@beatovenai",
         "followers": 3208
@@ -12087,7 +12093,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$800K seed funding (Jun 2022). Browser-based. AI dubbing at $1/minute.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@dubverse.ai",
         "followers": 1293
@@ -12124,7 +12130,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 182000,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "note": "182K monthly visits as of Nov 2025; low bounce rate 0.4%"
     },
     {
@@ -12154,7 +12160,7 @@
       "videoTimeline": false,
       "note": "EbSynth 2 released Oct 2025. Texture synthesis without AI. Secret Weapons.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "ranking": 366
     },
     {
@@ -12185,7 +12191,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free and open source AI upscaler. Cross-platform (Linux, macOS, Windows). GPU-accelerated processing.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 368,
@@ -12215,7 +12221,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Japanese AI art service. 'Gahaku' means master painter. Free Renaissance portraits.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 369,
@@ -12242,7 +12248,7 @@
       "videoTimeline": false,
       "note": "Tencent AI Lab. 7K+ GitHub stars. Foundation for many character consistency tools.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "ranking": 369
     },
     {
@@ -12271,7 +12277,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "500K+ users. 4.8 star rating. 12x faster vocal generation. Suno alternative.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 371,
@@ -12301,7 +12307,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "v0.3 released Feb 2025. Completely open-sourced alternative to SD3. State-of-the-art GenEval performance.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 372,
@@ -12331,7 +12337,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba ModelScope. Generate your digital twin from few photos. Popular in China.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 373,
@@ -12361,7 +12367,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "One-time payment model. 200+ styles. Good for LinkedIn profiles.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 374,
@@ -12388,7 +12394,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 100000,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "note": "GitHub open source project; integrates with AUTOMATIC1111 WebUI"
     },
     {
@@ -12419,7 +12425,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "$2.32M funding from Fuel Ventures and SoftBank Latin America Fund. E-commerce focus with AI background remover.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@glorify.app",
         "followers": 8848
@@ -12453,7 +12459,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses InsightFace for face embedding. Consistent identity across generations.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 377,
@@ -12480,7 +12486,7 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 378,
@@ -12511,7 +12517,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Write lyrics and get a full song with vocals. Popular on TikTok for quick song creation.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 379,
@@ -12541,8 +12547,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ICLR 2024 Oral. 45K+ stars. First AI software company. MGX product launched Feb 2025.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "note": "Launched MGX (MetaGPT X) Feb 2025 - AI agent dev team product. FoundationAgents org.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
+      "researchNotes": "Launched MGX (MetaGPT X) Feb 19, 2025 - world's first AI agent development team. Now under FoundationAgents org on GitHub."
     },
     {
       "id": 380,
@@ -12573,7 +12580,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Suno alternative with music video generation. Vocal & instrumental isolator included.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@musicfulai",
         "followers": 39
@@ -12608,12 +12615,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Uses fine-tuned Stable Diffusion to generate spectograms, then converts to audio. Open-source foundation.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "Voice Over Mode launched Dec 2025. Overhauled UI. iOS app available.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@riffusionai",
         "followers": 1404
-      }
+      },
+      "researchNotes": "Launched Voice Over Mode (Dec 2025) - train AI with your voice. Overhauled UI Dec 2025. iOS app available."
     },
     {
       "id": 382,
@@ -12634,7 +12642,7 @@
         "twitter": 8000,
         "instagram": 10000
       },
-      "estimatedMonthlyVisits": 300000,
+      "estimatedMonthlyVisits": 1600000,
       "estimatedUsers": 80000,
       "ranking": 382,
       "dataQuality": "verified",
@@ -12643,12 +12651,13 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Popular for architecture and interior design rendering. Transforms sketches and 3D models.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "~1.6M monthly visits. Strong traffic for AI design/image generation platform.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@promeai_official",
         "followers": 10000
-      }
+      },
+      "researchNotes": "~1.64M monthly visits (Jan-Mar 2025 data). Significant traffic for AI design tool. Image generation + design assets."
     },
     {
       "id": 383,
@@ -12676,7 +12685,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Desktop software for Windows/Mac. Video Enhancer AI + Photo Enhancer bundle saves $189.90.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 384,
@@ -12706,7 +12715,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "655.7K monthly visits; 35% traffic from India",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "monthlyVisits": 656000
     },
     {
@@ -12736,11 +12745,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular LCM-LoRA enables 4-step generation with any SD model. Widely adopted.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 386,
-      "name": "OpenDevin",
+      "name": "OpenHands (f.k.a. OpenDevin)",
       "url": "https://github.com/OpenDevin/OpenDevin",
       "category": "3D/Animation",
       "founded": "2024",
@@ -12766,8 +12775,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "35K+ stars. Open-source Devin alternative. Autonomous software engineering. Apr 2024 launch.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "note": "Renamed from OpenDevin to OpenHands. Open-source AI software developer platform.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
+      "researchNotes": "Renamed to OpenHands. Open-source AI coding agent platform. Active development. Paper published."
     },
     {
       "id": 387,
@@ -12789,7 +12799,7 @@
         "linkedin": 20000,
         "instagram": 197
       },
-      "estimatedMonthlyVisits": 300000,
+      "estimatedMonthlyVisits": 350000,
       "estimatedUsers": 50000,
       "ranking": 387,
       "dataQuality": "verified",
@@ -12798,12 +12808,13 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$65M total funding: $24M Series A + $40M Series B (Mar 2025). 100% licensed training data. Plans to expand to music attribution.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "$40M Series B (Mar 2025), total $65M. Enterprise gen AI on licensed data. 30+ APIs.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@bria.ai",
         "followers": 197
-      }
+      },
+      "researchNotes": "Raised $40M Series B (Mar 2025), total $65M. Enterprise visual gen AI built on 100% licensed data. 30+ specialized APIs."
     },
     {
       "id": 388,
@@ -12834,7 +12845,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Singapore-based. Shopify app integration. Bulk product photo generation with AI backgrounds.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@pebblely_ai",
         "followers": 6751
@@ -12867,7 +12878,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 73000,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "note": "72.6K monthly visits Nov 2025-Jan 2026; browser-based mocap",
       "instagram": {
         "handle": "@plask.ai",
@@ -12899,7 +12910,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 287000,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "note": "287-484K monthly visits; top traffic from Russia, Indonesia",
       "instagram": {
         "handle": "@logomaster.ai",
@@ -12938,7 +12949,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Backed by Pioneer Fund, ODF, Orange DAO, Ineffable Ventures. Free domain and chatbot included.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00"
     },
     {
       "id": 392,
@@ -12966,8 +12977,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "By Tsinghua THUDM. CogVideoX-2B under Apache 2.0. State-of-the-art among open-source video models.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "note": "CogVideoX-2B now Apache 2.0. 5B model available. Leading open-source video gen.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
+      "researchNotes": "By Tsinghua THUDM (now zai-org). CogVideoX-2B Apache 2.0 licensed. 5B model available. Open-source video generation."
     },
     {
       "id": 393,
@@ -12995,8 +13007,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Open-Sora 1.1 supports 2s-15s, 144p-720p. State-of-the-art among open-source video models on VBench.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00"
+      "note": "Open-Sora 2.0 (Mar 2025) - SOTA-level video gen for $200K training. Upgraded VAE + Transformer.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
+      "researchNotes": "Open-Sora 1.3 released Feb 20, 2025. Open-Sora 2.0 released Mar 2025 - SOTA-level for just $200K training cost. By HPC-AI Tech."
     },
     {
       "id": 394,
@@ -13028,7 +13041,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$17.3M total funding. $10M seed round (Dec 2025). Investors include Play Ventures, Warner Music Group, Animoca.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@move_ai_",
         "followers": 59000
@@ -13060,7 +13073,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@kaedim3d",
         "followers": 2943
@@ -13091,7 +13104,7 @@
       "videoTimeline": false,
       "note": "Tencent ARC. 10K+ GitHub stars. Realistic personalized image generation.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "ranking": 396
     },
     {
@@ -13122,7 +13135,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Good for royalty-free loops and jingles at scale. Affordable commercial licensing.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@getloudly",
         "followers": 9210
@@ -13156,7 +13169,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Bootstrapped and profitable. DAW-style timeline. Stem separation. Made by musicians for musicians.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "instagram": {
         "handle": "@neural_frames",
         "followers": 2455
@@ -13190,13 +13203,14 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Open source (Apache 2.0). Built by creatives for creatives. Foundation for multiple commercial products. Fully customizable.",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "note": "Added FLUX.2 Klein + CogView4 support. Apache 2.0. Active open-source creative engine.",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "twitter": {
         "handle": "@InvokeAgent",
         "followers": 2,
         "note": "New account, very small"
-      }
+      },
+      "researchNotes": "Active development. Added FLUX.2 Klein support, CogView4 support. Apache 2.0 licensed. Self-hosted creative engine."
     },
     {
       "id": 400,
@@ -13225,7 +13239,7 @@
       "videoTimeline": true,
       "note": "Popular SD animation method. Runs locally. WebUI and ComfyUI nodes.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:15:40.216692+08:00",
+      "lastVerified": "2026-02-25T10:15:06.018269+08:00",
       "ranking": 400
     },
     {
