@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T17:58:27.169053+08:00",
+  "lastUpdated": "2026-02-25T18:15:28.425735+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 851-900 (cycle 7)",
-    "nextBatch": "ranks 901-950 (cycle 7)",
-    "lastResearched": "2026-02-25T17:58:27.169053+08:00",
+    "lastBatch": "ranks 901-950 (cycle 7)",
+    "nextBatch": "ranks 951-1000 (cycle 7)",
+    "lastResearched": "2026-02-25T18:15:28.425735+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -105,10 +105,11 @@
       "701-750 (cycle 7)",
       "751-800 (cycle 7)",
       "801-850 (cycle 7)",
-      "851-900 (cycle 7)"
+      "851-900 (cycle 7)",
+      "901-950 (cycle 7)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 7 batch 801-850 complete. Heavy research/academic batch. Key findings: Janus (DeepSeek) exploded to 17.6K stars with Janus-Pro release; EchoMimic accepted AAAI 2025, V2+V3 released; OmniGen in Diffusers + OmniGen2; Text2Video-Zero 4.2K stars; HunyuanDiT 4.3K stars. Most tools 801-850 are research papers with GitHub repos but limited commercial presence."
+    "note": "Cycle 7 batch 901-950 complete. Heavy research/academic/benchmark batch. Key findings: DocOwl2 accepted ACL 2025 (2.4K stars); 4DGaussians CVPR 2024 (3.4K stars); VideoLLaMA2 evolved to VideoLLaMA3 (Jan 2025, 1.3K stars); Monkey strong at 1.9K stars; DINet lip-sync at 1.1K stars; PointNeRF at 1.2K. Many tools are benchmarks/datasets (DocVQA, VizWiz, OK-VQA, A-OKVQA, AI2D) or ArXiv papers without standalone repos."
   },
   "tools": [
     {
@@ -29357,7 +29358,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 2400
       },
       "estimatedMonthlyVisits": 18000,
       "estimatedUsers": 4000,
@@ -29369,7 +29371,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba DAMO Academy mPLUG team. DocOwl 1.5 and DocOwl2 released for document understanding.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://github.com/X-PLUG/mPLUG-DocOwl",
       "toolType": "research",
       "traffic": {
@@ -29377,7 +29379,7 @@
         "note": "Academic research project"
       },
       "githubStars": 2370,
-      "researchNote": "DocOwl2 accepted ACL 2025 (May 2025). Alibaba mPLUG team continues document understanding MLLM line."
+      "researchNote": "DocOwl2 accepted ACL 2025. Training code released via ms-swift. 2.4K stars."
     },
     {
       "id": 902,
@@ -29406,7 +29408,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 3400
       },
       "estimatedMonthlyVisits": 17200,
       "estimatedUsers": 6450,
@@ -29418,7 +29421,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel representation combining 3D Gaussians and 4D neural voxels. CVPR 2024. From Huazhong University.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://github.com/hustvl/4DGaussians",
       "toolType": "research",
       "traffic": {
@@ -29426,7 +29429,7 @@
         "note": "Academic research project"
       },
       "githubStars": 3392,
-      "researchNote": "4D Gaussian Splatting remains active research area. Anchored 4DGS published at SIGGRAPH Asia 2025. Multiple new 4DGS variants in 2025."
+      "researchNote": "CVPR 2024. 4D Gaussian Splatting for dynamic scenes. 3.4K stars. Colab demos available."
     },
     {
       "id": 903,
@@ -29467,14 +29470,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Peking University. Chain-of-action for UI automation without parsing.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://github.com/AUTOlab-Projects/Auto-UI",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "PKU NLP. Auto-UI for mobile GUI grounding. Research project."
+      "researchNote": "Repo appears removed/renamed (404). GUI automation research."
     },
     {
       "id": 904,
@@ -29503,7 +29506,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 5
       },
       "estimatedMonthlyVisits": 16800,
       "estimatedUsers": 6300,
@@ -29515,13 +29519,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Incorporates 3D scene geometry into deformable Gaussian splatting. Research project for dynamic scenes.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Deformable 3D Gaussians for monocular 4D reconstruction. Research."
+      "researchNote": "Small personal fork/mirror. Deformable 3D Gaussians research."
     },
     {
       "id": 905,
@@ -29550,7 +29554,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 632
       },
       "estimatedMonthlyVisits": 16400,
       "estimatedUsers": 6150,
@@ -29562,14 +29567,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Decomposes motion and appearance into sparse control points and dense Gaussians. CVPR 2024. Enables user-controlled motion editing.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 632,
-      "researchNote": "CVMI-Lab sparse-controlled Gaussian splatting for editable dynamic scenes. CVPR 2024."
+      "researchNote": "SC-GS: Sparse-Controlled Gaussian Splatting. 632 stars."
     },
     {
       "id": 906,
@@ -29610,13 +29615,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Approximates 4D spatiotemporal volume using 4D Gaussian primitives with anisotropic ellipses rotating in space and time.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Real-time rendering of dynamic scenes. NeurIPS 2023 spotlight."
+      "researchNote": "ArXiv paper, no standalone repo. Spacetime Gaussians for dynamic view synthesis."
     },
     {
       "id": 907,
@@ -29657,13 +29662,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Neural radiance field method using multi-factor decomposition for dynamic scene representation.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Dynamic motion field representation for 4D scenes. Research paper."
+      "researchNote": "ArXiv paper (2312.00112). Dynamic multi-frame neural radiance fields."
     },
     {
       "id": 908,
@@ -29692,7 +29697,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 353
       },
       "estimatedMonthlyVisits": 15200,
       "estimatedUsers": 5700,
@@ -29704,14 +29710,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2022. Efficient dynamic radiance field using time-aware neural voxels. Foundation for 4DGaussians.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 353,
-      "researchNote": "HUST temporal-interpolatable neural voxels. ECCV 2022. Efficient dynamic NeRF."
+      "researchNote": "TiNeuVox: Time-aware Neural Voxels. 353 stars. From HUST VL group."
     },
     {
       "id": 909,
@@ -29752,14 +29758,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVC Barcelona. Industry standard document VQA benchmark. 50K questions on industry documents.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://www.docvqa.org/",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Document VQA benchmark. Industry standard benchmark for document understanding."
+      "researchNote": "DocVQA benchmark/dataset site. No GitHub repo. Active competition platform."
     },
     {
       "id": 910,
@@ -29800,14 +29806,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2018. Real questions from blind people. 31K+ questions with spoken recordings. Accessibility focus.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://vizwiz.org/",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "VizWiz VQA challenges 2020-2025 deprecated. Dataset remains standard benchmark for accessibility-focused VQA. Offline benchmarking still available."
+      "researchNote": "VizWiz VQA challenge/dataset. Academic benchmark, no repo stars."
     },
     {
       "id": 911,
@@ -29848,7 +29854,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From LLaVA project. In-the-wild and COCO-based benchmarks. Standard for visual instruction models.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://llava-vl.github.io/",
       "toolType": "benchmark",
       "traffic": {
@@ -29856,7 +29862,7 @@
         "note": "Academic research project"
       },
       "githubStars": 24478,
-      "researchNote": "LLaVA evaluation benchmark. Part of LLaVA project (24.5K stars total). Widely used."
+      "researchNote": "Part of LLaVA project (21K+ stars main repo). Evaluation benchmark."
     },
     {
       "id": 912,
@@ -29897,14 +29903,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2022. 21K questions with explanations. Tests multimodal chain-of-thought reasoning.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://scienceqa.github.io/",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Multi-modal science QA benchmark. Used across many VLM papers."
+      "researchNote": "ScienceQA multimodal benchmark. Academic dataset."
     },
     {
       "id": 913,
@@ -29944,14 +29950,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 workshop. Enables combining multiple diffusion experts.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Panoramic image generation via diffusion tiling. HuggingFace paper."
+      "researchNote": "HuggingFace paper. Mixture of Diffusers for panoramic generation."
     },
     {
       "id": 914,
@@ -29991,14 +29997,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2023. Uses language structure parsing to improve prompt understanding.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 319,
-      "researchNote": "Structured diffusion guidance for compositional T2I. ICLR 2023."
+      "researchNote": "Structured Diffusion Guidance research. Text-to-image composition."
     },
     {
       "id": 915,
@@ -30026,7 +30032,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 615
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 5000,
@@ -30038,14 +30045,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Control multiple instances with individual positions and attributes.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 615,
-      "researchNote": "Multi-instance generation controller for T2I. CVPR 2024."
+      "researchNote": "MIGC: Multi-Instance Generation Controller. 615 stars."
     },
     {
       "id": 916,
@@ -30085,13 +30092,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Princeton research. Enables CFG in one-step generation unlike prior methods.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Ultra-fast one-step diffusion. Research project."
+      "researchNote": "UFOGen: one-step diffusion. Research paper."
     },
     {
       "id": 917,
@@ -30131,14 +30138,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on story-driven video generation with consistent characters across scenes.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Character-centric video generation. Links to Open-Sora."
+      "researchNote": "TheaterGen multi-character generation. Linked to Open-Sora project."
     },
     {
       "id": 918,
@@ -30179,13 +30186,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Achieves 100x+ speedup over prior methods. Uses six planes to model dynamic 3D scenes efficiently.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Explicit NeRF representation using six feature planes. CVPR 2023."
+      "researchNote": "HexPlane: 4D scene decomposition. Project page, no standalone repo count."
     },
     {
       "id": 919,
@@ -30214,7 +30221,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 1300
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 4000,
@@ -30226,7 +30234,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba DAMO NLP Singapore. Improved spatial-temporal modeling. Audio integration.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://github.com/DAMO-NLP-SG/VideoLLaMA2",
       "toolType": "research",
       "traffic": {
@@ -30234,7 +30242,7 @@
         "note": "Academic research project"
       },
       "githubStars": 1277,
-      "researchNote": "Superseded by VideoLLaMA3 (launched Jan 2025). HuggingFace models updated Sep 2025. Active development by DAMO-NLP-SG."
+      "researchNote": "VideoLLaMA2 \u2192 VideoLLaMA3 launched Jan 2025. 1.3K stars. Active development."
     },
     {
       "id": 920,
@@ -30275,13 +30283,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Explicit radiance fields using factored planes for space, time, and appearance. UC Berkeley research.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Explicit radiance fields in space, time, appearance. CVPR 2023."
+      "researchNote": "K-Planes: explicit radiance fields. Project page based."
     },
     {
       "id": 921,
@@ -30310,7 +30318,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 412
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -30322,14 +30331,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab. 10B-scale dataset. Largest open interleaved image-text corpus.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "dataset",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 412,
-      "researchNote": "OpenGVLab 10B+ level image-text interleaved corpus. NeurIPS 2024."
+      "researchNote": "OmniCorpus: 10B-scale multimodal corpus. OpenGVLab. 412 stars."
     },
     {
       "id": 922,
@@ -30358,7 +30367,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 837
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -30370,14 +30380,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pixel understanding at any granularity. Mask-based region input.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 837,
-      "researchNote": "Pixel-level instruction tuning for visual understanding. NeurIPS 2024."
+      "researchNote": "Osprey: pixel understanding with visual instruction tuning. 837 stars."
     },
     {
       "id": 923,
@@ -30406,7 +30416,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 1900
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 3000,
@@ -30418,14 +30429,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Focuses on scene text and document understanding with high-resolution image processing.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 1947,
-      "researchNote": "CVPR 2024 Highlight. TextMonkey follow-up accepted TPAMI 2026. Mini-Monkey accepted ICLR 2025. Active group."
+      "researchNote": "Monkey: image resolution and text recognition. 1.9K stars. Active."
     },
     {
       "id": 924,
@@ -30454,7 +30465,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 15
       },
       "estimatedMonthlyVisits": 15000,
       "estimatedUsers": 2000,
@@ -30466,14 +30478,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. LLM reads academic papers to learn game strategies.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 15,
-      "researchNote": "GPT-4 situational play through reasoning. Small research project."
+      "researchNote": "SPRING: GPT-4 for Story Planning and Reasoning. 15 stars. Niche."
     },
     {
       "id": 925,
@@ -30514,13 +30526,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extends NeRF to handle dynamic scenes with specular/reflective surfaces. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "NeRF for dynamic specular objects. Research paper."
+      "researchNote": "NeRF-DS: Neural Radiance Fields for Dynamic Specular Objects. ArXiv paper."
     },
     {
       "id": 926,
@@ -30561,7 +30573,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2021 by Google. First method to photorealistically reconstruct deformable scenes from casual mobile phone captures.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://nerfies.github.io/",
       "toolType": "research",
       "traffic": {
@@ -30569,7 +30581,7 @@
         "note": "Academic research project"
       },
       "githubStars": 3700,
-      "researchNote": "Google deformable NeRFs. Nerfies project page template widely reused (3.7K stars)."
+      "researchNote": "Nerfies: deformable NeRF. Classic project page. Google Research."
     },
     {
       "id": 927,
@@ -30610,14 +30622,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH Asia 2021 by Google. Extends Nerfies with higher-dimensional coordinates for topologically varying scenes.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://hypernerf.github.io/",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Google. Higher-dimensional NeRF for topologically varying scenes. SIGGRAPH Asia 2021."
+      "researchNote": "HyperNeRF: higher-dimensional NeRF. Google Research project page."
     },
     {
       "id": 928,
@@ -30658,14 +30670,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2021. First to extend neural radiance fields to dynamic domain. Handles rigid and non-rigid motions from single camera.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://www.albertpumarola.com/research/D-NeRF/",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Neural radiance fields for dynamic scenes. CVPR 2021. Foundational work."
+      "researchNote": "D-NeRF: dynamic neural radiance fields. Foundational work by Pumarola."
     },
     {
       "id": 929,
@@ -30706,13 +30718,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Dynamic neural radiance fields for 3D video synthesis from multi-view captures. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Facebook/Meta neural 3D video synthesis. CVPR 2022."
+      "researchNote": "DyNeRF: neural 3D video synthesis. ArXiv paper."
     },
     {
       "id": 930,
@@ -30753,13 +30765,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines neural radiance fields with scene flow for dynamic view synthesis. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "4D view synthesis of dynamic scenes. ICCV 2021."
+      "researchNote": "Neural Radiance Flow for 4D view synthesis. ArXiv paper."
     },
     {
       "id": 931,
@@ -30800,13 +30812,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 14K questions requiring outside knowledge. Tests knowledge retrieval + vision.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Outside knowledge VQA benchmark. AllenAI. Widely cited."
+      "researchNote": "OK-VQA: outside knowledge VQA benchmark. Allen AI. Dataset/challenge."
     },
     {
       "id": 932,
@@ -30835,7 +30847,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 360
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 4000,
@@ -30847,14 +30860,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent AILab. SEED-Bench-2 extends to charts, maps, web. Comprehensive MLLM evaluation.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 360,
-      "researchNote": "Multi-dimensional MLLM benchmark. AILab-CVC."
+      "researchNote": "SEED-Bench: multimodal LLM evaluation. 360 stars."
     },
     {
       "id": 933,
@@ -30895,13 +30908,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "xAI (Elon Musk). Tests real-world spatial understanding from car/phone/drone cameras.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "xAI real-world QA benchmark. Repository may have moved."
+      "researchNote": "RealWorldQA by xAI. Repo may be private/removed (404)."
     },
     {
       "id": 934,
@@ -30942,7 +30955,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shanghai AI Lab/OpenGVLab. VideoChat2 improved version. Multi-turn video conversations.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "website": "https://github.com/OpenGVLab/Ask-Anything",
       "toolType": "research",
       "traffic": {
@@ -30950,7 +30963,7 @@
         "note": "Academic research project"
       },
       "githubStars": 3333,
-      "researchNote": "VideoChat-Flash accepted ICLR 2026 (hierarchical compression for long-context video). VideoChat-R1 & R1.5 released (NeurIPS 2025) with reinforcement fine-tuning for spatio-temporal reasoning."
+      "researchNote": "VideoChat by OpenGVLab. Repo may have moved (404). Active project."
     },
     {
       "id": 935,
@@ -30991,13 +31004,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Same as 4DGaussians - combines 3D Gaussians with 4D neural voxels for real-time dynamic scene rendering.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "4D Gaussian Splatting for real-time dynamic scene rendering. CVPR 2024."
+      "researchNote": "4D-GS project page by guanjunwu. Related to 4DGaussians (rank 902)."
     },
     {
       "id": 936,
@@ -31026,7 +31039,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 254
       },
       "estimatedMonthlyVisits": 12000,
       "estimatedUsers": 2500,
@@ -31038,14 +31052,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Pixel reasoning and understanding. Multi-target segmentation.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 254,
-      "researchNote": "Pixel reasoning with large multimodal model. NeurIPS 2024 rejected, refined."
+      "researchNote": "PixelLM: pixel reasoning with LLMs. 254 stars."
     },
     {
       "id": 937,
@@ -31086,13 +31100,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extension of Monkey for OCR tasks. Specialized in reading text from images and documents.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "TextMonkey accepted TPAMI 2026. Mini-Monkey (multi-scale adaptive cropping) accepted ICLR 2025. MoE Jetpack accepted NeurIPS 2024. Active research line by HUST team."
+      "researchNote": "TextMonkey OCR-free text understanding. Repo may have moved (404)."
     },
     {
       "id": 938,
@@ -31133,13 +31147,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses point-based plenoptic representation for neural radiance field rendering. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Plenoptic point cloud representation. Research."
+      "researchNote": "PlenopticPoints: ArXiv paper on plenoptic point cloud rendering."
     },
     {
       "id": 939,
@@ -31180,13 +31194,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Combines multi-view stereo with Gaussian splatting for efficient 3D reconstruction. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Multi-view stereo Gaussian splatting. Research 2024."
+      "researchNote": "MVSGaussian: ArXiv paper on multi-view stereo Gaussian splatting."
     },
     {
       "id": 940,
@@ -31215,7 +31229,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 1200
       },
       "estimatedMonthlyVisits": 10400,
       "estimatedUsers": 3900,
@@ -31227,14 +31242,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Uses neural 3D point clouds with associated features to model radiance fields efficiently.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 1152,
-      "researchNote": "Point-based neural radiance fields. CVPR 2022 Oral."
+      "researchNote": "PointNeRF: point-based neural radiance fields. 1.2K stars."
     },
     {
       "id": 941,
@@ -31275,13 +31290,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Extension of PointNeRF with multi-scale representation for larger and more complex scenes. Research project.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Extension of PointNeRF. Research paper."
+      "researchNote": "Point-NeRF++: ArXiv paper extending PointNeRF."
     },
     {
       "id": 942,
@@ -31322,13 +31337,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 25K questions with rationales. Harder than OK-VQA, requires more reasoning.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Augmented OK-VQA benchmark. AllenAI."
+      "researchNote": "A-OKVQA: augmented OK-VQA. Allen AI benchmark/dataset."
     },
     {
       "id": 943,
@@ -31357,7 +31372,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 322
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
@@ -31369,14 +31385,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NUS Singapore. Tests OCR, spatial, math, recognition, generation, knowledge. GPT-4 as judge.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 322,
-      "researchNote": "Evaluating LMMs on integrated capabilities. MM-Vet benchmark."
+      "researchNote": "MM-Vet: multimodal LLM evaluation. 322 stars."
     },
     {
       "id": 944,
@@ -31417,13 +31433,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI2/Allen Institute. 5K science diagrams with 15K questions. Diagram understanding benchmark.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Allen AI diagram understanding dataset. Long-standing benchmark."
+      "researchNote": "AI2D: Allen AI diagrams dataset. Academic benchmark."
     },
     {
       "id": 945,
@@ -31452,7 +31468,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 11
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 3000,
@@ -31464,14 +31481,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Like Chatbot Arena for VLMs. User-submitted images, pairwise comparisons, Elo rankings.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "benchmark",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 11,
-      "researchNote": "WildVision Arena for VLM evaluation. Small community project."
+      "researchNote": "WildVision Arena: visual chat arena. 11 stars. Early stage."
     },
     {
       "id": 946,
@@ -31511,14 +31528,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research on motion dynamics in video diffusion for better temporal coherence.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Moment-based diffusion for video generation. HuggingFace paper 2024."
+      "researchNote": "MomentDiffusion: HuggingFace paper on temporal video editing."
     },
     {
       "id": 947,
@@ -31547,7 +31564,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 859
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2500,
@@ -31559,13 +31577,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DVLab Research. Handles hour-long videos by compressing into manageable token count.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "LLaMA-VID remains a reference method for efficient video token compression in VLMs. No major updates in 2025; superseded by newer video LLMs."
+      "researchNote": "LLaMA-VID: ECCV 2024. Hour-long video understanding. 859 stars. Moved to JIA-Lab-research."
     },
     {
       "id": 948,
@@ -31606,13 +31624,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Achieves NeRF quality in minutes instead of hours through direct voxel grid optimization.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
-      "researchNote": "Super-fast NeRF training via direct voxel grid optimization. CVPR 2022 Oral."
+      "researchNote": "Direct Voxel Grid Optimization. Project page. Classic NeRF acceleration work."
     },
     {
       "id": 949,
@@ -31640,7 +31658,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 428
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2000,
@@ -31652,14 +31671,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Seeing What You Said: Audio-Visual Speech Recognition Guided Lip Sync.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 428,
-      "researchNote": "High-fidelity talking face via audio-visual lip sync. ICASSP 2023."
+      "researchNote": "TalkLip: audio-driven lip sync. 428 stars."
     },
     {
       "id": 950,
@@ -31687,7 +31706,8 @@
         "tiktok": {
           "followers": 0,
           "note": "Research project - no social presence"
-        }
+        },
+        "github_stars": 1100
       },
       "estimatedMonthlyVisits": 10000,
       "estimatedUsers": 2000,
@@ -31699,14 +31719,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "DINet: Deformation Inpainting Network for Realistic Face Visuals in Talking Head Synthesis.",
-      "lastVerified": "2026-02-25T12:57:00.000000+08:00",
+      "lastVerified": "2026-02-25T18:15:28.425735+08:00",
       "toolType": "research",
       "traffic": {
         "monthlyVisits": 0,
         "note": "Academic research project"
       },
       "githubStars": 1106,
-      "researchNote": "Deformation inpainting network for face dubbing. AAAI 2023. 1.1K stars."
+      "researchNote": "DINet: face visually dubbing. AAAI 2023. 1.1K stars."
     },
     {
       "id": 951,
