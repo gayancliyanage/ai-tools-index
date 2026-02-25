@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T08:29:38.398199+08:00",
+  "lastUpdated": "2026-02-25T08:44:32.833410+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 1-50 (cycle 6)",
-    "nextBatch": "ranks 51-100 (cycle 6)",
-    "lastResearched": "2026-02-25T08:29:38.398199+08:00",
+    "lastBatch": "ranks 51-100 (cycle 6)",
+    "nextBatch": "ranks 101-150 (cycle 6)",
+    "lastResearched": "2026-02-25T08:44:32.833410+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -68,10 +68,11 @@
       "851-900 (cycle 5)",
       "901-950 (cycle 5)",
       "951-1000 (cycle 5)",
-      "1-50 (cycle 6)"
+      "1-50 (cycle 6)",
+      "51-100 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 started. Batch 1/20. Ranks 1-50 verified. 14 tools with new data. Key updates: Canva $4B ARR, ElevenLabs $11B valuation ($500M Series D), Runway $5.3B ($315M Series E), Figma IPO $1.37B rev guidance, Kling 3.0 launched, Gamma 70M users/$100M ARR, Leonardo.ai rebranded under Canva, Sora struggling post-launch."
+    "note": "Cycle 6 batch 2/20. Ranks 51-100 verified. 14 tools with new data. Key updates: Luma AI $900M Series C/$4B valuation, Synthesia $200M Series E/$4B, Black Forest Labs $300M Series B/$3.25B, HeyGen $100M ARR, Pika $900M est. valuation/16.4M users, Krea $83M raised, Tome pivoted to sales automation, OpusClip $68M raised."
   },
   "tools": [
     {
@@ -1709,7 +1710,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "10M+ monthly users globally. Multiple pricing tiers: Plus $1.99/mo, Premium $7.99/mo, Team $12.99/mo.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "Pixlr AI - kept estimate",
       "socialMedia": {
         "instagram": {
@@ -1746,7 +1747,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "Clipchamp - kept estimate",
       "socialMedia": {
         "instagram": {
@@ -1783,7 +1784,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "480M lifetime downloads. $135M revenue in 2024.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "FaceApp - @faceapp IG 141K",
       "socialMedia": {
         "instagram": {
@@ -1820,7 +1821,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Meitu ecosystem. Focus on beauty and video editing.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "Meitu Wink - kept estimate",
       "socialMedia": {}
     },
@@ -1850,7 +1851,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "500K+ commercial templates. China's Canva alternative.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "Gaoding - Chinese tool",
       "socialMedia": {}
     },
@@ -1881,7 +1882,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 500000,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "notes": "Primarily mobile app; low web/social presence",
       "verificationNotes": "Retrica - kept estimate",
       "socialMedia": {}
@@ -1914,7 +1915,7 @@
       "videoTimeline": true,
       "note": "5B yen ARR ($33M+). Record revenue Mar 2025 (1B yen). Celsys Inc.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 57,
       "verificationNotes": "Clip Studio Paint - kept estimate",
       "socialMedia": {}
@@ -1947,8 +1948,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "10M+ registered users. Powers thousands of apps.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Stability AI raised $225M total through 2024, $1B valuation. Stable Virtual Camera released (research preview). No IPO timeline. Ongoing leadership/funding challenges.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "verificationNotes": "Stable Diffusion - @StableDiffusion community account",
       "socialMedia": {
         "instagram": {
@@ -1985,7 +1986,7 @@
       "videoTimeline": false,
       "note": "500K daily users. $100K+/mo revenue. Solo dev Ivan Kutskir. No employees.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 59,
       "verificationNotes": "Photopea - kept estimate",
       "socialMedia": {
@@ -2024,7 +2025,7 @@
       "funding": "$138M total ($50M Series A, $130M Series B)",
       "valuation": "$1.3B",
       "arr": "$200M",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "note": "Founded 2023, launched Mar 2025, 15M+ users, doubled ARR in 2 months",
       "verificationNotes": "Higgsfield - kept estimate",
       "socialMedia": {}
@@ -2057,7 +2058,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "30M+ people worldwide. All-in-1 video animation platform for individuals, teams, enterprises.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2088,8 +2089,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$8M ARR (Apr 2025). 20x revenue growth in 14 months.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Krea raised $83M total ($47M Series B, Apr 2025). ~$500M valuation. One-stop GenAI creative platform unifying multiple models.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@krea_ai",
@@ -2126,7 +2127,7 @@
       "videoTimeline": false,
       "note": "300K downloads/month, $3M/month revenue. #1 paid iPad app. Savage Interactive.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 63,
       "socialMedia": {
         "instagram": {
@@ -2162,7 +2163,7 @@
       "videoTimeline": false,
       "note": "300M+ installs. 600K downloads/month, $2M revenue/month. Meitu Inc. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 64,
       "socialMedia": {}
     },
@@ -2193,7 +2194,7 @@
       "videoTimeline": true,
       "note": "40M+ downloads. Acquired by Dailymotion. 1200+ unique templates.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 65,
       "socialMedia": {}
     },
@@ -2225,7 +2226,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@kapwingapp",
@@ -2260,7 +2261,7 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@seaartai",
@@ -2294,7 +2295,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2325,8 +2326,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "#1 AI video generator 2025 (G2). 4.8/5 rating. 230+ avatars, 140+ languages.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "HeyGen hit $100M ARR (Nov 2025, Forbes). $95M ARR as of Sep 2025. $60M Series A at $500M valuation (Jun 2024). 85K+ customers. #1 AI video generator 2025 (G2).",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@heygen_official",
@@ -2362,8 +2363,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$900M valuation (early 2026). $135M+ raised.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Pika raised $141M total, $470M valuation (Series B Jun 2024). ~$900M valuation est. early 2026. 16.4M users. Launched TikTok-like AI video app (Oct 2025). Pika 2.2 released.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@pika_labs",
@@ -2400,7 +2401,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "CyberLink 260M+ downloads. PCMag Editors' Choice. $150M revenue. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2429,7 +2430,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. Originally Dreamina. 8.93M MAU (Mar 2025). Integrated with Jianying (CapCut China). Part of Doubao ecosystem.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2460,7 +2461,7 @@
       "videoTimeline": true,
       "note": "500M+ downloads. QuVideo Inc. 500K downloads/month, $400K revenue/month. (Data corrected Feb 2026)",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 73,
       "socialMedia": {}
     },
@@ -2492,7 +2493,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "30M+ downloads. 4.6 rating. Part of Lightricks ($250M ARR as of July 2025).",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2522,7 +2523,7 @@
       "videoTimeline": false,
       "note": "Part of Figma suite. AI-powered brainstorming and diagramming.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 75,
       "socialMedia": {}
     },
@@ -2553,9 +2554,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$1.3B valuation. $213M Series C (Aug 2025). Pivoted to enterprise sales tool.",
+      "note": "Tome pivoted away from presentations in Mar 2025, shifted to sales automation tools. Major strategic change.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 76,
       "socialMedia": {}
     },
@@ -2583,7 +2584,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2615,8 +2616,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$70M funding. Dream Machine video generation. Ray 2 model.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Luma AI raised $900M Series C (Nov 2025) led by HUMAIN (Saudi PIF). $4B+ valuation. Over $1B total funding. Building multimodal AGI. Dream Machine video gen.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@lumalabsai",
@@ -2651,8 +2652,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$7M revenue (Sep 2025). $80M+ raised. Excellent text rendering.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Ideogram raised $96.5M total ($80M Series A, Feb 2024). $7M revenue as of Sep 2025. 49 person team. Ideogram 2.0 released Aug 2024.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@ideogram.ai",
@@ -2686,7 +2687,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@craiyonai",
@@ -2721,7 +2722,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2753,7 +2754,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Focuses on aesthetic quality. Beats SDXL on human preference. Feb 2024 release.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2783,7 +2784,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@pixai_official",
@@ -2818,7 +2819,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@renderforestcom",
@@ -2853,7 +2854,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2881,7 +2882,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 4000000,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "notes": "Traffic declining ~14% MoM as of Nov 2025; global rank ~14K",
       "socialMedia": {}
     },
@@ -2912,7 +2913,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 2720000,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "notes": "Down from 12.7M Oct 2025 peak; 2.72M as of Jan 2026",
       "socialMedia": {
         "instagram": {
@@ -2950,7 +2951,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "200M+ users worldwide. Custom beauty effects. AR makeup features. Profile-worthy selfies. (Data corrected Feb 2026)",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -2981,8 +2982,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "10M+ users. Founded Jan 2022 by Young Zhao and Grace Wang. Big data analysis for content repurposing.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "OpusClip raised $68M total ($32M Series A-II, Mar 2025). $215M valuation. Backed by SoftBank Vision Fund 2. AI short-form video clipping.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@opusclip",
@@ -3017,7 +3018,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -3047,8 +3048,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "10M users in 100 days (Jan 2025). ShengShu parent company. Honor partnership.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Vidu by ShengShu Technology. Q1 model update (Jul 2025) with 7 image inputs. Global Creativity Week (Jan 2026) with major upgrades. Chinese AI video gen competitor.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@viduai_official",
@@ -3081,7 +3082,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Baidu's ERNIE AI ecosystem. Chinese market leader.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -3112,8 +3113,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "$100M total funding. $60M Series C. $500M valuation. 10M+ downloads.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Captions raised $100M total ($60M Series C, Jul 2024). $500M valuation. Backed by Index Ventures, Adobe Ventures, HubSpot. 28 language support.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@getcaptionsapp",
@@ -3147,9 +3148,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "4.1M+ Discord members. Viral AI meme generator. Physics understanding.",
+      "note": "Viggle AI raised $19M Series A (Feb 2025) led by a16z. Canadian startup. Character animation via generative AI. Backed by Alphabet, a16z.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "ranking": 94,
       "socialMedia": {
         "instagram": {
@@ -3190,13 +3191,14 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@descript_app",
           "followers": 21000
         }
-      }
+      },
+      "note": "Descript raised significant funding, ranks 4th among 554 competitors. AI video/audio editing with text-based editing paradigm."
     },
     {
       "id": 96,
@@ -3226,7 +3228,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "twitter": {
           "handle": "@novelaiofficial",
@@ -3263,7 +3265,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "6.79M users (2025). 32M+ vocal splits in 2025. Top Meta benchmark.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@lalalaiapp",
@@ -3299,8 +3301,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$100M ARR (Apr 2025). 60K+ clients. 60% of Fortune 100.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Synthesia raised $200M Series E (Jan 2026) at $4B valuation. Backed by Nvidia, Alphabet VC. Surpassed $100M revenue. 661 employees. Up from $2.1B valuation in Jan 2025.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {
         "instagram": {
           "handle": "@synthesiaio",
@@ -3337,7 +3339,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Picsart ecosystem (150M+ users). AI-powered social media caption and hashtag generation.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -3367,8 +3369,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$300M Series B (Dec 2025). $3.25B valuation. Led by Salesforce Ventures, AMP. Investors: a16z, NVIDIA, General Catalyst, Temasek. Partners with Adobe, Canva, Meta, Microsoft.",
-      "lastVerified": "2026-02-25T03:45:38.699448+08:00",
+      "note": "Black Forest Labs raised $300M Series B (Dec 2025) at $3.25B valuation. Led by Salesforce Ventures, a16z, Nvidia, Temasek. Flux 2 model released. Nvidia Blackwell partnership.",
+      "lastVerified": "2026-02-25T08:44:32.833410+08:00",
       "socialMedia": {}
     },
     {
@@ -3622,7 +3624,7 @@
     },
     {
       "id": 108,
-      "name": "Voilà AI Artist",
+      "name": "Voil\u00e0 AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -6216,7 +6218,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
       "lastVerified": "2026-02-25T04:14:49.970634+08:00"
     },
     {
@@ -10883,7 +10885,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
@@ -14742,7 +14744,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
       "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
@@ -25659,7 +25661,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-Σ",
+      "name": "PixArt-\u03a3",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -25684,7 +25686,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
@@ -25724,7 +25726,7 @@
       "researchNotes": [
         {
           "date": "2026-02-25",
-          "note": "PixArt-Σ: Stable research project from Huawei. No significant 2025 updates beyond citations."
+          "note": "PixArt-\u03a3: Stable research project from Huawei. No significant 2025 updates beyond citations."
         }
       ]
     },
@@ -31144,7 +31146,7 @@
       "lastVerified": "2026-02-25T08:15:50.756309+08:00",
       "githubStars": 1963,
       "githubForks": 237,
-      "researchNote": "CVPR 2023, 360° 3D head synthesis from in-the-wild images"
+      "researchNote": "CVPR 2023, 360\u00b0 3D head synthesis from in-the-wild images"
     },
     {
       "id": 955,
