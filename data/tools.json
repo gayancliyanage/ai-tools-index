@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 951-1000 (cycle 7)",
+    "lastBatch": "ranks 1-50 (cycle 8) — SKIPPED: Brave API quota exhausted",
     "nextBatch": "ranks 1-50 (cycle 8)",
-    "lastResearched": "2026-02-25T18:44:13.249651+08:00",
+    "lastResearched": "2026-02-25T19:28:19.895457+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -110,7 +110,9 @@
       "951-1000 (cycle 7)"
     ],
     "cycleNumber": 7,
-    "note": "Cycle 7 complete! All 1000 tools verified. Batch 951-1000: deep research/3D/NeRF territory. Notable stars: EG3D (3.3K), PanoHead (2K), BLINK (1.2K), Real3D-Portrait (1.1K), AD-NeRF (1.1K). Most are academic papers/benchmarks with limited social presence. Cycle 8 starts from rank 1."
+    "note": "Cycle 7 complete! All 1000 tools verified. Batch 951-1000: deep research/3D/NeRF territory. Notable stars: EG3D (3.3K), PanoHead (2K), BLINK (1.2K), Real3D-Portrait (1.1K), AD-NeRF (1.1K). Most are academic papers/benchmarks with limited social presence. Cycle 8 starts from rank 1.",
+    "lastSkipReason": "Brave Search API quota exhausted (2000/2000 monthly limit). Cycle 8 batch 1-50 deferred.",
+    "lastBatchNote": "Cycle 8 ranks 1-50 skipped - Brave Search API quota exhausted (2000/2000 monthly limit)"
   },
   "tools": [
     {
