@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T17:14:47.346645+08:00",
+  "lastUpdated": "2026-02-25T17:31:01.235391+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 701-750 (cycle 7)",
-    "nextBatch": "ranks 751-800 (cycle 7)",
-    "lastResearched": "2026-02-25T17:14:47.346645+08:00",
+    "lastBatch": "ranks 751-800 (cycle 7)",
+    "nextBatch": "ranks 801-850 (cycle 7)",
+    "lastResearched": "2026-02-25T17:31:01.235391+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -102,10 +102,11 @@
       "551-600 (cycle 7)",
       "601-650 (cycle 7)",
       "651-700 (cycle 7)",
-      "701-750 (cycle 7)"
+      "701-750 (cycle 7)",
+      "751-800 (cycle 7)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 7 batch 701-750 complete. Heavily research/academic batch. Key findings: InstantID 11.9K stars (most popular, widely used in SD workflows); InternVL 9.8K stars (SOTA open-source MLLM, InternVL3.5 released Aug 2025); Ferret-UI (Apple) 8.7K stars; Yi (01.AI) 7.8K stars; AIOS 5.2K stars (AI agent OS); DreamGaussian 4.3K stars (ICLR 2024 Oral); Make-A-Video (Meta) never released, new models planned H1 2026; Imagen Video (Google) superseded by Veo/Veo 2; Revoyant is an AI marketplace, not a creative tool."
+    "note": "Cycle 7 batch 751-800 complete. Very heavy research/academic batch. Key findings: Ferret (Apple) 8.7K stars (most popular); MARS5-TTS 2.8K (CAMB.AI TTS); InternLM-XComposer2 2.9K; Emu3 2.4K (BAAI); Lumina-T2X 2.3K; Chameleon (Meta) 2.1K; Cradle (BAAI) 2K; Show-o 1.9K (ICLR+NeurIPS 2025, Show-o2 released); RPG-DiffusionMaster 1.8K. Most tools in this range are pure research papers with limited/no public releases."
   },
   "tools": [
     {
@@ -14758,9 +14759,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "MIT Han Lab. Generate images with multiple subjects without fine-tuning.",
-      "lastVerified": "2026-02-25T15:27:00+08:00",
-      "verificationNotes": "MIT research, GitHub-only"
+      "note": "MIT HAN Lab multi-subject image generation. 716 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "verificationNotes": "MIT research, GitHub-only",
+      "githubStars": 716,
+      "githubUrl": "https://github.com/mit-han-lab/FastComposer"
     },
     {
       "id": 441,
@@ -22827,8 +22830,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Large Multi-View Gaussian Model for high-resolution 3D content creation.",
-      "lastVerified": "2026-02-25T16:58:54.283688+08:00",
+      "note": "Large Gaussian Model for 3D generation. Research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 2038,
       "researchNote": "LGM: Large Multi-View Gaussian Model for 3D."
     },
@@ -23342,8 +23345,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Uses Gaussian splatting for 3D representation. 42.1K triangles output.",
-      "lastVerified": "2026-02-25T17:14:47.346645+08:00",
+      "note": "Large Gaussian Model for 3D generation. Research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 2038,
       "notes": "LGM - Large Multi-View Gaussian Model for 3D generation.",
       "researchNote": "LGM (Large Multi-View Gaussian Model): 3DTopia project, 2K GitHub stars. Research for fast 3D generation. Active repo.",
@@ -24299,11 +24302,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Tsinghua University ML Lab. Generates compact 24.1K triangles. Research-focused.",
-      "lastVerified": "2026-02-25T17:14:47.346645+08:00",
+      "note": "Convolutional Reconstruction Model for 3D. 684 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "researchNote": "CRM (Convolutional Reconstruction Model): 3D generation from THU-ML. 684 GitHub stars.",
       "verificationNote": "Academic/research project - minimal commercial presence, no significant social media accounts found",
-      "githubStars": 684
+      "githubStars": 684,
+      "githubUrl": "https://github.com/thu-ml/CRM"
     },
     {
       "id": 740,
@@ -24713,8 +24717,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Extends DPO to handle multiple aspects like aesthetics, alignment, and safety.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Research paper on margin-aware preference optimization for text-to-image diffusion. No standalone product or significant public repo.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "MaPO - research paper on diffusion model alignment.",
       "toolType": "research_paper",
@@ -24749,8 +24753,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Distills classifier-free guidance into model weights for faster inference.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Research method for distilling diffusion models. Google DeepMind paper, no public release.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Guided Distillation - research paper.",
       "toolType": "research_paper"
@@ -24783,8 +24787,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Makes consistency model training more accessible for practitioners.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Research paper on consistency training for diffusion models. Academic only.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Easy Consistency Tuning - research paper.",
       "toolType": "research_paper"
@@ -24813,8 +24817,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Efficient orthogonal fine-tuning using butterfly matrix structure.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Butterfly Orthogonal Fine-Tuning - parameter-efficient fine-tuning method. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -24841,8 +24845,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Identifies concept-specific neurons for targeted editing and composition.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Customizable image synthesis research. Academic paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -24869,8 +24873,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Aligns personalized concept with diverse prompts for flexible generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Prompt Aligned Personalization for text-to-image. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -24897,8 +24901,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Google Research. Uses retrieved images for better grounding and diversity.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Google retrieval-augmented image generation. Never publicly released.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -24928,8 +24932,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "CVPR 2024. First text-to-3D approach using 3D Gaussian Splatting representation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Text-to-3D generation using Gaussian Splatting. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 759,
@@ -24957,12 +24961,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Camb.ai project for zero-shot TTS with natural prosody.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "CAMB.AI TTS model. 2.8K GitHub stars. 5-second voice cloning. Last updated Jul 2024.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "MARS5-TTS from Camb AI. 2.8K GitHub stars, 247 forks. Last release v0.4 (Jul 2024). AR-NAR pipeline for English TTS. Development appears slowed.",
-      "githubStars": 2813,
+      "githubStars": 2800,
       "researchNote": "MARS5-TTS: 2.8K stars, v0.4 released Jul 2024, AR-NAR pipeline TTS from CAMB.AI",
-      "researchNotes": "MARS5-TTS from CAMB.AI. Open-source TTS model on HuggingFace (AGPL-3.0). No major updates since initial release."
+      "researchNotes": "MARS5-TTS from CAMB.AI. Open-source TTS model on HuggingFace (AGPL-3.0). No major updates since initial release.",
+      "githubUrl": "https://github.com/Camb-ai/MARS5-TTS"
     },
     {
       "id": 760,
@@ -24990,8 +24995,10 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Allen Institute for AI. Unified input/output for multiple modalities.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Allen AI unified multimodal model. 643 GitHub stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "githubStars": 643,
+      "githubUrl": "https://github.com/allenai/unified-io-2"
     },
     {
       "id": 761,
@@ -25017,8 +25024,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Google Research. SuTI: Subject-driven Text-to-Image Generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Subject-driven Text-to-Image generation. Google research, limited public code.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -25047,8 +25054,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "General Reconstruction Model using Gaussian representations.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Large Gaussian Reconstruction Model. Research paper for 3D from sparse views.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 630,
       "researchNote": "GRM: 630 stars, 3D generation"
     },
@@ -25078,11 +25085,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Stability AI project for point-cloud aware 3D reconstruction.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Stability AI 3D reconstruction from single images. ~1K stars. 0.7s reconstruction.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 994,
       "researchNote": "SPAR3D: ~1K stars, Stability AI's point-aware 3D model",
-      "researchNotes": "SPAR3D paper published Jan 2025 by Stability AI. Single-image 3D reconstruction with point-aware approach."
+      "researchNotes": "SPAR3D paper published Jan 2025 by Stability AI. Single-image 3D reconstruction with point-aware approach.",
+      "githubUrl": "https://github.com/Stability-AI/stable-point-aware-3d"
     },
     {
       "id": 764,
@@ -25110,8 +25118,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Companion to MVDream. Image-prompt version for 3D generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "ByteDance 3D generation model. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 765,
@@ -25139,10 +25147,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Meta FAIR research. Freely interleaves speech and text tokens for natural conversation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Meta speech-text multimodal LM. 927 GitHub stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 927,
-      "researchNote": "Spirit LM: 927 stars, Meta's multimodal speech-text LM"
+      "researchNote": "Spirit LM: 927 stars, Meta's multimodal speech-text LM",
+      "githubUrl": "https://github.com/facebookresearch/spiritlm"
     },
     {
       "id": 766,
@@ -25169,8 +25178,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ECCV 2024. Predicts high-quality 3D Gaussians from 2-4 posed images using transformers.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Large Reconstruction Model for 3D Gaussian Splatting. Adobe/NVIDIA research. No official public repo.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 767,
@@ -25198,11 +25207,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "MIT HAN Lab. Enables multi-subject generation without per-subject fine-tuning.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "MIT HAN Lab multi-subject image generation. 716 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "Published in IJCV. Tuning-free multi-subject image generation with localized attention. 300x-2500x speedup vs fine-tuning methods. Research paper, no active commercial product.",
       "githubStars": 716,
-      "researchNote": "FastComposer: 716 stars, published in IJCV, tuning-free multi-subject image gen"
+      "researchNote": "FastComposer: 716 stars, published in IJCV, tuning-free multi-subject image gen",
+      "githubUrl": "https://github.com/mit-han-lab/FastComposer"
     },
     {
       "id": 768,
@@ -25231,8 +25241,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "CVPR 2024 paper. Learns clothed human avatars from monocular video with real-time rendering.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "3D Gaussian-based avatar research. Multiple repos exist.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 769,
@@ -25261,8 +25271,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Salesforce AI Research. Part of LAVIS library. NeurIPS 2023. Works with SD models.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Salesforce controllable text-to-image. Part of LAVIS framework.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "researchNote": "BLIP-Diffusion: part of Salesforce LAVIS repo. Salesforce released BLIP3-o May 2025 as successor"
     },
     {
@@ -25290,8 +25300,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Efficient large-scale 3D reconstruction from sparse viewpoints.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Research on efficient adaptation. Academic.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 771,
@@ -25320,8 +25330,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Microsoft Research. ICLR 2024. Perceives general modalities and generates image conditions.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Microsoft multimodal generation model. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 74,
       "researchNote": "Kosmos-G: 74 stars, Microsoft multimodal generation"
     },
@@ -25352,8 +25362,10 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "CVPR 2024. Generates high-quality 3D scenes without domain constraints.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "3D Gaussian generation. 826 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "githubStars": 826,
+      "githubUrl": "https://github.com/EnVision-Research/LucidDreamer"
     },
     {
       "id": 773,
@@ -25379,8 +25391,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Baidu Research. Unified model for various image generation tasks.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Unified multimodal generation. Baidu research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
     },
     {
@@ -25408,8 +25420,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Unified approach to multi-view 3D Gaussian generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Multi-view 3D reconstruction with Gaussian Mamba. Research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 775,
@@ -25437,10 +25449,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Beijing Academy of AI (BAAI). Also Emu by Meta for quality-focused image generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "BAAI multimodal model. 1.8K stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 1766,
-      "researchNote": "Emu (BAAI): 1.8K stars, generative multimodal models series"
+      "researchNote": "Emu (BAAI): 1.8K stars, generative multimodal models series",
+      "githubUrl": "https://github.com/baaivision/Emu"
     },
     {
       "id": 776,
@@ -25469,8 +25482,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ECCV 2024 Oral. High-resolution 3D from text or image in seconds. 3K+ GitHub stars.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Large Gaussian Model for 3D generation. Research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 777,
@@ -25498,8 +25511,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "BAAI. Emu2 with improved generation quality and 37B parameters.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "BAAI Emu2 multimodal model. Part of Emu series.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 1766,
       "researchNote": "Emu2: same repo as Emu, 1.8K stars"
     },
@@ -25528,12 +25541,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Meta AI. Emu 3.5 excels at text-heavy images. Integrated into Meta AI apps.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "BAAI native multimodal model. 2.4K stars. Emu3.5 also released.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "Emu3.5 released Nov 2025 with web & mobile apps (emu.world). vLLM offline inference with 4-5x speedup. Matches Gemini 2.5 Flash on image gen/editing. RL post-training, 10T+ multimodal tokens pretraining.",
-      "githubStars": "3K+",
+      "githubStars": 2351,
       "researchNote": "Emu3: Emu3.5 released Oct 2025 (BAAI, separate from Meta), native multimodal 'world learners', trained on 10T tokens",
-      "researchNotes": "Emu3 succeeded by Emu 3.5 (Nov 2025). Meta's multimodal image gen integrated into Meta AI products."
+      "researchNotes": "Emu3 succeeded by Emu 3.5 (Nov 2025). Meta's multimodal image gen integrated into Meta AI products.",
+      "githubUrl": "https://github.com/baaivision/Emu3"
     },
     {
       "id": 779,
@@ -25560,8 +25574,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Combines Gaussian Splatting with Mamba architecture for efficient reconstruction.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "3D Gaussian generation model. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 780,
@@ -25589,10 +25603,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ICLR 2024. Uses GPT-4V for planning complex compositions with regional control.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "RPG-DiffusionMaster. 1.8K stars. Multi-region compositional generation.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 1844,
-      "researchNote": "RPG-DiffusionMaster: 1.8K stars, ICML 2024, Feb 2025 update with DeepSeek-R1/o3-mini/o1 integration + IterComp backbone"
+      "researchNote": "RPG-DiffusionMaster: 1.8K stars, ICML 2024, Feb 2025 update with DeepSeek-R1/o3-mini/o1 integration + IterComp backbone",
+      "githubUrl": "https://github.com/YangLing0818/RPG-DiffusionMaster"
     },
     {
       "id": 781,
@@ -25621,11 +25636,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Meta FAIR. May 2024. Treats images and text as tokens in unified architecture. Competitive on text-only benchmarks.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Meta early-fusion multimodal model. 2.1K stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "Meta FAIR mixed-modal early-fusion model. Integrated into HuggingFace transformers library. 7B and 30B parameter versions. No significant updates since 2024 release.",
       "githubStars": 2083,
-      "researchNote": "Chameleon: 2.1K stars, Meta FAIR mixed-modal early-fusion foundation model"
+      "researchNote": "Chameleon: 2.1K stars, Meta FAIR mixed-modal early-fusion foundation model",
+      "githubUrl": "https://github.com/facebookresearch/chameleon"
     },
     {
       "id": 782,
@@ -25654,8 +25670,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ECCV 2024 Oral by Stability AI. High-resolution orbital video generation from single image.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Stability AI 3D video generation. Part of Stable Video ecosystem.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "Part of Stability AI generative-models repo. SV4D 2.0 released May 2025 with higher fidelity, better real-world video generalization. 48 frames (12 video x 4 camera views) at 576x576.",
       "githubStars": "24K+ (parent repo)",
       "researchNote": "SV3D: Stability AI's latent video diffusion for 3D, part of generative-models repo"
@@ -25687,12 +25703,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ShowLab. ICLR 2025. Single transformer unifies understanding and generation. Show-O2 released Jun 2025.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Unified multimodal model. 1.9K stars. ICLR & NeurIPS 2025. Show-o2 released.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "Show-o2 released Jun 2025 with 1.5B and 7B models. Video understanding added Sep 2025. Accepted at ICLR 2025 and NeurIPS 2025. Dual-path spatial-temporal fusion for unified multimodal understanding and generation.",
-      "githubStars": 1876,
+      "githubStars": 1875,
       "researchNote": "Show-o: 1.9K stars, ICLR & NeurIPS 2025, Show-o2 released Jun 2025 with 1.5B/7B params",
-      "researchNotes": "Show-O accepted to ICLR 2025 (Jan 2025). Also NeurIPS 2025. Evolved into unified multimodal understanding+generation framework with flow matching."
+      "researchNotes": "Show-O accepted to ICLR 2025 (Jan 2025). Also NeurIPS 2025. Evolved into unified multimodal understanding+generation framework with flow matching.",
+      "githubUrl": "https://github.com/showlab/Show-o"
     },
     {
       "id": 784,
@@ -25719,8 +25736,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Creates 3D from any number of input images using multi-view diffusion.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "3D scene generation from images. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 785,
@@ -25749,12 +25766,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Shanghai AI Lab. Novel Partial LoRA (PLoRA) strategy. XComposer2.5-OmniLive for streaming video/audio.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "InternLM multimodal model. 2.9K stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "InternLM-XComposer2.5-Reward released (ACL 2025 Findings). XComposer2.5-OmniLive for long-term streaming video/audio interactions. Active development continues.",
       "githubStars": 2921,
       "researchNote": "InternLM-XComposer: 2.9K stars, XComposer2.5-OmniLive for streaming video/audio, Reward model at ACL 2025",
-      "researchNotes": "InternLM-XComposer2.5-Reward released (ACL 2025 Findings). XComposer2.5-OmniLive for streaming video/audio interactions."
+      "researchNotes": "InternLM-XComposer2.5-Reward released (ACL 2025 Findings). XComposer2.5-OmniLive for streaming video/audio interactions.",
+      "githubUrl": "https://github.com/InternLM/InternLM-XComposer"
     },
     {
       "id": 786,
@@ -25781,8 +25799,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Meta AI. ICLR 2025. Combines autoregressive and diffusion in single model.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Meta research on unified token prediction for text and images. No official public repo.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "researchNote": "Transfusion: Meta research paper, predict next token + diffuse images, 7B model competitive with dedicated models"
     },
@@ -25813,11 +25831,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Apple ML Research. ICLR 2024. Refer and ground anywhere at any granularity.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
-      "githubStars": 8680,
+      "note": "Apple multimodal LLM for grounding. 8.7K stars. Major research contribution.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "githubStars": 8682,
       "researchNote": "Ferret: 8.7K stars, Apple's MLLM for any-form referring and grounding",
-      "researchNotes": "Ferret presented at ICASSP (Feb 2025). Apple released Ferret-UI 2 for universal UI understanding across iPhone/Android/iPad/Web/AppleTV."
+      "researchNotes": "Ferret presented at ICASSP (Feb 2025). Apple released Ferret-UI 2 for universal UI understanding across iPhone/Android/iPad/Web/AppleTV.",
+      "githubUrl": "https://github.com/apple/ml-ferret"
     },
     {
       "id": 788,
@@ -25844,8 +25863,10 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Generates 3D-consistent novel views using view-conditioned diffusion.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Meta 3D-consistent image generation. 379 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "githubStars": 379,
+      "githubUrl": "https://github.com/facebookresearch/viewdiff"
     },
     {
       "id": 789,
@@ -25871,8 +25892,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:14:15.000Z",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "note": "Unified transformer for image generation. Research."
     },
     {
       "id": 790,
@@ -25901,10 +25923,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "BAAI. General Computer Control (GCC) framework. Plays Red Dead Redemption 2, Stardew Valley.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
-      "githubStars": 2455,
-      "researchNote": "Cradle: 2.5K stars, BAAI game/UI agent framework"
+      "note": "BAAI General Computer Control agent framework. ~2K stars. Supports game/software automation.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "githubStars": 2000,
+      "researchNote": "Cradle: 2.5K stars, BAAI game/UI agent framework",
+      "githubUrl": "https://github.com/BAAI-Agents/Cradle"
     },
     {
       "id": 791,
@@ -25932,8 +25955,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Fudan OpenMOSS. Unified any-to-any multimodal generation.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Multimodal LLM research. Academic paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 871,
       "researchNote": "AnyGPT: 871 stars, any-to-any multimodal LLM"
     },
@@ -25963,8 +25986,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Unified multimodal LLM supporting image, audio, video, point cloud, depth, etc.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Unified multimodal LLM. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 666,
       "researchNote": "OneLLM: 666 stars, unified multimodal LLM"
     },
@@ -25992,8 +26015,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:14:15.000Z",
-      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model."
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
+      "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
+      "note": "Cross-modal diffusion pre-training. Research."
     },
     {
       "id": 794,
@@ -26020,8 +26044,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "CVPR 2024. 360-degree novel view synthesis from single real images.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Zero-shot novel view synthesis. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 795,
@@ -26049,10 +26073,11 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Tsinghua University. Convolutional Reconstruction Model for feed-forward 3D.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Convolutional Reconstruction Model for 3D. 684 stars.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 684,
-      "researchNote": "CRM: 684 stars, ECCV 2024, single image to 3D textured mesh in 10 seconds"
+      "researchNote": "CRM: 684 stars, ECCV 2024, single image to 3D textured mesh in 10 seconds",
+      "githubUrl": "https://github.com/thu-ml/CRM"
     },
     {
       "id": 796,
@@ -26080,8 +26105,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Research paper for high-resolution 3D generation via multi-view diffusion.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "High-resolution multi-view 3D diffusion. Research.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "githubStars": 631,
       "researchNote": "Era3D: 631 stars, 3D reconstruction"
     },
@@ -26109,8 +26134,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "ByteDance. Infinite-vocabulary autoregressive transformer for images.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Research on scaling visual generation. Academic.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "verificationNote": "Academic/research project - no significant social media presence or commercial website traffic. Data confirmed as research paper/model.",
       "researchNotes": "Infinity accepted as CVPR 2025 Oral. Bitwise Visual AutoRegressive Modeling for high-res image synthesis. Released by FoundationVision."
     },
@@ -26139,8 +26164,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "CVPR 2024. Zero-shot 3D shape reconstruction using regression approach.",
-      "lastVerified": "2026-02-25T04:14:15.000Z"
+      "note": "Zero-shot 3D shape reconstruction. Research paper.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00"
     },
     {
       "id": 799,
@@ -26170,12 +26195,13 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Alpha-VLLM. Jun 2024. Unified framework for images, videos, 3D, and audio from text.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Alpha-VLLM text-to-any modality framework. 2.3K stars. Flow-based DiT architecture.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "ICLR 2025 Spotlight. Lumina-Image 2.0 released with Lumina-Accessory for controllable generation, image editing, identity preservation. Lumina-mGPT autoregressive variant also available.",
-      "githubStars": 2252,
+      "githubStars": 2251,
       "researchNote": "Lumina-T2X: 2.3K stars, unified text-to-any framework with Flag-DiT",
-      "researchNotes": "Lumina-T2X evolved into Lumina-Image 2.0 (Apr 2025). Released Lumina-Accessory for controllable generation, editing, identity preservation."
+      "researchNotes": "Lumina-T2X evolved into Lumina-Image 2.0 (Apr 2025). Released Lumina-Accessory for controllable generation, editing, identity preservation.",
+      "githubUrl": "https://github.com/Alpha-VLLM/Lumina-T2X"
     },
     {
       "id": 800,
@@ -26204,11 +26230,12 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "NeurIPS 2023. Largest 3D dataset with 10M+ objects powering many 3D AI models.",
-      "lastVerified": "2026-02-25T04:14:15.000Z",
+      "note": "Allen AI massive 3D object dataset. 1.2K stars. 10M+ 3D objects.",
+      "lastVerified": "2026-02-25T17:31:01.235391+08:00",
       "notes": "10M+ 3D objects dataset from Allen AI. Objaverse++ (ICCV 2025) released as curated quality subset with annotations. Foundational dataset for 3D generation research.",
       "githubStars": 1216,
-      "researchNote": "Objaverse-XL: 1.2K stars, 10M+ 3D objects dataset, 12x larger than v1.0"
+      "researchNote": "Objaverse-XL: 1.2K stars, 10M+ 3D objects dataset, 12x larger than v1.0",
+      "githubUrl": "https://github.com/allenai/objaverse-xl"
     },
     {
       "id": 801,
