@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T14:00:01.047041+08:00",
+  "lastUpdated": "2026-02-25T14:12:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 101-150 (cycle 7)",
-    "nextBatch": "ranks 151-200 (cycle 7)",
-    "lastResearched": "2026-02-25T14:00:01.047041+08:00",
+    "lastBatch": "ranks 151-200 (cycle 7)",
+    "nextBatch": "ranks 201-250 (cycle 7)",
+    "lastResearched": "2026-02-25T14:12:00+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -90,10 +90,11 @@
       "951-1000 (cycle 6)",
       "1-50 (cycle 7)",
       "51-100 (cycle 7)",
-      "101-150 (cycle 7)"
+      "101-150 (cycle 7)",
+      "151-200 (cycle 7)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 7 batch 101-150 complete. Key findings: OpenArt 71K IG followers; FlexClip 3.89M visits (Semrush Nov 2025); Murf AI 10M+ users $11.5M funding; Udio settled UMG licensing deal; Hailuo 11.73M visits, launched v2.3 Feb 2026; Fotor 300M+ users, launched Sisi AI agent; Artbreeder ~790K visits (declining); Recraft $42M funding 4M+ users; Luma AI 25M+ registered users; Durable AI 10M+ users."
+    "note": "Cycle 7 batch 151-200 complete. Key findings: Pixelcut 17.6M visits, 200K app downloads/mo; Haiper pivoted to B2B, 179K visits; ComfyUI 69K+ GitHub stars (top 100); Kittl $61.5M funding; Hedra $32M funding (May 2025); Akool #1 Inc 5000; Fliki $1.4M revenue bootstrapped; Stable Audio 2.5 launched Dec 2025; Spline $15M seed."
   },
   "tools": [
     {
@@ -5235,8 +5236,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$3.5M revenue. 32 person team. 1.9M monthly visits. 60% male audience, 25-34 age group.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "300M+ users (claimed). Launched Sisi AI agent. 1.9M monthly visits.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Ranks 3rd among 757 active competitors (Tracxn Jan 2026)."
     },
     {
@@ -5267,8 +5268,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "Mac-only design tool. Popular in UI/UX community.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Mac-only design tool. ~3M monthly visits. Competing with Figma. Self-funded.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Self-funded independent team. Mac-only design tool competing with Figma."
     },
     {
@@ -5298,8 +5299,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
-      "notes": "Active development - Feb 2026 update. Ecosystem Pass subscription model. AI Assistant integrated Oct 2025."
+      "lastVerified": "2026-02-25T14:12:00+08:00",
+      "notes": "Active development - Feb 2026 update. Ecosystem Pass subscription model. AI Assistant integrated Oct 2025.",
+      "note": "Skylum Luminar Neo 4th anniversary Feb 2026. Subscription-only since 2024. AI semantic editing model in 2025."
     },
     {
       "id": 154,
@@ -5332,8 +5334,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "40M+ users. Popular with gamers and streamers. Real-time voice modification with AI.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Real-time voice changer. Millions of downloads. Windows-primary. Free + Pro plans.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "40M+ downloads (Dec 2024). Real-time voice changer for gaming/streaming."
     },
     {
@@ -5365,8 +5367,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "$21.3M total funding. 100-250 employees. Strong in education market.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Cloud-based video editor for education and SMBs.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 156,
@@ -5387,7 +5389,7 @@
         "instagram": 50000,
         "tiktok": 30000
       },
-      "estimatedMonthlyVisits": 3000000,
+      "estimatedMonthlyVisits": 17600000,
       "estimatedUsers": 1000000,
       "ranking": 156,
       "dataQuality": "verified",
@@ -5396,8 +5398,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Rebranded to Pixa.com. Focus on e-commerce product photography. Popular mobile app.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "17.6M monthly visits (aipure.ai). ~200K app downloads/month, ~$700K app revenue/month (SensorTower). Global rank #2463.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $250K from AI Grant. Rebranded to Pixa."
     },
     {
@@ -5430,8 +5432,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Suite of online photo editors including Pixlr X (quick) and Pixlr E (advanced). Web, desktop, and mobile apps.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Free online photo editor. Long-standing brand.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 158,
@@ -5460,7 +5462,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00",
+      "note": "AI object removal tool. Simple single-purpose tool."
     },
     {
       "id": 159,
@@ -5481,7 +5484,7 @@
         "instagram": 4000,
         "twitter": 15000
       },
-      "estimatedMonthlyVisits": 3000000,
+      "estimatedMonthlyVisits": 179000,
       "estimatedUsers": 1000000,
       "ranking": 159,
       "dataQuality": "verified",
@@ -5490,8 +5493,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Founded by ex-DeepMind researchers. Web app and iOS app available.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "179K monthly visits (aipure.ai). 11.5% traffic decline. Shut down consumer web app Feb 2025, pivoted to enterprise/B2B. Founded by Google DeepMind alumni.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Active AI video generation platform. Image-to-video focus."
     },
     {
@@ -5522,8 +5525,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "By Lykon. Most versatile Civitai model. 8M+ downloads. V8 & XL versions available.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Popular Stable Diffusion model/checkpoint. Community-driven.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 161,
@@ -5552,8 +5555,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Free TTS with generous limits. Popular for YouTube videos and podcasts. Email support available.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Free text-to-speech tool. 54% organic search traffic. Supports multiple languages.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 162,
@@ -5581,7 +5584,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Gartner company. AVCLabs Video Enhancer AI reviews. Enterprise software advisory.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 163,
@@ -5612,8 +5615,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$157M+ funding. Pioneer in 3D/NeRF technology. Credit-based system for video generation.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Part of Luma AI (25M+ registered users). Video generation model.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Ray3.14 launched Dec 2025 - native 1080p, 4x faster, 3x cheaper. $1M Cannes Lions creative competition (Jan 2026). Luma Dream Brief."
     },
     {
@@ -5645,8 +5648,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Bootstrapped (no VC). $15-18M revenue (2024). 7,500 customers. 98 employees. 21-person engineering team.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Visual content creation platform. Founded 2016. Bootstrapped. Presentation/infographic focus.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Unattributed funding round Jun 2025."
     },
     {
@@ -5676,7 +5679,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 100000,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "309K Instagram; primarily mobile photo editor"
     },
     {
@@ -5707,8 +5710,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Formerly Crello, acquired by Vista (Cimpress). Lithuanian headquarters. Design platform for social media and marketing.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Formerly Crello. Graphic design platform by Vista (VistaPrint parent).",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Part of Vista group (ex-Crello). 150K+ templates, 70M+ media library."
     },
     {
@@ -5738,8 +5741,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Multiple AI tools including text-to-image, image editing, and AI characters. Simple API access for developers.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "AI image generator and API platform. One of earliest consumer AI image tools.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 168,
@@ -5771,8 +5774,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "89.2K GitHub stars (Sep 2025). 7.5K forks. GPL-3.0 license. Part of Open Model Initiative (Linux Foundation). Weekly releases.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "69K+ GitHub stars. Top 100 starred GitHub repo (Oct 2025). 7.5K forks. Node-based Stable Diffusion UI.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $16.2M total (extension round May 2025). Backed by Pace Capital, Chemistry, Cursor VC, Guillermo Rauch. 100% open source. Pre-revenue."
     },
     {
@@ -5805,7 +5808,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "250K+ companies. $21.3M total funding. 4,500+ daily signups.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 170,
@@ -5834,7 +5837,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00",
+      "note": "AI video generation for artists/creators. Superstudio feature. Credit-based pricing."
     },
     {
       "id": 171,
@@ -5865,8 +5869,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "$4.72M total funding over 2 rounds from 6 investors. Zapier/Make integrations connect to 8K+ apps.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "AI video creation. Revenue ₹12.2Cr (~$1.5M) as of Mar 2025. Pricing from $19/mo.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $4.72M total. Annual revenue ~₹12.2Cr (~$1.5M) as of Mar 2025."
     },
     {
@@ -5898,7 +5902,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Open source. 50M+ downloads. Cross-platform.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 173,
@@ -5929,7 +5933,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI art generator for everyone. Includes AI anime/human creator, image-to-cartoon converter, and text-to-art generator.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 174,
@@ -5960,7 +5964,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Open source. Wide codec support. Active development.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 175,
@@ -5990,7 +5994,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Online AI image upscaler. Convert low-resolution photos to HD and 4K with clear details.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 176,
@@ -6020,7 +6024,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 46000,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "29-46K monthly visits; anime art niche"
     },
     {
@@ -6051,8 +6055,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "$7M revenue. 5K paying customers (2024). Founded by Christopher Bowal and Nigel Gutzmann.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "AI video maker from text/blog content. Script composer, auto scene selection. Enterprise focus.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 178,
@@ -6081,8 +6085,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
-      "notes": "Hit $1.4M monthly revenue (Jul 2025). Bootstrapped."
+      "lastVerified": "2026-02-25T14:12:00+08:00",
+      "notes": "Hit $1.4M monthly revenue (Jul 2025). Bootstrapped.",
+      "note": "$1.4M revenue. 13-person bootstrapped team. 2500+ AI voices in 80+ languages. Voice cloning."
     },
     {
       "id": 179,
@@ -6112,7 +6117,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By purplesmart.ai. Unique tag-based system. V6 XL version widely used. 2024 release.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 180,
@@ -6142,7 +6147,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By kandoo. #1 SDXL model on Civitai by rating. V10+ versions. Excellent for realism.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 181,
@@ -6172,8 +6177,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "note": "20,000+ customers (Mar 2024). Formerly GoAnimate. Leading software for organizational animated video.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Animation platform for eLearning and marketing. Enterprise customers.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 182,
@@ -6203,8 +6208,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "#1 on Inc 5000. 10,000+ enterprise companies use Akool. Photorealistic AI-generated content.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "#1 on Inc 5000. AI video suite for personalized visual marketing. Face swap, talking avatars.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 183,
@@ -6231,7 +6236,7 @@
       "videoTimeline": true,
       "note": "Adobe CC integration. Limited updates since 2021. Cloud sync discontinued.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "ranking": 183
     },
     {
@@ -6262,7 +6267,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "50M+ downloads. Multiple cartoon styles. Popular in India and Southeast Asia.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 185,
@@ -6292,8 +6297,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "$61.5M total funding over 4 rounds (Series B). Design platform for print-on-demand.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $36M Series B (2023-2024). AI-first design platform for creators."
     },
     {
@@ -6324,7 +6329,7 @@
       "videoTimeline": false,
       "note": "Acquired by Apple (Feb 2025). Mac App of Year 2018. Native Apple Silicon.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "ranking": 186
     },
     {
@@ -6356,7 +6361,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Single-step generation (50x faster than SDXL). Uses Adversarial Diffusion Distillation. Nov 2023 release.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 188,
@@ -6386,8 +6391,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Stable Audio 2.5 (Dec 2025). UMG partnership. <2s inference.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Stable Audio 2.5 launched Dec 2025. First enterprise-grade audio generation model by Stability AI.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 189,
@@ -6418,8 +6423,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Browser-based 3D design tool. Introduced Hana interactive canvas in Apr 2025. Strong community.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "$15M seed funding (2023). Web-based 3D design tool with AI text-to-3D. Pricing from $12/mo.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $32.4M total. #1 among 11 active competitors in 3D no-code space (Tracxn)."
     },
     {
@@ -6452,7 +6457,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "170K+ GitHub stars. One of fastest growing repos ever. Sparked AI agent revolution in 2023.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 191,
@@ -6482,8 +6487,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Free real-time voice changing. Popular for gaming and streaming. Audio tools suite.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "note": "Free AI voice changer platform. Also offers voice agent APIs/SDKs.",
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 192,
@@ -6514,8 +6519,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Popular for meme creation. Mix, Move, and Animate features. Powered by JST-1 video-3D model.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "note": "Viral AI video animator. Open beta (free). Character animation from photos.",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "notes": "Raised $19M total (1 round). Canadian AI animation startup. Character animation via AI."
     },
     {
@@ -6547,7 +6552,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "4M+ downloads. Used for Scorsese films. Academy Award-winning editor.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 194,
@@ -6578,7 +6583,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Powers Pixlr AI features. 50M+ images generated. 10K+ GPUs. Enterprise-grade API.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 195,
@@ -6608,7 +6613,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of cybernews.com; traffic grew 99% MoM as of Jan 2026",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "monthlyVisits": 5000000
     },
     {
@@ -6639,7 +6644,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "One of the largest AI tools directories. 10,000+ AI tools catalogued. Mokker AI listed.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 197,
@@ -6671,7 +6676,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Business-focused video creation. Templates for marketing/sales.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 198,
@@ -6701,7 +6706,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Formerly Pixelcut. Rebranded to Pixa. Popular for e-commerce product photos.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 199,
@@ -6729,9 +6734,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$32M Series A (May 2025). 10M+ videos created. Led by a16z. Viral baby podcasts.",
+      "note": "$32M funding (May 2025). Character-3 for talking/singing videos. Digital character foundation models.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00",
+      "lastVerified": "2026-02-25T14:12:00+08:00",
       "ranking": 199,
       "notes": "Raised $32M led by a16z (May 2025). Character-3 omnimodal model. Hedra Studio platform."
     },
@@ -6766,7 +6771,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Veteran photo editor with extensive AI features. 400M+ users globally.",
-      "lastVerified": "2026-02-25T09:15:13.951681+08:00"
+      "lastVerified": "2026-02-25T14:12:00+08:00"
     },
     {
       "id": 201,
