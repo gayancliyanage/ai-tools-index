@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T16:14:09.334860+08:00",
+  "lastUpdated": "2026-02-25T16:30:25.625922+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 551-600 (cycle 7)",
-    "nextBatch": "ranks 601-650 (cycle 7)",
-    "lastResearched": "2026-02-25T16:14:09.334860+08:00",
+    "lastBatch": "ranks 601-650 (cycle 7)",
+    "nextBatch": "ranks 651-700 (cycle 7)",
+    "lastResearched": "2026-02-25T16:30:25.625922+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -99,10 +99,11 @@
       "401-450 (cycle 7)",
       "451-500 (cycle 7)",
       "501-550 (cycle 7)",
-      "551-600 (cycle 7)"
+      "551-600 (cycle 7)",
+      "601-650 (cycle 7)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 7 batch 201-250 complete. Key findings: DeepAI 16.13M visits/mo; PixVerse $60M Series B (Alibaba), 100M+ users; PlayAI (Play.ht) raised $21M seed; Virbo DISCONTINUED June 2025; Clipdrop acquired by Jasper from Stability AI (Feb 2024); Polycam $22M funding; 10Web profitable, 2M+ websites; ImagineArt 30M+ users, 100M+ downloads; Fooocus 14K+ GitHub stars; Meta Movie Gen coming to Instagram."
+    "note": "Cycle 7 batch 601-650 complete. Mostly research papers/projects with no commercial presence. Key findings: DragGAN 36K GitHub stars (most popular); Point-E (OpenAI) 6.9K stars but archived; TaskWeaver (Microsoft) 6.1K stars; Voyager (MineDojo/NVIDIA) 6.7K stars; MetaVoice pivoted to duplex speech-to-speech AI; SimSwap 5.1K stars; DreamCraft3D by DeepSeek got DreamCraft3D++ (T-PAMI 2025); BrushNet (Tencent, ECCV 2024) 1.7K stars; Muse.ai active video hosting product."
   },
   "tools": [
     {
@@ -19808,7 +19809,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "AI-powered inpainting tool for removing and replacing objects in images using diffusion models.",
+      "description": "Research project on diffusion-based inpainting",
       "pricing": "Open source / Research",
       "features": [
         "Inpainting",
@@ -19827,8 +19828,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for diffusion-based inpainting.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "DreamInpainter - small research project, minimal web presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "DreamInpainter - small research project, minimal web presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 602,
@@ -19837,7 +19840,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "Tencent ARC Lab",
-      "description": "Plug-and-play dual-branch image inpainting model for high-quality masked image completion.",
+      "description": "Tencent ARC plug-and-play inpainting model (ECCV 2024)",
       "pricing": "Open source / Research",
       "features": [
         "Plug-and-play",
@@ -19858,9 +19861,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024. Separates masked image features from noisy latent for better preservation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "BrushNet by TencentARC - ECCV 2024 paper, plug-and-play inpainting",
-      "githubUrl": "https://github.com/TencentARC/BrushNet"
+      "githubUrl": "https://github.com/TencentARC/BrushNet",
+      "website": "https://tencentarc.github.io/BrushNet/",
+      "monthlyTraffic": 5000,
+      "status": "open_source",
+      "github": "TencentARC/BrushNet",
+      "githubStars": 1710
     },
     {
       "id": 603,
@@ -19869,7 +19877,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Research project for generating 3D shapes from text using multi-view diffusion.",
+      "description": "Research on 3D shape generation",
       "pricing": "Free / Open source",
       "features": [
         "Wavelet-tree",
@@ -19888,8 +19896,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Novel wavelet-tree representation compactly encodes shapes for large-scale 3D generation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Make-A-Shape - research paper (arXiv 2401.11067), no public code release"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Make-A-Shape - research paper (arXiv 2401.11067), no public code release",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 604,
@@ -19898,7 +19908,7 @@
       "category": "Audio/Music",
       "founded": "2020",
       "headquarters": "USA",
-      "description": "AI music production plugin maker, known for Fluid Chords 2 - a chord-bending VST plugin for creative MIDI harmonies.",
+      "description": "AI music production VST plugins (Fluid Chords etc)",
       "pricing": "Free content / Products vary",
       "features": [
         "Music production",
@@ -19921,10 +19931,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI music generator comparisons for EDM producers. Text-to-music tool reviews.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "monthlyTraffic": 15000,
       "researchNotes": "Pitch Innovations - music/audio plugin developer.",
-      "researchNote": "Pitch Innovations - active audio plugin company, released Fluid Chords 2 in 2025, MPE plugins"
+      "researchNote": "Pitch Innovations - active audio plugin company, released Fluid Chords 2 in 2025, MPE plugins",
+      "website": "https://pitchinnovations.com",
+      "status": "active_product"
     },
     {
       "id": 605,
@@ -19933,7 +19945,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Santa Cruz, USA (UC Santa Cruz)",
-      "description": "Research model for personalized face swapping in images using diffusion models.",
+      "description": "Research on face/subject swapping in photos",
       "pricing": "Open source",
       "features": [
         "Subject swapping",
@@ -19953,8 +19965,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Swaps subjects using learned concepts without additional training.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "PhotoSwap - research project page, minimal ongoing activity"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "PhotoSwap - research project page, minimal ongoing activity",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 606,
@@ -19963,7 +19977,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "OpenMMLab",
-      "description": "Versatile image inpainting model supporting text-guided object inpainting, removal, and context-aware filling.",
+      "description": "Versatile image inpainting research model",
       "pricing": "Open source / Research",
       "features": [
         "Multi-task inpainting",
@@ -19984,9 +19998,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2024. Uses learnable task prompts for different inpainting tasks.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "PowerPaint by OpenMMLab - versatile image inpainting",
-      "githubUrl": "https://github.com/open-mmlab/PowerPaint"
+      "githubUrl": "https://github.com/open-mmlab/PowerPaint",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 607,
@@ -19995,7 +20011,7 @@
       "category": "3D/Animation",
       "founded": "2018",
       "headquarters": "Stanford University",
-      "description": "Research project for generating 3D shapes from text descriptions using CLIP embeddings.",
+      "description": "Text-to-3D shape generation research",
       "pricing": "Research only",
       "features": [
         "Text-to-3D",
@@ -20014,8 +20030,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Early text-to-3D research from Stanford. Created Text2Shape dataset with ShapeNet.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Text2Shape - Stanford research, older project (2018), static"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Text2Shape - Stanford research, older project (2018), static",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 608,
@@ -20024,7 +20042,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "Picsart AI Research",
-      "description": "High-resolution AI painting model for text-guided image inpainting at any resolution.",
+      "description": "High-resolution inpainting research",
       "pricing": "Open source / Research",
       "features": [
         "High-resolution inpainting",
@@ -20045,9 +20063,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2025. Uses Prompt-Aware Introverted Attention and super-resolution for high-res editing.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "HD-Painter by Picsart AI Research",
-      "githubUrl": "https://github.com/Picsart-AI-Research/HD-Painter"
+      "githubUrl": "https://github.com/Picsart-AI-Research/HD-Painter",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 609,
@@ -20056,7 +20076,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "OpenAI",
-      "description": "OpenAI's 3D point cloud generation system from text/image prompts. Succeeded by Shap-E. Research project, no longer actively developed.",
+      "description": "OpenAI 3D point cloud diffusion model",
       "pricing": "Free / Open source",
       "features": [
         "Point clouds",
@@ -20078,9 +20098,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAI research. Generates point clouds from text via image-conditioned diffusion.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "Point-E by OpenAI - 3D point cloud generation",
-      "githubUrl": "https://github.com/openai/point-e"
+      "githubUrl": "https://github.com/openai/point-e",
+      "website": "https://openai.com/index/point-e/",
+      "monthlyTraffic": 0,
+      "status": "open_source_archived",
+      "github": "openai/point-e",
+      "githubStars": 6857
     },
     {
       "id": 610,
@@ -20089,7 +20114,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Redmond, USA",
-      "description": "Microsoft's code-first AI agent framework for data analytics tasks. Added vision input support (Mar 2025). Active development on GitHub.",
+      "description": "Microsoft code-first AI agent framework for data analytics",
       "pricing": "Open source",
       "features": [
         "Code-first",
@@ -20111,9 +20136,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. Code-first agent for complex data tasks. Stateful conversation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "TaskWeaver by Microsoft - code-first agent framework, added vision input March 2025, actively maintained",
-      "githubUrl": "https://github.com/microsoft/TaskWeaver"
+      "githubUrl": "https://github.com/microsoft/TaskWeaver",
+      "website": "https://microsoft.github.io/TaskWeaver/",
+      "monthlyTraffic": 5000,
+      "status": "open_source",
+      "github": "microsoft/TaskWeaver",
+      "githubStars": 6119
     },
     {
       "id": 611,
@@ -20122,7 +20152,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Research method using Direct Preference Optimization to align diffusion models with human preferences for image generation.",
+      "description": "Research on DPO for diffusion models",
       "pricing": "Research / Open source",
       "features": [
         "DPO training",
@@ -20144,11 +20174,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research paper showing how to apply DPO from LLMs to diffusion models.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Diffusion-DPO - research paper (arxiv). Not a product.",
       "toolType": "research_paper",
-      "researchNote": "Diffusion-DPO - research paper, no standalone product"
+      "researchNote": "Diffusion-DPO - research paper, no standalone product",
+      "status": "research_paper"
     },
     {
       "id": 612,
@@ -20157,7 +20188,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "San Francisco, USA (OpenAI)",
-      "description": "Research paper on improved consistency training methods for faster diffusion model sampling.",
+      "description": "Research on consistency training improvements",
       "pricing": "Research / Open source",
       "features": [
         "Improved training",
@@ -20179,11 +20210,12 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Follow-up to original consistency models paper with improved training recipes.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "monthlyTraffic": 0,
       "researchNotes": "Improved Consistency Training - research paper (arxiv).",
       "toolType": "research_paper",
-      "researchNote": "Improved Consistency Training - research paper, no standalone product"
+      "researchNote": "Improved Consistency Training - research paper, no standalone product",
+      "status": "research_paper"
     },
     {
       "id": 613,
@@ -20192,7 +20224,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Research model for mask-free text-guided image inpainting and editing.",
+      "description": "Masked image compositing research",
       "pricing": "Open source / Research",
       "features": [
         "Smart inpainting",
@@ -20211,8 +20243,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for intelligent brush-based image manipulation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "SmartBrush - research project, minimal presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "SmartBrush - research project, minimal presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 614,
@@ -20221,7 +20255,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "OpenAI/Research",
-      "description": "Extended version of OpenAI's Shap-E for improved 3D implicit function generation from text/images.",
+      "description": "Extended Shap-E 3D generation research",
       "pricing": "Free / Open source",
       "features": [
         "3D mesh generation",
@@ -20243,9 +20277,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on OpenAI Shap-E. Generates implicit 3D representations directly.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "Shap-E by OpenAI - 3D generation from text/images",
-      "githubUrl": "https://github.com/openai/shap-e"
+      "githubUrl": "https://github.com/openai/shap-e",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 615,
@@ -20254,7 +20290,7 @@
       "category": "Image Editing",
       "founded": "2022",
       "headquarters": "Google Research",
-      "description": "Google's research model for instruction-based image editing using Imagen foundation model.",
+      "description": "Google's image editing research model",
       "pricing": "Research / Not publicly available",
       "features": [
         "Text-guided editing",
@@ -20273,8 +20309,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Builds on Imagen for instruction-based image manipulation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Imagen Editor by Google Research - not publicly released, research demo only"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Imagen Editor by Google Research - not publicly released, research demo only",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 616,
@@ -20283,7 +20321,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Beijing, China",
-      "description": "Multi-view diffusion model for generating consistent 3D objects, enabling high-quality text-to-3D generation.",
+      "description": "Multi-view diffusion for 3D generation research",
       "pricing": "Open source",
       "features": [
         "Text-to-3D",
@@ -20305,9 +20343,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance project. Generates geometrically consistent multi-view images from text. ICLR 2024.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "MVDream by ByteDance - multi-view diffusion for 3D",
-      "githubUrl": "https://github.com/bytedance/MVDream"
+      "githubUrl": "https://github.com/bytedance/MVDream",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 617,
@@ -20316,7 +20356,7 @@
       "category": "Audio/Music",
       "founded": "2023",
       "headquarters": "USA/UK",
-      "description": "Audio super-resolution model that upsamples any audio (music, speech, environmental) to 48kHz/24kHz bandwidth. Active GitHub repo with LSD evaluation updates (2025).",
+      "description": "Versatile audio super-resolution (any→48kHz)",
       "pricing": "Open source",
       "features": [
         "Audio upscaling",
@@ -20338,9 +20378,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Upsamples any audio to 48kHz 24kHz bandwidth. Speech, music, sound effects. Sep 2023.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "AudioSR - versatile audio super resolution",
-      "githubUrl": "https://github.com/haoheliu/versatile_audio_super_resolution"
+      "githubUrl": "https://github.com/haoheliu/versatile_audio_super_resolution",
+      "website": "https://audioldm.github.io/audiosr/",
+      "monthlyTraffic": 2000,
+      "status": "open_source",
+      "github": "haoheliu/versatile_audio_super_resolution",
+      "githubStars": 1764
     },
     {
       "id": 618,
@@ -20349,7 +20394,7 @@
       "category": "Audio/Music",
       "founded": "2024",
       "headquarters": "USA",
-      "description": "Open-source AI text-to-speech with emotional voice cloning. Based on Tortoise TTS architecture.",
+      "description": "Duplex speech-to-speech AI for natural conversations",
       "pricing": "Open source",
       "features": [
         "1.2B parameters",
@@ -20372,9 +20417,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MetaVoice-1B trained on 100K hours. Foundational model for expressive TTS. Feb 2024.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "MetaVoice - open source TTS",
-      "githubUrl": "https://github.com/metavoiceio/metavoice-src"
+      "githubUrl": "https://github.com/metavoiceio/metavoice-src",
+      "website": "https://www.metavoice.io/",
+      "monthlyTraffic": 20000,
+      "status": "active_product",
+      "github": "metavoiceio/metavoice-src",
+      "githubStars": 4196
     },
     {
       "id": 619,
@@ -20383,7 +20433,7 @@
       "category": "Audio/Music",
       "founded": "2024",
       "headquarters": "China",
-      "description": "Lightweight multimodal AI model for real-time speech interaction. Mini-Omni2 expanded to vision+speech with GPT-4o-level capabilities.",
+      "description": "Open-source multimodal LLM with real-time speech I/O",
       "pricing": "Open source",
       "features": [
         "Real-time",
@@ -20405,9 +20455,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open-source real-time speech model similar to GPT-4o voice mode.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "Mini-Omni - multimodal LLM with voice",
-      "githubUrl": "https://github.com/gpt-omni/mini-omni"
+      "githubUrl": "https://github.com/gpt-omni/mini-omni",
+      "monthlyTraffic": 2000,
+      "status": "open_source",
+      "github": "gpt-omni/mini-omni",
+      "githubStars": 3529
     },
     {
       "id": 620,
@@ -20416,7 +20470,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Santa Clara, USA",
-      "description": "NVIDIA's LLM-powered embodied lifelong learning agent for Minecraft. First agent to continuously explore, acquire skills, and make discoveries without human intervention.",
+      "description": "NVIDIA/MineDojo LLM-powered Minecraft agent",
       "pricing": "Open source",
       "features": [
         "Lifelong learning",
@@ -20438,9 +20492,14 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NVIDIA Research. NeurIPS 2023 Oral. First LLM embodied agent. Auto curriculum + skill library.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "Voyager by MineDojo - LLM-powered Minecraft agent",
-      "githubUrl": "https://github.com/MineDojo/Voyager"
+      "githubUrl": "https://github.com/MineDojo/Voyager",
+      "website": "https://voyager.minedojo.org/",
+      "monthlyTraffic": 3000,
+      "status": "research_demo",
+      "github": "MineDojo/Voyager",
+      "githubStars": 6688
     },
     {
       "id": 621,
@@ -20449,7 +20508,7 @@
       "category": "Video Hosting",
       "founded": "2019",
       "headquarters": "San Francisco, USA",
-      "description": "Next-gen ad-free video hosting platform with advanced in-video AI search. ~156K monthly visits.",
+      "description": "AI-powered video hosting with in-video search",
       "pricing": "Free / Paid plans from $19/mo",
       "features": [
         "Video hosting",
@@ -20469,8 +20528,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Commercial video platform. Different from Google's Muse text-to-image model.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Muse.ai - next-gen ad-free video hosting with in-video search, active commercial product"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Muse.ai - next-gen ad-free video hosting with in-video search, active commercial product",
+      "website": "https://muse.ai",
+      "monthlyTraffic": 50000,
+      "status": "active_product"
     },
     {
       "id": 622,
@@ -20479,7 +20541,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research (CVPR 2023)",
-      "description": "Research project for text-guided 3D scene generation using diffusion models.",
+      "description": "3D generation from text research",
       "pricing": "Free / Open source",
       "features": [
         "Zero-shot",
@@ -20498,8 +20560,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 paper. Uses explicit 3D shape prior to improve geometry accuracy.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Dream3D - research paper (arXiv 2212.14704), no active development"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Dream3D - research paper (arXiv 2212.14704), no active development",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 623,
@@ -20508,7 +20572,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "USA",
-      "description": "Improved version of One-2-3-45 for single-image to consistent multi-view 3D reconstruction.",
+      "description": "Single image to 3D research",
       "pricing": "Open source",
       "features": [
         "Single-image 3D",
@@ -20529,9 +20593,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Improved version by SUDO AI. Multi-view consistent 3D from single image.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "One-2-3-45++ - single image to 3D",
-      "githubUrl": "https://github.com/sudo-ai-3d/One2345plus"
+      "githubUrl": "https://github.com/sudo-ai-3d/One2345plus",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 624,
@@ -20540,7 +20606,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Berkeley, USA",
-      "description": "Research project for generalist robot policy using vision-language-action models.",
+      "description": "Robot learning foundation model research",
       "pricing": "Open source",
       "features": [
         "Generalist policy",
@@ -20562,9 +20628,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UC Berkeley/Stanford/CMU/Google. Open X-Embodiment dataset. Robot foundation model.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "Octo - generalist robot policy",
-      "githubUrl": "https://github.com/octo-models/octo"
+      "githubUrl": "https://github.com/octo-models/octo",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 625,
@@ -20573,7 +20641,7 @@
       "category": "Image Generation",
       "founded": "2022",
       "headquarters": "Meta AI",
-      "description": "Meta's research model for text-to-image generation with scene layout control.",
+      "description": "Meta's text+sketch to image research",
       "pricing": "Research / Not publicly available",
       "features": [
         "Text + sketch input",
@@ -20592,8 +20660,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta AI. Published July 2022. Enables scene editing and text editing with anchor scenes.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Make-A-Scene by Meta - research paper, not publicly released"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Make-A-Scene by Meta - research paper, not publicly released",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 626,
@@ -20602,7 +20672,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Tsinghua (NeurIPS 2023 Spotlight)",
-      "description": "Research method using Variational Score Distillation for high-fidelity text-to-3D generation.",
+      "description": "VSD-based text-to-3D generation research",
       "pricing": "Free / Open source",
       "features": [
         "VSD algorithm",
@@ -20624,9 +20694,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023 Spotlight. Introduces VSD as principled alternative to SDS.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "ProlificDreamer by THU-ML - high-fidelity 3D generation",
-      "githubUrl": "https://github.com/thu-ml/prolificdreamer"
+      "githubUrl": "https://github.com/thu-ml/prolificdreamer",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 627,
@@ -20635,7 +20707,7 @@
       "category": "Image Generation",
       "founded": "2022",
       "headquarters": "Google Research",
-      "description": "Google's autoregressive text-to-image model using ViT architecture, scaling to 20B parameters.",
+      "description": "Google's autoregressive text-to-image research",
       "pricing": "Research / Not publicly available",
       "features": [
         "Autoregressive",
@@ -20654,8 +20726,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Google Research. Published June 2022. Treats text-to-image as sequence-to-sequence problem.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Parti by Google Research - text-to-image, research only"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Parti by Google Research - text-to-image, research only",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 628,
@@ -20664,7 +20738,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Stanford (ICLR 2024)",
-      "description": "High-Fidelity text-to-3D generation using multi-view diffusion and SDS optimization.",
+      "description": "High-fidelity text-to-3D research",
       "pricing": "Free / Open source",
       "features": [
         "Single-stage",
@@ -20686,8 +20760,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Uses holistic sampling and smoothing for high-quality results.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "HiFA - research project for 3D generation, minimal activity"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "HiFA - research project for 3D generation, minimal activity",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 629,
@@ -20696,7 +20772,7 @@
       "category": "Image Generation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Research model for parallel generation of high-quality images using diffusion models.",
+      "description": "Parallel diffusion generation research",
       "pricing": "Open source / Research",
       "features": [
         "Parallel processing",
@@ -20715,8 +20791,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for parallelizing diffusion model inference.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "ParaDiffusion - research project, minimal presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "ParaDiffusion - research project, minimal presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 630,
@@ -20725,7 +20803,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "NVIDIA (ICCV 2023)",
-      "description": "Amortized Text-to-3D generation research for fast 3D object creation from text.",
+      "description": "Amortized text-to-3D research",
       "pricing": "Research only",
       "features": [
         "Amortized training",
@@ -20744,8 +20822,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023 NVIDIA paper. Generates 3D in single forward pass after amortized training.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "ATT3D by NVIDIA - amortized text-to-3D, research"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "ATT3D by NVIDIA - amortized text-to-3D, research",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 631,
@@ -20754,7 +20834,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Meta AI",
-      "description": "Meta's precise instruction-based image editing model. Research demo available at emu-edit.metademolab.com. Supports background, style, object, color/texture edits.",
+      "description": "Meta's instruction-based image editing research",
       "pricing": "Research / Not publicly available",
       "features": [
         "Instruction-based editing",
@@ -20773,8 +20853,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Supports background, style, object add/remove, local/texture edits.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Emu Edit by Meta - precise instruction-based image editing, research demo at metademolab"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Emu Edit by Meta - precise instruction-based image editing, research demo at metademolab",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 632,
@@ -20783,7 +20865,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "UC Berkeley / Google",
-      "description": "Instruction-based image editing using diffusion models (Berkeley/Google). Seminal paper in text-guided editing. GitHub repo actively used as foundation for newer methods.",
+      "description": "Instruction-based image editing (Tim Brooks et al)",
       "pricing": "Open source / Research",
       "features": [
         "Instruction-based",
@@ -20804,9 +20886,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Uses GPT-3 + Stable Diffusion to generate 450K+ training examples.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "InstructPix2Pix - instruction-based image editing, influential paper",
-      "githubUrl": "https://github.com/timothybrooks/instruct-pix2pix"
+      "githubUrl": "https://github.com/timothybrooks/instruct-pix2pix",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 633,
@@ -20815,7 +20899,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Research for implicit texture generation for 3D objects from text descriptions.",
+      "description": "Text-to-3D research with iterative training",
       "pricing": "Free / Open source",
       "features": [
         "View synthesis",
@@ -20834,8 +20918,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "2023 paper focusing on 2D image generation to enhance 3D texture and geometry.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "IT3D - research paper, no public repo"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "IT3D - research paper, no public repo",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 634,
@@ -20844,7 +20930,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Large-scale instruction-based fine-grained image editing dataset (~4M samples) and model. SD3-based. Published at NeurIPS/OpenReview 2024, T-PAMI 2025.",
+      "description": "Ultra-resolution image editing research",
       "pricing": "Open source / Research",
       "features": [
         "Fine-grained editing",
@@ -20863,8 +20949,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for high-precision image manipulation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "UltraEdit - research project page"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "UltraEdit - research project page",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 635,
@@ -20873,7 +20961,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Research for generating consistent multi-view 3D reconstructions from single images.",
+      "description": "Consistent multi-view 3D generation research",
       "pricing": "Free / Open source",
       "features": [
         "View consistency",
@@ -20892,8 +20980,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Decomposes NVS into observed/hallucinated region generation for better consistency.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Consistent123 - 3D generation research"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Consistent123 - 3D generation research",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 636,
@@ -20902,7 +20992,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "TU Darmstadt / Google",
-      "description": "Hugging Face's lightweight diffusion-based image editing method. No training needed, supports simultaneous multi-concept editing with semantic guidance.",
+      "description": "Limitless image editing using text research",
       "pricing": "Open source / Research",
       "features": [
         "Semantic grounding",
@@ -20923,9 +21013,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Works with SD, SDXL, and DeepFloyd IF models.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "LEDITS++ - semantic image editing",
-      "githubUrl": "https://github.com/ml-research/ledits_pp"
+      "githubUrl": "https://github.com/ml-research/ledits_pp",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 637,
@@ -20934,7 +21026,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Research (ICLR 2024)",
-      "description": "Research for generating high-quality 3D objects with fine geometric details using diffusion priors.",
+      "description": "3D generation with aligned geometry research",
       "pricing": "Free / Open source",
       "features": [
         "Geometric alignment",
@@ -20955,8 +21047,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Fine-tunes diffusion model to generate viewpoint-conditioned coordinate maps.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "SweetDreamer - 3D generation research"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "SweetDreamer - 3D generation research",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 638,
@@ -20965,7 +21059,7 @@
       "category": "AI/ML Research",
       "founded": "2016",
       "headquarters": "University of Washington",
-      "description": "Localized Image Manipulation Engine - research for precise local image editing.",
+      "description": "Image editing research",
       "pricing": "Open source",
       "features": [
         "Model explanation",
@@ -20984,8 +21078,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "KDD 2016. Widely used ML interpretability tool, not an image editor.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "LIME - ML explanation framework, older project"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "LIME - ML explanation framework, older project",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 639,
@@ -20994,7 +21090,7 @@
       "category": "Video Generation",
       "founded": "2020",
       "headquarters": "China (Academic)",
-      "description": "Face-swapping framework for images and videos with a single trained model. Popular GitHub repo (neuralchen/SimSwap). Extended with HQ 512px version.",
+      "description": "Face swapping framework on images/videos",
       "pricing": "Free (open source)",
       "features": [
         "Face swap",
@@ -21014,10 +21110,14 @@
       "videoTimeline": false,
       "note": "ACM MM 2020. Preserves target face attributes. 4K+ GitHub stars.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "ranking": 639,
       "researchNote": "SimSwap - face swapping",
-      "githubUrl": "https://github.com/neuralchen/SimSwap"
+      "githubUrl": "https://github.com/neuralchen/SimSwap",
+      "monthlyTraffic": 3000,
+      "status": "open_source",
+      "github": "neuralchen/SimSwap",
+      "githubStars": 5126
     },
     {
       "id": 640,
@@ -21026,7 +21126,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "TTIC/Research (CVPR 2023)",
-      "description": "Research method (Score Jacobian Chaining) for lifting 2D diffusion models to 3D generation without 3D training data.",
+      "description": "SJC text-to-3D research",
       "pricing": "Free / Open source",
       "features": [
         "Score composition",
@@ -21045,8 +21145,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 paper. SJC method for text-to-3D using pretrained 2D models.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Score Jacobian Chaining - 3D generation method, research"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Score Jacobian Chaining - 3D generation method, research",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 641,
@@ -21055,7 +21157,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Research on denoising efficiency improvements for diffusion models.",
+      "description": "Diffusion efficiency research",
       "pricing": "Open source / Research",
       "features": [
         "Efficient editing",
@@ -21074,8 +21176,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for efficient diffusion-based image manipulation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "DEff - research project, minimal presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "DEff - research project, minimal presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 642,
@@ -21084,7 +21188,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Research",
-      "description": "Inversion-based Style Transfer using diffusion models for artistic image editing.",
+      "description": "Inversion-based style transfer research",
       "pricing": "Open source / Research",
       "features": [
         "Style transfer",
@@ -21103,8 +21207,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for style-based image manipulation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "InST - research project, minimal presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "InST - research project, minimal presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 643,
@@ -21113,7 +21219,7 @@
       "category": "3D/Animation",
       "founded": "2024",
       "headquarters": "DeepSeek (ICLR 2024)",
-      "description": "DeepSeek's hierarchical 3D generation with bootstrapped diffusion prior. ICLR 2024. DreamCraft3D++ released (Oct 2024, T-PAMI 2025) with enhanced quality and efficiency.",
+      "description": "DeepSeek hierarchical 3D generation (ICLR 2024), DreamCraft3D++ (T-PAMI 2025)",
       "pricing": "Free / Open source",
       "features": [
         "Hierarchical generation",
@@ -21135,9 +21241,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024 paper. Alternating optimization of diffusion prior and 3D scene representation.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "DreamCraft3D by DeepSeek AI",
-      "githubUrl": "https://github.com/deepseek-ai/DreamCraft3D"
+      "githubUrl": "https://github.com/deepseek-ai/DreamCraft3D",
+      "monthlyTraffic": 2000,
+      "status": "open_source",
+      "github": "deepseek-ai/DreamCraft3D",
+      "githubStars": 3002
     },
     {
       "id": 644,
@@ -21146,7 +21256,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "Research",
-      "description": "Research extension of drag-based image editing using noise-space manipulation.",
+      "description": "Noise-based image manipulation research",
       "pricing": "Open source / Research",
       "features": [
         "Point-based editing",
@@ -21165,8 +21275,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Research project for drag-style noise-based image editing.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "Drag Your Noise - research project, minimal presence"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "Drag Your Noise - research project, minimal presence",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 645,
@@ -21175,7 +21287,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "Google Research",
-      "description": "Research methodology for score distillation in text-to-3D generation.",
+      "description": "Score distillation sampling research",
       "pricing": "Research only",
       "features": [
         "SDS algorithm",
@@ -21194,8 +21306,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Core technique from DreamFusion. Foundation for most modern text-to-3D methods.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "ScoreDistillation - DreamFusion technique, foundational research"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "ScoreDistillation - DreamFusion technique, foundational research",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 646,
@@ -21204,7 +21318,7 @@
       "category": "Image Editing",
       "founded": "2023",
       "headquarters": "Max Planck Institute / MIT",
-      "description": "Interactive point-based image editing on GAN-generated images (SIGGRAPH 2023). Pioneered drag-based editing paradigm. GitHub: XingangPan/DragGAN.",
+      "description": "Interactive point-based GAN manipulation (SIGGRAPH 2023)",
       "pricing": "Open source / Research",
       "features": [
         "Point-based editing",
@@ -21225,9 +21339,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SIGGRAPH 2023. Enables deformation of animals, cars, humans, landscapes with pixel-level control.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "DragGAN - SIGGRAPH 2023, viral interactive editing tool",
-      "githubUrl": "https://github.com/XingangPan/DragGAN"
+      "githubUrl": "https://github.com/XingangPan/DragGAN",
+      "monthlyTraffic": 5000,
+      "status": "open_source",
+      "github": "XingangPan/DragGAN",
+      "githubStars": 35970
     },
     {
       "id": 647,
@@ -21236,7 +21354,7 @@
       "category": "3D/Animation",
       "founded": "2022",
       "headquarters": "Google Research",
-      "description": "Score Distillation Sampling - foundational technique for text-to-3D generation (from DreamFusion).",
+      "description": "Score distillation sampling method research",
       "pricing": "Research only",
       "features": [
         "Core algorithm",
@@ -21255,8 +21373,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From DreamFusion paper. Enables optimization in arbitrary parameter spaces using diffusion.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "SDS (Score Distillation Sampling) - DreamFusion technique, not a standalone tool"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "SDS (Score Distillation Sampling) - DreamFusion technique, not a standalone tool",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 648,
@@ -21265,7 +21385,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "NUS / Bytedance",
-      "description": "Interactive point-based image editing on diffusion models (CVPR 2024 Highlight). Built on DragGAN concept for real images. GitHub: Yujun-Shi/DragDiffusion.",
+      "description": "Point-based diffusion image editing (CVPR 2024 Highlight)",
       "pricing": "Open source / Research",
       "features": [
         "Point-based editing",
@@ -21286,9 +21406,13 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024 Highlight. Overcomes GAN limitations with pretrained diffusion models.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "DragDiffusion - drag-based editing for diffusion models",
-      "githubUrl": "https://github.com/Yujun-Shi/DragDiffusion"
+      "githubUrl": "https://github.com/Yujun-Shi/DragDiffusion",
+      "monthlyTraffic": 1000,
+      "status": "open_source",
+      "github": "Yujun-Shi/DragDiffusion",
+      "githubStars": 1250
     },
     {
       "id": 649,
@@ -21297,7 +21421,7 @@
       "category": "3D/Animation",
       "founded": "2023",
       "headquarters": "Tsinghua (NeurIPS 2023)",
-      "description": "Variational Score Distillation - improved score distillation technique for higher-fidelity text-to-3D (from ProlificDreamer).",
+      "description": "Variational score distillation research",
       "pricing": "Free / Open source",
       "features": [
         "Variational framework",
@@ -21316,8 +21440,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "From ProlificDreamer. Models 3D parameter as random variable for better results than SDS.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
-      "researchNote": "VSD (Variational Score Distillation) - ProlificDreamer technique"
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
+      "researchNote": "VSD (Variational Score Distillation) - ProlificDreamer technique",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 650,
@@ -21326,7 +21452,7 @@
       "category": "Image Editing",
       "founded": "2024",
       "headquarters": "USTC / Shanghai AI Lab",
-      "description": "Feature-based drag editing without point tracking (CVPR 2024). Improves reliability over DragGAN/DragDiffusion. GitHub: LPengYang/FreeDrag.",
+      "description": "Training-free drag editing research",
       "pricing": "Open source / Research",
       "features": [
         "Feature dragging",
@@ -21347,9 +21473,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Outperforms DragGAN in challenging scenarios with similar structures.",
-      "lastVerified": "2026-02-25T03:30:08.000Z",
+      "lastVerified": "2026-02-25T16:30:25.625922+08:00",
       "researchNote": "FreeDrag - improved drag-based editing",
-      "githubUrl": "https://github.com/LPengYang/FreeDrag"
+      "githubUrl": "https://github.com/LPengYang/FreeDrag",
+      "monthlyTraffic": 0,
+      "status": "research_paper"
     },
     {
       "id": 651,
