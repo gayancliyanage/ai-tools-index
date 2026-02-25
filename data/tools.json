@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T09:42:00+08:00",
+  "lastUpdated": "2026-02-25T09:57:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 251-300 (cycle 6)",
-    "nextBatch": "ranks 301-350 (cycle 6)",
-    "lastResearched": "2026-02-25T09:42:00+08:00",
+    "lastBatch": "ranks 301-350 (cycle 6)",
+    "nextBatch": "ranks 351-400 (cycle 6)",
+    "lastResearched": "2026-02-25T09:57:00+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -73,10 +73,11 @@
       "101-150 (cycle 6)",
       "151-200 (cycle 6)",
       "201-250 (cycle 6)",
-      "251-300 (cycle 6)"
+      "251-300 (cycle 6)",
+      "301-350 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 batch 6/20. Ranks 251-300 verified. Key updates: Elai.io acquired by Panopto, Uberduck declining (legal/voice removals), DeepBrain $55.76M raised/$12.8M revenue, Colossyan $28.2M total funding, Rask AI $2.6M revenue with 24 people, Kittl $36M Series B, Tripo 3.0 launched Feb 2026 for spatial computing, Resemble AI $12.2M raised, Rokoko $80M+ valuation."
+    "note": "Cycle 6 batch 7/20. Ranks 301-350 verified. Key updates: Wonder Studio acquired by Autodesk (rebranded Flow Studio), OctoAI acquired by NVIDIA (shut down Oct 2024), Kits AI acquired by Splice (Jan 2026), Moonvalley raised $84M (Jul 2025), BFL raised $300M Series B + FLUX.2 klein (Jan 2026), LTX-2 open-sourced with 4K audio-video (Oct 2025), HunyuanVideo-1.5 released (Nov 2025), AutoGen v0.4 + MS Agent Framework targeting Q1 2026 GA, Kandinsky now at v5.0 in GigaChat."
   },
   "tools": [
     {
@@ -10032,8 +10033,9 @@
       "videoTimeline": false,
       "note": "AI-first UI design. Sketch-to-design conversion. Team collaboration.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "ranking": 301
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "ranking": 301,
+      "researchNotes": "Visily: $2.27M total funding. AI-powered UI design for non-designers. Screenshot-to-design feature."
     },
     {
       "id": 302,
@@ -10068,7 +10070,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$800K total funding over 5 rounds. 75M+ media objects library.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Moovly: Publicly traded (MVVYF). Video creation platform, still operational."
     },
     {
       "id": 303,
@@ -10099,7 +10102,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "DxO PhotoLab 8: Released May 2025 with DeepPRIME XD2s. Version 8.5 added DeepPRIME 3 (Sep 2025). Premium RAW editor."
     },
     {
       "id": 304,
@@ -10129,7 +10133,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Huawei Noah's Ark Lab. DiT architecture with efficient training. Competes with SDXL and Midjourney quality.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "PixArt-Alpha: Open-source T2I diffusion model from Huawei. 10.8% of SD v1.5 training time. Research project, no commercial entity."
     },
     {
       "id": 305,
@@ -10159,7 +10164,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Kuaishou (Kwai). Excellent Chinese text understanding and rendering. CVPR 2024.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Kolors: Kuaishou's image generation model. Limited new info in 2025-2026."
     },
     {
       "id": 306,
@@ -10190,7 +10196,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Sber AI Forever. Best-in-class for Russian text. Kandinsky 3.1 pixel-based variant. Dec 2023.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Kandinsky: Now at version 5.0, integrated into Sber's GigaChat. 11.9B param model. Active development."
     },
     {
       "id": 307,
@@ -10220,7 +10227,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in neural style transfer. Based on Gatys et al. research. Print shop available.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "DeepArt.io: Style transfer tool, minimal recent updates."
     },
     {
       "id": 308,
@@ -10251,7 +10259,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Morph Studio: $2.5M raised from Baidu Ventures. ~10 employees. Text-to-video, image-to-video, style transfer."
     },
     {
       "id": 309,
@@ -10281,7 +10290,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Fastest FLUX model. Apache 2.0 licensed. Part of Black Forest Labs FLUX family founded by ex-Stability AI team.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "FLUX.1 Schnell: Part of Black Forest Labs' FLUX family. BFL raised $300M Series B (Dec 2025). FLUX.2 klein released Jan 2026. Schnell is the fast/free variant."
     },
     {
       "id": 310,
@@ -10311,7 +10321,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in AI upscaling. Originally designed for 'waifu' anime art. Now supports general images.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Waifu2x: Classic image upscaler. Community maintained, no commercial updates."
     },
     {
       "id": 311,
@@ -10339,7 +10350,8 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Google Creative Lab project. AI suggests drawings based on your doodles. Free forever.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "AutoDraw: Google experiment. AI drawing tool, still available but minimal updates."
     },
     {
       "id": 312,
@@ -10369,7 +10381,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Plug-and-play acceleration for any SD checkpoint. Works with SD 1.5 and SDXL.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "LCM-LoRA: Latent Consistency Model LoRA. Research/open-source tool for fast SD inference."
     },
     {
       "id": 313,
@@ -10399,8 +10412,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "African tech publication with AI tool guides. Suno alternatives reviews.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "monthlyVisits": 300000
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "monthlyVisits": 300000,
+      "researchNotes": "Techpoint Africa AI: Niche tool, limited data."
     },
     {
       "id": 314,
@@ -10430,7 +10444,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of SD 3.5 family released Oct 2024. Good balance of quality and speed.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Stable Diffusion 3.5 Medium: Stability AI model. Open weights release."
     },
     {
       "id": 315,
@@ -10465,7 +10480,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Royalty-free AI music for videos, podcasts, games. API available. 69% lower than average pricing.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Beatoven.ai: $2.44M total funding over 4 rounds. Latest seed round Jul 2025. Indian AI music startup."
     },
     {
       "id": 316,
@@ -10498,7 +10514,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Comprehensive AI platform for visual content creation. Generate, enhance, and edit images and videos.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "insMind: AI background remover and image editor. Product photography focus. Bulk processing up to 30 photos."
     },
     {
       "id": 317,
@@ -10527,8 +10544,9 @@
       "videoTimeline": true,
       "note": "Acquired by Autodesk (May 2024). $12.5M total funding. Co-founded by actor Tye Sheridan.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "ranking": 317
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "ranking": 317,
+      "researchNotes": "Wonder Studio: ACQUIRED by Autodesk (May 2024). Rebranded as Autodesk Flow Studio (Mar 2025). AI-based VFX/animation."
     },
     {
       "id": 318,
@@ -10556,8 +10574,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "notegpt.io traffic grew 80% MoM as of Jan 2026; strong organic search",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "monthlyVisits": 800000
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "monthlyVisits": 800000,
+      "researchNotes": "NoteGPT TTS: Text-to-speech tool. Minimal standalone data."
     },
     {
       "id": 319,
@@ -10587,8 +10606,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "67% organic search traffic; major AI tools directory",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "monthlyVisits": 2000000
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "monthlyVisits": 2000000,
+      "researchNotes": "Toolify AI: Largest AI tools directory with 22,500+ AI websites listed. Significant traffic. Revenue from sponsored listings."
     },
     {
       "id": 320,
@@ -10619,7 +10639,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Co-released TripoSR with Stability AI. Fast 3D object reconstruction from single image. Honor smartphone partnership.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Tripo AI: Previously noted Tripo 3.0 launched Feb 2026 for spatial computing."
     },
     {
       "id": 321,
@@ -10651,7 +10672,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Reworkd AI. Launched Apr 2023. 31K GitHub stars. Browser-based autonomous agents.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "AgentGPT: Reworkd AI's autonomous agent platform. Open source on GitHub. Team pivoted focus to other platform."
     },
     {
       "id": 322,
@@ -10682,7 +10704,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Microsoft Research. 40K+ stars. Merging with Semantic Kernel. AutoGen Studio no-code GUI.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "AutoGen: Microsoft's multi-agent framework. v0.4 released. Converging with Semantic Kernel into Microsoft Agent Framework, GA targeted Q1 2026."
     },
     {
       "id": 323,
@@ -10717,7 +10740,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates music in real-time. Popular with streamers and game developers for dynamic soundtracks. API for developers.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Mubert: AI music generator with subscription model. Compensates real musicians. Active blog content in 2026."
     },
     {
       "id": 324,
@@ -10756,7 +10780,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First virtual artist registered with SACEM (French copyright society). Composes emotional, cinematic music.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "AIVA: Luxembourg-based AI music composer. $2.48M total funding over 6 rounds. Free tier + paid plans. YouTube/TikTok monetization."
     },
     {
       "id": 325,
@@ -10792,7 +10817,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Enterprise-focused voice AI. Partners with content creators and studios. Ethical AI voice cloning.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Resemble.AI: Previously noted $12.2M raised."
     },
     {
       "id": 326,
@@ -10823,7 +10849,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Founded by OctoML team. Acquired by AI infrastructure companies. Enterprise AI deployment.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "OctoAI: ACQUIRED by NVIDIA (Sep 2024). Services shut down Oct 31, 2024. No longer operational as standalone."
     },
     {
       "id": 327,
@@ -10854,7 +10881,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Cascadeur: Physics-based 3D animation. Version 2025.3.3 released Jan 2026. Free tier available. Windows/Mac/Linux."
     },
     {
       "id": 328,
@@ -10887,7 +10915,8 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI-powered small business website builder with integrated booking and e-commerce.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Hocoos: AI website builder. Premium at $15/month. Focus on small businesses."
     },
     {
       "id": 329,
@@ -10920,7 +10949,8 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI generates website from brief idea description in seconds. Built-in email waiting lists for startup validation.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Mixo: AI website builder for startups. Generates full site from one sentence. Landing pages + subscriber management."
     },
     {
       "id": 330,
@@ -10953,7 +10983,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Netflairs Technology Private Limited. iOS and Android apps available. Credit-based pricing system.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Slazzer: Background removal tool. Minimal new data."
     },
     {
       "id": 331,
@@ -10981,7 +11012,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Unscreen: Video background removal. Minimal new data."
     },
     {
       "id": 332,
@@ -11010,7 +11042,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of AudioCraft. Open source by Meta AI.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "MusicGen: Meta's open-source music generation model. Research project."
     },
     {
       "id": 333,
@@ -11039,7 +11072,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "LTX-Video released Nov 2024. LTX-2 (Oct 2025) first complete open-source AI video foundation model. By Lightricks ($250M ARR).",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "LTX Video: Lightricks open-sourced LTX-2 (Oct 2025) - first production-ready audio-video model with open weights. Native 4K at 50fps, 10-sec sequences, runs on consumer GPUs."
     },
     {
       "id": 334,
@@ -11068,7 +11102,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Dec 2024. Industry's largest open-source video generation model. HunyuanVideo-I2V added Mar 2025.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Hunyuan Video: Tencent's video gen model. HunyuanVideo-1.5 released Nov 2025. Open source with I2V variant."
     },
     {
       "id": 335,
@@ -11106,7 +11141,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Y Combinator backed. Marey model released Jul 2025. First fully-licensed AI video model. Ex-DeepMind CSO.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Moonvalley: Raised $84M additional funding (Jul 2025) led by General Catalyst. Licensed content approach. Total funding well over $100M."
     },
     {
       "id": 336,
@@ -11138,7 +11174,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Lightricks consumer video creation studio. Part of Lightricks suite ($250M ARR Jul 2025).",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "LTX Studio: Lightricks' all-in-one AI filmmaking platform. Autoregressive update Jul 2025 for 60-sec clips. Integrated Google Veo 3. Enterprise video production focus."
     },
     {
       "id": 337,
@@ -11165,7 +11202,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Nov 2023. First open generative AI video model by Stability AI. SVD and SVD-XT variants.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "SVD (Stable Video Diffusion): Stability AI's video model. Open source."
     },
     {
       "id": 338,
@@ -11193,7 +11231,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Anthropic. Oct 2024 launch. First frontier AI with computer use. Public beta on API.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Claude Computer Use: Anthropic's computer use capability. Part of Claude API."
     },
     {
       "id": 339,
@@ -11227,8 +11266,9 @@
       "videoTimeline": true,
       "note": "10K+ artists. Trusted AI music video platform. Frame-by-frame control.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "ranking": 339
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "ranking": 339,
+      "researchNotes": "Neural Frames: AI music video generator. 4K resolution, up to 10 min. 2M+ videos created. Timeline-based editor integrating Kling, Seedance, Runway."
     },
     {
       "id": 340,
@@ -11260,7 +11300,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Boomy: AI music creation with streaming distribution. Users earn royalties. Subscription model."
     },
     {
       "id": 341,
@@ -11293,7 +11334,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Bootstrapped (no VC disclosed). Credit-based pricing. 87% on monthly plans. Broad tool mix for static visuals.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Hotpot AI: All-in-one AI design platform - image gen, photo restoration, bg removal, headshots, writing."
     },
     {
       "id": 342,
@@ -11320,8 +11362,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 17000,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "notes": "17K visits Jan 2026; lip-sync AI; developer-centric"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "notes": "17K visits Jan 2026; lip-sync AI; developer-centric",
+      "researchNotes": "Sync Labs: AI lip sync API (sync.so). Lipsync-2 and lipsync-2-pro models. Backed by Founders Inc. Studio-grade 4K output."
     },
     {
       "id": 343,
@@ -11353,8 +11396,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 200000,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00",
-      "note": "1M+ creators claimed; 13K Instagram followers"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "note": "1M+ creators claimed; 13K Instagram followers",
+      "researchNotes": "Krikey AI: 3D character animation tool. Free forever plan + Pro at $15/mo. Available on Canva, Adobe Express, AWS Marketplace."
     },
     {
       "id": 344,
@@ -11384,7 +11428,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free anime portrait generator. AI learns preferences through 4-step process. Tied to Arrowmancer game.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Waifu Labs: Anime portrait generator. Niche tool, minimal updates."
     },
     {
       "id": 345,
@@ -11415,7 +11460,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Soundraw: AI music generator. $5.01M total funding over 4 rounds. 100% royalty-free. Trained on in-house produced music only."
     },
     {
       "id": 346,
@@ -11445,7 +11491,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Direct 4K image generation. Improved prompt following over PixArt-Alpha.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "PixArt-Sigma: Follow-up to PixArt-Alpha. Research model."
     },
     {
       "id": 347,
@@ -11475,7 +11522,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tim Brooks (now at OpenAI). CVPR 2023. Edit images with natural language instructions.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "InstructPix2Pix: Image editing via text instructions. Research model."
     },
     {
       "id": 348,
@@ -11510,7 +11558,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Y Combinator backed. Marey model trained on licensed data. Pro tiers $14.99-$149.99/mo.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Moonvalley (duplicate entry - see rank 335). $84M raised Jul 2025."
     },
     {
       "id": 349,
@@ -11540,7 +11589,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released June 2024. Predecessor to SD 3.5 family.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Stable Diffusion 3 Medium: Stability AI model. Superseded by 3.5 variants."
     },
     {
       "id": 350,
@@ -11575,7 +11625,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Focus on music production. Licensed artist voices. Vocal transformation for producers.",
-      "lastVerified": "2026-02-25T05:00:10.535223+08:00"
+      "lastVerified": "2026-02-25T09:57:00+08:00",
+      "researchNotes": "Kits AI: ACQUIRED by Splice (Jan 2026). AI voice cloning for music production. Now part of Splice ecosystem ($500M valuation)."
     },
     {
       "id": 351,
