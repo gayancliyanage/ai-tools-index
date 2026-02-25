@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T09:15:13.951681+08:00",
+  "lastUpdated": "2026-02-25T09:27:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 151-200 (cycle 6)",
-    "nextBatch": "ranks 201-250 (cycle 6)",
-    "lastResearched": "2026-02-25T09:15:13.951681+08:00",
+    "lastBatch": "ranks 201-250 (cycle 6)",
+    "nextBatch": "ranks 251-300 (cycle 6)",
+    "lastResearched": "2026-02-25T09:27:00+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -71,10 +71,11 @@
       "1-50 (cycle 6)",
       "51-100 (cycle 6)",
       "101-150 (cycle 6)",
-      "151-200 (cycle 6)"
+      "151-200 (cycle 6)",
+      "201-250 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 batch 4/20. Ranks 151-200 verified. Key updates: Luma Ray3.14 native 1080p + $1M Cannes Lions competition, ComfyUI $16.2M funded (pre-revenue), Hedra $32M from a16z, Viggle AI $19M funded, Fliki $1.4M/mo revenue, Kittl $36M Series B, Spline $32.4M total, Voicemod 40M+ downloads."
+    "note": "Cycle 6 batch 5/20. Ranks 201-250 verified. Key updates: HitFilm DISCONTINUED (FXhome shut down Jan 2025), Clipdrop sold to Jasper (Apr 2025), Movie Gen still unreleased (Meta building new model for 2026), Polycam M funded (Adobe Ventures), Genmo .4M funded, PixVerse Series B Sep 2025, Fooocus 38K+ GitHub stars, MetaHuman 5.7 released Dec 2025, ON1 Photo RAW 2026.3 update Feb 2026."
   },
   "tools": [
     {
@@ -3631,7 +3632,7 @@
     },
     {
       "id": 108,
-      "name": "Voil\u00e0 AI Artist",
+      "name": "Voilà AI Artist",
       "url": "https://www.wemagineai.com",
       "category": "Image Generation",
       "founded": "2021",
@@ -5829,7 +5830,7 @@
       "videoTimeline": true,
       "note": "$4.72M total funding over 2 rounds from 6 investors. Zapier/Make integrations connect to 8K+ apps.",
       "lastVerified": "2026-02-25T09:15:13.951681+08:00",
-      "notes": "Raised $4.72M total. Annual revenue ~\u20b912.2Cr (~$1.5M) as of Mar 2025."
+      "notes": "Raised $4.72M total. Annual revenue ~₹12.2Cr (~$1.5M) as of Mar 2025."
     },
     {
       "id": 172,
@@ -6254,7 +6255,7 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. \u20ac7.3M seed funding.",
+      "note": "$36M Series B (Jan 2024) led by IVP. 1M+ users. 10M+ designs created. Berlin-based. €7.3M seed funding.",
       "lastVerified": "2026-02-25T09:15:13.951681+08:00",
       "notes": "Raised $36M Series B (2023-2024). AI-first design platform for creators."
     },
@@ -6759,7 +6760,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Developer-focused AI API platform. Free text-to-image on website. Multiple ML models available.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image/text generator platform. Significant organic search traffic (62% from search per Similarweb Jan 2026). Free tier available."
     },
     {
       "id": 202,
@@ -6789,7 +6791,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "900+ AI voices. Real-time streaming TTS.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "YC-backed AI voice generator (PlayAI). Funded by 500 Global. Premium TTS with 800+ voices."
     },
     {
       "id": 203,
@@ -6818,8 +6821,9 @@
       "videoTimeline": false,
       "note": "Google Workspace Marketplace addon. Quick classroom and business presentations.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00",
-      "ranking": 203
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "ranking": 203,
+      "researchNotes": "AI presentation generator for Google Slides."
     },
     {
       "id": 204,
@@ -6850,7 +6854,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free AI image generator with no login required. Built on Stable Diffusion with proprietary enhancements.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image/design tools suite."
     },
     {
       "id": 205,
@@ -6880,7 +6885,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Best-in-class vectorization. PNG/JPG to SVG. API available for developers.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI bitmap-to-vector converter. 68% direct traffic (Semrush Nov 2025). Backed by Cedar Lake Ventures."
     },
     {
       "id": 206,
@@ -6906,7 +6912,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image upscaler and enhancer."
     },
     {
       "id": 207,
@@ -6934,7 +6941,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Pixelbin.io ecosystem. Free for personal use on website. Commercial use requires Pixelbin subscription.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI background removal tool."
     },
     {
       "id": 208,
@@ -6964,7 +6972,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top 10 most downloaded Civitai model. Excellent for realistic portraits. V6.0 current.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Popular Stable Diffusion fine-tuned model for photorealistic images."
     },
     {
       "id": 209,
@@ -6994,7 +7003,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top anime model on Civitai. Various style variants available. V5 series.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Popular anime-style Stable Diffusion model."
     },
     {
       "id": 210,
@@ -7024,7 +7034,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Linaqruf. Top anime SDXL model. V3.1 current. Danbooru tag compatible.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Anime-focused SDXL model."
     },
     {
       "id": 211,
@@ -7055,7 +7066,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Announced Oct 2024. 30B parameter model. Creates video with sound. Debuts on Instagram 2025.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Meta AI video generation model. Not yet publicly released. Meta developing new model for 2026 release (TechCrunch Dec 2025). Partnered with Blumhouse for filmmaker testing."
     },
     {
       "id": 212,
@@ -7083,7 +7095,8 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI-powered WordPress platform for agencies and businesses. Integrates hosting with site building.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI website builder platform. Competitors include Wix, Squarespace, Webflow."
     },
     {
       "id": 213,
@@ -7119,7 +7132,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$18M funding (2024). Backed by Adobe Ventures, YouTube co-founder.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "3D scanning app. Raised M total. Backed by Adobe Ventures and YouTube co-founder Chad Hurley (Feb 2024). Cross-platform professional 3D capture."
     },
     {
       "id": 214,
@@ -7145,7 +7159,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI art generator using deep dream algorithms."
     },
     {
       "id": 215,
@@ -7183,7 +7198,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$30M revenue. 150K sign-ups/month. 7% conversion rate. ~10.5K new paying customers monthly at $250/yr avg.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Video creation platform for businesses."
     },
     {
       "id": 216,
@@ -7218,7 +7234,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$28.4M Series A led by NEA. Investors: NEA, The House Fund, Gold House Ventures, WndrCo, Eastlink Capital, Essence VC. Mochi 1 is open source.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI video/3D/image generation platform. Raised .4M total funding from 6 investors."
     },
     {
       "id": 217,
@@ -7245,7 +7262,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Vimeo in 2019 for $200M. AI video pioneer.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI video editor (Vimeo-owned)."
     },
     {
       "id": 218,
@@ -7280,7 +7298,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image generation platform with multiple models."
     },
     {
       "id": 219,
@@ -7316,7 +7335,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "20K paid subscribers. 124M+ votes in 2025 challenges.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI art generator with community features. Supports SD, DALL-E 3. Popular with beginners/hobbyists. Active community challenges."
     },
     {
       "id": 220,
@@ -7353,7 +7373,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image upscaler/enhancer. Competitors: Recraft, Leonardo AI, Runware."
     },
     {
       "id": 221,
@@ -7381,7 +7402,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "6M+ users. FXhome discontinued Jan 15, 2025. Acquired by Artlist.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "FXhome video editor. DISCONTINUED - FXhome website taken down Jan 15, 2025. No longer accepting new registrations."
     },
     {
       "id": 222,
@@ -7417,7 +7439,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Founded by Dmitry Skavish & Kate Skavish. Women-founded company.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Online video creation platform for marketers."
     },
     {
       "id": 223,
@@ -7447,7 +7470,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on SD 2.1. Smaller and faster than SDXL Turbo.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Stability AI fast inference SD model."
     },
     {
       "id": 224,
@@ -7484,7 +7508,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "~1M monthly visits. Developed by Stability AI. SDXL paywalled since Oct 2023. Upscaling >2x requires Pro.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image editing tools. Sold by Stability AI to Jasper (April 2025). Co-founder Damien Henry joined Jasper for R&D."
     },
     {
       "id": 225,
@@ -7510,7 +7535,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image/video enhancer and generator. Free tier available."
     },
     {
       "id": 226,
@@ -7540,7 +7566,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By XpucT. Balances photorealism and artistic. V5 current. Top Civitai model.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Popular Stable Diffusion model for versatile image generation."
     },
     {
       "id": 227,
@@ -7570,7 +7597,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Meina. Soft anime aesthetic. V11 current. Popular for character art.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Anime-focused Stable Diffusion model."
     },
     {
       "id": 228,
@@ -7600,7 +7628,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By SG_161222. V5.0 current. Focuses on natural, realistic output.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Photorealistic SDXL fine-tuned model."
     },
     {
       "id": 229,
@@ -7631,7 +7660,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in AI art generation. Known for the original Deep Dream neural network visualization effect.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Duplicate entry of rank 214. AI art generator."
     },
     {
       "id": 230,
@@ -7660,8 +7690,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 200000,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00",
-      "notes": "AI character consistency tool; bounce rate 36%"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "notes": "AI character consistency tool; bounce rate 36%",
+      "researchNotes": "AI image generation with consistent characters."
     },
     {
       "id": 231,
@@ -7697,7 +7728,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular for viral AI effect videos. PixVerse 4.5 model. Credit-based system.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI video generation platform. Series B funding Sep 2025. Competing in AI video space."
     },
     {
       "id": 232,
@@ -7734,7 +7766,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI 3D model generator. Active Discord community. Weekly challenges. 3D printing and game asset focus.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI 3D model generation. Meshy Fellowship 2025 with K research grants. Offers Max subscription tier."
     },
     {
       "id": 233,
@@ -7769,7 +7802,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Built on Replicate. 80+ headshots in 2 hours. From $19/person. Full commercial rights.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI professional headshot generator."
     },
     {
       "id": 234,
@@ -7804,8 +7838,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 1500000,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00",
-      "notes": "Wondershare product; AI avatar video generator"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "notes": "Wondershare product; AI avatar video generator",
+      "researchNotes": "Wondershare AI video generator. 350+ avatars, 400 voices, 80 languages. Available on iOS and desktop."
     },
     {
       "id": 235,
@@ -7838,7 +7873,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Part of KDE project. Linux-focused but cross-platform.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Free open-source video editor (KDE). Cross-platform (Linux/Windows/macOS/BSD). Latest: v25.12.2."
     },
     {
       "id": 236,
@@ -7864,7 +7900,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI design suite (logos, videos, mockups)."
     },
     {
       "id": 237,
@@ -7894,7 +7931,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "47.6K GitHub stars. 7.8K forks. By lllyasviel (ControlNet creator). Midjourney-like simplicity with SD quality.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Open-source AI image generator by Lvmin Zhang. 38K+ GitHub stars (Jul 2024, likely 40K+ now). Midjourney-like simplicity, runs offline."
     },
     {
       "id": 238,
@@ -7921,8 +7959,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 14000,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00",
-      "notes": "12-14K visits; declining; SD-based browser tool"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "notes": "12-14K visits; declining; SD-based browser tool",
+      "researchNotes": "AI image generator with multiple SD models."
     },
     {
       "id": 239,
@@ -7957,7 +7996,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Deep learning-powered photo enhancement. Online and desktop versions available. Pay-as-you-go credit system.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image enhancement tools (upscale, denoise, sharpen)."
     },
     {
       "id": 240,
@@ -7989,7 +8029,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$8M Series A led by GL Ventures. Chinese entrepreneurs team.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image generation platform. Raised M Series A (May 2022)."
     },
     {
       "id": 241,
@@ -8020,7 +8061,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI video creation from text/scripts."
     },
     {
       "id": 242,
@@ -8057,7 +8099,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First AI text-to-music web app. Subscription launched 2025.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Open-source AI music generation. Raised M from 4 investors."
     },
     {
       "id": 243,
@@ -8085,7 +8128,8 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Free with Unreal Engine. MetaHuman 5.7 (Nov 2025).",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Epic Games/Unreal Engine digital human creator. Left Early Access 2025. MetaHuman 5.7 released Dec 2025 with procedural grooming and hair animation."
     },
     {
       "id": 244,
@@ -8119,7 +8163,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Create unique animated stories with original characters. Character Builder for consistency. Actor Builder for digital actors.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI character and scene generation."
     },
     {
       "id": 245,
@@ -8154,8 +8199,9 @@
       "videoTimeline": false,
       "note": "AI social media marketing. Auto-generates posts, carousels, reels, video ads.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00",
-      "ranking": 245
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "ranking": 245,
+      "researchNotes": "AI social media content creation. Raised K seed funding."
     },
     {
       "id": 246,
@@ -8189,7 +8235,8 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI photo editor, Lightroom alternative. Photo RAW 2026.3 update released Feb 2026 with AI Face Restoration improvements."
     },
     {
       "id": 247,
@@ -8219,7 +8266,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. 2-step to 8-step variants. Feb 2024 release. High quality with minimal steps.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "ByteDance fast SDXL inference model."
     },
     {
       "id": 248,
@@ -8249,7 +8297,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By rqdwdw. Clean anime illustration style. V3.0 popular version.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "Anime-style Stable Diffusion model."
     },
     {
       "id": 249,
@@ -8283,7 +8332,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Veteran in background removal space. Trained on millions of real-world images, not lab data.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI background removal tool."
     },
     {
       "id": 250,
@@ -8319,7 +8369,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free daily credits for concept visuals. Fast results. Popular for quick creative content.",
-      "lastVerified": "2026-02-25T04:29:32.528172+08:00"
+      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "researchNotes": "AI image generation platform (imagine.art). Supports multiple models including Seedream v3. 50% affiliate commission program."
     },
     {
       "id": 251,
@@ -10925,7 +10976,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "\u26a0\ufe0f SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
+      "note": "⚠️ SHUTTING DOWN Dec 1, 2025. Part of Kaleido/Depositphotos. Users should migrate to alternatives like VEED.io.",
       "lastVerified": "2026-02-25T05:00:10.535223+08:00"
     },
     {
@@ -14784,7 +14835,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Royalty-free patterns for fashion, fabric, packaging, home d\u00e9cor. High-res repeat tiles.",
+      "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
       "lastVerified": "2026-02-25T05:30:49.763748+08:00",
       "socialMedia": {
         "instagram": {
@@ -25701,7 +25752,7 @@
     },
     {
       "id": 804,
-      "name": "PixArt-\u03a3",
+      "name": "PixArt-Σ",
       "url": "https://github.com/PixArt-alpha/PixArt-sigma",
       "category": "Image Generation",
       "founded": "2024",
@@ -25726,7 +25777,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Mar 2024. Successor to PixArt-\u03b1. Key feature: efficient token compression for ultra-high-resolution.",
+      "note": "Mar 2024. Successor to PixArt-α. Key feature: efficient token compression for ultra-high-resolution.",
       "lastVerified": "2026-02-25T07:30:03.847617+08:00",
       "researchNotes": [
         {
@@ -25766,7 +25817,7 @@
       "researchNotes": [
         {
           "date": "2026-02-25",
-          "note": "PixArt-\u03a3: Stable research project from Huawei. No significant 2025 updates beyond citations."
+          "note": "PixArt-Σ: Stable research project from Huawei. No significant 2025 updates beyond citations."
         }
       ]
     },
@@ -31186,7 +31237,7 @@
       "lastVerified": "2026-02-25T08:15:50.756309+08:00",
       "githubStars": 1963,
       "githubForks": 237,
-      "researchNote": "CVPR 2023, 360\u00b0 3D head synthesis from in-the-wild images"
+      "researchNote": "CVPR 2023, 360° 3D head synthesis from in-the-wild images"
     },
     {
       "id": 955,
