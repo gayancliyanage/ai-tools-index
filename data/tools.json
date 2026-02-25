@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T09:27:00+08:00",
+  "lastUpdated": "2026-02-25T09:42:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 201-250 (cycle 6)",
-    "nextBatch": "ranks 251-300 (cycle 6)",
-    "lastResearched": "2026-02-25T09:27:00+08:00",
+    "lastBatch": "ranks 251-300 (cycle 6)",
+    "nextBatch": "ranks 301-350 (cycle 6)",
+    "lastResearched": "2026-02-25T09:42:00+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -72,10 +72,11 @@
       "51-100 (cycle 6)",
       "101-150 (cycle 6)",
       "151-200 (cycle 6)",
-      "201-250 (cycle 6)"
+      "201-250 (cycle 6)",
+      "251-300 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 batch 5/20. Ranks 201-250 verified. Key updates: HitFilm DISCONTINUED (FXhome shut down Jan 2025), Clipdrop sold to Jasper (Apr 2025), Movie Gen still unreleased (Meta building new model for 2026), Polycam M funded (Adobe Ventures), Genmo .4M funded, PixVerse Series B Sep 2025, Fooocus 38K+ GitHub stars, MetaHuman 5.7 released Dec 2025, ON1 Photo RAW 2026.3 update Feb 2026."
+    "note": "Cycle 6 batch 6/20. Ranks 251-300 verified. Key updates: Elai.io acquired by Panopto, Uberduck declining (legal/voice removals), DeepBrain $55.76M raised/$12.8M revenue, Colossyan $28.2M total funding, Rask AI $2.6M revenue with 24 people, Kittl $36M Series B, Tripo 3.0 launched Feb 2026 for spatial computing, Resemble AI $12.2M raised, Rokoko $80M+ valuation."
   },
   "tools": [
     {
@@ -8401,7 +8402,7 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 252,
@@ -8433,8 +8434,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$5M seed funding. 2M users. Co-founded by Mickey Friedman (U of Chicago grad). AI-generated human models for product shots.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$5M seed funding. AI product photography. AI-generated human models & automated ad content. Co-founded by Mickey Friedman (U of Chicago 2021 grad).",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 253,
@@ -8463,7 +8464,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 254,
@@ -8494,7 +8495,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "SaaS review site; competitor to G2/TrustRadius",
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "monthlyVisits": 500000
     },
     {
@@ -8529,8 +8530,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "$18.6M total funding. Acquired by Miro. 67 employees. 15 investors.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$18.6M total funding. Acquired by Miro. AI-powered UI design generator from text prompts. 23 competitors tracked.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 256,
@@ -8560,7 +8561,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Oct 2024 by Genmo AI. Cutting-edge open-source text-to-video model. Available on GitHub.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 257,
@@ -8592,7 +8593,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "100M+ AI-generated tracks. 1.5M+ creators. Used by Canva, Adidas, FIFA. Polkadot blockchain integration.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 258,
@@ -8623,8 +8624,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$22M funding led by Lakestar. Investors: Launchub, Day One Capital, Emerge Education.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$28.2M total funding over 3 rounds from 10 investors. $22M Series A led by Lakestar. Enterprise AI video platform with real actor avatars.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 259,
@@ -8656,8 +8657,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 536000,
-      "lastVerified": "2026-02-25T04:42:00+08:00",
-      "notes": "536K visits; AI dubbing/localization; 60+ languages"
+      "lastVerified": "2026-02-25T09:42:00+08:00",
+      "notes": "536K visits; AI dubbing/localization; 60+ languages",
+      "note": "AI video localization & dubbing in 130+ languages. Pricing starts $50/month for 25 mins. 24-person team. $2.6M revenue (2025)."
     },
     {
       "id": 260,
@@ -8689,8 +8691,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "$44M Series B led by Korea Development Bank. $180M post-money valuation. Formerly Moneybrain.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$55.76M raised over 10 rounds. $12.8M revenue (2024) with 85 employees. Conversational AI avatars. Formerly Moneybrain.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 261,
@@ -8721,7 +8723,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00",
+      "note": "Acquired by Panopto. AI video creation from text with AI avatars & voice cloning."
     },
     {
       "id": 262,
@@ -8755,7 +8758,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Canva-like interface for video editing. Focus on text overlays.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 263,
@@ -8785,7 +8788,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular Waifu2x alternative. Machine learning trained on millions of images. Up to 6x enlargement with detail restoration.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 264,
@@ -8817,7 +8820,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00",
+      "note": "$80M+ valuation (2022). Profitable. Vision AI mocap + IMU-based suits. Used in animation, gaming, VFX."
     },
     {
       "id": 265,
@@ -8852,8 +8856,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Known for celebrity and character voice mimicking. Instant voice cloning feature. Popular for meme and music creation.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "Declining platform. Legal troubles forced mass celebrity voice removals. Core value proposition gutted. Still operational but reduced quality.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 266,
@@ -8884,7 +8888,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ByteDance unified fast generation framework. Works with SD 1.5, SDXL, SD3. Apr 2024 release.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 267,
@@ -8918,8 +8922,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "Founded by ex-Google DeepMind researchers. Quick generation for simple image-to-video content.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "Founded by ex-Google DeepMind researchers. Perceptual foundation models for video/3D. Good for simple image-to-video.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 268,
@@ -8953,8 +8957,8 @@
       "imageEditor": true,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "All-in-one design platform. Free AI tools including image generation, vectorization, background removal.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$36M Series B (Jan 2024) led by IVP. All-in-one browser design tool. Eliminates app-hopping. AI image gen, vectorization, background removal.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 269,
@@ -8989,7 +8993,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Japanese AI music startup. Customize every instrument. Popular with YouTubers and content creators.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 270,
@@ -9023,7 +9027,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Founded by Clarence Hu. Suite of AI tools for photos, games, and marketing. Pay-per-use model.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 271,
@@ -9058,7 +9062,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Avg professional photoshoot costs $250. Aragon provides alternative from $29. Team plans available.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 272,
@@ -9087,7 +9091,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 100000,
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "notes": "148K HuggingFace downloads/month; open source model"
     },
     {
@@ -9121,7 +9125,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI 3D Model Generator. Multi-view image support for more accurate models. Polygon count adjustable from 3K to 100K.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 274,
@@ -9152,7 +9156,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "LangChain. Launched early 2024. Low-level controllable agents. LangGraph Studio IDE.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 275,
@@ -9185,7 +9189,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$6M seed funding. Gaming, media, marketing focus. Custom model training.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 276,
@@ -9213,7 +9217,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 277,
@@ -9247,7 +9251,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI generates sitemaps in seconds, wireframes in minutes. Figma & Webflow integration. World's largest Figma component library.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 278,
@@ -9281,8 +9285,8 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "1M+ users. $8M funding. 35 years of audio generated in 12 months.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "$12.2M total funding (Series A $8M Jul 2023). 16 investors incl Comcast Ventures, Javelin VP. Voice cloning with ethical AI focus.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 279,
@@ -9313,7 +9317,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "136K+ GitHub stars (Jul 2024). Most popular SD webui. Massive extension ecosystem. Wikipedia page. 17.6K followers.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 280,
@@ -9342,7 +9346,7 @@
       "videoTimeline": false,
       "note": "32K+ GitHub stars. Essential SD extension. Multiple control types.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "ranking": 280
     },
     {
@@ -9374,7 +9378,7 @@
       "videoTimeline": false,
       "note": "Stability AI. 3-stage architecture. More efficient than SDXL. Open weights.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "ranking": 281
     },
     {
@@ -9408,7 +9412,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Wix (May 2025). HR training, eLearning, corporate comms focus.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 283,
@@ -9439,7 +9443,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tencent Hunyuan team. Dialogue-based image refinement. TensorRT 47% speedup. May 2024.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 284,
@@ -9470,7 +9474,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Development version with open weights. Second only to FLUX.1 Pro in quality. Founded by ex-Stability AI researchers.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 285,
@@ -9500,7 +9504,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Created by Philip Wang (2019). Uses StyleGAN3 to generate photorealistic faces of non-existent people. ~375K monthly visits.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 286,
@@ -9535,7 +9539,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Creators of Mochi open-source video model. Stylized video generation platform.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 287,
@@ -9566,7 +9570,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "32 A100 GPU hours training. 2-4 step inference. Oct 2023 paper. Predicts latent directly.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 288,
@@ -9598,7 +9602,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Released Oct 2024. Available on AWS Bedrock, NVIDIA NIM, Hugging Face. Superior prompt adherence.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 289,
@@ -9629,7 +9633,7 @@
       "videoTimeline": true,
       "note": "Premium iPad editor. Pro features rarely found on mobile. LumaTouch.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "ranking": 289
     },
     {
@@ -9661,7 +9665,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "All-in-one AI creative platform. Dance generator, proposal videos. $59.99/yr option.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 291,
@@ -9692,7 +9696,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Professional-grade image enhancement. Comparisons show strong performance against Topaz Gigapixel.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 292,
@@ -9722,7 +9726,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses advanced AI models including Flux. Part of CyberLink ecosystem.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 293,
@@ -9758,7 +9762,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Unique approach combining AI with human music producers. High customization for content creators.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 294,
@@ -9790,7 +9794,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Streamlined version producing high-quality images in only 4 steps. Much faster than original.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 295,
@@ -9825,7 +9829,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$2.2M funding from Samsung Ventures. SayMotion text-to-animation.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 296,
@@ -9860,8 +9864,8 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "note": "Collaboration with Stability AI for TripoSR. Tripo Studio workspace. V2.5 released.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "note": "Tripo 3.0 launched Feb 2026. Enterprise-grade 3D for spatial computing. Expanding US market. 30% affiliate commissions.",
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 297,
@@ -9895,7 +9899,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First AI composer to be recognized by a music rights organization (SACEM). Monetization available on YouTube, Twitch, TikTok, Instagram.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 298,
@@ -9930,7 +9934,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Create animated videos with AI characters. Popular for YouTube content creation.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 299,
@@ -9958,9 +9962,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "note": "26.8K GitHub stars. Successor to Roop. Active development. HyperSwap models.",
+      "note": "Industry-leading open-source face manipulation. Active development (ComfyUI integration Feb 2026). facefusion.io",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T04:42:00+08:00",
+      "lastVerified": "2026-02-25T09:42:00+08:00",
       "ranking": 299
     },
     {
@@ -9994,7 +9998,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$13.8M funding. Founded by ex-DeepMind Dr. Yishu Miao and Dr. Ziyu Wang. Investor: Octopus Ventures. Web app shut down early 2025.",
-      "lastVerified": "2026-02-25T04:42:00+08:00"
+      "lastVerified": "2026-02-25T09:42:00+08:00"
     },
     {
       "id": 301,
