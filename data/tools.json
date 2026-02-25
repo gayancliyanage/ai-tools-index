@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T14:12:00+08:00",
+  "lastUpdated": "2026-02-25T14:27:00+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 151-200 (cycle 7)",
-    "nextBatch": "ranks 201-250 (cycle 7)",
-    "lastResearched": "2026-02-25T14:12:00+08:00",
+    "lastBatch": "ranks 201-250 (cycle 7)",
+    "nextBatch": "ranks 251-300 (cycle 7)",
+    "lastResearched": "2026-02-25T14:27:00+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -91,10 +91,11 @@
       "1-50 (cycle 7)",
       "51-100 (cycle 7)",
       "101-150 (cycle 7)",
-      "151-200 (cycle 7)"
+      "151-200 (cycle 7)",
+      "201-250 (cycle 7)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 7 batch 151-200 complete. Key findings: Pixelcut 17.6M visits, 200K app downloads/mo; Haiper pivoted to B2B, 179K visits; ComfyUI 69K+ GitHub stars (top 100); Kittl $61.5M funding; Hedra $32M funding (May 2025); Akool #1 Inc 5000; Fliki $1.4M revenue bootstrapped; Stable Audio 2.5 launched Dec 2025; Spline $15M seed."
+    "note": "Cycle 7 batch 201-250 complete. Key findings: DeepAI 16.13M visits/mo; PixVerse $60M Series B (Alibaba), 100M+ users; PlayAI (Play.ht) raised $21M seed; Virbo DISCONTINUED June 2025; Clipdrop acquired by Jasper from Stability AI (Feb 2024); Polycam $22M funding; 10Web profitable, 2M+ websites; ImagineArt 30M+ users, 100M+ downloads; Fooocus 14K+ GitHub stars; Meta Movie Gen coming to Instagram."
   },
   "tools": [
     {
@@ -6792,7 +6793,7 @@
       "social": {
         "twitter": 20000
       },
-      "estimatedMonthlyVisits": 2000000,
+      "estimatedMonthlyVisits": 16130000,
       "estimatedUsers": 500000,
       "ranking": 201,
       "dataQuality": "verified",
@@ -6802,8 +6803,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Developer-focused AI API platform. Free text-to-image on website. Multiple ML models available.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image/text generator platform. Significant organic search traffic (62% from search per Similarweb Jan 2026). Free tier available."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image/text generator platform. Significant organic search traffic (62% from search per Similarweb Jan 2026). Free tier available.",
+      "notes": "16.13M visits Nov 2025 (Semrush). Organic search dominant (62%). Ranks #1 for 'ai chat' in US."
     },
     {
       "id": 202,
@@ -6833,8 +6835,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "900+ AI voices. Real-time streaming TTS.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "YC-backed AI voice generator (PlayAI). Funded by 500 Global. Premium TTS with 800+ voices."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "YC-backed AI voice generator (PlayAI). Funded by 500 Global. Premium TTS with 800+ voices.",
+      "notes": "Rebranded to PlayAI. Raised $21M seed (Nov 2024). YC alumni, 500 Global backed. Focus shifted to conversational AI voice agents."
     },
     {
       "id": 203,
@@ -6863,9 +6866,10 @@
       "videoTimeline": false,
       "note": "Google Workspace Marketplace addon. Quick classroom and business presentations.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "lastVerified": "2026-02-25T14:27:00+08:00",
       "ranking": 203,
-      "researchNotes": "AI presentation generator for Google Slides."
+      "researchNotes": "AI presentation generator for Google Slides.",
+      "notes": "Google Slides AI add-on. Niche presentation tool."
     },
     {
       "id": 204,
@@ -6886,7 +6890,7 @@
       "social": {
         "twitter": 10000
       },
-      "estimatedMonthlyVisits": 2000000,
+      "estimatedMonthlyVisits": 1800000,
       "estimatedUsers": 500000,
       "ranking": 204,
       "dataQuality": "verified",
@@ -6896,8 +6900,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free AI image generator with no login required. Built on Stable Diffusion with proprietary enhancements.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image/design tools suite."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image/design tools suite.",
+      "notes": "1.8M monthly visits Q3 2025 (Similarweb). 270% YoY user increase 2022-2023. 523K visits Oct 2025 (Semrush lower estimate)."
     },
     {
       "id": 205,
@@ -6927,8 +6932,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Best-in-class vectorization. PNG/JPG to SVG. API available for developers.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI bitmap-to-vector converter. 68% direct traffic (Semrush Nov 2025). Backed by Cedar Lake Ventures."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI bitmap-to-vector converter. 68% direct traffic (Semrush Nov 2025). Backed by Cedar Lake Ventures.",
+      "notes": "AI bitmap-to-vector conversion tool. Niche but well-regarded."
     },
     {
       "id": 206,
@@ -6954,8 +6960,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image upscaler and enhancer."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image upscaler and enhancer.",
+      "notes": "AI image upscaler. Steady niche tool."
     },
     {
       "id": 207,
@@ -6983,8 +6990,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of Pixelbin.io ecosystem. Free for personal use on website. Commercial use requires Pixelbin subscription.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI background removal tool."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI background removal tool.",
+      "notes": "Free background remover. Competes with remove.bg."
     },
     {
       "id": 208,
@@ -7014,8 +7022,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top 10 most downloaded Civitai model. Excellent for realistic portraits. V6.0 current.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Popular Stable Diffusion fine-tuned model for photorealistic images."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Popular Stable Diffusion fine-tuned model for photorealistic images.",
+      "notes": "Popular CivitAI SD model (v6.0 B1). Open-source checkpoint."
     },
     {
       "id": 209,
@@ -7045,8 +7054,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Top anime model on Civitai. Various style variants available. V5 series.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Popular anime-style Stable Diffusion model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Popular anime-style Stable Diffusion model.",
+      "notes": "Popular anime-style CivitAI SD model."
     },
     {
       "id": 210,
@@ -7076,8 +7086,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Linaqruf. Top anime SDXL model. V3.1 current. Danbooru tag compatible.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Anime-focused SDXL model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Anime-focused SDXL model.",
+      "notes": "Anime SDXL model on CivitAI (v3.1)."
     },
     {
       "id": 211,
@@ -7108,8 +7119,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Announced Oct 2024. 30B parameter model. Creates video with sound. Debuts on Instagram 2025.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Meta AI video generation model. Not yet publicly released. Meta developing new model for 2026 release (TechCrunch Dec 2025). Partnered with Blumhouse for filmmaker testing."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Meta AI video generation model. Not yet publicly released. Meta developing new model for 2026 release (TechCrunch Dec 2025). Partnered with Blumhouse for filmmaker testing.",
+      "notes": "Meta's AI video/audio model. Not yet publicly available. Set to debut on Instagram in 2025. Blumhouse partnership for filmmaker beta."
     },
     {
       "id": 212,
@@ -7128,7 +7140,7 @@
       ],
       "social": {},
       "estimatedMonthlyVisits": 2000000,
-      "estimatedUsers": 300000,
+      "estimatedUsers": 2000000,
       "ranking": 212,
       "dataQuality": "verified",
       "imageGen": false,
@@ -7137,8 +7149,9 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "AI-powered WordPress platform for agencies and businesses. Integrates hosting with site building.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI website builder platform. Competitors include Wix, Squarespace, Webflow."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI website builder platform. Competitors include Wix, Squarespace, Webflow.",
+      "notes": "AI website builder. $5M seed, profitable. Generated 2M+ websites since 2020 founding. Launched API access May 2025."
     },
     {
       "id": 213,
@@ -7174,8 +7187,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$18M funding (2024). Backed by Adobe Ventures, YouTube co-founder.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "3D scanning app. Raised M total. Backed by Adobe Ventures and YouTube co-founder Chad Hurley (Feb 2024). Cross-platform professional 3D capture."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "3D scanning app. Raised M total. Backed by Adobe Ventures and YouTube co-founder Chad Hurley (Feb 2024). Cross-platform professional 3D capture.",
+      "notes": "3D scanning app. Raised $22M total ($18M round Feb 2024). Backed by Adobe Ventures and YouTube co-founder Chad Hurley."
     },
     {
       "id": 214,
@@ -7201,8 +7215,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI art generator using deep dream algorithms."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI art generator using deep dream algorithms.",
+      "notes": "AI art generator. Legacy deep dream style tool."
     },
     {
       "id": 215,
@@ -7240,8 +7255,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "$30M revenue. 150K sign-ups/month. 7% conversion rate. ~10.5K new paying customers monthly at $250/yr avg.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Video creation platform for businesses."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Video creation platform for businesses.",
+      "notes": "Video maker with drag-and-drop UI. Legacy tool, some billing complaints from users."
     },
     {
       "id": 216,
@@ -7276,8 +7292,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$28.4M Series A led by NEA. Investors: NEA, The House Fund, Gold House Ventures, WndrCo, Eastlink Capital, Essence VC. Mochi 1 is open source.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI video/3D/image generation platform. Raised .4M total funding from 6 investors."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI video/3D/image generation platform. Raised .4M total funding from 6 investors.",
+      "notes": "AI video/image/3D generation platform. Founded 2022. Competitors: Lightricks, VideoVerse, Riverside."
     },
     {
       "id": 217,
@@ -7304,8 +7321,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Vimeo in 2019 for $200M. AI video pioneer.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI video editor (Vimeo-owned)."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI video editor (Vimeo-owned).",
+      "notes": "AI video editor (acquired by Vimeo). Legacy tool."
     },
     {
       "id": 218,
@@ -7331,7 +7349,7 @@
           "followers": null
         }
       },
-      "estimatedMonthlyVisits": 1800000,
+      "estimatedMonthlyVisits": 335000,
       "estimatedUsers": 400000,
       "ranking": 218,
       "dataQuality": "verified",
@@ -7340,8 +7358,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image generation platform with multiple models."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image generation platform with multiple models.",
+      "notes": "335K monthly organic visits Jul 2025. AI image generation platform with multiple models."
     },
     {
       "id": 219,
@@ -7377,8 +7396,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "20K paid subscribers. 124M+ votes in 2025 challenges.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI art generator with community features. Supports SD, DALL-E 3. Popular with beginners/hobbyists. Active community challenges."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI art generator with community features. Supports SD, DALL-E 3. Popular with beginners/hobbyists. Active community challenges.",
+      "notes": "AI art generator with strong community features. Free daily credits. Challenges and chat rooms. Millions of users."
     },
     {
       "id": 220,
@@ -7415,8 +7435,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image upscaler/enhancer. Competitors: Recraft, Leonardo AI, Runware."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image upscaler/enhancer. Competitors: Recraft, Leonardo AI, Runware.",
+      "notes": "AI image upscaler (up to 16x). Premium pricing ($39-$299/mo). No refund policy due to GPU costs."
     },
     {
       "id": 221,
@@ -7444,8 +7465,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "6M+ users. FXhome discontinued Jan 15, 2025. Acquired by Artlist.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "FXhome video editor. DISCONTINUED - FXhome website taken down Jan 15, 2025. No longer accepting new registrations."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "FXhome video editor. DISCONTINUED - FXhome website taken down Jan 15, 2025. No longer accepting new registrations.",
+      "notes": "Video editing software by FXhome. Free tier available."
     },
     {
       "id": 222,
@@ -7481,8 +7503,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Founded by Dmitry Skavish & Kate Skavish. Women-founded company.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Online video creation platform for marketers."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Online video creation platform for marketers.",
+      "notes": "Online video maker and hosting platform."
     },
     {
       "id": 223,
@@ -7512,8 +7535,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Based on SD 2.1. Smaller and faster than SDXL Turbo.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Stability AI fast inference SD model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Stability AI fast inference SD model.",
+      "notes": "Stability AI's fast inference SD model (SDXL Turbo)."
     },
     {
       "id": 224,
@@ -7550,8 +7574,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "~1M monthly visits. Developed by Stability AI. SDXL paywalled since Oct 2023. Upscaling >2x requires Pro.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image editing tools. Sold by Stability AI to Jasper (April 2025). Co-founder Damien Henry joined Jasper for R&D."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image editing tools. Sold by Stability AI to Jasper (April 2025). Co-founder Damien Henry joined Jasper for R&D.",
+      "notes": "Acquired by Jasper from Stability AI (Feb 2024). Originally by InitML, acquired by Stability Feb 2023."
     },
     {
       "id": 225,
@@ -7577,8 +7602,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image/video enhancer and generator. Free tier available."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image/video enhancer and generator. Free tier available.",
+      "notes": "AI image enhancement and generation platform."
     },
     {
       "id": 226,
@@ -7608,8 +7634,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By XpucT. Balances photorealism and artistic. V5 current. Top Civitai model.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Popular Stable Diffusion model for versatile image generation."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Popular Stable Diffusion model for versatile image generation.",
+      "notes": "Popular CivitAI SD model for realistic images."
     },
     {
       "id": 227,
@@ -7639,8 +7666,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Meina. Soft anime aesthetic. V11 current. Popular for character art.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Anime-focused Stable Diffusion model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Anime-focused Stable Diffusion model.",
+      "notes": "Anime-style CivitAI SD model."
     },
     {
       "id": 228,
@@ -7670,8 +7698,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By SG_161222. V5.0 current. Focuses on natural, realistic output.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Photorealistic SDXL fine-tuned model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Photorealistic SDXL fine-tuned model.",
+      "notes": "Realistic SDXL model on CivitAI (v5.0)."
     },
     {
       "id": 229,
@@ -7702,8 +7731,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pioneer in AI art generation. Known for the original Deep Dream neural network visualization effect.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Duplicate entry of rank 214. AI art generator."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Duplicate entry of rank 214. AI art generator.",
+      "notes": "Duplicate entry of #214. AI art generator."
     },
     {
       "id": 230,
@@ -7732,8 +7762,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 200000,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "notes": "AI character consistency tool; bounce rate 36%",
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "notes": "AI image generation platform. YC-backed. Raised $725K total ($600K in 2021). Used for AI model/character creation.",
       "researchNotes": "AI image generation with consistent characters."
     },
     {
@@ -7760,8 +7790,8 @@
           "followers": 87000
         }
       },
-      "estimatedMonthlyVisits": 1500000,
-      "estimatedUsers": 300000,
+      "estimatedMonthlyVisits": 5000000,
+      "estimatedUsers": 100000000,
       "ranking": 231,
       "dataQuality": "verified",
       "imageGen": true,
@@ -7770,8 +7800,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Popular for viral AI effect videos. PixVerse 4.5 model. Credit-based system.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI video generation platform. Series B funding Sep 2025. Competing in AI video space."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI video generation platform. Series B funding Sep 2025. Competing in AI video space.",
+      "notes": "Raised $60M Series B (Sep 2025) led by Alibaba. 100M+ users globally. Major AI video platform."
     },
     {
       "id": 232,
@@ -7808,8 +7839,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "#1 AI 3D model generator. Active Discord community. Weekly challenges. 3D printing and game asset focus.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI 3D model generation. Meshy Fellowship 2025 with K research grants. Offers Max subscription tier."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI 3D model generation. Meshy Fellowship 2025 with K research grants. Offers Max subscription tier.",
+      "notes": "AI 3D model generator. Text/image to 3D. Free tier available. Targets game devs and 3D artists."
     },
     {
       "id": 233,
@@ -7844,8 +7876,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Built on Replicate. 80+ headshots in 2 hours. From $19/person. Full commercial rights.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI professional headshot generator."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI professional headshot generator.",
+      "notes": "AI professional headshot generator. 50+ headshots per session. Free tier available."
     },
     {
       "id": 234,
@@ -7870,7 +7903,7 @@
           "followers": null
         }
       },
-      "estimatedMonthlyVisits": 1500000,
+      "estimatedMonthlyVisits": 405600,
       "estimatedUsers": 300000,
       "ranking": 234,
       "dataQuality": "verified",
@@ -7880,9 +7913,10 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 1500000,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "notes": "Wondershare product; AI avatar video generator",
-      "researchNotes": "Wondershare AI video generator. 350+ avatars, 400 voices, 80 languages. Available on iOS and desktop."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "notes": "DISCONTINUED - Wondershare Virbo officially shut down June 30, 2025. Was AI avatar video generator.",
+      "researchNotes": "Wondershare AI video generator. 350+ avatars, 400 voices, 80 languages. Available on iOS and desktop.",
+      "status": "discontinued"
     },
     {
       "id": 235,
@@ -7915,8 +7949,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Part of KDE project. Linux-focused but cross-platform.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Free open-source video editor (KDE). Cross-platform (Linux/Windows/macOS/BSD). Latest: v25.12.2."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Free open-source video editor (KDE). Cross-platform (Linux/Windows/macOS/BSD). Latest: v25.12.2.",
+      "notes": "Open-source video editor. Not AI-focused. Community-driven."
     },
     {
       "id": 236,
@@ -7942,8 +7977,9 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI design suite (logos, videos, mockups)."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI design suite (logos, videos, mockups).",
+      "notes": "AI design suite. Organic search drives 54% of traffic."
     },
     {
       "id": 237,
@@ -7973,8 +8009,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "47.6K GitHub stars. 7.8K forks. By lllyasviel (ControlNet creator). Midjourney-like simplicity with SD quality.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Open-source AI image generator by Lvmin Zhang. 38K+ GitHub stars (Jul 2024, likely 40K+ now). Midjourney-like simplicity, runs offline."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Open-source AI image generator by Lvmin Zhang. 38K+ GitHub stars (Jul 2024, likely 40K+ now). Midjourney-like simplicity, runs offline.",
+      "notes": "Open-source Stable Diffusion UI by lllyasviel (ControlNet creator). Midjourney-like UX for SD. 14K+ GitHub stars."
     },
     {
       "id": 238,
@@ -8001,8 +8038,8 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyTraffic": 14000,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "notes": "12-14K visits; declining; SD-based browser tool",
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "notes": "AI art generation platform using SD models.",
       "researchNotes": "AI image generator with multiple SD models."
     },
     {
@@ -8038,8 +8075,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Deep learning-powered photo enhancement. Online and desktop versions available. Pay-as-you-go credit system.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image enhancement tools (upscale, denoise, sharpen)."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image enhancement tools (upscale, denoise, sharpen).",
+      "notes": "AI photo enhancer/upscaler suite. Image enhancer, upscaler, background remover. Up to 40x upscaling."
     },
     {
       "id": 240,
@@ -8071,8 +8109,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$8M Series A led by GL Ventures. Chinese entrepreneurs team.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image generation platform. Raised M Series A (May 2022)."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image generation platform. Raised M Series A (May 2022).",
+      "notes": "AI image generation. 57% direct traffic. Chinese-backed (authing.cn auth)."
     },
     {
       "id": 241,
@@ -8103,8 +8142,9 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": true,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI video creation from text/scripts."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI video creation from text/scripts.",
+      "notes": "AI video generator. Text/audio to animation and live-action clips. Free tier with 4K export."
     },
     {
       "id": 242,
@@ -8141,8 +8181,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "First AI text-to-music web app. Subscription launched 2025.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Open-source AI music generation. Raised M from 4 investors."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Open-source AI music generation. Raised M from 4 investors.",
+      "notes": "AI music generator using stable diffusion on spectrograms. Free, no login required."
     },
     {
       "id": 243,
@@ -8170,8 +8211,9 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "Free with Unreal Engine. MetaHuman 5.7 (Nov 2025).",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Epic Games/Unreal Engine digital human creator. Left Early Access 2025. MetaHuman 5.7 released Dec 2025 with procedural grooming and hair animation."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Epic Games/Unreal Engine digital human creator. Left Early Access 2025. MetaHuman 5.7 released Dec 2025 with procedural grooming and hair animation.",
+      "notes": "Unreal Engine's digital human creation framework. Free with UE license. Used in games/film."
     },
     {
       "id": 244,
@@ -8205,8 +8247,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Create unique animated stories with original characters. Character Builder for consistency. Actor Builder for digital actors.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI character and scene generation."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI character and scene generation.",
+      "notes": "AI character/story creation platform. Global rank ~156K (Dec 2025). Fable Studio product."
     },
     {
       "id": 245,
@@ -8241,9 +8284,10 @@
       "videoTimeline": false,
       "note": "AI social media marketing. Auto-generates posts, carousels, reels, video ads.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
+      "lastVerified": "2026-02-25T14:27:00+08:00",
       "ranking": 245,
-      "researchNotes": "AI social media content creation. Raised K seed funding."
+      "researchNotes": "AI social media content creation. Raised K seed funding.",
+      "notes": "AI ad/social media content generator. A/B testing, creative scoring. Free trial available."
     },
     {
       "id": 246,
@@ -8277,8 +8321,9 @@
       "imageEditor": true,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI photo editor, Lightroom alternative. Photo RAW 2026.3 update released Feb 2026 with AI Face Restoration improvements."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI photo editor, Lightroom alternative. Photo RAW 2026.3 update released Feb 2026 with AI Face Restoration improvements.",
+      "notes": "Photo editor with AI features. Perpetual license ~$50/yr. 2026.3 version released. Lightroom alternative."
     },
     {
       "id": 247,
@@ -8308,8 +8353,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. 2-step to 8-step variants. Feb 2024 release. High quality with minimal steps.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "ByteDance fast SDXL inference model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "ByteDance fast SDXL inference model.",
+      "notes": "ByteDance's fast SDXL inference model on HuggingFace. Open-source distilled model."
     },
     {
       "id": 248,
@@ -8339,8 +8385,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By rqdwdw. Clean anime illustration style. V3.0 popular version.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "Anime-style Stable Diffusion model."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "Anime-style Stable Diffusion model.",
+      "notes": "Anime-style CivitAI SD model (v3.0)."
     },
     {
       "id": 249,
@@ -8374,8 +8421,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Veteran in background removal space. Trained on millions of real-world images, not lab data.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI background removal tool."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI background removal tool.",
+      "notes": "Online background removal tool. $64.99/mo business pricing. Daily use by thousands."
     },
     {
       "id": 250,
@@ -8402,7 +8450,7 @@
         }
       },
       "estimatedMonthlyVisits": 1000000,
-      "estimatedUsers": 250000,
+      "estimatedUsers": 30000000,
       "ranking": 250,
       "dataQuality": "verified",
       "imageGen": true,
@@ -8411,8 +8459,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free daily credits for concept visuals. Fast results. Popular for quick creative content.",
-      "lastVerified": "2026-02-25T09:27:00+08:00",
-      "researchNotes": "AI image generation platform (imagine.art). Supports multiple models including Seedream v3. 50% affiliate commission program."
+      "lastVerified": "2026-02-25T14:27:00+08:00",
+      "researchNotes": "AI image generation platform (imagine.art). Supports multiple models including Seedream v3. 50% affiliate commission program.",
+      "notes": "30M+ users, 100M+ downloads. AI creative suite: images, videos, shorts, voice. Available on web, iOS, Android."
     },
     {
       "id": 251,
