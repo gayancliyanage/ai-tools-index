@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T10:15:06.018269+08:00",
+  "lastUpdated": "2026-02-25T10:29:42.633482+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 351-400 (cycle 6)",
-    "nextBatch": "ranks 401-450 (cycle 6)",
-    "lastResearched": "2026-02-25T10:15:06.018269+08:00",
+    "lastBatch": "ranks 401-450 (cycle 6)",
+    "nextBatch": "ranks 451-500 (cycle 6)",
+    "lastResearched": "2026-02-25T10:29:42.633482+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -75,7 +75,8 @@
       "201-250 (cycle 6)",
       "251-300 (cycle 6)",
       "301-350 (cycle 6)",
-      "351-400 (cycle 6)"
+      "351-400 (cycle 6)",
+      "401-450 (cycle 6)"
     ],
     "cycleNumber": 6,
     "note": "Cycle 6 batch 8/20. Ranks 351-400 verified. Key updates: Vizcom $27M Series B (700K+ designers), Bria AI $40M Series B ($65M total, licensed data), OpenDevin renamed to OpenHands, MetaGPT launched MGX product (Feb 2025), Open-Sora 2.0 SOTA-level for $200K training, MCP became industry standard (adopted by OpenAI/Google/MS), Riffusion Voice Over Mode (Dec 2025), PromeAI ~1.6M monthly visits, InvokeAI added FLUX.2 Klein + CogView4 support."
@@ -13272,7 +13273,7 @@
       "imageCanvas": false,
       "videoTimeline": true,
       "note": "VR-native 3D creation. Text and voice controls.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 1934
@@ -13307,7 +13308,7 @@
       "imageEditor": false,
       "imageCanvas": false,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI music composition, IG @beatovenai 3.2K"
     },
     {
@@ -13340,7 +13341,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Free Mac app by solo dev. One-click installer, no dependencies. Flux support added Aug 2024. Apple Silicon optimized.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Mac-only Stable Diffusion app, no social presence, open-source"
     },
     {
@@ -13373,7 +13374,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2022 paper. 17.8K+ GitHub stars. Codebook Lookup Transformer for face restoration. Hugging Face Space demo available.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research project by Tencent ARC, face restoration, GitHub-only"
     },
     {
@@ -13406,7 +13407,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Tencent ARC Lab. 36K+ GitHub stars. Integrates with Real-ESRGAN for background upscaling. Versions 1, 1.2, 1.3 available.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research project by Tencent ARC, face restoration, GitHub 36K+ stars"
     },
     {
@@ -13439,7 +13440,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Open source by Suno. Can generate speech, music, sound effects.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Open-source TTS by Suno AI, GitHub-only"
     },
     {
@@ -13471,7 +13472,7 @@
       "videoTimeline": false,
       "note": "Kuaishou VGI research. 13K+ GitHub stars. Real-time inference capable.",
       "dataQuality": "verified",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "ranking": 407,
       "verificationNotes": "KwaiVGI portrait animation, 13.9K GitHub stars, adopted by Kuaishou/Douyin/Jianying"
     },
@@ -13505,7 +13506,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "300+ headshots per order. Various professional styles. Good for job seekers.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI headshot generator, 196K+ professionals served, minimal social presence"
     },
     {
@@ -13536,7 +13537,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 50000,
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "note": "Research project; widely used in ComfyUI/SD workflows",
       "verificationNotes": "Research project, zero-shot identity-preserving generation"
     },
@@ -13570,7 +13571,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pure and Lightning ID. Fast tuning-free personalization. Mar 2024 release.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research model, GitHub-only"
     },
     {
@@ -13603,7 +13604,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "THUDM/Zhipu AI. Relay diffusion for efficient generation. Powers Zhipu products.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "THUDM research model, GitHub-only"
     },
     {
@@ -13636,7 +13637,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MIT and MyShell collaboration. Instant voice cloning from short audio. Cost-effective.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "MyShell voice cloning, 36K GitHub stars, MIT license"
     },
     {
@@ -13668,7 +13669,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Ecosystem of community-trained LoRA adapters for FLUX. Widely used on Civitai and HuggingFace.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Black Forest Labs model variants on HuggingFace"
     },
     {
@@ -13700,7 +13701,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta Research demo. Transform doodles into detailed artwork. Mobile-accessible interface.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Meta demo lab sketch tool"
     },
     {
@@ -13732,7 +13733,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Edit images via natural language instructions without mask or inversion.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research project by Tim Brooks"
     },
     {
@@ -13765,7 +13766,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Yohei Nakajima (venture capitalist). Mar 2023. Task-driven autonomous agent loop. 20K+ stars.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "20.7K GitHub stars, self-building autonomous agent framework by yoheinakajima"
     },
     {
@@ -13797,7 +13798,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Business-focused AI music. Premium features for enterprises. Soundful Studios for production.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI music generator, IG @soundfulmusic 9.4K"
     },
     {
@@ -13829,7 +13830,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses ControlNet with Stable Diffusion. Transform quick doodles into diverse artistic styles.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Sketch to image tool"
     },
     {
@@ -13860,7 +13861,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "monthlyVisits": 147000,
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "note": "146.7K monthly visits Nov 2025-Jan 2026",
       "socialMedia": {
         "instagram": {
@@ -13898,7 +13899,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$3M seed from Chamaeleon, Acrobator, Hype Ventures, Margo Georgiadis. E-commerce image enhancement API.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 10000
@@ -13936,7 +13937,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "UC Berkeley project. Open source NeRF framework.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Open-source NeRF framework"
     },
     {
@@ -13967,7 +13968,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Text-to-GIF AI generation. Hotshot-XL open source SDXL-based GIF model.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Acquired by xAI (Elon Musk) in March 2025, AI video generation"
     },
     {
@@ -13998,7 +13999,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "img2vid-xt generates 25 frames. Commercial use requires Stability AI license.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Stability AI model on HuggingFace"
     },
     {
@@ -14030,7 +14031,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Part of FineShare platform; includes vocal remover, stem splitter",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "monthlyVisits": 100000,
       "verificationNotes": "FineShare AI singing voice tool"
     },
@@ -14064,7 +14065,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "AI productivity tool with comprehensive AI tool comparison guides. Luma AI pricing guide.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "monthlyTraffic": 80000,
       "researchNotes": "AI knowledge base assistant for teams. $5.27M funding.",
       "verificationNotes": "AI knowledge/support tool"
@@ -14086,7 +14087,7 @@
         "API"
       ],
       "social": {
-        "instagram": 0,
+        "instagram": 164,
         "twitter": 0
       },
       "estimatedMonthlyVisits": 200000,
@@ -14099,7 +14100,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Acquired by Shutterstock in 2020. Enterprise AI music solution. API integration available.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Acquired by Shutterstock"
     },
     {
@@ -14130,7 +14131,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By ByteDance. Achieves high quality in just 2-4 inference steps using progressive distillation.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "ByteDance model on HuggingFace"
     },
     {
@@ -14161,7 +14162,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICML 2023 by Yang Song et al (OpenAI). FID 3.55 on CIFAR-10 for one-step generation.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research paper/arxiv only"
     },
     {
@@ -14194,7 +14195,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Build custom AI video workflows. Combines music and video generation in one platform.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "monthlyTraffic": 120000,
       "researchNotes": "AI video avatar platform. $5.27M total funding. Pricing $39-149/mo.",
       "socialMedia": {
@@ -14233,7 +14234,7 @@
       "imageCanvas": true,
       "videoTimeline": false,
       "note": "Acquired by soona (Mar 2024). Originally Zerolens GmbH. 100+ AI background templates.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 3156
@@ -14271,7 +14272,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Princeton NLP. NeurIPS 2024. SWE-bench creators. Used by Meta, NVIDIA, IBM. Mini-SWE-agent 100 lines.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Software engineering agent, also has mini-swe-agent scoring 74%+ on SWE-bench"
     },
     {
@@ -14303,7 +14304,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$12.5M total funding. Acquired by Autodesk (May 2024). Epic Games and Founders Fund investors.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Acquired by Autodesk in May 2024, AI VFX tool"
     },
     {
@@ -14336,7 +14337,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 50000,
       "researchNotes": "AI motion capture from video. Niche tool for 3D animation.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 3899
@@ -14373,7 +14374,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "E-commerce focused. 50%+ higher sales reported by Etsy sellers. 100 images/day on Standard.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Duplicate of #430"
     },
     {
@@ -14403,7 +14404,7 @@
       "imageEditor": false,
       "imageCanvas": true,
       "videoTimeline": false,
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI design tool, Twitter @rungalileo 1.4K (note: may be different product - evaluation platform)"
     },
     {
@@ -14435,7 +14436,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "$64.2M total funding over 4 rounds from 19 investors. Real-time conversational AI avatars.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 189
@@ -14474,7 +14475,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenAudio S1 (4B params) flagship. Fish Speech v1.5 trained on 1M+ hours.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Fish Audio TTS, state-of-the-art open source TTS"
     },
     {
@@ -14505,7 +14506,7 @@
       "videoTimeline": false,
       "monthlyTraffic": 30000,
       "researchNotes": "AI product photo generator. Small niche tool.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 130
@@ -14542,7 +14543,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "100+ avatar styles. Focus on artistic portraits and social avatars.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI photo tool, IG @thedream_ai 275"
     },
     {
@@ -14575,7 +14576,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "MIT Han Lab. Generate images with multiple subjects without fine-tuning.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "MIT research, GitHub-only"
     },
     {
@@ -14608,7 +14609,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Segmind. 50% smaller and 60% faster than SDXL. Knowledge distillation.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Segmind model on HuggingFace"
     },
     {
@@ -14640,7 +14641,7 @@
       "monthlyTraffic": 15000,
       "researchNotes": "AI art generator app. Discontinued in 2025 per AllAboutAI.",
       "status": "discontinued",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "AI art/video generation app"
     },
     {
@@ -14674,7 +14675,7 @@
       "monthlyTraffic": 200000,
       "researchNotes": "IP-Adapter - open source image prompt adapter. Research project/GitHub.",
       "isOpenSource": true,
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Research project, image prompt adapter"
     },
     {
@@ -14708,7 +14709,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Coqui TTS XTTS-v2 model. 17 languages, emotion/style transfer, cross-lingual cloning.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Coqui AI TTS, open-source"
     },
     {
@@ -14739,7 +14740,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Specialized FLUX model for seamless content filling and expansion.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Black Forest Labs inpainting model"
     },
     {
@@ -14770,7 +14771,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Specialized for seamless inpainting with context-aware generation.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Black Forest Labs inpainting variant"
     },
     {
@@ -14803,7 +14804,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2025. 59x faster than Diffusers. Batched denoising + residual CFG. Live video-to-video capable.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "Real-time diffusion pipeline, GitHub"
     },
     {
@@ -14836,7 +14837,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2024. Alibaba Tongyi Lab. Viral demo Dec 2023. Animate Anyone 2 released Feb 2025 with environment affordance.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "verificationNotes": "HumanAIGC research project, character animation"
     },
     {
@@ -14868,7 +14869,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Designed specifically for video creators. Select scene, mood, and length for perfect video sync.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 661
@@ -14905,7 +14906,7 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Royalty-free patterns for fashion, fabric, packaging, home décor. High-res repeat tiles.",
-      "lastVerified": "2026-02-25T05:30:49.763748+08:00",
+      "lastVerified": "2026-02-25T10:29:42.633482+08:00",
       "socialMedia": {
         "instagram": {
           "followers": 182
