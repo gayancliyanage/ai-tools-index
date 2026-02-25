@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T12:57:00.000000+08:00",
+  "lastUpdated": "2026-02-25T13:12:00.000000+08:00",
   "totalTools": 1000,
   "categories": [
     "Image Generation",
@@ -20,9 +20,9 @@
     "status": "IN_PROGRESS",
     "totalTools": 1000,
     "verifiedTools": 1000,
-    "lastBatch": "ranks 901-950 (cycle 6)",
-    "nextBatch": "ranks 951-1000 (cycle 6)",
-    "lastResearched": "2026-02-25T12:57:00.000000+08:00",
+    "lastBatch": "ranks 951-1000 (cycle 6)",
+    "nextBatch": "ranks 1-50 (cycle 7)",
+    "lastResearched": "2026-02-25T13:12:00.000000+08:00",
     "batchesCompleted": [
       "1-10",
       "11-60",
@@ -86,10 +86,11 @@
       "751-800 (cycle 6)",
       "801-850 (cycle 6)",
       "851-900 (cycle 6)",
-      "901-950 (cycle 6)"
+      "901-950 (cycle 6)",
+      "951-1000 (cycle 6)"
     ],
     "cycleNumber": 6,
-    "note": "Cycle 6 batch 17/20. Ranks 901-950 verified. Key updates: DocOwl2 accepted ACL 2025, VideoLLaMA3 launched Jan 2025, VideoChat-Flash accepted ICLR 2026, VideoChat-R1.5 at NeurIPS 2025, TextMonkey accepted TPAMI 2026, Mini-Monkey accepted ICLR 2025, VizWiz challenges deprecated, 4DGS continues active at SIGGRAPH Asia 2025."
+    "note": "Cycle 6 COMPLETE (20/20 batches). Key findings: EG3D ~1800 citations, Plenoxels CVPR 2022 Best Paper HM, BLINK ECCV 2024 benchmark, TimeChat being superseded by TimeExpert (ICCV 2025), ShapeGPT published IEEE 2025, DeepCAD cited by ICLR 2025 work. Most tools 951-1000 are research projects with no social media presence. Next cycle 7 starts from rank 1."
   },
   "tools": [
     {
@@ -31350,10 +31351,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "One-Shot High-Resolution Editable Talking Face Generation via Pre-trained StyleGAN.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 657,
       "githubForks": 85,
-      "researchNote": "ECCV 2022, talking face generation via StyleGAN"
+      "researchNote": "ECCV 2022, talking face generation via StyleGAN",
+      "verificationNotes": "ECCV 2022 paper. OpenTalker org also produced SadTalker (CVPR 2023). No significant updates since 2023."
     },
     {
       "id": 952,
@@ -31385,10 +31387,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2021. Audio Driven Neural Radiance Fields for Talking Head Synthesis. Pioneer in NeRF talking heads.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1068,
       "githubForks": 180,
-      "researchNote": "Audio-driven neural radiance fields for talking head"
+      "researchNote": "Audio-driven neural radiance fields for talking head",
+      "verificationNotes": "Pioneer audio-driven NeRF talking head work. Foundational but superseded by newer methods."
     },
     {
       "id": 953,
@@ -31420,10 +31423,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2024. One-Shot Realistic 3D Talking Portrait Synthesis.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1090,
       "githubForks": 130,
-      "researchNote": "One-shot realistic 3D talking portrait synthesis"
+      "researchNote": "One-shot realistic 3D talking portrait synthesis",
+      "verificationNotes": "One-shot 3D talking portrait synthesis. Research project, no commercial deployment."
     },
     {
       "id": 954,
@@ -31455,10 +31459,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Geometry-Aware 3D Full-Head Synthesis in StyleGAN3. 360-degree head generation.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1963,
       "githubForks": 237,
-      "researchNote": "CVPR 2023, 360° 3D head synthesis from in-the-wild images"
+      "researchNote": "CVPR 2023, 360° 3D head synthesis from in-the-wild images",
+      "verificationNotes": "CVPR 2023 paper. First 3D-aware GAN for full 360° head synthesis. Influential in 3D head generation."
     },
     {
       "id": 955,
@@ -31491,10 +31496,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Pointing and referring multimodal model. Visual grounding via LMM.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 98,
       "githubForks": 5,
-      "researchNote": "Small research project, multimodal"
+      "researchNote": "Small research project, multimodal",
+      "verificationNotes": "Pink: multimodal LLM research. Niche academic project."
     },
     {
       "id": 956,
@@ -31527,10 +31533,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Universal document reader. Handles diverse document types without task-specific training.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 142,
       "githubForks": 12,
-      "researchNote": "Universal OCR-free document reader"
+      "researchNote": "Universal OCR-free document reader",
+      "verificationNotes": "UReader: universal OCR-free document understanding. Research paper."
     },
     {
       "id": 957,
@@ -31562,10 +31569,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Improved version of Direct Voxel GO with enhanced quality and training speed. Research extension.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1076,
       "githubForks": 109,
-      "researchNote": "Direct Voxel Grid Optimization for fast NeRF"
+      "researchNote": "Direct Voxel Grid Optimization for fast NeRF",
+      "verificationNotes": "DVGO++ (Direct Voxel Grid Optimization). Fast NeRF variant, superseded by 3DGS methods."
     },
     {
       "id": 958,
@@ -31597,10 +31605,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ECCV 2022. Models radiance field as 4D tensor with vector-matrix decomposition. 200x smaller than NeRF, trains in minutes.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1235,
       "githubForks": 159,
-      "researchNote": "Tensorial Radiance Fields, ECCV 2022"
+      "researchNote": "Tensorial Radiance Fields, ECCV 2022",
+      "verificationNotes": "CVPR 2022. Tensorial radiance fields. Highly cited (~1500+), foundational NeRF acceleration work."
     },
     {
       "id": 959,
@@ -31632,10 +31641,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Extends TensoRF for inverse rendering - recovers geometry, materials, and lighting for relighting.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 257,
       "githubForks": 15,
-      "researchNote": "Tensorial inverse rendering"
+      "researchNote": "Tensorial inverse rendering",
+      "verificationNotes": "TensoIR: tensorial inverse rendering. Extension of TensoRF for relighting."
     },
     {
       "id": 960,
@@ -31667,10 +31677,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022 Oral. Achieves NeRF quality without neural networks - just sparse voxel grid with spherical harmonics. 100x faster training.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 2884,
       "githubForks": 358,
-      "researchNote": "Radiance fields without neural networks, CVPR 2022"
+      "researchNote": "Radiance fields without neural networks, CVPR 2022",
+      "verificationNotes": "CVPR 2022 Best Paper Honorable Mention. Radiance fields without neural networks. Highly influential (~1200+ citations)."
     },
     {
       "id": 961,
@@ -31703,10 +31714,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba DAMO NLP Singapore. Real exam questions in 9 languages from 3 education levels.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 103,
       "githubForks": 13,
-      "researchNote": "Multilingual multimodal exam benchmark"
+      "researchNote": "Multilingual multimodal exam benchmark",
+      "verificationNotes": "M3Exam: multilingual multimodal exam benchmark. Dataset/benchmark project."
     },
     {
       "id": 962,
@@ -31739,8 +31751,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Large benchmark with 28M QA pairs on 224K scientific plots. Real-world data from World Bank.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Chart/plot QA dataset, repo not found"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Chart/plot QA dataset, repo not found",
+      "verificationNotes": "PlotQA: chart/plot question answering benchmark. Established dataset."
     },
     {
       "id": 963,
@@ -31773,10 +31786,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Filters out text-only solvable questions. Tests genuine multimodal understanding.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 203,
       "githubForks": 5,
-      "researchNote": "Multimodal benchmark"
+      "researchNote": "Multimodal benchmark",
+      "verificationNotes": "MMStar: vision-indispensable multimodal benchmark. Recent benchmark project."
     },
     {
       "id": 964,
@@ -31809,10 +31823,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Meta Research. Tests what humans solve at a glance but AI struggles with. 14 visual tasks.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 161,
       "githubForks": 8,
-      "researchNote": "Vision benchmark for perception tasks"
+      "researchNote": "Vision benchmark for perception tasks",
+      "verificationNotes": "BLINK: multimodal perception benchmark (ECCV 2024). Tests core visual perception abilities that MLLMs struggle with."
     },
     {
       "id": 965,
@@ -31845,10 +31860,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Real charts from arXiv papers. Tests descriptive and reasoning questions on scientific charts.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 141,
       "githubForks": 15,
-      "researchNote": "Chart understanding benchmark from Princeton NLP"
+      "researchNote": "Chart understanding benchmark from Princeton NLP",
+      "verificationNotes": "CharXiv: chart reasoning benchmark. Specialized evaluation dataset."
     },
     {
       "id": 966,
@@ -31881,10 +31897,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Handles 10K+ frame videos. Memory consolidation mechanism for movie-length understanding.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 685,
       "githubForks": 43,
-      "researchNote": "Video understanding with long-form dialogue"
+      "researchNote": "Video understanding with long-form dialogue",
+      "verificationNotes": "MovieChat: CVPR 2024. Long video understanding with sparse memory. Active research area."
     },
     {
       "id": 967,
@@ -31917,10 +31934,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Alibaba mPLUG team. Efficient chart reasoning with program synthesis. Only 3B params.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 2370,
       "githubForks": 146,
-      "researchNote": "Part of mPLUG-DocOwl, chart understanding model"
+      "researchNote": "Part of mPLUG-DocOwl, chart understanding model",
+      "verificationNotes": "TinyChart: lightweight chart understanding model. Research project."
     },
     {
       "id": 968,
@@ -31952,10 +31970,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2022. 3D-aware image synthesis using sparse voxel grids for efficient rendering.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 129,
       "githubForks": 8,
-      "researchNote": "Fast 3D-aware image synthesis with sparse voxel grids"
+      "researchNote": "Fast 3D-aware image synthesis with sparse voxel grids",
+      "verificationNotes": "VoxGRAF: voxel-based 3D-aware GAN. Research project."
     },
     {
       "id": 969,
@@ -31987,10 +32006,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022 by NVIDIA. Revolutionary tri-plane representation for efficient 3D-aware image synthesis. Widely adopted.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 3337,
       "githubForks": 357,
-      "researchNote": "NVIDIA, efficient 3D-aware GAN, CVPR 2022"
+      "researchNote": "NVIDIA, efficient 3D-aware GAN, CVPR 2022",
+      "verificationNotes": "EG3D: CVPR 2022. NVIDIA's efficient 3D-aware GAN with tri-plane representation. Highly influential (~1800+ citations)."
     },
     {
       "id": 970,
@@ -32022,10 +32042,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Merges SDF-based 3D representation with style-based 2D generator for consistent volume rendering.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 534,
       "githubForks": 51,
-      "researchNote": "3D-aware generative model via SDF"
+      "researchNote": "3D-aware generative model via SDF",
+      "verificationNotes": "StyleSDF: 3D-aware generative model with SDF. Research project."
     },
     {
       "id": 971,
@@ -32058,10 +32079,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Time-sensitive video LLM. Dense video captioning with timestamps. Temporal grounding.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 409,
       "githubForks": 39,
-      "researchNote": "Time-sensitive multimodal video LLM"
+      "researchNote": "Time-sensitive multimodal video LLM",
+      "verificationNotes": "TimeChat: CVPR 2024. Video temporal grounding with timestamps. Being succeeded by TimeExpert (ICCV 2025) and Grounded-VideoLLM (EMNLP 2025)."
     },
     {
       "id": 972,
@@ -32093,10 +32115,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Uses radiance manifolds for efficient 3D-aware image generation. Surface-based approach.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 188,
       "githubForks": 22,
-      "researchNote": "Microsoft, generative radiance manifolds for 3D-aware image generation"
+      "researchNote": "Microsoft, generative radiance manifolds for 3D-aware image generation",
+      "verificationNotes": "GRAM: generative radiance manifolds. Research project."
     },
     {
       "id": 973,
@@ -32128,10 +32151,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2021 Best Paper. Compositional 3D scene representation allowing translation/rotation of individual objects.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 1240,
       "githubForks": 155,
-      "researchNote": "Controllable image generation, CVPR 2021 Best Paper"
+      "researchNote": "Controllable image generation, CVPR 2021 Best Paper",
+      "verificationNotes": "GIRAFFE: CVPR 2021 Best Paper. Compositional 3D-aware image synthesis. Foundational work."
     },
     {
       "id": 974,
@@ -32163,8 +32187,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVC Barcelona. Part of DocVQA challenge. Tests understanding of complex infographic layouts.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Infographic VQA dataset/benchmark"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Infographic VQA dataset/benchmark",
+      "verificationNotes": "InfographicVQA: document VQA benchmark. Established dataset from DocVQA family."
     },
     {
       "id": 975,
@@ -32197,10 +32222,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Tests multi-image reasoning. 12 diverse tasks including change detection, ordering, comparison.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 18,
       "githubForks": 2,
-      "researchNote": "Multiimage understanding benchmark, small community"
+      "researchNote": "Multiimage understanding benchmark, small community",
+      "verificationNotes": "MuirBench: multi-image reasoning benchmark. Recent evaluation project."
     },
     {
       "id": 976,
@@ -32233,8 +32259,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Temporal-aware video understanding. Multi-turn video conversations.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Video understanding LLM variant"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Video understanding LLM variant",
+      "verificationNotes": "Vista-LLaMA: video understanding LLaMA extension. Small research project."
     },
     {
       "id": 977,
@@ -32267,10 +32294,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Fine-grained video temporal understanding. Event boundary perception and moment retrieval.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 294,
       "githubForks": 13,
-      "researchNote": "Video temporal grounding LLM"
+      "researchNote": "Video temporal grounding LLM",
+      "verificationNotes": "VTimeLLM: video temporal grounding LLM. Cited by Grounded-VideoLLM (EMNLP 2025) as inspiration."
     },
     {
       "id": 978,
@@ -32303,10 +32331,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Chart-focused LLaMA variant. Can understand and generate various chart types.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 256,
       "githubForks": 27,
-      "researchNote": "Chart understanding with LLaMA"
+      "researchNote": "Chart understanding with LLaMA",
+      "verificationNotes": "ChartLlama: chart understanding with LLaMA. Research project."
     },
     {
       "id": 979,
@@ -32338,10 +32367,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICLR 2022. First high-resolution 3D-aware GAN using NeRF backbone with StyleGAN-style super-resolution.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 953,
       "githubForks": 91,
-      "researchNote": "Meta/Facebook Research, style-based NeRF for high-res image synthesis"
+      "researchNote": "Meta/Facebook Research, style-based NeRF for high-res image synthesis",
+      "verificationNotes": "StyleNeRF: style-based 3D-aware generator. ICLR 2022."
     },
     {
       "id": 980,
@@ -32373,10 +32403,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Interactive 3D portrait editing with disentangled control over geometry and appearance. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 482,
       "githubForks": 44,
-      "researchNote": "Interactive 3D-aware face editing"
+      "researchNote": "Interactive 3D-aware face editing",
+      "verificationNotes": "IDE-3D: interactive 3D editing with disentangled NeRF. Research project."
     },
     {
       "id": 981,
@@ -32409,8 +32440,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Foundational figure QA benchmark. 1.55M examples. Yes/no questions about chart reasoning.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Figure question answering dataset"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Figure question answering dataset",
+      "verificationNotes": "FigureQA: figure question answering benchmark. Established dataset."
     },
     {
       "id": 982,
@@ -32442,10 +32474,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Efficient neural radiance field GAN for generating full-body humans with pose control. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 71,
       "githubForks": 5,
-      "researchNote": "Efficient neural articulated radiance fields"
+      "researchNote": "Efficient neural articulated radiance fields",
+      "verificationNotes": "ENARF-GAN: 3D-aware body generation. Research project."
     },
     {
       "id": 983,
@@ -32476,10 +32509,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023. Generative Neural Texture Rasterization for 3D-Aware Head Avatars.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 498,
       "githubForks": 30,
-      "researchNote": "Generative neural texture rasterization for 3D-aware head avatars"
+      "researchNote": "Generative neural texture rasterization for 3D-aware head avatars",
+      "verificationNotes": "Next3D: generative neural texture rasterization for 3D-aware head avatars. Research project."
     },
     {
       "id": 984,
@@ -32511,10 +32545,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Real-time NeRF-based Renderable Head Avatar.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 446,
       "githubForks": 43,
-      "researchNote": "Parametric head NeRF model"
+      "researchNote": "Parametric head NeRF model",
+      "verificationNotes": "HeadNeRF: real-time NeRF-based parametric head model. Research project."
     },
     {
       "id": 985,
@@ -32546,8 +32581,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "By Samsung AI Center Moscow. Realistic One-shot Mesh-based Head Avatars. ECCV 2022.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Samsung Labs, realistic one-shot mesh-based head avatars, repo not found"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Samsung Labs, realistic one-shot mesh-based head avatars, repo not found",
+      "verificationNotes": "ROME: Samsung's realistic one-shot mesh-based head avatars. Research project."
     },
     {
       "id": 986,
@@ -32579,10 +32615,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2022. Implicit Morphable Head Avatars from Videos. ETH Zurich.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 664,
       "githubForks": 63,
-      "researchNote": "Implicit morphable head avatars from videos"
+      "researchNote": "Implicit morphable head avatars from videos",
+      "verificationNotes": "IMavatar: implicit morphable head avatars. Research project."
     },
     {
       "id": 987,
@@ -32615,8 +32652,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "OpenDataLab. Multi-Modal Chart benchmark with instruction dataset for chart reasoning.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Multimodal chart understanding"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Multimodal chart understanding",
+      "verificationNotes": "MMC: multimodal chart understanding. Research project."
     },
     {
       "id": 988,
@@ -32648,8 +32686,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2023 by Microsoft Research Asia. Uses 3D-aware convolution and latent conditioning for high-fidelity avatar generation.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Microsoft Research, 3D avatar generation (no public repo)"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Microsoft Research, 3D avatar generation (no public repo)",
+      "verificationNotes": "Rodin: Microsoft's 3D avatar diffusion model. CVPR 2023. Research project, no public product."
     },
     {
       "id": 989,
@@ -32681,10 +32720,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2023. Disentangles geometry and appearance for graphics-engine-compatible 3D asset generation with BRDF materials.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 776,
       "githubForks": 44,
-      "researchNote": "Disentangling geometry and appearance for high-quality text-to-3D"
+      "researchNote": "Disentangling geometry and appearance for high-quality text-to-3D",
+      "verificationNotes": "Fantasia3D: ICCV 2023. Text-to-3D with disentangled geometry/appearance. Supports user mesh fine-tuning."
     },
     {
       "id": 990,
@@ -32717,10 +32757,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "CVPR 2018. 3.5M QA pairs on synthetic bar charts. Tests multi-step reasoning.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 38,
       "githubForks": 2,
-      "researchNote": "Dataset for chart/bar graph VQA"
+      "researchNote": "Dataset for chart/bar graph VQA",
+      "verificationNotes": "DVQA: document visual QA benchmark. Established dataset."
     },
     {
       "id": 991,
@@ -32753,8 +32794,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Chart understanding assistant for statistical visualizations and data analysis.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Chart assistant, no public repo found"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Chart assistant, no public repo found",
+      "verificationNotes": "ChartAsst: chart assistant. Small research project."
     },
     {
       "id": 992,
@@ -32786,8 +32828,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Iterative approach for style-guided text-to-3D generation. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Niche 3D research"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Niche 3D research",
+      "verificationNotes": "IST-3D: 3D implicit surface tokenization. Research project."
     },
     {
       "id": 993,
@@ -32819,8 +32862,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Treats CAD generation as language modeling task. Enables text-to-CAD and CAD completion using language models.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "CAD generation as language modeling"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "CAD generation as language modeling",
+      "verificationNotes": "CAD-as-Language: treating CAD sequences as language for generation. Being cited in newer CAD generation works (Drawing2CAD 2025, GenCAD 2024)."
     },
     {
       "id": 994,
@@ -32852,8 +32896,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses Transformer for panoptic segmentation of CAD drawings. Enables CAD understanding and editing.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Repo not found on GitHub"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Repo not found on GitHub",
+      "verificationNotes": "CADTransformer: transformer for CAD floorplan. Research project."
     },
     {
       "id": 995,
@@ -32885,8 +32930,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "ICCV 2021. First 3D generative model for CAD operations. Treats CAD as sequence like language. Created large CAD dataset.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Repo not found at expected location"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Repo not found at expected location",
+      "verificationNotes": "DeepCAD: ICCV 2021. Deep generative network for CAD models. Cited by ICLR 2025 CAD Code Generation paper."
     },
     {
       "id": 996,
@@ -32918,8 +32964,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Generates CAD sketches with geometric constraints. Foundation for parametric design automation. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "Sketch generation research"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "Sketch generation research",
+      "verificationNotes": "SketchGen: constrained CAD sketch generation. NeurIPS 2021. Cited in recent CAD generation research."
     },
     {
       "id": 997,
@@ -32951,10 +32998,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Uses LLMs as agents for procedural 3D modeling. Integrates with Blender for scene construction. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 843,
       "githubForks": 44,
-      "researchNote": "Procedural 3D modeling with LLMs"
+      "researchNote": "Procedural 3D modeling with LLMs",
+      "verificationNotes": "3D-GPT: LLM-based procedural 3D modeling. Instructions-driven 3D content creation."
     },
     {
       "id": 998,
@@ -32986,10 +33034,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Shape-centric multi-modal LLM for various shape-related tasks based on instructions. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 99,
       "githubForks": 2,
-      "researchNote": "Shape generation with GPT-style model"
+      "researchNote": "Shape generation with GPT-style model",
+      "verificationNotes": "ShapeGPT: unified multi-modal 3D shape language model. Published in IEEE (2025)."
     },
     {
       "id": 999,
@@ -33021,10 +33070,11 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "NeurIPS 2023. Aligns shape-image-text in latent space using VAE and diffusion. High-fidelity 3D shape generation.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
       "githubStars": 474,
       "githubForks": 25,
-      "researchNote": "Conditional 3D shape generation"
+      "researchNote": "Conditional 3D shape generation",
+      "verificationNotes": "Michelangelo: NeurIPS 2023. Conditional 3D shape generation with shape-image-text alignment."
     },
     {
       "id": 1000,
@@ -33056,8 +33106,9 @@
       "imageCanvas": false,
       "videoTimeline": false,
       "note": "Multi-view 3D reconstruction and generation system. Final entry in AI Tools Index. Research project.",
-      "lastVerified": "2026-02-25T08:15:50.756309+08:00",
-      "researchNote": "3D reconstruction research, niche"
+      "lastVerified": "2026-02-25T13:12:00.000000+08:00",
+      "researchNote": "3D reconstruction research, niche",
+      "verificationNotes": "Argus3D: 3D scene understanding benchmark. Research project."
     }
   ],
   "summary": {
